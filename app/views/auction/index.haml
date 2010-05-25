@@ -1,6 +1,8 @@
 #auction_data
 	%p
 		= link_to('Upload a log file', new_auction_path)
+	#pagination
+		= letter_pagination(@letter)
 	%table{:cellspacing => 0, :cellpadding => 5}
 		%thead
 			%tr
@@ -40,4 +42,5 @@
 					= math.blank? ? 0.0 : math.round
 				%td 
 					= link_to("Remove", auction_path(item, :page => params[:page]), :method => :delete)
-	= will_paginate(@items)
+	#pagination
+		= letter_pagination(@letter)

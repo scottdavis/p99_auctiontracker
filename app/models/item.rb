@@ -1,3 +1,4 @@
+require 'digest/md5'
 class Item < ActiveRecord::Base
   has_many :auctions, :dependent => :destroy
   validates_presence_of :name
@@ -6,12 +7,19 @@ class Item < ActiveRecord::Base
   named_scope :name_starts_with, lambda {|letter|
       {:conditions => ['lower(name) like ?', "#{letter}%"]}
     }
-  
+    
+  named_scope :order, lambda {|order|
+      {:order => order}
+    }
+  named_scope :include, lambda {|include|
+      {:include => include}
+    }
   
   
   def self.create_from_parse(item)
    # puts self.sanitize(item[:item].downcase)
     @item = Item.find_or_create_by_name(self.sanitize(item[:item].downcase))
+    return if @item.blank?
     auction = Auction.new
     auction.item = @item
     if item[:price].include?('k')
@@ -19,7 +27,13 @@ class Item < ActiveRecord::Base
     end
     auction.price = item[:price].to_i
     auction.time = Time.parse item[:time]
-    auction.save!
+
+   unless Auction.exists?(:hash_data => auction.get_digest) 
+     auction.save! if auction.valid?
+   end
+     
+    
+    
   end  
   
 
@@ -32,6 +46,6 @@ class Item < ActiveRecord::Base
     name.strip
   end
   
-  
+
   
 end

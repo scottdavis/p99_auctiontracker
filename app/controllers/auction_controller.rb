@@ -5,7 +5,11 @@ class AuctionController < ApplicationController
   end
   
   def index
-    @items = Item.all(:include => :auctions, :order => 'name ASC').paginate(:per_page => 30, :page => params[:page])
+    unless params.include?(:letter)
+      params[:letter] = 'a'
+    end
+    @letter = params[:letter]
+    @items = Item.name_starts_with(params[:letter]).order('name ASC').include(:auctions)
   end
   
   def destroy

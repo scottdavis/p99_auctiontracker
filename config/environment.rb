@@ -37,6 +37,7 @@ Rails::Initializer.run do |config|
   config.gem "shoulda"
   config.gem "haml"
   config.gem "will_paginate"
+  config.gem "safefork", :lib => 'safe_fork'
   # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
   # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}')]
   # config.i18n.default_locale = :de

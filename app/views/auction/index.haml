@@ -41,6 +41,6 @@
 					- math = item.auctions.average(:price, :conditions => {:time => 30.days.ago..Time.now})
 					= math.blank? ? 0.0 : math.round
 				%td 
-					= link_to("Remove", auction_path(item, :page => params[:page]), :method => :delete)
+					= link_to("Remove", auction_path(item, :letter => params[:letter]), :method => :delete)
 	#pagination
 		= letter_pagination(@letter)

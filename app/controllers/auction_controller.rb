@@ -15,7 +15,7 @@ class AuctionController < ApplicationController
   def destroy
     @item = Item.find(params[:id])
     @item.destroy
-    redirect_to auction_index_path(:page => params[:page])
+    redirect_to auction_index_path(:letter => params[:letter])
   end
   
 end

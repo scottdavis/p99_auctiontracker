@@ -15,7 +15,7 @@ class Item < ActiveRecord::Base
       {:include => include}
     }
   named_scope :search_for, lambda {|search|
-      {:conditions => ["name LIKE ?", "%#{search}%"]}
+      {:conditions => ["lower(name) LIKE ?", "%#{search}%"]}
     }
   
   

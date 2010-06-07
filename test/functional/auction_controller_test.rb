@@ -30,7 +30,7 @@ class AuctionControllerTest < ActionController::TestCase
       should "contain one result" do
         assert_equal 1, assigns(:items).size
       end
-      should "ser search to fbss" do
+      should "set search to fbss" do
         assert_equal 'fbss', assigns(:search)
       end
     end

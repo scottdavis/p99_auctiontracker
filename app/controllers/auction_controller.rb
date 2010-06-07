@@ -5,6 +5,7 @@ class AuctionController < ApplicationController
   end
   
   def index
+    @search = ''
     unless params.include?(:letter)
       params[:letter] = 'a'
     end
@@ -17,6 +18,12 @@ class AuctionController < ApplicationController
     @item.destroy
     flash[:notice] = "Item deleted"
     redirect_to auction_index_path(:letter => params[:letter])
+  end
+  
+  def search
+    @search = params[:search][:search]
+    @items = Item.search_for(params[:search][:search].downcase).order('name ASC').include(:auctions)
+    render :action => :index
   end
   
 end

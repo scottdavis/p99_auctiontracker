@@ -1,3 +1,11 @@
+- content_for :header do
+  #search
+    %p
+      Search:
+      - form_for :search, {:url => auction_search_path, :method => :post } do |f| 
+        = f.text_field :search, :value => @search, :index => 1
+        = f.submit :search
+  
 #auction_data
   %p
     = link_to('Upload a log file', new_auction_path)

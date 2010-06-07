@@ -14,6 +14,9 @@ class Item < ActiveRecord::Base
   named_scope :include, lambda {|include|
       {:include => include}
     }
+  named_scope :search_for, lambda {|search|
+      {:conditions => ["name LIKE ?", "%#{search}%"]}
+    }
   
   
   def self.create_from_parse(item)

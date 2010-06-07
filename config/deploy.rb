@@ -22,7 +22,7 @@ namespace :deploy do
   end
   task :change_params do
    run "chmod -R 0775 #{deploy_to}"
-   run "cown -R www-data:www-data #{deploy_to}"
+   run "chown -R www-data:www-data #{deploy_to}"
   end
 end
 

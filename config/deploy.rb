@@ -24,7 +24,11 @@ namespace :deploy do
    run "chmod -R 0775 #{deploy_to}"
    run "chown -R www-data:www-data #{deploy_to}"
   end
+  task :setup_logs do
+    run "rm #{deploy_to}/current/log"
+    run "mkdir #{deploy_to}/current/log"
+  end
 end
 
-
+before "deploy:change_params", "deploy:setup_logs"
 before "deploy:restart", "deploy:change_params"

@@ -1,3 +1,9 @@
 table tr.alt {
   background-color:#ccc;
 }
+
+#notice_flash {
+  border:5px solid red;
+  margin:auto;
+  text-align:center;
+}

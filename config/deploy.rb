@@ -4,16 +4,11 @@ set :repository,  "git@github.com:jetviper21/auctioneer.git"
 
 set :scm, :git
 
-role :web, "t.goonquest.com"
+server "t.goonquest.com", :app, :web, :db, :primary => true
 set :user, "root"
 set :use_sudo, false
 set :deploy_to, "/var/www/auction"
 set :db, 'localhost'
-
-task :change_params do
- run "chmod -R 0775 #{deploy_to}"
- run "cown -R www-data:www-data #{deploy_to}"
-end
 
 # If you are using Passenger mod_rails uncomment this:
 # if you're still using the script/reapear helper you will need
@@ -25,4 +20,11 @@ namespace :deploy do
   task :restart, :roles => :app, :except => { :no_release => true } do
     run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
   end
+  task :change_params do
+   run "chmod -R 0775 #{deploy_to}"
+   run "cown -R www-data:www-data #{deploy_to}"
+  end
 end
+
+
+before "deploy:restart", "deploy:change_params"

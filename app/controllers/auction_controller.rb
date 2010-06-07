@@ -15,6 +15,7 @@ class AuctionController < ApplicationController
   def destroy
     @item = Item.find(params[:id])
     @item.destroy
+    flash[:notice] = "Item deleted"
     redirect_to auction_index_path(:letter => params[:letter])
   end
   

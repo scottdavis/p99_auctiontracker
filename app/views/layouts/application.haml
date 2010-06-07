@@ -1,12 +1,13 @@
 %html
-	%head
-		= stylesheet_link_tag 'style'
-		= javascript_include_tag :all
-		%title=@page_title.join(' - ')
-	%body
-		#wrapper
-			#header
-			= yield
-			#footer
+  %head
+    = stylesheet_link_tag 'style'
+    = javascript_include_tag :all
+    %title=@page_title.join(' - ')
+  %body
+    #wrapper
+      #header
+        = display_flash
+      #content
+        = yield
+      #footer
 
-	

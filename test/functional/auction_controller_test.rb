@@ -2,14 +2,20 @@ require 'test_helper'
 require 'shoulda'
 class AuctionControllerTest < ActionController::TestCase
   # Replace this with your real tests.
-    context "Load index a" do
+    context "Load index i" do
       setup do
-        get :index, :letter => 'a'
+        10.times do 
+          Factory(:item)
+        end
+        get :index, :letter => 'i'
       end
       should_assign_to :items, :search
       should_respond_with :success
       should_render_template :index
       should_not_set_the_flash
+      should "have 10 items" do
+        assert_equal 10, assigns(:items).size
+      end
     end
     
     context "Do a search" do

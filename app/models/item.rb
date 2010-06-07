@@ -39,16 +39,10 @@ class Item < ActiveRecord::Base
     
   end  
   
-
-  
   def self.sanitize(name)
     regexs = [/^[-']+(.+)/, /(.+)[-']+$/]
-    regexs.each do |regex|
-      name.gsub!(regex, $1) if name =~ regex  
-    end
+    regexs.each {|regex| name.gsub!(regex, $1) if name =~ regex }
     name.strip
   end
-  
-
   
 end

@@ -23,6 +23,7 @@
 				%th
 		%tbody
 		-	@items.each do |item|
+		  - next if item.auctions.blank?
 			%tr{:class => cycle('alt','')}
 				%td
 					= item.name

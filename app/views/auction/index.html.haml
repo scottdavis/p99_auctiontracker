@@ -37,11 +37,11 @@
           %td 
             = item.name
           %td
-            = (prices.inject{ |sum, el| sum + el }.to_f / prices.size).round
+            = items.auctions.average(:price)
           %td
-            = prices.last.round
+            = item.auctions.maximum(:price)
           %td
-            = prices.first.round
+            = item.auctions.minimum(:price)
           %td
             = prices.size
           %td

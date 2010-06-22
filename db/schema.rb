@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100607145155) do
+ActiveRecord::Schema.define(:version => 20100622015810) do
 
   create_table "auctions", :force => true do |t|
     t.datetime "time"
@@ -20,6 +20,8 @@ ActiveRecord::Schema.define(:version => 20100607145155) do
     t.string   "hash_data"
   end
 
+  add_index "auctions", ["hash_data"], :name => "index_auctions_on_hash_data"
+  add_index "auctions", ["item_id"], :name => "index_auctions_on_item_id"
   add_index "auctions", ["price"], :name => "index_auctions_on_price"
   add_index "auctions", ["time"], :name => "index_auctions_on_time"
 

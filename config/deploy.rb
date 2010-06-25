@@ -27,7 +27,7 @@ namespace :deploy do
   task :setup_logs do
     run "rm #{deploy_to}/current/log"
     run "mkdir #{deploy_to}/current/log"
-    run "mkdir #{deploy_to}/current/public/images/graphs"
+    run "mkdir #{deploy_to}/current/public/images/graph"
   end
 end
 

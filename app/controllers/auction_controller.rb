@@ -32,7 +32,7 @@ class AuctionController < ApplicationController
     @underscored = @item.name.gsub(/\s/, '_')
     @graph_file = Rails.root.join("public/images/graph/#{@underscored}.png")
     @graph = Gruff::Line.new
-    @graph.theme_37signals
+    @graph.theme_keynote
     @graph.title = @item.name
     @graph.data(" ", @item.auctions.map(&:price))
     times = @item.auctions.map {|auc| auc.time.strftime("%a %b %d %I:%M %p")}

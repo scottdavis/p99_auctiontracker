@@ -26,4 +26,21 @@ class AuctionController < ApplicationController
     render :action => :index
   end
   
+  def show
+    @item = Item.find(params[:id], :include => :auctions)
+    @auctions = @item.auctions.paginate(:page => params[:page], :per_page => 25, :order => 'time DESC')
+    @underscored = @item.name.gsub(/\s/, '_')
+    @graph_file = Rails.root.join("public/images/graph/#{@underscored}.png")
+    @graph = Gruff::Line.new
+    @graph.theme_37signals
+    @graph.title = @item.name
+    @graph.data(" ", @item.auctions.map(&:price))
+    times = @item.auctions.map {|auc| auc.time.strftime("%a %b %d %I:%M %p")}
+    @graph.labels = {}
+    @graph.write(@graph_file) if @item.auctions.size > 1
+  rescue ActiveRecord::RecordNotFound
+    flash[:error] = "Item not found"
+    redirect_to auction_index_path
+  end
+  
 end

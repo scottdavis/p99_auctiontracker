@@ -1,0 +1,28 @@
+%h1
+  = @item.name
+%p
+  Max: 
+  = @item.auctions.maximum(:price)
+%p
+  Min:
+  = @item.auctions.minimum(:price)
+%p 
+  Average:
+  = @item.auctions.average(:price)
+%h2
+  Auction Data
+%table{:cellspacing => 0, :cellpadding => 5}
+  %tr
+    %th
+      Time
+    %th
+      Price
+  - @auctions.each do |auction|
+    %tr{:class => cycle('alt','')}
+      %td
+        = auction.time.strftime("%a %b %d %I:%M %p")
+      %td
+        = auction.price
+= will_paginate @auctions
+
+= image_tag("graph/#{@underscored}.png") if @item.auctions.size > 1

@@ -35,7 +35,7 @@
         - prices = item.auctions.map{|a| a.price}.compact.sort
         %tr{:class => cycle('alt','')}
           %td 
-            = item.name
+            = link_to(item.name, auction_path(item.id))
           %td
             = item.auctions.average(:price)
           %td

@@ -41,7 +41,7 @@ class AuctionParser
             string.delete(:message)
             items.each do |item|
               @item_count += 1
-              next if item[0] =~ /^(selling|port|pp)/
+              next if item[0] =~ /^(selling|port|pp|sell|buy)/
               if item[0].scan(Regexp.new("\s(#{COMMON_BAD_WORDS.join('|')})\s")).size > 0
                 next
               end

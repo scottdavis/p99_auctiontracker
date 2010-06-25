@@ -1,6 +1,7 @@
 require 'safe_fork'
 class AuctionParser
   attr_accessor :raw_data, :item_cache
+  COMMON_BAD_WORDS = %w(full each ea for buying sell my pair per port res rez ress rezes will willing wis wisdom x)
   def self.from_upload(raw_data)
     new(raw_data)
   end
@@ -40,8 +41,11 @@ class AuctionParser
             string.delete(:message)
             items.each do |item|
               @item_count += 1
-               # Item.create_from_parse(:item => item[0], :price => item[1], :time => string[:time])
-               item_cache << {:item => item[0], :price => item[1], :time => string[:time]}
+              next if item[0] =~ /^(selling|port|pp)/
+              if item[0].scan(Regexp.new("\s(#{COMMON_BAD_WORDS.join('|')})\s")).size > 0
+                next
+              end
+              item_cache << {:item => item[0], :price => item[1], :time => string[:time]}
             end
           end
         end

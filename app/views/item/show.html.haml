@@ -5,13 +5,13 @@
 
 %p
   Max: 
-  = @item.auctions.maximum(:price)
+  = @item.auctions.not_hidden.maximum(:price)
 %p
   Min:
-  = @item.auctions.minimum(:price)
+  = @item.auctions.not_hidden.minimum(:price)
 %p 
   Average:
-  = @item.auctions.average(:price)
+  = @item.auctions.not_hidden.average(:price)
 %p
   Standard Deviation:
   = standard_deviation(@item.auctions.not_hidden.map(&:price)).round(2)

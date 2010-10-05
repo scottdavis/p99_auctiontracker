@@ -37,7 +37,7 @@ Rails::Initializer.run do |config|
   config.gem "shoulda"
   config.gem "haml"
   config.gem "will_paginate"
-  config.gem "safefork", :lib => 'safe_fork'
+  config.gem "safe_fork"
   config.gem "factory_girl"
   config.gem 'gruff'
   # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.

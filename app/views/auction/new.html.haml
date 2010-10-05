@@ -1,6 +1,12 @@
 %h1
-	Upload a Log File
+  Welcome to the auction upload page
+%p  
+  In order to upload a log you first need to enable logging in game by typing /log
+%p  
+  the logs will then be stored in your ever quest directory select the file from below push submit
+%p  
+  do not worry about duplication the parser accounts for that, you may upload the same log file over and over as you gather data and nothing will be effected
 .form
-	- form_for(:upload, :url => auction_index_path, :html => {:multipart => true}) do |f|
-		%p=f.file_field :log
-		%p=f.submit
+  - form_for(:upload, :url => auction_index_path, :html => {:multipart => true}) do |f|
+    %p=f.file_field :log
+    %p=f.submit

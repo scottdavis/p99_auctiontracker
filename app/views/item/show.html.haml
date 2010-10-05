@@ -15,8 +15,18 @@
 %p
   Standard Deviation:
   = standard_deviation(@item.auctions.not_hidden.map(&:price)).round(2)
-  
-= image_tag("graph/#{@underscored}.png") if @item.auctions.size > 1
+
+%canvas{:id => "example", :width => "600", :height => "600"}
+:javascript
+      $(document).ready(function(){
+        var g = new Bluff.Line('example', '600x600');
+        g.title = '#{@item.name}';
+        g.tooltips = true;
+        g.theme_keynote();
+        g.data(" ", #{@item.auctions.not_hidden.map(&:price).inspect});
+        g.draw();
+      });
+
 
 %h2
   Auction Data

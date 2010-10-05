@@ -8,6 +8,7 @@ class ApplicationController < ActionController::Base
   
   def init_page_title
     @page_title = ["Project 1999 Auction Tracker"]
+    @glog = Log.find(:first, :order => "created_at DESC")
   end
   
  # helper :all # include all helpers, all the time

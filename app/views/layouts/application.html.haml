@@ -11,6 +11,9 @@
       #content
         = yield
       #footer
+        - unless @glog.blank?
+          Last load uploaded on 
+          = @glog.created_at
 
     :javascript
         var _gaq = _gaq || [];

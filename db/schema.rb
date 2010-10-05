@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101005071033) do
+ActiveRecord::Schema.define(:version => 20101005075948) do
 
   create_table "auctions", :force => true do |t|
     t.datetime "time"
@@ -29,16 +29,17 @@ ActiveRecord::Schema.define(:version => 20101005071033) do
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.boolean  "hidden",     :default => false
   end
 
   add_index "items", ["name"], :name => "index_items_on_name"
 
   create_table "logs", :force => true do |t|
     t.string   "ip_address"
-    t.string   "log"
     t.datetime "processed"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.text     "log",        :limit => 2147483647
   end
 
 end

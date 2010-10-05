@@ -17,6 +17,7 @@ class Item < ActiveRecord::Base
   named_scope :search_for, lambda {|search|
       {:conditions => ["lower(name) LIKE ?", "%#{search}%"]}
     }
+  named_scope :not_hidden, {:conditions => {:hidden => false}}
   
   
   def self.create_from_parse(item)
@@ -43,6 +44,11 @@ class Item < ActiveRecord::Base
     regexs = [/^[-']+(.+)/, /(.+)[-']+$/]
     regexs.each {|regex| name.gsub!(regex, $1) if name =~ regex }
     name.strip
+  end
+  
+  def hide!
+    self.hidden = true
+    save
   end
   
 end

@@ -11,9 +11,13 @@
       #content
         = yield
       #footer
+        %p
+          Comments or sugestions
+          = mail_to('jetviper21@gmail.com', 'email me', :encode => "javascript")
         - unless @glog.blank?
-          Last load uploaded on 
-          = @glog.created_at
+          %p
+            Last load uploaded on 
+            = @glog.created_at
 
     :javascript
         var _gaq = _gaq || [];

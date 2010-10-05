@@ -1,7 +1,14 @@
 class AuctionController < ApplicationController
   
   def create
-    @auction_data = AuctionParser.from_upload(params[:upload][:log].read)
+    log_data = params[:upload][:log].read
+    log_name = "/tmp/p99_#{Digest::MD5.hexdigest(log_data)}.log"
+    @log = Log.create(:ip_address => request.remote_ip, :log => log_name)
+    f = File.new(log_name, "w")
+    f << log_data
+    f.close
+    @auction_data = AuctionParser.from_upload(log_data)
+    redirect_to root_path unless @log.save
   end
   
   def index

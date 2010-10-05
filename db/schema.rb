@@ -9,11 +9,11 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100622015810) do
+ActiveRecord::Schema.define(:version => 20101005071033) do
 
   create_table "auctions", :force => true do |t|
     t.datetime "time"
-    t.decimal  "price"
+    t.integer  "price",      :limit => 10, :precision => 10, :scale => 0
     t.integer  "item_id"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -32,5 +32,13 @@ ActiveRecord::Schema.define(:version => 20100622015810) do
   end
 
   add_index "items", ["name"], :name => "index_items_on_name"
+
+  create_table "logs", :force => true do |t|
+    t.string   "ip_address"
+    t.string   "log"
+    t.datetime "processed"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end

@@ -36,4 +36,17 @@ class AuctionControllerTest < ActionController::TestCase
         assert_equal 'fbss', assigns(:search)
       end
     end
+    
+    context "do upload" do
+      setup do
+        assert_difference("Log.count", +1) do
+          post :create, :upload => {:log => File.new(Rails.root.join('test', 'test_files', 'staris_log.txt'))}
+        end
+      end
+      
+      should respond_with :success
+      should render_template :create
+      
+      
+    end
 end

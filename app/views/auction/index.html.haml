@@ -18,7 +18,9 @@
         %th
           Item
         %th
-          Avg Price
+          Mean Price
+        %th
+          Std Deviation
         %th
           Max
         %th
@@ -26,32 +28,34 @@
         %th 
           Times seen
         %th
-          10 Day average
+          10 Day mean
         %th
-          30 Day average
+          30 Day mean
         %th
     %tbody
       -	@items.each do |item|
-        - next if item.auctions.blank?
-        - prices = item.auctions.map{|a| a.price}.compact.sort
+        - next if item.auctions.not_hidden.blank?
+        - prices = item.auctions.not_hidden.map{|a| a.price}.compact.sort
         %tr{:class => cycle('alt','')}
           %td 
-            = link_to(item.name, auction_path(item.id))
+            = link_to(item.name, item_path(item.id))
           %td
-            = item.auctions.average(:price)
+            = item.auctions.not_hidden.average(:price)
           %td
-            = item.auctions.maximum(:price)
+            = standard_deviation(item.auctions.not_hidden.map(&:price)).round(2)
           %td
-            = item.auctions.minimum(:price)
+            = item.auctions.not_hidden.maximum(:price)
+          %td
+            = item.auctions.not_hidden.minimum(:price)
           %td
             = prices.size
           %td
-            - math = item.auctions.average(:price, :conditions => {:time => 10.days.ago..Time.now})
+            - math = item.auctions.not_hidden.average(:price, :conditions => {:time => 10.days.ago..Time.now})
             = math.blank? ? 0.0 : math.round
           %td
-            - math = item.auctions.average(:price, :conditions => {:time => 30.days.ago..Time.now})
+            - math = item.auctions.not_hidden.average(:price, :conditions => {:time => 30.days.ago..Time.now})
             = math.blank? ? 0.0 : math.round
           %td 
-            = link_to("Remove", auction_path(item, :letter => params[:letter]), :method => :delete)
+            = link_to("Remove", item_path(item, :letter => params[:letter]), :method => :delete)
   #pagination
     = letter_pagination(@letter)

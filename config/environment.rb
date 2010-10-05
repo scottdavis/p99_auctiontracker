@@ -36,7 +36,7 @@ Rails::Initializer.run do |config|
   config.time_zone = 'UTC'
   config.gem "shoulda"
   config.gem "haml"
-  config.gem "will_paginate"
+  config.gem "will_paginate", :version => '2.3.15'
   config.gem "safe_fork"
   config.gem "factory_girl"
   config.gem 'gruff'

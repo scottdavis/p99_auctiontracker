@@ -11,5 +11,5 @@ module AuctionHelper
 	  end
 	  out.join("\n")
   end
-  
+
 end

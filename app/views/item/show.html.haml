@@ -1,6 +1,9 @@
 %h1
   = @item.name
 %p
+  = link_to "Home page", auction_index_path
+
+%p
   Max: 
   = @item.auctions.maximum(:price)
 %p
@@ -9,6 +12,9 @@
 %p 
   Average:
   = @item.auctions.average(:price)
+%p
+  Standard Deviation:
+  = standard_deviation(@item.auctions.not_hidden.map(&:price)).round(2)
   
 = image_tag("graph/#{@underscored}.png") if @item.auctions.size > 1
 
@@ -20,10 +26,13 @@
       Time
     %th
       Price
+    %th
   - @auctions.each do |auction|
     %tr{:class => cycle('alt','')}
       %td
         = auction.time.strftime("%a %b %d %I:%M %p")
       %td
         = auction.price
+      %td
+        = link_to 'Remove', auction, :method => :delete
 = will_paginate @auctions

@@ -1,7 +1,7 @@
 require 'safe_fork'
 class AuctionParser
   attr_accessor :raw_data, :item_cache
-  COMMON_BAD_WORDS = %w(full each ea for buying sell my pair per port res rez ress rezes will willing wis wisdom x)
+  COMMON_BAD_WORDS = %w(anyone full each ea for buying sell my pair per port res rez ress rezes will willing wis wisdom x)
   def self.from_upload(raw_data)
     new(raw_data)
   end

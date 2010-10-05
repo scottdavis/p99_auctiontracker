@@ -5,7 +5,9 @@ class Auction < ActiveRecord::Base
   validates_presence_of :price
   validates_presence_of :item_id
   
-  def get_digest
+  named_scope :not_hidden, {:conditions => {:hidden => false}}
+  
+  def digest
     i = self.item
     if i.blank?
       return
@@ -15,9 +17,13 @@ class Auction < ActiveRecord::Base
   
   before_create :gen_hash
   
+  def hide!
+    self.hidden = true
+    save
+  end
   
   def gen_hash
-    self.hash_data = get_digest
+    self.hash_data = digest
   end
   
 end

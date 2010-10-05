@@ -36,8 +36,6 @@ class Item < ActiveRecord::Base
      auction.save! if auction.valid?
    end
      
-    
-    
   end  
   
   def self.sanitize(name)

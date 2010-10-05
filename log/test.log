@@ -1653,3 +1653,375 @@ Rendering auction/index
   [4;35;1mItem Load (0.5ms)[0m   [0mSELECT * FROM "items" WHERE (lower(name) like 'i%') ORDER BY name ASC[0m
   [4;36;1mAuction Load (0.1ms)[0m   [0;1mSELECT "auctions".* FROM "auctions" WHERE ("auctions".item_id IN (1,2,3,4,5,6,7,8,9,10)) [0m
 Completed in 8ms (View: 7, DB: 2) | 200 OK [http://test.host/auction?letter=i]
+  [4;36;1mItem Create (0.3ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('FBSS', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+
+
+Processing AuctionController#search (for 0.0.0.0 at 2010-10-05 02:55:59) [POST]
+  Parameters: {"search"=>{"search"=>"fbss"}}
+Rendering template within layouts/application
+Rendering auction/index
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE (lower(name) LIKE '%fbss%') ORDER BY name ASC[0m
+  [4;36;1mAuction Load (0.1ms)[0m   [0;1mSELECT "auctions".* FROM "auctions" WHERE ("auctions".item_id = 1) [0m
+Completed in 19ms (View: 18, DB: 1) | 200 OK [http://test.host/auctions/search?search%5Bsearch%5D=fbss]
+  [4;35;1mItem Create (0.3ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('FBSS', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+
+
+Processing AuctionController#search (for 0.0.0.0 at 2010-10-05 02:55:59) [POST]
+  Parameters: {"search"=>{"search"=>"fbss"}}
+Rendering template within layouts/application
+Rendering auction/index
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE (lower(name) LIKE '%fbss%') ORDER BY name ASC[0m
+  [4;35;1mAuction Load (0.1ms)[0m   [0mSELECT "auctions".* FROM "auctions" WHERE ("auctions".item_id = 1) [0m
+Completed in 10ms (View: 9, DB: 1) | 200 OK [http://test.host/auctions/search?search%5Bsearch%5D=fbss]
+  [4;36;1mItem Create (0.3ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('FBSS', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+
+
+Processing AuctionController#search (for 0.0.0.0 at 2010-10-05 02:55:59) [POST]
+  Parameters: {"search"=>{"search"=>"fbss"}}
+Rendering template within layouts/application
+Rendering auction/index
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE (lower(name) LIKE '%fbss%') ORDER BY name ASC[0m
+  [4;36;1mAuction Load (0.1ms)[0m   [0;1mSELECT "auctions".* FROM "auctions" WHERE ("auctions".item_id = 1) [0m
+Completed in 9ms (View: 9, DB: 1) | 200 OK [http://test.host/auctions/search?search%5Bsearch%5D=fbss]
+  [4;35;1mItem Create (0.3ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('FBSS', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+
+
+Processing AuctionController#search (for 0.0.0.0 at 2010-10-05 02:55:59) [POST]
+  Parameters: {"search"=>{"search"=>"fbss"}}
+Rendering template within layouts/application
+Rendering auction/index
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE (lower(name) LIKE '%fbss%') ORDER BY name ASC[0m
+  [4;35;1mAuction Load (0.1ms)[0m   [0mSELECT "auctions".* FROM "auctions" WHERE ("auctions".item_id = 1) [0m
+Completed in 10ms (View: 9, DB: 1) | 200 OK [http://test.host/auctions/search?search%5Bsearch%5D=fbss]
+  [4;36;1mItem Create (0.4ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('FBSS', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+
+
+Processing AuctionController#search (for 0.0.0.0 at 2010-10-05 02:55:59) [POST]
+  Parameters: {"search"=>{"search"=>"fbss"}}
+Rendering template within layouts/application
+Rendering auction/index
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE (lower(name) LIKE '%fbss%') ORDER BY name ASC[0m
+  [4;36;1mAuction Load (0.1ms)[0m   [0;1mSELECT "auctions".* FROM "auctions" WHERE ("auctions".item_id = 1) [0m
+Completed in 10ms (View: 10, DB: 1) | 200 OK [http://test.host/auctions/search?search%5Bsearch%5D=fbss]
+  [4;35;1mItem Create (0.3ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('FBSS', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+
+
+Processing AuctionController#search (for 0.0.0.0 at 2010-10-05 02:55:59) [POST]
+  Parameters: {"search"=>{"search"=>"fbss"}}
+Rendering template within layouts/application
+Rendering auction/index
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE (lower(name) LIKE '%fbss%') ORDER BY name ASC[0m
+  [4;35;1mAuction Load (0.1ms)[0m   [0mSELECT "auctions".* FROM "auctions" WHERE ("auctions".item_id = 1) [0m
+Completed in 10ms (View: 9, DB: 1) | 200 OK [http://test.host/auctions/search?search%5Bsearch%5D=fbss]
+  [4;36;1mItem Create (0.3ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('FBSS', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+
+
+Processing AuctionController#search (for 0.0.0.0 at 2010-10-05 02:55:59) [POST]
+  Parameters: {"search"=>{"search"=>"fbss"}}
+Rendering template within layouts/application
+Rendering auction/index
+  [4;35;1mItem Load (0.3ms)[0m   [0mSELECT * FROM "items" WHERE (lower(name) LIKE '%fbss%') ORDER BY name ASC[0m
+  [4;36;1mAuction Load (0.1ms)[0m   [0;1mSELECT "auctions".* FROM "auctions" WHERE ("auctions".item_id = 1) [0m
+Completed in 10ms (View: 10, DB: 1) | 200 OK [http://test.host/auctions/search?search%5Bsearch%5D=fbss]
+  [4;35;1mItem Create (0.3ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 1', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 2', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 3', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 4', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 5', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 6', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 7', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 8', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 9', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 10', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+
+
+Processing AuctionController#index (for 0.0.0.0 at 2010-10-05 02:55:59) [GET]
+  Parameters: {"letter"=>"i"}
+Rendering template within layouts/application
+Rendering auction/index
+  [4;35;1mItem Load (0.4ms)[0m   [0mSELECT * FROM "items" WHERE (lower(name) like 'i%') ORDER BY name ASC[0m
+  [4;36;1mAuction Load (0.1ms)[0m   [0;1mSELECT "auctions".* FROM "auctions" WHERE ("auctions".item_id IN (1,10,2,3,4,5,6,7,8,9)) [0m
+Completed in 11ms (View: 10, DB: 1) | 200 OK [http://test.host/auction?letter=i]
+  [4;35;1mItem Create (0.3ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 11', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 12', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 13', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 14', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 15', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 16', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;35;1mItem Create (0.2ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 17', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 18', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 19', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 20', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+
+
+Processing AuctionController#index (for 0.0.0.0 at 2010-10-05 02:55:59) [GET]
+  Parameters: {"letter"=>"i"}
+Rendering template within layouts/application
+Rendering auction/index
+  [4;35;1mItem Load (0.4ms)[0m   [0mSELECT * FROM "items" WHERE (lower(name) like 'i%') ORDER BY name ASC[0m
+  [4;36;1mAuction Load (0.1ms)[0m   [0;1mSELECT "auctions".* FROM "auctions" WHERE ("auctions".item_id IN (1,2,3,4,5,6,7,8,9,10)) [0m
+Completed in 11ms (View: 10, DB: 2) | 200 OK [http://test.host/auction?letter=i]
+  [4;35;1mItem Create (0.3ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 21', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 22', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 23', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 24', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 25', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 26', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 27', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 28', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 29', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 30', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+
+
+Processing AuctionController#index (for 0.0.0.0 at 2010-10-05 02:55:59) [GET]
+  Parameters: {"letter"=>"i"}
+Rendering template within layouts/application
+Rendering auction/index
+  [4;35;1mItem Load (0.4ms)[0m   [0mSELECT * FROM "items" WHERE (lower(name) like 'i%') ORDER BY name ASC[0m
+  [4;36;1mAuction Load (0.1ms)[0m   [0;1mSELECT "auctions".* FROM "auctions" WHERE ("auctions".item_id IN (1,2,3,4,5,6,7,8,9,10)) [0m
+Completed in 11ms (View: 10, DB: 1) | 200 OK [http://test.host/auction?letter=i]
+  [4;35;1mItem Create (0.3ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 31', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 32', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 33', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 34', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 35', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 36', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 37', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 38', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 39', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 40', '2010-10-05 06:55:59', '2010-10-05 06:55:59')[0m
+
+
+Processing AuctionController#index (for 0.0.0.0 at 2010-10-05 02:55:59) [GET]
+  Parameters: {"letter"=>"i"}
+Rendering template within layouts/application
+Rendering auction/index
+  [4;35;1mItem Load (0.4ms)[0m   [0mSELECT * FROM "items" WHERE (lower(name) like 'i%') ORDER BY name ASC[0m
+  [4;36;1mAuction Load (0.1ms)[0m   [0;1mSELECT "auctions".* FROM "auctions" WHERE ("auctions".item_id IN (1,2,3,4,5,6,7,8,9,10)) [0m
+Completed in 100ms (View: 100, DB: 1) | 200 OK [http://test.host/auction?letter=i]
+  [4;35;1mItem Create (0.3ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 41', '2010-10-05 06:56:00', '2010-10-05 06:56:00')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 42', '2010-10-05 06:56:00', '2010-10-05 06:56:00')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 43', '2010-10-05 06:56:00', '2010-10-05 06:56:00')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 44', '2010-10-05 06:56:00', '2010-10-05 06:56:00')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 45', '2010-10-05 06:56:00', '2010-10-05 06:56:00')[0m
+  [4;36;1mItem Create (0.0ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 46', '2010-10-05 06:56:00', '2010-10-05 06:56:00')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 47', '2010-10-05 06:56:00', '2010-10-05 06:56:00')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 48', '2010-10-05 06:56:00', '2010-10-05 06:56:00')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 49', '2010-10-05 06:56:00', '2010-10-05 06:56:00')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 50', '2010-10-05 06:56:00', '2010-10-05 06:56:00')[0m
+
+
+Processing AuctionController#index (for 0.0.0.0 at 2010-10-05 02:56:00) [GET]
+  Parameters: {"letter"=>"i"}
+Rendering template within layouts/application
+Rendering auction/index
+  [4;35;1mItem Load (0.4ms)[0m   [0mSELECT * FROM "items" WHERE (lower(name) like 'i%') ORDER BY name ASC[0m
+  [4;36;1mAuction Load (0.1ms)[0m   [0;1mSELECT "auctions".* FROM "auctions" WHERE ("auctions".item_id IN (1,2,3,4,5,6,7,8,9,10)) [0m
+Completed in 11ms (View: 10, DB: 1) | 200 OK [http://test.host/auction?letter=i]
+  [4;35;1mItem Create (0.3ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 51', '2010-10-05 06:56:00', '2010-10-05 06:56:00')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 52', '2010-10-05 06:56:00', '2010-10-05 06:56:00')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 53', '2010-10-05 06:56:00', '2010-10-05 06:56:00')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 54', '2010-10-05 06:56:00', '2010-10-05 06:56:00')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 55', '2010-10-05 06:56:00', '2010-10-05 06:56:00')[0m
+  [4;36;1mItem Create (0.0ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 56', '2010-10-05 06:56:00', '2010-10-05 06:56:00')[0m
+  [4;35;1mItem Create (0.0ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 57', '2010-10-05 06:56:00', '2010-10-05 06:56:00')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 58', '2010-10-05 06:56:00', '2010-10-05 06:56:00')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 59', '2010-10-05 06:56:00', '2010-10-05 06:56:00')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 60', '2010-10-05 06:56:00', '2010-10-05 06:56:00')[0m
+
+
+Processing AuctionController#index (for 0.0.0.0 at 2010-10-05 02:56:00) [GET]
+  Parameters: {"letter"=>"i"}
+Rendering template within layouts/application
+Rendering auction/index
+  [4;35;1mItem Load (0.4ms)[0m   [0mSELECT * FROM "items" WHERE (lower(name) like 'i%') ORDER BY name ASC[0m
+  [4;36;1mAuction Load (0.1ms)[0m   [0;1mSELECT "auctions".* FROM "auctions" WHERE ("auctions".item_id IN (1,2,3,4,5,6,7,8,9,10)) [0m
+Completed in 10ms (View: 10, DB: 1) | 200 OK [http://test.host/auction?letter=i]
+  [4;36;1mItem Create (0.3ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('FBSS', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+
+
+Processing AuctionController#search (for 0.0.0.0 at 2010-10-05 02:58:02) [POST]
+  Parameters: {"search"=>{"search"=>"fbss"}}
+Rendering template within layouts/application
+Rendering auction/index
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE (lower(name) LIKE '%fbss%') ORDER BY name ASC[0m
+  [4;36;1mAuction Load (0.1ms)[0m   [0;1mSELECT "auctions".* FROM "auctions" WHERE ("auctions".item_id = 1) [0m
+Completed in 19ms (View: 17, DB: 1) | 200 OK [http://test.host/auctions/search?search%5Bsearch%5D=fbss]
+  [4;35;1mItem Create (0.3ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('FBSS', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+
+
+Processing AuctionController#search (for 0.0.0.0 at 2010-10-05 02:58:02) [POST]
+  Parameters: {"search"=>{"search"=>"fbss"}}
+Rendering template within layouts/application
+Rendering auction/index
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE (lower(name) LIKE '%fbss%') ORDER BY name ASC[0m
+  [4;35;1mAuction Load (0.1ms)[0m   [0mSELECT "auctions".* FROM "auctions" WHERE ("auctions".item_id = 1) [0m
+Completed in 10ms (View: 9, DB: 1) | 200 OK [http://test.host/auctions/search?search%5Bsearch%5D=fbss]
+  [4;36;1mItem Create (0.3ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('FBSS', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+
+
+Processing AuctionController#search (for 0.0.0.0 at 2010-10-05 02:58:02) [POST]
+  Parameters: {"search"=>{"search"=>"fbss"}}
+Rendering template within layouts/application
+Rendering auction/index
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE (lower(name) LIKE '%fbss%') ORDER BY name ASC[0m
+  [4;36;1mAuction Load (0.1ms)[0m   [0;1mSELECT "auctions".* FROM "auctions" WHERE ("auctions".item_id = 1) [0m
+Completed in 10ms (View: 9, DB: 1) | 200 OK [http://test.host/auctions/search?search%5Bsearch%5D=fbss]
+  [4;35;1mItem Create (0.3ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('FBSS', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+
+
+Processing AuctionController#search (for 0.0.0.0 at 2010-10-05 02:58:02) [POST]
+  Parameters: {"search"=>{"search"=>"fbss"}}
+Rendering template within layouts/application
+Rendering auction/index
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE (lower(name) LIKE '%fbss%') ORDER BY name ASC[0m
+  [4;35;1mAuction Load (0.1ms)[0m   [0mSELECT "auctions".* FROM "auctions" WHERE ("auctions".item_id = 1) [0m
+Completed in 10ms (View: 9, DB: 1) | 200 OK [http://test.host/auctions/search?search%5Bsearch%5D=fbss]
+  [4;36;1mItem Create (0.4ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('FBSS', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+
+
+Processing AuctionController#search (for 0.0.0.0 at 2010-10-05 02:58:02) [POST]
+  Parameters: {"search"=>{"search"=>"fbss"}}
+Rendering template within layouts/application
+Rendering auction/index
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE (lower(name) LIKE '%fbss%') ORDER BY name ASC[0m
+  [4;36;1mAuction Load (0.1ms)[0m   [0;1mSELECT "auctions".* FROM "auctions" WHERE ("auctions".item_id = 1) [0m
+Completed in 10ms (View: 9, DB: 1) | 200 OK [http://test.host/auctions/search?search%5Bsearch%5D=fbss]
+  [4;35;1mItem Create (0.3ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('FBSS', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+
+
+Processing AuctionController#search (for 0.0.0.0 at 2010-10-05 02:58:02) [POST]
+  Parameters: {"search"=>{"search"=>"fbss"}}
+Rendering template within layouts/application
+Rendering auction/index
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE (lower(name) LIKE '%fbss%') ORDER BY name ASC[0m
+  [4;35;1mAuction Load (0.1ms)[0m   [0mSELECT "auctions".* FROM "auctions" WHERE ("auctions".item_id = 1) [0m
+Completed in 10ms (View: 9, DB: 1) | 200 OK [http://test.host/auctions/search?search%5Bsearch%5D=fbss]
+  [4;36;1mItem Create (0.3ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('FBSS', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+
+
+Processing AuctionController#search (for 0.0.0.0 at 2010-10-05 02:58:02) [POST]
+  Parameters: {"search"=>{"search"=>"fbss"}}
+Rendering template within layouts/application
+Rendering auction/index
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE (lower(name) LIKE '%fbss%') ORDER BY name ASC[0m
+  [4;36;1mAuction Load (0.1ms)[0m   [0;1mSELECT "auctions".* FROM "auctions" WHERE ("auctions".item_id = 1) [0m
+Completed in 10ms (View: 10, DB: 1) | 200 OK [http://test.host/auctions/search?search%5Bsearch%5D=fbss]
+  [4;35;1mItem Create (0.3ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 1', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 2', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 3', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 4', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 5', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 6', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 7', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 8', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 9', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 10', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+
+
+Processing AuctionController#index (for 0.0.0.0 at 2010-10-05 02:58:02) [GET]
+  Parameters: {"letter"=>"i"}
+Rendering template within layouts/application
+Rendering auction/index
+  [4;35;1mItem Load (0.4ms)[0m   [0mSELECT * FROM "items" WHERE (lower(name) like 'i%') ORDER BY name ASC[0m
+  [4;36;1mAuction Load (0.1ms)[0m   [0;1mSELECT "auctions".* FROM "auctions" WHERE ("auctions".item_id IN (1,10,2,3,4,5,6,7,8,9)) [0m
+Completed in 11ms (View: 10, DB: 1) | 200 OK [http://test.host/auction?letter=i]
+  [4;35;1mItem Create (0.3ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 11', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 12', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 13', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 14', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 15', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 16', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 17', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 18', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 19', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 20', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+
+
+Processing AuctionController#index (for 0.0.0.0 at 2010-10-05 02:58:02) [GET]
+  Parameters: {"letter"=>"i"}
+Rendering template within layouts/application
+Rendering auction/index
+  [4;35;1mItem Load (0.4ms)[0m   [0mSELECT * FROM "items" WHERE (lower(name) like 'i%') ORDER BY name ASC[0m
+  [4;36;1mAuction Load (0.1ms)[0m   [0;1mSELECT "auctions".* FROM "auctions" WHERE ("auctions".item_id IN (1,2,3,4,5,6,7,8,9,10)) [0m
+Completed in 11ms (View: 10, DB: 2) | 200 OK [http://test.host/auction?letter=i]
+  [4;35;1mItem Create (0.3ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 21', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 22', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 23', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 24', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 25', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 26', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 27', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 28', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 29', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 30', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+
+
+Processing AuctionController#index (for 0.0.0.0 at 2010-10-05 02:58:02) [GET]
+  Parameters: {"letter"=>"i"}
+Rendering template within layouts/application
+Rendering auction/index
+  [4;35;1mItem Load (0.4ms)[0m   [0mSELECT * FROM "items" WHERE (lower(name) like 'i%') ORDER BY name ASC[0m
+  [4;36;1mAuction Load (0.1ms)[0m   [0;1mSELECT "auctions".* FROM "auctions" WHERE ("auctions".item_id IN (1,2,3,4,5,6,7,8,9,10)) [0m
+Completed in 11ms (View: 10, DB: 1) | 200 OK [http://test.host/auction?letter=i]
+  [4;35;1mItem Create (0.3ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 31', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 32', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 33', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 34', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 35', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 36', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 37', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 38', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 39', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 40', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+
+
+Processing AuctionController#index (for 0.0.0.0 at 2010-10-05 02:58:02) [GET]
+  Parameters: {"letter"=>"i"}
+Rendering template within layouts/application
+Rendering auction/index
+  [4;35;1mItem Load (0.4ms)[0m   [0mSELECT * FROM "items" WHERE (lower(name) like 'i%') ORDER BY name ASC[0m
+  [4;36;1mAuction Load (0.1ms)[0m   [0;1mSELECT "auctions".* FROM "auctions" WHERE ("auctions".item_id IN (1,2,3,4,5,6,7,8,9,10)) [0m
+Completed in 100ms (View: 99, DB: 1) | 200 OK [http://test.host/auction?letter=i]
+  [4;35;1mItem Create (0.3ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 41', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 42', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 43', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 44', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 45', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 46', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 47', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 48', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 49', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 50', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+
+
+Processing AuctionController#index (for 0.0.0.0 at 2010-10-05 02:58:02) [GET]
+  Parameters: {"letter"=>"i"}
+Rendering template within layouts/application
+Rendering auction/index
+  [4;35;1mItem Load (0.3ms)[0m   [0mSELECT * FROM "items" WHERE (lower(name) like 'i%') ORDER BY name ASC[0m
+  [4;36;1mAuction Load (0.1ms)[0m   [0;1mSELECT "auctions".* FROM "auctions" WHERE ("auctions".item_id IN (1,2,3,4,5,6,7,8,9,10)) [0m
+Completed in 10ms (View: 10, DB: 1) | 200 OK [http://test.host/auction?letter=i]
+  [4;35;1mItem Create (0.3ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 51', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 52', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 53', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 54', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 55', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;36;1mItem Create (0.0ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 56', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 57', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 58', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;35;1mItem Create (0.1ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 59', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('Item 60', '2010-10-05 06:58:02', '2010-10-05 06:58:02')[0m
+
+
+Processing AuctionController#index (for 0.0.0.0 at 2010-10-05 02:58:02) [GET]
+  Parameters: {"letter"=>"i"}
+Rendering template within layouts/application
+Rendering auction/index
+  [4;35;1mItem Load (0.4ms)[0m   [0mSELECT * FROM "items" WHERE (lower(name) like 'i%') ORDER BY name ASC[0m
+  [4;36;1mAuction Load (0.1ms)[0m   [0;1mSELECT "auctions".* FROM "auctions" WHERE ("auctions".item_id IN (1,2,3,4,5,6,7,8,9,10)) [0m
+Completed in 11ms (View: 10, DB: 1) | 200 OK [http://test.host/auction?letter=i]
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."name" = 'braclet of woven grass') LIMIT 1[0m
+  [4;35;1mItem Create (0.5ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at") VALUES('braclet of woven grass', '2010-10-05 07:01:15', '2010-10-05 07:01:15')[0m
+  [4;36;1mAuction Load (0.2ms)[0m   [0;1mSELECT "auctions".id FROM "auctions" WHERE ("auctions"."hash_data" = '2e45f56ac80434d3261b89965d0d9f9d') LIMIT 1[0m
+  [4;35;1mAuction Create (0.4ms)[0m   [0mINSERT INTO "auctions" ("price", "created_at", "updated_at", "time", "hash_data", "item_id") VALUES(100.0, '2010-10-05 07:01:15', '2010-10-05 07:01:15', '2010-05-20 01:45:06', '2e45f56ac80434d3261b89965d0d9f9d', 1)[0m

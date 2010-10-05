@@ -9,10 +9,11 @@ class AuctionControllerTest < ActionController::TestCase
         end
         get :index, :letter => 'i'
       end
-      should_assign_to :items, :search
-      should_respond_with :success
-      should_render_template :index
-      should_not_set_the_flash
+      should assign_to :items
+      should assign_to :search
+      should respond_with :success
+      should render_template :index
+      should_not set_the_flash
       should "have 10 items" do
         assert_equal 10, assigns(:items).size
       end
@@ -23,10 +24,11 @@ class AuctionControllerTest < ActionController::TestCase
         Item.create(:name => "FBSS")
         post :search, :search => {:search => "fbss"}
       end
-      should_assign_to :items, :search
-      should_respond_with :success
-      should_render_template :index
-      should_not_set_the_flash
+      should assign_to :items
+      should assign_to :search
+      should respond_with :success
+      should render_template :index
+      should_not set_the_flash
       should "contain one result" do
         assert_equal 1, assigns(:items).size
       end

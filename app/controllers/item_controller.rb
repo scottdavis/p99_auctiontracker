@@ -9,7 +9,7 @@ class ItemController < ApplicationController
   end
   
   def show
-    expires_in(3.hours)
+    expires_in(1.minutes)
     @item = Item.find(params[:id])
     @auctions = @item.auctions.not_hidden.paginate(:page => params[:page], :per_page => 25, :order => 'time DESC')
     @underscored = @item.name.gsub(/\s/, '_')

@@ -12,7 +12,7 @@ class AuctionController < ApplicationController
   end
   
   def index
-    expires_in(5.minutes)
+    expires_in(1.minutes)
     @search = ''
     unless params.include?(:letter)
       params[:letter] = 'a'

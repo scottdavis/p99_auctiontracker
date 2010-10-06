@@ -4,6 +4,7 @@ class ItemController < ApplicationController
     @item = Item.find(params[:id])
     @item.hide!
     flash[:notice] = "Item deleted"
+    expire_page :action => "show", :id => params[:id]
     redirect_to auction_index_path(:letter => params[:letter])
   end
   

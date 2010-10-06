@@ -1,0 +1,92 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/utilities";
+#header {
+  background-color:#356AA0;
+  height:50px;
+  .title {
+    @include float-left;
+    color:white;
+    font-size:26px;
+    margin-left:387px;
+    padding-bottom:5px;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:10px;
+  }
+  text-align:center;
+  #search {
+    text-align:center;
+    color:white;
+    @include float-right;
+    padding-top:13px;
+  }
+}
+
+#footer {
+  text-align:center;
+  padding:15px;
+}
+
+ul.menu {
+  @include float-left;
+  padding:5px;
+  padding-top:14px;
+  color:#fff;
+  font:{
+    size:20px;
+    weight:bold;
+  };
+  li {
+    display:inline;
+    padding:5px;
+    a {
+      color:#fff;
+      text-decoration:none;
+    }
+    a:hover{
+      color:#eee;
+    }
+  }
+}
+
+table tr.alt {
+  background-color:#ccc;
+}
+
+
+table.auctions {
+  margin:auto;
+}
+
+table{ 
+  td, th{
+    padding:5px;
+  }
+}
+
+#notice_flash {
+  border:5px solid red;
+  margin:auto;
+  text-align:center;
+}
+
+#pagination {
+  padding:5px;
+  text-transform: capitalize;
+  font-size:20px;
+  text-align:center;
+}
+
+
+.item {
+  .show {
+    #chart {
+      margin:auto;
+    }
+  }
+}

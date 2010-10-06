@@ -1,9 +1,6 @@
 %h1
   = @item.name
 %p
-  = link_to "Home page", auction_index_path
-
-%p
   Max: 
   = @item.auctions.not_hidden.maximum(:price)
 %p
@@ -16,10 +13,10 @@
   Standard Deviation:
   = standard_deviation(@item.auctions.not_hidden.map(&:price)).round(2)
 
-%canvas{:id => "chart", :width => "800", :height => "600"}
+%canvas{:id => "chart", :width => "1024", :height => "350", :style => 'margin:auto'}
 :javascript
       $(document).ready(function(){
-        var g = new Bluff.Line('chart', '800x600');
+        var g = new Bluff.Line('chart', '1024x350');
         g.title = '#{@item.name}';
         g.theme_keynote();
         g.data(" ", #{@item.auctions.not_hidden.map(&:price).inspect});
@@ -43,5 +40,5 @@
       %td
         = auction.price
       %td
-        = link_to 'Remove', auction, :method => :delete
+        = link_to 'Remove', auction, :method => :delete, :confirm => "Are you sure?"
 = will_paginate @auctions

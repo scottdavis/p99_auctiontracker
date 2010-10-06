@@ -7,6 +7,8 @@ RAILS_GEM_VERSION = '2.3.5' unless defined? RAILS_GEM_VERSION
 require File.join(File.dirname(__FILE__), 'boot')
 
 Rails::Initializer.run do |config|
+  config.gem 'compass', :version => '>= 0.10.0'
+  config.gem 'haml', :version => '>=3.0.0'
   # Settings in config/environments/* take precedence over those specified here.
   # Application configuration should go into files in config/initializers
   # -- all .rb files in that directory are automatically loaded.
@@ -35,11 +37,9 @@ Rails::Initializer.run do |config|
   # Run "rake -D time" for a list of tasks for finding time zone names.
   config.time_zone = 'UTC'
   config.gem "shoulda"
-  config.gem "haml"
   config.gem "will_paginate", :version => '2.3.15'
   config.gem "safe_fork"
   config.gem "factory_girl"
-  config.gem 'gruff'
   # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
   # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}')]
   # config.i18n.default_locale = :de

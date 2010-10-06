@@ -69,18 +69,14 @@ a img {
   text-align: center;
 }
 /* line 11, ../../../app/stylesheets/screen.scss */
-#header .title {
+#header h1.title {
   display: inline;
-  float: left;
   color: white;
   font-size: 26px;
-  margin-left: 387px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 10px;
+  text-align: center;
+  padding-top: 6px;
 }
-/* line 22, ../../../app/stylesheets/screen.scss */
+/* line 19, ../../../app/stylesheets/screen.scss */
 #header #search {
   text-align: center;
   color: white;
@@ -89,13 +85,13 @@ a img {
   padding-top: 13px;
 }
 
-/* line 30, ../../../app/stylesheets/screen.scss */
+/* line 27, ../../../app/stylesheets/screen.scss */
 #footer {
   text-align: center;
   padding: 15px;
 }
 
-/* line 35, ../../../app/stylesheets/screen.scss */
+/* line 32, ../../../app/stylesheets/screen.scss */
 ul.menu {
   display: inline;
   float: left;
@@ -105,44 +101,44 @@ ul.menu {
   font-size: 20px;
   font-weight: bold;
 }
-/* line 44, ../../../app/stylesheets/screen.scss */
+/* line 41, ../../../app/stylesheets/screen.scss */
 ul.menu li {
   display: inline;
   padding: 5px;
 }
-/* line 47, ../../../app/stylesheets/screen.scss */
+/* line 44, ../../../app/stylesheets/screen.scss */
 ul.menu li a {
   color: #fff;
   text-decoration: none;
 }
-/* line 51, ../../../app/stylesheets/screen.scss */
+/* line 48, ../../../app/stylesheets/screen.scss */
 ul.menu li a:hover {
   color: #eee;
 }
 
-/* line 57, ../../../app/stylesheets/screen.scss */
+/* line 54, ../../../app/stylesheets/screen.scss */
 table tr.alt {
   background-color: #ccc;
 }
 
-/* line 62, ../../../app/stylesheets/screen.scss */
+/* line 59, ../../../app/stylesheets/screen.scss */
 table.auctions {
   margin: auto;
 }
 
-/* line 67, ../../../app/stylesheets/screen.scss */
+/* line 64, ../../../app/stylesheets/screen.scss */
 table td, table th {
   padding: 5px;
 }
 
-/* line 72, ../../../app/stylesheets/screen.scss */
+/* line 69, ../../../app/stylesheets/screen.scss */
 #notice_flash {
   border: 5px solid red;
   margin: auto;
   text-align: center;
 }
 
-/* line 78, ../../../app/stylesheets/screen.scss */
+/* line 75, ../../../app/stylesheets/screen.scss */
 #pagination {
   padding: 5px;
   text-transform: capitalize;
@@ -150,7 +146,7 @@ table td, table th {
   text-align: center;
 }
 
-/* line 88, ../../../app/stylesheets/screen.scss */
+/* line 85, ../../../app/stylesheets/screen.scss */
 .item .show #chart {
   margin: auto;
 }

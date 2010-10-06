@@ -10,7 +10,7 @@
         %ul.menu
           %li=link_to('Home', root_path)
           %li=link_to('Upload', new_auction_path)
-        .title
+        %h1.title
           = @page_title.join(' - ')
         #search
           - form_for :search, {:url => auction_search_path, :method => :post } do |f| 

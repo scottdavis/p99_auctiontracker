@@ -8,15 +8,12 @@
 #header {
   background-color:#356AA0;
   height:50px;
-  .title {
-    @include float-left;
+  h1.title {
+    display:inline;
     color:white;
     font-size:26px;
-    margin-left:387px;
-    padding-bottom:5px;
-    padding-left:5px;
-    padding-right:5px;
-    padding-top:10px;
+    text-align:center;
+    padding-top:6px;
   }
   text-align:center;
   #search {

@@ -36,12 +36,16 @@
     %th
       Price
     %th
+      Seller
+    %th
   - @auctions.each do |auction|
     %tr{:class => cycle('alt','')}
       %td
         = auction.time.strftime("%a %b %d %I:%M %p")
       %td
         = auction.price
+      %td
+        = auction.player
       %td
         = link_to 'Remove', auction, :method => :delete, :confirm => "Are you sure?"
 = will_paginate @auctions

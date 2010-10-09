@@ -17,13 +17,13 @@ class AuctionParser
   end
   
   def run_fork
-    #fork = SafeFork.fork do
+    fork = SafeFork.fork do
       items = item_cache
       items.each do |item|
         Item.create_from_parse(item)
       end
-    #end
-    #Process.detach(fork)
+    end
+    Process.detach(fork)
   end
   
   

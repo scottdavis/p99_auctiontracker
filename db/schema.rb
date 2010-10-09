@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101009034441) do
+ActiveRecord::Schema.define(:version => 20101009200418) do
 
   create_table "auctions", :force => true do |t|
     t.datetime "time"
@@ -27,13 +27,26 @@ ActiveRecord::Schema.define(:version => 20101009034441) do
   add_index "auctions", ["price"], :name => "index_auctions_on_price"
   add_index "auctions", ["time"], :name => "index_auctions_on_time"
 
+  create_table "item_caches", :force => true do |t|
+    t.string   "name"
+    t.string   "alla_id"
+    t.text     "meta"
+    t.text     "alias"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "item_caches", ["name"], :name => "index_item_caches_on_name"
+
   create_table "items", :force => true do |t|
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.boolean  "hidden",     :default => false
+    t.boolean  "hidden",        :default => false
+    t.integer  "item_cache_id"
   end
 
+  add_index "items", ["item_cache_id"], :name => "index_items_on_item_cache_id"
   add_index "items", ["name"], :name => "index_items_on_name"
 
   create_table "logs", :force => true do |t|

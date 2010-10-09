@@ -10,6 +10,9 @@
   Average:
   = @item.auctions.not_hidden.average(:price)
 %p
+  Median:
+  = median(@item.auctions.not_hidden.map(&:price))
+%p
   Standard Deviation:
   = standard_deviation(@item.auctions.not_hidden.map(&:price)).round(2)
 

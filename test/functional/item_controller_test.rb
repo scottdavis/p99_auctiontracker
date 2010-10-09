@@ -1,8 +1,17 @@
 require 'test_helper'
 
 class ItemControllerTest < ActionController::TestCase
-  # Replace this with your real tests.
-  test "the truth" do
-    assert true
+  context "show" do
+    setup do
+      i = Factory(:item)
+      10.times do 
+        Factory(:auction, :item => i)
+      end
+      get :show, :id => i.id
+    end
+    
+    should render_template :show
+    should respond_with :success
+    
   end
 end

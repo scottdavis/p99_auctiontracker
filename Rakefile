@@ -8,3 +8,16 @@ require 'rake/testtask'
 require 'rake/rdoctask'
 
 require 'tasks/rails'
+
+
+namespace :custom do
+  task :clean_up => :environment do
+    Item.all.each do |i|
+      if i.name.scan(Regexp.new("\s(#{AuctionParser::COMMON_BAD_WORDS.join('|')})\s")).size > 0
+        puts "cleaning #{i.name}"
+        i.hidden = true;
+        i.save
+      end
+    end
+  end
+end

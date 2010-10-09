@@ -20,19 +20,19 @@ class Item < ActiveRecord::Base
   named_scope :not_hidden, {:conditions => {:hidden => false}}
   
   
-  def self.create_from_parse(item)
+  def self.create_from_parse(hash)
    # puts self.sanitize(item[:item].downcase)
-    @item = Item.find_or_create_by_name(self.sanitize(item[:item].downcase))
-    return if @item.blank?
+    i = Item.find_or_create_by_name(self.sanitize(hash[:item].downcase))
+    return if i.blank?
     auction = Auction.new
-    auction.item = @item
-    if item[:price].include?('k')
-      item[:price] = item[:price].to_f * 1000
+    auction.item = i
+    if hash[:price].include?('k')
+      hash[:price] = hash[:price].to_f * 1000
     end
-    auction.price = item[:price].to_i
-    auction.time = Time.parse item[:time]
-
-   unless Auction.exists?(:hash_data => auction.get_digest) 
+    auction.price = hash[:price].to_i
+    auction.time = Time.parse hash[:time]
+    auction.player = hash[:player].strip
+   unless Auction.exists?(:hash_data => auction.digest) 
      auction.save! if auction.valid?
    end
      

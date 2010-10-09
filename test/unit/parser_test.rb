@@ -7,7 +7,7 @@ class ParserTest < Test::Unit::TestCase
     end
     
     should "get correct aution data" do
-      assert_equal({:item => "braclet of woven grass", :time => "Wed May 19 21:45:06 2010", :price => "100"}, @parse.item_cache.first)
+      assert_equal({:player=>"Dyskinetic", :item => "braclet of woven grass", :time => "Wed May 19 21:45:06 2010", :price => "100"}, @parse.item_cache.first)
     end
     
   end

@@ -17,13 +17,13 @@ class AuctionParser
   end
   
   def run_fork
-    fork = SafeFork.fork do
+    #fork = SafeFork.fork do
       items = item_cache
       items.each do |item|
         Item.create_from_parse(item)
       end
-    end
-    Process.detach(fork)
+    #end
+    #Process.detach(fork)
   end
   
   
@@ -34,8 +34,9 @@ class AuctionParser
   def split_string_and_filter_auctions(string)
         if string =~ /^\[(.+)\](.+)/
           string = {:time => $1, :message => $2}
-          if string[:message] =~ /(.+auctions,)(.+)/
-            string[:message] = $2
+          if string[:message] =~ /(.+)\s(auctions,)(.+)/
+            string[:player] = $1.strip
+            string[:message] = $3
             items =  parse_items(string[:message])
             string[:items] = items
             string.delete(:message)
@@ -45,7 +46,7 @@ class AuctionParser
               if item[0].scan(Regexp.new("\s(#{COMMON_BAD_WORDS.join('|')})\s")).size > 0
                 next
               end
-              item_cache << {:item => item[0], :price => item[1], :time => string[:time]}
+              item_cache << {:player => string[:player], :item => item[0], :price => item[1], :time => string[:time]}
             end
           end
         end

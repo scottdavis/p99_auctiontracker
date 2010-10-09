@@ -25,4 +25,14 @@ module ApplicationHelper
     def standard_deviation(population)
       Math.sqrt(variance(population))
     end
+    
+    def median(collection)
+      collection.sort!
+      middle = collection.size.to_f / 2
+      return collection.first if collection.size == 1;
+      a = middle.ceil
+      return (collection[a-1.to_i] + collection[a.to_i]) / 2 if middle % 2
+      collection[middle.to_i]
+    end
+    
 end

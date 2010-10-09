@@ -2,10 +2,11 @@ require 'test_helper'
 require 'shoulda'
 class AuctionControllerTest < ActionController::TestCase
   # Replace this with your real tests.
-    context "Load index i" do
+    context "Load index" do
       setup do
         10.times do 
-          Factory(:item)
+          i = Factory(:item)
+          10.times { Factory(:auction, :item => i)}
         end
         get :index, :letter => 'i'
       end
@@ -16,6 +17,11 @@ class AuctionControllerTest < ActionController::TestCase
       should_not set_the_flash
       should "have 10 items" do
         assert_equal 10, assigns(:items).size
+      end
+      should "have 10 auctions per item" do
+        assigns(:items).each do |item|
+          assert_equal 10, item.auctions.size
+        end
       end
     end
     

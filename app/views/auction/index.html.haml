@@ -7,6 +7,8 @@
         %th
           Item
         %th
+          Median
+        %th
           Mean Price
         %th
           Std Deviation
@@ -22,12 +24,14 @@
           30 Day mean
         %th
     %tbody
-      -	@items.each do |item|
+      - @items.each do |item|
         - next if item.auctions.not_hidden.blank?
         - prices = item.auctions.not_hidden.map{|a| a.price}.compact.sort
         %tr{:class => cycle('alt','')}
           %td 
-            = link_to(item.name, item_path(item.id))
+            = link_to(item.name, item_path(item.id), :item_id => item.id, :class => :item_link)
+          %td
+            = median(item.auctions.not_hidden.map(&:price))
           %td
             = item.auctions.not_hidden.average(:price)
           %td

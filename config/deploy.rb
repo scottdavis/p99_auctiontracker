@@ -9,7 +9,7 @@ set :user, "root"
 set :use_sudo, false
 set :deploy_to, "/var/www/auction"
 set :db, 'localhost'
-
+set :rake_path, '/opt/ruby/bin/rake'
 # If you are using Passenger mod_rails uncomment this:
 # if you're still using the script/reapear helper you will need
 # these http://github.com/rails/irs_process_scripts
@@ -28,6 +28,9 @@ namespace :deploy do
     run "rm #{deploy_to}/current/log"
     run "mkdir #{deploy_to}/current/log"
     run "mkdir #{deploy_to}/current/public/images/graph"
+  end
+  task :cleanup_data do
+    run "RAILS_ENV=production #{rake_path} custom:cleanup"
   end
 end
 

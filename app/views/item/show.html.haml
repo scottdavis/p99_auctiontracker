@@ -20,7 +20,7 @@
 :javascript
       $(document).ready(function(){
         var g = new Bluff.Line('chart', '1024x350');
-        g.title = '#{@item.name}';
+        g.title = "#{@item.name}";
         g.theme_keynote();
         g.data(" ", #{@item.auctions.not_hidden.map(&:price).inspect});
         g.draw();

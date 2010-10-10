@@ -39,20 +39,7 @@ namespace :custom do
   
   task :map_current_items_to_cache => :environment do
     #Items.update_all(:hidden => true)
-    Item.all.each do |item|
-      if ItemCache.exists?(["LOWER(name) = ?", item.name.downcase])
-        cache = ItemCache.find(:first, :conditions => ["LOWER(name) = ?", item.name.downcase])
-        item.item_cache = cache
-        item.hidden = false
-        item.save
-      else
-        item.hidden = true
-        item.save
-        puts item.name
-        puts 'no item'
-      end
-      
-    end
+    AuctionParser.clean_items
   end
 end
 

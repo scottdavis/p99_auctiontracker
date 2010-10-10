@@ -22,6 +22,7 @@ class Item < ActiveRecord::Base
   
   def self.create_from_parse(hash)
    # puts self.sanitize(item[:item].downcase)
+    return unless AuctionParser.is_item?(hash[:item])
     i = Item.find_or_create_by_name(self.sanitize(hash[:item].downcase))
     return if i.blank?
     auction = Auction.new

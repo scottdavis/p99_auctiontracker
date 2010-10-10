@@ -12,7 +12,7 @@ class AuctionController < ApplicationController
   end
   
   def index
-    expires_in(1.minute.ago)
+    expires_in(1.minute)
     @search = ''
     unless params.include?(:letter)
       params[:letter] = 'a'
@@ -35,7 +35,7 @@ class AuctionController < ApplicationController
   end
   
   def show
-    redirect_to item_path(params[:id]), :response => 302
+    redirect_to item_path(params[:id]), :status => 302
   end
   
 end

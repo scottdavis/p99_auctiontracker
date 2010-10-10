@@ -65,4 +65,25 @@ class AuctionParser
       end
       
       
+      def self.is_item?(item)
+        item = item.downcase
+        ItemCache.exists?(["LOWER(name) = ?", item])
+      end
+      
+      def self.clean_items
+        Item.all.each do |item|
+          if self.is_item(item.name)
+            cache = ItemCache.find(:first, :conditions => ["LOWER(name) = ?", item.name.downcase])
+            item.item_cache = cache
+            item.hidden = false
+            item.save
+          else
+            item.hidden = true
+            item.save
+            puts item.name
+            puts 'no item'
+          end
+        end
+      end
+      
 end

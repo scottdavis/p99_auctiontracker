@@ -2,7 +2,7 @@ require 'digest/md5'
 class Item < ActiveRecord::Base
   has_many :auctions, :dependent => :destroy
   validates_presence_of :name
-  
+  belongs_to :item_cache
   
   named_scope :name_starts_with, lambda {|letter|
       {:conditions => ['lower(name) like ?', "#{letter}%"]}

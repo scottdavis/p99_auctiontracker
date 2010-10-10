@@ -25,7 +25,7 @@ class AuctionController < ApplicationController
     auction = Auction.find(params[:id])
     expire_page :action => "show", :id => params[:id]
     flash[:notice] = "Auction removed"
-    redirect_to item_path(auction.item_id) if auction.hide!
+    redirect_to :back if auction.hide!
   end
   
   def search

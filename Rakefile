@@ -41,5 +41,18 @@ namespace :custom do
     #Items.update_all(:hidden => true)
     AuctionParser.clean_items
   end
+  
+  task :load_alla_ids => :environment do
+    require 'yaml'
+    data = YAML.load_file('/Users/sdavis/Desktop/items2.yml')
+    data.each do |item|
+      if AuctionParser.is_item?(item[:name])
+        c = AuctionParser.get_item(item[:name])
+        id = item[:id].gsub('/db/item.html?item=', '')
+        c.alla_id = id
+        c.save
+      end
+    end
+  end
 end
 

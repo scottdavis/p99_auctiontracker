@@ -22,12 +22,13 @@ class Item < ActiveRecord::Base
   
   def self.create_from_parse(hash)
    # puts self.sanitize(item[:item].downcase)
-    return unless AuctionParser.is_item?(hash[:item])
     i = Item.find_or_create_by_name(self.sanitize(hash[:item].downcase))
+    i.hide! unless AuctionParser.is_item?(hash[:item])
     return if i.blank?
     auction = Auction.new
     auction.item = i
     hash[:price].gsub!(/[oO]/, '0') #fucking assholes using o's
+    hash[:price].gsub!(/[\/\-_\.]/, '') # no dots ok
     if hash[:price].include?('k')
       hash[:price] = hash[:price].to_f * 1000
     end

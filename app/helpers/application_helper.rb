@@ -2,9 +2,8 @@
 module ApplicationHelper
   
   def alla_link(item)
-    id = item.item_cache.alla_id
-    return '' if id.blank?
-    link_to("#{item.name} on allakhazam", "http://everquest.allakhazam.com/db/item.html?item=#{id}", :target => '_blank')
+    return '' if item.item_cache.blank?
+    link_to("#{item.name} on allakhazam", "http://everquest.allakhazam.com/db/item.html?item=#{item.item_cache.alla_id}", :target => '_blank')
   end
   
   def display_flash

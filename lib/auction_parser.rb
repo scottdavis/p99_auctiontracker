@@ -32,6 +32,7 @@ class AuctionParser
   end
   
   def split_string_and_filter_auctions(string)
+        string.strip!
         if string =~ /^\[(.+)\](.+)/
           string = {:time => $1, :message => $2}
           if string[:message] =~ /(.+)\s(auctions,)(.+)/
@@ -46,14 +47,21 @@ class AuctionParser
               if item[0].scan(Regexp.new("\s(#{COMMON_BAD_WORDS.join('|')})\s")).size > 0
                 next
               end
-              item_cache << {:player => string[:player], :item => item[0], :price => item[1], :time => string[:time]}
+              price = item[1] #item[1].gsub!(/[oO]/, '0').gsub!(/[\/\-_\.]/, '') unless item[1].blank?
+              price = price.gsub(/[oO]/, '0')
+              if price.include?('k')
+                price = price.to_f * 1000
+              else
+                price = price.gsub(/[\.\-]/, '')
+              end
+              item_cache << {:player => string[:player], :item => item[0], :price => price.to_i.to_s, :time => string[:time]}
             end
           end
         end
       end
 
       def parse_items(string)
-        regex = /([-_\'\sa-zA-Z]+)[-\s\/,;]([0-9\.k]+)/
+        regex = /([-_\'\sa-zA-Z]+)[-\s\/,;]([0-9oO\.k]+)/
         items = string.scan(regex)
         items.each do|item|
           item[0].gsub!(/(and|wts|wtt|wtb)/i, '')

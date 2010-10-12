@@ -27,8 +27,6 @@ class Item < ActiveRecord::Base
     return if i.blank?
     auction = Auction.new
     auction.item = i
-    hash[:price].gsub!(/[oO]/, '0') #fucking assholes using o's
-    hash[:price].gsub!(/[\/\-_\.]/, '') # no dots ok
     if hash[:price].include?('k')
       hash[:price] = hash[:price].to_f * 1000
     end

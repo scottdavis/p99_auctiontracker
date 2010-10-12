@@ -1,6 +1,12 @@
 # Methods added to this helper will be available to all templates in the application.
 module ApplicationHelper
   
+  def alla_link(item)
+    id = item.item_cache.alla_id
+    return '' if id.blank?
+    link_to("#{item.name} on allakhazam", "http://everquest.allakhazam.com/db/item.html?item=#{id}", :target => '_blank')
+  end
+  
   def display_flash
     out = []
     flash.each_pair do |key, value|

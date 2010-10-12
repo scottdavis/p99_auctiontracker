@@ -1,20 +1,39 @@
 %h1
   = @item.name
-%p
-  Max: 
-  = @item.auctions.not_hidden.maximum(:price)
-%p
-  Min:
-  = @item.auctions.not_hidden.minimum(:price)
-%p 
-  Average:
-  = @item.auctions.not_hidden.average(:price)
-%p
-  Median:
-  = median(@item.auctions.not_hidden.map(&:price))
-%p
-  Standard Deviation:
-  = standard_deviation(@item.auctions.not_hidden.map(&:price)).round(2)
+
+%h2
+  Info
+.info
+  alla_link(@item)
+  
+%h2
+  Statistics
+%table
+  %tr
+    %td
+      Max:
+    %td
+      = @item.auctions.not_hidden.maximum(:price)
+  %tr
+    %td
+      Min:
+    %td
+      = @item.auctions.not_hidden.minimum(:price)
+  %tr
+    %td
+      Average:
+    %td
+      = @item.auctions.not_hidden.average(:price)
+  %tr
+    %td
+      Median:
+    %td
+      = median(@item.auctions.not_hidden.map(&:price))
+  %tr
+    %td
+      Standard Deviation:
+    %td
+      = standard_deviation(@item.auctions.not_hidden.map(&:price)).round(2)
 
 %canvas{:id => "chart", :width => "1024", :height => "350", :style => 'margin:auto'}
 :javascript
@@ -22,7 +41,7 @@
         var g = new Bluff.Line('chart', '1024x350');
         g.title = "#{@item.name}";
         g.theme_keynote();
-        g.data(" ", #{@item.auctions.not_hidden.map(&:price).inspect});
+        g.data(" ", #{@item.auctions(:order => 'time ASC').not_hidden.map(&:price).inspect});
         g.draw();
       });
 

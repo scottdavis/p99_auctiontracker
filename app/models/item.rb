@@ -27,12 +27,9 @@ class Item < ActiveRecord::Base
     return if i.blank?
     auction = Auction.new
     auction.item = i
-    if hash[:price].include?('k')
-      hash[:price] = hash[:price].to_f * 1000
-    end
     auction.price = hash[:price].to_i
     auction.time = Time.parse hash[:time]
-    auction.player = hash[:player].strip
+    auction.player = hash[:player]
    unless Auction.exists?(:hash_data => auction.digest) 
      auction.save! if auction.valid?
    end

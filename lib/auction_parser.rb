@@ -54,7 +54,7 @@ class AuctionParser
               else
                 price = price.gsub(/[\.\-]/, '')
               end
-              item_cache << {:player => string[:player], :item => item[0], :price => price.to_i.to_s, :time => string[:time]}
+              item_cache << {:player => string[:player].strip, :item => item[0], :price => price.to_i.to_s, :time => string[:time]}
             end
           end
         end

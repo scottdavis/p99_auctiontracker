@@ -61,7 +61,7 @@ class AuctionParser
       end
 
       def parse_items(string)
-        regex = /([-_\'\sa-zA-Z]+)[-\s\/,;]([0-9oO\.k]+)/
+        regex = /([-_\'\sa-zA-Z]+)\s+?([0-9oO\.k]+)/
         items = string.scan(regex)
         items.each do|item|
           item[0].gsub!(/(and|wts|wtt|wtb)/i, '')

@@ -18,7 +18,7 @@ class ParserTest < Test::Unit::TestCase
   context "multi" do
     setup do
       string =<<-EOS
-        [Fri Oct 08 19:01:39 2010] Philemon auctions, 'WTS A Shimmering Orb 125p, Bracers of Battle 50p, Dwarven Axe 20p, Dwarven Ringmail Tunic 20p, 2x Bunch of Optic Nerves (for crafted bracers) 10p each'
+        [Fri Oct 08 19:01:39 2010] Philemon auctions, 'WTS A Shimmering Orb 125p...Bracers of Battle 50p, Dwarven Axe 20p - Dwarven Ringmail Tunic 20p, 2x Bunch of Optic Nerves (for crafted bracers) 10p each'
       EOS
       @parse = AuctionParser.new(string)
     end
@@ -28,7 +28,7 @@ class ParserTest < Test::Unit::TestCase
     end
   end
   
-  context 'assholes' do
+  context 'assholes with oo instead of 00' do
     setup do
       string = "[Wed May 19 21:45:06 2010] Dyskinetic auctions, 'WTS braclet of woven grass 1oopp'"
       string << "\n[Wed May 19 21:45:06 2010] Dyskinetic auctions, 'WTS braclet of woven grass 1o.ooopp'"
@@ -42,6 +42,19 @@ class ParserTest < Test::Unit::TestCase
     end
   end
   
+  context 'multi dividers' do
+    setup do
+      string =<<-EOS
+        [Fri Oct 08 19:01:39 2010] Philemon auctions, 'WTS A Shimmering Orb 125p || Bracers of Battle 50p // Dwarven Axe 20p \\ Dwarven Ringmail Tunic 20p; 2x Bunch of Optic Nerves (for crafted bracers) 10p each'
+      EOS
+      @parse = AuctionParser.new(string)
+    end
+    
+    should 'have 5 items' do
+      assert_equal 5, @parse.item_cache.size
+    end
+    
+  end
   
   
 end

@@ -4,10 +4,10 @@ set :repository,  "git@github.com:jetviper21/auctioneer.git"
 
 set :scm, :git
 
-server "t.goonquest.com", :app, :web, :db, :primary => true
+server "iweb.goonquest.com", :app, :web, :db, :primary => true
 set :user, "root"
 set :use_sudo, false
-set :deploy_to, "/var/www/auction"
+set :deploy_to, "/var/www/rails/auction"
 set :db, 'localhost'
 set :rake_path, '/opt/ruby/bin/rake'
 # If you are using Passenger mod_rails uncomment this:

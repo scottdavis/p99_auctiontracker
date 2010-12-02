@@ -64,7 +64,7 @@ class AuctionParser
         regex = /([-_\'\sa-zA-Z]+)\s+?([0-9oO\.k]+)/
         items = string.scan(regex)
         items.each do|item|
-          item[0].gsub!(/(and|wts|wtt|wtb)/i, '')
+          item[0].gsub!(/(\sand\s|wts|wtt|wtb)/i, '')
           item[0].gsub!(/[\s]+[p|-]+$/i, '')
           item[0].strip!
           item[0].gsub!(/^['"p|-]+[\s]+/i, '')

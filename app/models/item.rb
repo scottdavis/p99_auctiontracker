@@ -23,7 +23,7 @@ class Item < ActiveRecord::Base
   def self.create_from_parse(hash)
    # puts self.sanitize(item[:item].downcase)
     i = Item.find_or_create_by_name(self.sanitize(hash[:item].downcase))
-    i.hide! unless AuctionParser.is_item?(hash[:item])
+    #i.hide! unless AuctionParser.is_item?(hash[:item])
     return if i.blank?
     auction = Auction.new
     auction.item = i
@@ -43,8 +43,9 @@ class Item < ActiveRecord::Base
   end
   
   def hide!
-    self.hidden = true
-    save
+    #self.hidden = true
+    #save
+    true
   end
   
 end

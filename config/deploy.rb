@@ -34,7 +34,7 @@ namespace :deploy do
     run "RAILS_ENV=production #{rake_path} custom:cleanup"
   end
   task :install_gems do
-    run "#{bundle_path} install"
+    run "cd #{deploy_to}/current && #{bundle_path} install"
   end
 end
 

@@ -1,5 +1,4 @@
-*.db
-*.log
-*.sqlite3
-public/images/graph/*
+.bundle
+db/*.sqlite3
 log/*.log
+tmp/**/*

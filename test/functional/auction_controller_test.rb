@@ -28,7 +28,7 @@ class AuctionControllerTest < ActionController::TestCase
     context "Do a search" do
       setup do
         Item.create(:name => "FBSS")
-        post :search, :search => {:search => "fbss"}
+        get :search, :search => {:search => "fbss"}
       end
       should assign_to :items
       should assign_to :search

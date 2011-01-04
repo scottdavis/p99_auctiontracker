@@ -4,20 +4,20 @@ class Item < ActiveRecord::Base
   validates_presence_of :name
   belongs_to :item_cache
   
-  named_scope :name_starts_with, lambda {|letter|
+  scope :name_starts_with, lambda {|letter|
       {:conditions => ['lower(name) like ?', "#{letter}%"]}
     }
     
-  named_scope :order, lambda {|order|
+  scope :order, lambda {|order|
       {:order => order}
     }
-  named_scope :include, lambda {|include|
+  scope :include, lambda {|include|
       {:include => include}
     }
-  named_scope :search_for, lambda {|search|
+  scope :search_for, lambda {|search|
       {:conditions => ["lower(name) LIKE ?", "%#{search}%"]}
     }
-  named_scope :not_hidden, {:conditions => {:hidden => false}}
+  scope :not_hidden, {:conditions => {:hidden => false}}
   
   
   def self.create_from_parse(hash)

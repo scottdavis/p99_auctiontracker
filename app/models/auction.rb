@@ -6,7 +6,7 @@ class Auction < ActiveRecord::Base
   validates_presence_of :item_id
   validates_presence_of :player
   
-  named_scope :not_hidden, {:conditions => {:hidden => false}}
+  scope :not_hidden, {:conditions => {:hidden => false}}
   
   def digest
     i = self.item

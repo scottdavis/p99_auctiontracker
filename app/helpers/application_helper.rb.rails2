@@ -1,4 +1,6 @@
+# Methods added to this helper will be available to all templates in the application.
 module ApplicationHelper
+  
   def alla_link(item)
     return '' if item.item_cache.blank?
     link_to("#{item.name} on allakhazam", "http://everquest.allakhazam.com/db/item.html?item=#{item.item_cache.alla_id}", :target => '_blank')
@@ -37,4 +39,5 @@ module ApplicationHelper
       return (collection[a-1.to_i] + collection[a.to_i]) / 2 if middle % 2
       collection[middle.to_i]
     end
+    
 end

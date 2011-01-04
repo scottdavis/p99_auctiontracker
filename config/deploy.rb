@@ -32,7 +32,11 @@ namespace :deploy do
   task :cleanup_data do
     run "RAILS_ENV=production #{rake_path} custom:cleanup"
   end
+  task :install_gems do
+    run "bundle install"
+  end
 end
 
 before "deploy:change_params", "deploy:setup_logs"
+before "deploy:change_params", "deploy:install_gems"
 before "deploy:restart", "deploy:change_params"

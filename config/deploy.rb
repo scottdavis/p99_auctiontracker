@@ -10,6 +10,7 @@ set :use_sudo, false
 set :deploy_to, "/var/www/rails/auction"
 set :db, 'localhost'
 set :rake_path, '/opt/ruby/bin/rake'
+set :bundle_path, '/opt/ruby/bin/bundle'
 # If you are using Passenger mod_rails uncomment this:
 # if you're still using the script/reapear helper you will need
 # these http://github.com/rails/irs_process_scripts
@@ -33,7 +34,7 @@ namespace :deploy do
     run "RAILS_ENV=production #{rake_path} custom:cleanup"
   end
   task :install_gems do
-    run "bundle install"
+    run "#{bundle_path} install"
   end
 end
 

@@ -15,7 +15,7 @@
         %h1.title
           = @page_title.join(' - ')
         #search
-          = form_for :search, {:url => auction_search_path, :method => :get } do |f| 
+          = form_for :search, :url => auction_search_path, :html => {:method => :get} do |f| 
             = f.text_field :search, :value => @search
             = f.submit "Search"
         = yield :header

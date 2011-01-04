@@ -1,8 +1,7 @@
 Auctioneer::Application.routes.draw do
-
+  get '/auctions/search' => 'auction#search', :as => 'auction_search'
   resources :auction
   resources :item
-  get '/auctions/search' => 'auction#search', :as => 'auction_search'
   root :to => 'auction#index'
 
 end

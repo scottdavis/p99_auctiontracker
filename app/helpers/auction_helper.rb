@@ -9,7 +9,7 @@ module AuctionHelper
 			  out << link_to(letter, auction_index_path(:letter=>letter))
 		  end
 	  end
-	  out.join("\n")
+	  out.join("\n").html_safe
   end
 
 end

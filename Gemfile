@@ -16,4 +16,4 @@ gem 'shoulda'
 gem 'will_paginate', '~> 3.0.beta'
 gem 'safe_fork'
 gem 'factory_girl_rails'
-
+gem 'home_run'

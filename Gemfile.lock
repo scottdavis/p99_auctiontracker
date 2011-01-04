@@ -44,6 +44,7 @@ GEM
     fastthread (1.0.7)
     gem_plugin (0.2.3)
     haml (3.0.25)
+    home_run (0.9.4)
     i18n (0.5.0)
     mail (2.2.13)
       activesupport (>= 2.3.6)
@@ -92,6 +93,7 @@ DEPENDENCIES
   compass
   factory_girl_rails
   haml
+  home_run
   mongrel
   mysql2
   rails (= 3.0.3)

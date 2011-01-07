@@ -49,8 +49,8 @@
     $.plot($("#placeholder"), [data], {
         xaxis: {
             mode: "time",
-            min: (new Date("#{@plot_data.first.time.strftime('%m/%d/%Y')}")).getTime(),
-            max: (new Date("#{@plot_data.last.time.strftime('%m/%d/%Y')}")).getTime()
+            min: (new Date("#{@auctions.first.time.strftime('%m/%d/%Y')}")).getTime(),
+            max: (new Date("#{@auctions.last.time.strftime('%m/%d/%Y')}")).getTime()
         }
     });
   }

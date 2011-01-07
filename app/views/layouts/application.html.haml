@@ -12,6 +12,11 @@
     %meta{:name => "keywords", :content => "everquest,game,gaming,emulator,eqemu,eqemulator,classic,nostalgia,server,project1999,classic,online,mmo,mmorpg"}
     %meta{:name => "description", :content => "Project 1999 is an Everquest Emulated Server committed to providing the classic Everquest experience as it was beginning in 1999. This is the site for tracking in game auction statictics"}
   %body{:class => controller_name}
+    - unless session[:uploaded]
+      :javascript
+        $(document).ready(function() {
+          jQuery.facebox('#{@popup}');
+        })
     #wrapper
       #header
         %ul.menu

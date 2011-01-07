@@ -40,9 +40,9 @@
 
 #placeholder{:style => 'width:600px;height:300px;'}
 %ul.controle
-  %li= link_to('All Data', '#', :id => 'whole')
-  %li= link_to('Ten Days', '#', :id => 'ten_day')
-  %li= link_to('Thirdy Days', '#', :id => 'thirty_day')
+  %li= link_to('All Data', '#', :id => 'whole', :class => 'button')
+  %li= link_to('Ten Days', '#', :id => 'ten_day', :class => 'button')
+  %li= link_to('Thirdy Days', '#', :id => 'thirty_day', :class => 'button')
   
 :javascript
   function whole_plot(data) {
@@ -57,7 +57,7 @@
   $(document).ready(function() {
     whole_plot(data);
     $("#whole").click(function () {
-            whole_plot();
+            whole_plot(data);
             return false;
         });
 

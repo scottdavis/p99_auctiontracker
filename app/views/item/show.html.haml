@@ -45,17 +45,17 @@
   %li= link_to('Thirdy Days', '#', :id => 'thirty_day')
   
 :javascript
-  function whole_plot() {
+  function whole_plot(data) {
     $.plot($("#placeholder"), [data], {
         xaxis: {
             mode: "time",
-            min: (new Date("#{@auctions.first.time.strftime('%m/%d/%Y')}")).getTime(),
-            max: (new Date("#{@auctions.last.time.strftime('%m/%d/%Y')}")).getTime()
+            min: (new Date(#{@auctions.first.time.to_i})).getTime(),
+            max: (new Date(#{@auctions.last.time.to_i})).getTime()
         }
     });
   }
   $(document).ready(function() {
-    whole_plot();
+    whole_plot(data);
     $("#whole").click(function () {
             whole_plot();
             return false;
@@ -65,8 +65,8 @@
             $.plot($("#placeholder"), [data], {
                 xaxis: {
                     mode: "time",
-                    min: (new Date("#{10.days.ago.strftime('%m/%d/%Y')}")).getTime(),
-                    max: (new Date("#{Time.now.strftime('%m/%d/%Y')}")).getTime()
+                    min: (new Date(#{10.days.ago.to_i})).getTime(),
+                    max: (new Date(#{Time.now.to_i})).getTime()
                 }
             });
             return false;
@@ -77,8 +77,8 @@
                 xaxis: {
                     mode: "time",
                     minTickSize: [1, "month"],
-                    min: (new Date("#{10.days.ago.strftime('%m/%d/%Y')}")).getTime(),
-                    max: (new Date("#{Time.now.strftime('%m/%d/%Y')}")).getTime()
+                    min: (new Date(#{10.days.ago.to_i})).getTime(),
+                    max: (new Date(#{Time.now.to_i})).getTime()
                 }
             });
             return false;

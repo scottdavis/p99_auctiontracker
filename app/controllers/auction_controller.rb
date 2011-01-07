@@ -1,3 +1,4 @@
+require 'auction_parser'
 class AuctionController < ApplicationController
   
   def create

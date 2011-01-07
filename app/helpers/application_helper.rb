@@ -1,4 +1,7 @@
 module ApplicationHelper
+  include AccordionsHelper
+  include TabsHelper
+  
   def alla_link(item)
     return '' if item.item_cache.blank?
     link_to("#{item.name} on allakhazam", "http://everquest.allakhazam.com/db/item.html?item=#{item.item_cache.alla_id}", :target => '_blank')

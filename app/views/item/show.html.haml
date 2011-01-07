@@ -1,3 +1,5 @@
+:javascript
+  var data = #{@plot_data.to_json};
 %h1
   = @item.name
 
@@ -13,37 +15,63 @@
     %td
       Max:
     %td
-      = @item.auctions.not_hidden.maximum(:price)
+      = @auctions.maximum(:price)
   %tr
     %td
       Min:
     %td
-      = @item.auctions.not_hidden.minimum(:price)
+      = @auctions.minimum(:price)
   %tr
     %td
       Average:
     %td
-      = @item.auctions.not_hidden.average(:price)
+      = @auctions.average(:price)
   %tr
     %td
       Median:
     %td
-      = median(@item.auctions.not_hidden.map(&:price))
+      = median(@auctions.map(&:price))
   %tr
     %td
       Standard Deviation:
     %td
       = standard_deviation(@item.auctions.not_hidden.map(&:price)).round(2)
 
-%canvas{:id => "chart", :width => "1024", :height => "350", :style => 'margin:auto'}
+
+#placeholder{:style => 'width:600px;height:300px;'}
+%ul.controle
+  %li= link_to('All Data', :id => 'whole')
+  %li= link_to('Ten Days', :id => 'ten_day')
+  %li= link_to('Thirdy Days', :id => 'thirty_day')
+  
 :javascript
-      $(document).ready(function(){
-        var g = new Bluff.Line('chart', '1024x350');
-        g.title = "#{@item.name}";
-        g.theme_keynote();
-        g.data(" ", #{@item.auctions(:order => 'time ASC').not_hidden.map(&:price).inspect});
-        g.draw();
-      });
+  $(document).ready(function() {
+    $.plot($("#placeholder"), [data], { xaxis: { mode: "time" } });
+    $("#whole").click(function () {
+            $.plot($("#placeholder"), [data], { xaxis: { mode: "time" } });
+        });
+
+        $("#ten_day").click(function () {
+            $.plot($("#placeholder"), [data], {
+                xaxis: {
+                    mode: "time",
+                    min: (new Date("#{10.days.ago.strftime('%m/%d/%Y')}")).getTime(),
+                    max: (new Date("#{Time.now.strftime('%m/%d/%Y')}")).getTime()
+                }
+            });
+        });
+
+        $("#thirty_day").click(function () {
+            $.plot($("#placeholder"), [data], {
+                xaxis: {
+                    mode: "time",
+                    minTickSize: [1, "month"],
+                    min: (new Date("#{10.days.ago.strftime('%m/%d/%Y')}")).getTime(),
+                    max: (new Date("#{Time.now.strftime('%m/%d/%Y')}")).getTime()
+                }
+            });
+        });
+  });
 
 
 %h2
@@ -67,4 +95,4 @@
         = auction.player
       %td
         = link_to 'Remove', auction, :method => :delete, :confirm => "Are you sure?"
-= will_paginate @auctions
+= will_paginate @paginate

@@ -38,7 +38,7 @@
       = standard_deviation(@item.auctions.not_hidden.map(&:price)).round(2)
 
 
-#placeholder{:style => 'width:600px;height:300px;'}
+#placeholder{:style => 'width:1000px;height:500px;'}
 %ul.controle
   %li= link_to('All Data', '#', :id => 'whole', :class => 'button')
   %li= link_to('Ten Days', '#', :id => 'ten_day', :class => 'button')
@@ -49,8 +49,8 @@
     $.plot($("#placeholder"), [data], {
         xaxis: {
             mode: "time",
-            min: (new Date(#{@auctions.first.time.to_i})).getTime(),
-            max: (new Date(#{@auctions.last.time.to_i})).getTime()
+            min: #{@auctions.first.time.to_i},
+            max: #{@auctions.last.time.to_i}
         }
     });
   }
@@ -65,8 +65,8 @@
             $.plot($("#placeholder"), [data], {
                 xaxis: {
                     mode: "time",
-                    min: (new Date(#{10.days.ago.to_i})).getTime(),
-                    max: (new Date(#{Time.now.to_i})).getTime()
+                    min: #{10.days.ago.to_i},
+                    max: #{Time.now.to_i}
                 }
             });
             return false;
@@ -77,8 +77,8 @@
                 xaxis: {
                     mode: "time",
                     minTickSize: [1, "month"],
-                    min: (new Date(#{10.days.ago.to_i})).getTime(),
-                    max: (new Date(#{Time.now.to_i})).getTime()
+                    min: #{10.days.ago.to_i},
+                    max: #{Time.now.to_i}
                 }
             });
             return false;

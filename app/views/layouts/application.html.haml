@@ -15,8 +15,10 @@
     - unless session[:uploaded]
       :javascript
         $(document).ready(function() {
-          jQuery.facebox('#{@popup}');
+          jQuery.facebox({'div':  '#popup'});
         })
+      #popup
+        = render :partial => 'layouts/popup'
     #wrapper
       #header
         %ul.menu

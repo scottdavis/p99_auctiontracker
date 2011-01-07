@@ -9,6 +9,9 @@
 a.button {
   @include fancy-button;
 }
+#popup {
+  display:none;
+}
 ul.control {
   padding-left:100px;
   padding-top:10px;

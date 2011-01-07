@@ -1,10 +1,9 @@
-- if session[:uploaded]
-  :javascript
-    var d = #{@plot_data.to_json};
-    var data = []
-    $.each(d, function(i) {
-      data.push([ (new Date(d[i][0])).getTime(), d[i][1] ]);
-    });
+:javascript
+  var d = #{@plot_data.to_json};
+  var data = []
+  $.each(d, function(i) {
+    data.push([ (new Date(d[i][0])).getTime(), d[i][1] ]);
+  });
 %h1
   = @item.name
 

@@ -20,7 +20,6 @@ class AuctionController < ApplicationController
       params[:letter] = 'a'
     end
     @letter = params[:letter]
-    @popup = render_to_string('layouts/popup', :layout => false).gsub("\n", '').gsub(/("|')/, "\\#{$1}")
     @items = Item.name_starts_with(params[:letter]).order('name ASC').include(:auctions).not_hidden
   end
   

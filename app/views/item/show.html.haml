@@ -45,10 +45,19 @@
   %li= link_to('Thirdy Days', '#', :id => 'thirty_day')
   
 :javascript
+  function whole_plot() {
+    $.plot($("#placeholder"), [data], {
+        xaxis: {
+            mode: "time",
+            min: (new Date("#{@plot_data.first.time.strftime('%m/%d/%Y')}")).getTime(),
+            max: (new Date("#{@plot_data.last.time.strftime('%m/%d/%Y')}")).getTime()
+        }
+    });
+  }
   $(document).ready(function() {
-    $.plot($("#placeholder"), [data], { xaxis: { mode: "time" } });
+    whole_plot();
     $("#whole").click(function () {
-            $.plot($("#placeholder"), [data], { xaxis: { mode: "time" } });
+            whole_plot();
             return false;
         });
 

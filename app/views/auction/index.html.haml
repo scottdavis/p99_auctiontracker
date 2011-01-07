@@ -26,6 +26,7 @@
       - @items.each do |item|
         - next if item.auctions.not_hidden.blank?
         - prices = item.auctions.not_hidden.map{|a| a.price}.compact.sort
+        - next if prices.size < 10
         %tr{:class => cycle('alt','')}
           %td 
             = link_to(item.name, item_path(item.id), :item_id => item.id, :class => :item_link)

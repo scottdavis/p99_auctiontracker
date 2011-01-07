@@ -187,30 +187,51 @@ ul.control li a {
   padding-left: 50px;
 }
 
-/* line 27, ../../../app/stylesheets/screen.scss */
+/* line 28, ../../../app/stylesheets/screen.scss */
+#facebox h2 {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+}
+/* line 36, ../../../app/stylesheets/screen.scss */
+#facebox p {
+  padding: 3px;
+}
+/* line 38, ../../../app/stylesheets/screen.scss */
+#facebox p em {
+  font-style: italic;
+  font-size: 25px;
+}
+/* line 43, ../../../app/stylesheets/screen.scss */
+#facebox p.bold {
+  font-weight: bold;
+}
+
+/* line 47, ../../../app/stylesheets/screen.scss */
 #content {
   padding: 25px;
 }
-/* line 29, ../../../app/stylesheets/screen.scss */
+/* line 49, ../../../app/stylesheets/screen.scss */
 #content h1 {
   font-size: 38;
   font-weight: bold;
   text-align: center;
 }
-/* line 33, ../../../app/stylesheets/screen.scss */
+/* line 53, ../../../app/stylesheets/screen.scss */
 #content h2 {
   font-size: 20px;
   padding: 5px;
   font-weight: bold;
 }
 
-/* line 41, ../../../app/stylesheets/screen.scss */
+/* line 61, ../../../app/stylesheets/screen.scss */
 #header {
   background-color: #356AA0;
   height: 50px;
   text-align: center;
 }
-/* line 44, ../../../app/stylesheets/screen.scss */
+/* line 64, ../../../app/stylesheets/screen.scss */
 #header h1.title {
   display: inline;
   color: white;
@@ -218,7 +239,7 @@ ul.control li a {
   text-align: center;
   padding-top: 6px;
 }
-/* line 52, ../../../app/stylesheets/screen.scss */
+/* line 72, ../../../app/stylesheets/screen.scss */
 #header #search {
   text-align: center;
   color: white;
@@ -227,13 +248,13 @@ ul.control li a {
   padding-top: 13px;
 }
 
-/* line 60, ../../../app/stylesheets/screen.scss */
+/* line 80, ../../../app/stylesheets/screen.scss */
 #footer {
   text-align: center;
   padding: 15px;
 }
 
-/* line 65, ../../../app/stylesheets/screen.scss */
+/* line 85, ../../../app/stylesheets/screen.scss */
 ul.menu {
   display: inline;
   float: left;
@@ -243,44 +264,44 @@ ul.menu {
   font-size: 20px;
   font-weight: bold;
 }
-/* line 74, ../../../app/stylesheets/screen.scss */
+/* line 94, ../../../app/stylesheets/screen.scss */
 ul.menu li {
   display: inline;
   padding: 5px;
 }
-/* line 77, ../../../app/stylesheets/screen.scss */
+/* line 97, ../../../app/stylesheets/screen.scss */
 ul.menu li a {
   color: #fff;
   text-decoration: none;
 }
-/* line 81, ../../../app/stylesheets/screen.scss */
+/* line 101, ../../../app/stylesheets/screen.scss */
 ul.menu li a:hover {
   color: #eee;
 }
 
-/* line 87, ../../../app/stylesheets/screen.scss */
+/* line 107, ../../../app/stylesheets/screen.scss */
 table tr.alt {
   background-color: #ccc;
 }
 
-/* line 92, ../../../app/stylesheets/screen.scss */
+/* line 112, ../../../app/stylesheets/screen.scss */
 table.auctions {
   margin: auto;
 }
 
-/* line 97, ../../../app/stylesheets/screen.scss */
+/* line 117, ../../../app/stylesheets/screen.scss */
 table td, table th {
   padding: 5px;
 }
 
-/* line 102, ../../../app/stylesheets/screen.scss */
+/* line 122, ../../../app/stylesheets/screen.scss */
 #notice_flash {
   border: 5px solid red;
   margin: auto;
   text-align: center;
 }
 
-/* line 108, ../../../app/stylesheets/screen.scss */
+/* line 128, ../../../app/stylesheets/screen.scss */
 #pagination {
   padding: 5px;
   text-transform: capitalize;
@@ -288,7 +309,7 @@ table td, table th {
   text-align: center;
 }
 
-/* line 118, ../../../app/stylesheets/screen.scss */
+/* line 138, ../../../app/stylesheets/screen.scss */
 .item .show #chart {
   margin: auto;
 }

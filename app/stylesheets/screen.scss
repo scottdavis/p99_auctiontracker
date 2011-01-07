@@ -24,6 +24,26 @@ ul.control {
 #graph {
   padding-left:50px;
 }
+#facebox {
+  h2 {
+    font:{
+      size:20px;
+      weight:bold;
+    };
+    padding:5px;
+    text-align:center;
+  }
+  p {
+    padding:3px;
+    em {
+      font-style:italic;
+      font-size:25px;
+    }
+  }
+  p.bold {
+    font-weight:bold;
+  }
+}
 #content {
   padding:25px;
   h1 {

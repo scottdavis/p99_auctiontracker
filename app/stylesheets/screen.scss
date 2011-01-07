@@ -5,6 +5,11 @@
 
 @import "compass/reset";
 @import "compass/utilities";
+@import "fancy-buttons";
+a.button {
+  @include fancy-button;
+}
+
 #header {
   background-color:#356AA0;
   height:50px;

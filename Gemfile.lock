@@ -41,6 +41,9 @@ GEM
     factory_girl_rails (1.0)
       factory_girl (~> 1.3)
       rails (>= 3.0.0.beta4)
+    fancy-buttons (0.5.5)
+      compass (>= 0.10.0)
+      haml (>= 3.0.2)
     fastthread (1.0.7)
     gem_plugin (0.2.3)
     haml (3.0.25)
@@ -92,6 +95,7 @@ PLATFORMS
 DEPENDENCIES
   compass
   factory_girl_rails
+  fancy-buttons
   haml
   home_run
   mongrel

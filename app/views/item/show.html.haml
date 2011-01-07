@@ -1,5 +1,6 @@
 :javascript
-  var data = #{@plot_data.to_json};
+  var d = #{@plot_data.to_json};
+  var data = [d];
 %h1
   = @item.name
 
@@ -38,7 +39,7 @@
       = standard_deviation(@item.auctions.not_hidden.map(&:price)).round(2)
 
 
-#placeholder{:style => 'width:1000px;height:500px;'}
+#placeholder{:style => 'width:900px;height:300px;'}
 %ul.controle
   %li= link_to('All Data', '#', :id => 'whole', :class => 'button')
   %li= link_to('Ten Days', '#', :id => 'ten_day', :class => 'button')
@@ -46,11 +47,11 @@
   
 :javascript
   function whole_plot(data) {
-    $.plot($("#placeholder"), [data], {
+    $.plot($("#placeholder"), data, {
         xaxis: {
             mode: "time",
-            min: #{@auctions.first.time.to_i},
-            max: #{@auctions.last.time.to_i}
+            min: (new Date('#{@auctions.first.time.strftime("%m/%d/%Y")}')).getTime(),
+            max: (new Date('#{@auctions.last.time.strftime("%m/%d/%Y")}')).getTime()
         }
     });
   }
@@ -62,23 +63,22 @@
         });
 
         $("#ten_day").click(function () {
-            $.plot($("#placeholder"), [data], {
+            $.plot($("#placeholder"), data, {
                 xaxis: {
-                    mode: "time",
-                    min: #{10.days.ago.to_i},
-                    max: #{Time.now.to_i}
+                    mode: "time",                    
+                    min: (new Date('#{10.days.ago.strftime("%m/%d/%Y")}')).getTime(),
+                    max: (new Date('#{Time.now.strftime("%m/%d/%Y")}')).getTime()
                 }
             });
             return false;
         });
 
         $("#thirty_day").click(function () {
-            $.plot($("#placeholder"), [data], {
+            $.plot($("#placeholder"), data, {
                 xaxis: {
                     mode: "time",
-                    minTickSize: [1, "month"],
-                    min: #{10.days.ago.to_i},
-                    max: #{Time.now.to_i}
+                    min: (new Date('#{30.days.ago.strftime("%m/%d/%Y")}')).getTime(),
+                    max: (new Date('#{Time.now.strftime("%m/%d/%Y")}')).getTime()
                 }
             });
             return false;

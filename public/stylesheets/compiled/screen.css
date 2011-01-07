@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
@@ -62,13 +63,116 @@ a img {
   border: none;
 }
 
-/* line 8, ../../../app/stylesheets/screen.scss */
+/* incase an inverted custom gradient isn't specified */
+/* line 9, ../../../app/stylesheets/screen.scss */
+a.button {
+  font-family: "Lucida Grande", Lucida, Arial, sans_serif;
+  background: url('/images/button_bg.png?1294387528') repeat-x bottom left;
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border-style: solid;
+  font-weight: bold;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 21.6px;
+  padding: 5px 18px;
+  border-width: 1px;
+  background-color: #444444;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #989898), color-stop(10%, #6a6a6a), color-stop(50%, #3c3c3c), color-stop(50%, #353535), color-stop(100%, #4e4e4e));
+  background-image: -moz-linear-gradient(top, #989898 0%, #6a6a6a 10%, #3c3c3c 50%, #353535 50%, #4e4e4e 100%);
+  background-image: linear-gradient(top, #989898 0%, #6a6a6a 10%, #3c3c3c 50%, #353535 50%, #4e4e4e 100%);
+  border-color: #1e1e1e;
+  text-shadow: #040404 0px 1px 1px;
+}
+/* line 172, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.button::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+/* line 175, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.button:focus {
+  outline: none;
+}
+/* line 178, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.button.disabled, a.button[disabled] {
+  opacity: 0.7;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+}
+/* line 183, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.button.disabled:hover, a.button.disabled:focus, a.button[disabled]:hover, a.button[disabled]:focus {
+  cursor: default;
+}
+/* line 152, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.button:active {
+  padding: 4px 17px;
+  border-width: 2px;
+}
+/* line 156, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.button.disabled:active, a.button[disabled] {
+  padding: 5px 18px;
+  border-width: 1px;
+}
+/* line 98, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.button, a.button:visited {
+  color: white;
+}
+/* line 26, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.button.disabled:active, a.button.disabled:hover, a.button[disabled]:active, a.button[disabled]:hover {
+  background-color: #444444;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #989898), color-stop(10%, #6a6a6a), color-stop(50%, #3c3c3c), color-stop(50%, #353535), color-stop(100%, #4e4e4e));
+  background-image: -moz-linear-gradient(top, #989898 0%, #6a6a6a 10%, #3c3c3c 50%, #353535 50%, #4e4e4e 100%);
+  background-image: linear-gradient(top, #989898 0%, #6a6a6a 10%, #3c3c3c 50%, #353535 50%, #4e4e4e 100%);
+  border-color: #1e1e1e;
+  text-shadow: #040404 0px 1px 1px;
+}
+/* line 98, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.button.disabled:active, a.button.disabled:active:visited, a.button.disabled:hover, a.button.disabled:hover:visited, a.button[disabled]:active, a.button[disabled]:active:visited, a.button[disabled]:hover, a.button[disabled]:hover:visited {
+  color: white;
+}
+/* line 28, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.button:hover, a.button:focus {
+  background-color: #3c3c3c;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #919191), color-stop(10%, #636363), color-stop(50%, #353535), color-stop(50%, #2d2d2d), color-stop(100%, #474747));
+  background-image: -moz-linear-gradient(top, #919191 0%, #636363 10%, #353535 50%, #2d2d2d 50%, #474747 100%);
+  background-image: linear-gradient(top, #919191 0%, #636363 10%, #353535 50%, #2d2d2d 50%, #474747 100%);
+  border-color: #161616;
+  text-shadow: black 0px 1px 1px;
+}
+/* line 98, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.button:hover, a.button:hover:visited, a.button:focus, a.button:focus:visited {
+  color: white;
+}
+/* line 33, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.button:active {
+  background-color: #353535;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #353535), color-stop(30%, #3a3a3a), color-stop(50%, #303030), color-stop(50%, #282828), color-stop(100%, #494949));
+  background-image: -moz-linear-gradient(top, #353535 0%, #3a3a3a 30%, #303030 50%, #282828 50%, #494949 100%);
+  background-image: linear-gradient(top, #353535 0%, #3a3a3a 30%, #303030 50%, #282828 50%, #494949 100%);
+  border-color: #0e0e0e;
+  text-shadow: black 0px -1px -1px;
+}
+/* line 98, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+a.button:active, a.button:active:visited {
+  color: white;
+}
+
+/* line 13, ../../../app/stylesheets/screen.scss */
 #header {
   background-color: #356AA0;
   height: 50px;
   text-align: center;
 }
-/* line 11, ../../../app/stylesheets/screen.scss */
+/* line 16, ../../../app/stylesheets/screen.scss */
 #header h1.title {
   display: inline;
   color: white;
@@ -76,7 +180,7 @@ a img {
   text-align: center;
   padding-top: 6px;
 }
-/* line 19, ../../../app/stylesheets/screen.scss */
+/* line 24, ../../../app/stylesheets/screen.scss */
 #header #search {
   text-align: center;
   color: white;
@@ -85,13 +189,13 @@ a img {
   padding-top: 13px;
 }
 
-/* line 27, ../../../app/stylesheets/screen.scss */
+/* line 32, ../../../app/stylesheets/screen.scss */
 #footer {
   text-align: center;
   padding: 15px;
 }
 
-/* line 32, ../../../app/stylesheets/screen.scss */
+/* line 37, ../../../app/stylesheets/screen.scss */
 ul.menu {
   display: inline;
   float: left;
@@ -101,44 +205,44 @@ ul.menu {
   font-size: 20px;
   font-weight: bold;
 }
-/* line 41, ../../../app/stylesheets/screen.scss */
+/* line 46, ../../../app/stylesheets/screen.scss */
 ul.menu li {
   display: inline;
   padding: 5px;
 }
-/* line 44, ../../../app/stylesheets/screen.scss */
+/* line 49, ../../../app/stylesheets/screen.scss */
 ul.menu li a {
   color: #fff;
   text-decoration: none;
 }
-/* line 48, ../../../app/stylesheets/screen.scss */
+/* line 53, ../../../app/stylesheets/screen.scss */
 ul.menu li a:hover {
   color: #eee;
 }
 
-/* line 54, ../../../app/stylesheets/screen.scss */
+/* line 59, ../../../app/stylesheets/screen.scss */
 table tr.alt {
   background-color: #ccc;
 }
 
-/* line 59, ../../../app/stylesheets/screen.scss */
+/* line 64, ../../../app/stylesheets/screen.scss */
 table.auctions {
   margin: auto;
 }
 
-/* line 64, ../../../app/stylesheets/screen.scss */
+/* line 69, ../../../app/stylesheets/screen.scss */
 table td, table th {
   padding: 5px;
 }
 
-/* line 69, ../../../app/stylesheets/screen.scss */
+/* line 74, ../../../app/stylesheets/screen.scss */
 #notice_flash {
   border: 5px solid red;
   margin: auto;
   text-align: center;
 }
 
-/* line 75, ../../../app/stylesheets/screen.scss */
+/* line 80, ../../../app/stylesheets/screen.scss */
 #pagination {
   padding: 5px;
   text-transform: capitalize;
@@ -146,7 +250,7 @@ table td, table th {
   text-align: center;
 }
 
-/* line 85, ../../../app/stylesheets/screen.scss */
+/* line 90, ../../../app/stylesheets/screen.scss */
 .item .show #chart {
   margin: auto;
 }

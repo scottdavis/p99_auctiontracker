@@ -6,6 +6,8 @@
     = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js'
     = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.7/jquery-ui.min.js'
     = javascript_include_tag 'application', 'excanvas.min', 'jquery.flot.min'
+    /[if lt IE 7]
+      = stylesheet_link_tag 'compiled/ie6.css', :media => 'screen, projection'
     %title=@page_title.join(' - ')
     %meta{:name => "keywords", :content => "everquest,game,gaming,emulator,eqemu,eqemulator,classic,nostalgia,server,project1999,classic,online,mmo,mmorpg"}
     %meta{:name => "description", :content => "Project 1999 is an Everquest Emulated Server committed to providing the classic Everquest experience as it was beginning in 1999. This is the site for tracking in game auction statictics"}

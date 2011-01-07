@@ -7,8 +7,6 @@
 %h1
   = @item.name
 
-%h2
-  Info
 .info
   = alla_link(@item)
   
@@ -41,16 +39,22 @@
     %td
       = standard_deviation(@item.auctions.not_hidden.map(&:price)).round(2)
 
-
-#placeholder{:style => 'width:600px;height:300px;'}
-%ul.control
-  %li= link_to('All Data', '#', :id => 'whole', :class => 'button')
-  %li= link_to('Ten Days', '#', :id => 'ten_day', :class => 'button')
-  %li= link_to('Thirdy Days', '#', :id => 'thirty_day', :class => 'button')
+#graph
+  #placeholder{:style => 'width:600px;height:300px;'}
+  %ul.control
+    %li= link_to('All Data', '#', :id => 'whole', :class => 'button')
+    %li= link_to('Ten Days', '#', :id => 'ten_day', :class => 'button')
+    %li= link_to('Thirdy Days', '#', :id => 'thirty_day', :class => 'button')
   
 :javascript
   function whole_plot(data) {
     $.plot($("#placeholder"), [data], {
+        grid: { backgroundColor:"#4d4c4c"},
+        colors: ["#d5cdcd"],
+        series: {
+              lines: { show: true },
+              points: { show: true, fill: false }
+            },
         xaxis: {
             mode: "time",
             min: (new Date("#{@auctions.first.time.to_s(:rfc822)}")).getTime(),
@@ -67,6 +71,12 @@
 
         $("#ten_day").click(function () {
             $.plot($("#placeholder"), [data], {
+                grid: { backgroundColor:"#4d4c4c"},
+                colors: ["#d5cdcd"],
+                series: {
+                      lines: { show: true },
+                      points: { show: true, fill: false }
+                    },
                 xaxis: {
                     mode: "time",                    
                     min: (new Date('#{10.days.ago.to_s(:rfc822)}')).getTime(),
@@ -78,6 +88,12 @@
 
         $("#thirty_day").click(function () {
             $.plot($("#placeholder"), [data], {
+                grid: { backgroundColor:"#4d4c4c"},
+                colors: ["#d5cdcd"],
+                series: {
+                      lines: { show: true },
+                      points: { show: true, fill: false }
+                    },
                 xaxis: {
                     mode: "time",
                     min: (new Date('#{30.days.ago}')).getTime(),

@@ -9,7 +9,35 @@
 a.button {
   @include fancy-button;
 }
-
+ul.control {
+  padding-left:100px;
+  padding-top:10px;
+  padding-bottom:10px;
+  li {
+    a {
+      font-size:12px;
+    }
+    padding-left:25px;
+    display:inline;
+  }
+}
+#graph {
+  padding-left:50px;
+}
+#content {
+  padding:25px;
+  h1 {
+    font:{size:38; weight:bold};
+    text-align:center
+  }
+  h2 {
+    font-size:20px;
+    padding:5px;
+    font:{
+      weight:bold
+      };
+  }
+}
 #header {
   background-color:#356AA0;
   height:50px;

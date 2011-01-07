@@ -5,7 +5,7 @@
 %p  
   the logs will then be stored in your ever quest directory select the file from below push submit
 %p  
-  do not worry about duplication the parser accounts for that, you may upload the same log file over and over as you gather data and nothing will be effected
+  do not worry about duplication the parser accounts for that, you may upload the same log file over and over as you gather data and nothing will be duplicated
 .form
   - form_for(:upload, :url => auction_index_path, :html => {:multipart => true}) do |f|
     %p=f.file_field :log

@@ -9,6 +9,9 @@
 a.button {
   @include fancy-button;
 }
+p {
+  padding:2px;
+}
 #popup {
   display:none;
 }

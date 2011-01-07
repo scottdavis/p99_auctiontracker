@@ -49,6 +49,7 @@
     $.plot($("#placeholder"), [data], { xaxis: { mode: "time" } });
     $("#whole").click(function () {
             $.plot($("#placeholder"), [data], { xaxis: { mode: "time" } });
+            return false;
         });
 
         $("#ten_day").click(function () {
@@ -59,6 +60,7 @@
                     max: (new Date("#{Time.now.strftime('%m/%d/%Y')}")).getTime()
                 }
             });
+            return false;
         });
 
         $("#thirty_day").click(function () {
@@ -70,6 +72,7 @@
                     max: (new Date("#{Time.now.strftime('%m/%d/%Y')}")).getTime()
                 }
             });
+            return false;
         });
   });
 

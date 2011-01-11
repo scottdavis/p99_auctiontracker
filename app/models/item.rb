@@ -7,13 +7,6 @@ class Item < ActiveRecord::Base
   scope :name_starts_with, lambda {|letter|
       {:conditions => ['lower(name) like ?', "#{letter}%"]}
     }
-    
-  scope :order, lambda {|order|
-      {:order => order}
-    }
-  scope :include, lambda {|include|
-      {:include => include}
-    }
   scope :search_for, lambda {|search|
       {:conditions => ["lower(name) LIKE ?", "%#{search}%"]}
     }

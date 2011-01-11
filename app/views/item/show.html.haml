@@ -125,5 +125,5 @@
       %td
         = auction.player
       %td
-        = link_to 'Remove', auction, :method => :delete, :confirm => "Are you sure?"
+        = link_to 'Remove', auction_path(auction), :method => :delete, :confirm => "Are you sure?"
 = will_paginate @paginate

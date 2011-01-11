@@ -3,11 +3,12 @@ class AuctionController < ApplicationController
   
   def create
     log_data = params[:upload][:log].read
-    log_name = "/tmp/p99_#{Digest::MD5.hexdigest(log_data)}.log"
+    folder = Rails.root.join('public', 'system', 'logs')
+    FileUtils::mkdir_p(folder)
+    name = Digest::MD5.hexdigest("#{Time.now}-#{rand(100)}")
+    log_name = File.join(folder, "p99_#{name}.log")
     @log = Log.create(:ip_address => request.remote_ip, :log => log_name)
-    f = File.new(log_name, "w")
-    f << log_data
-    f.close
+    FileUtils.mv(params[:upload][:log].tempfile.path, log_name)
     @auction_data = AuctionParser.from_upload(log_data)
     session[:uploaded] = true
     redirect_to root_path unless @log.save
@@ -20,7 +21,7 @@ class AuctionController < ApplicationController
       params[:letter] = 'a'
     end
     @letter = params[:letter]
-    @items = Item.name_starts_with(params[:letter]).order('name ASC').include(:auctions).not_hidden
+    @items = Item.name_starts_with(params[:letter]).order('name ASC').includes(:auctions).not_hidden
   end
   
   def destroy
@@ -32,7 +33,7 @@ class AuctionController < ApplicationController
   
   def search
     @search = params[:search][:search]
-    @items = Item.search_for(params[:search][:search].downcase).order('name ASC').include(:auctions).not_hidden
+    @items = Item.search_for(params[:search][:search].downcase).order('name ASC').includes(:auctions).not_hidden
     render :action => :index
   end
   

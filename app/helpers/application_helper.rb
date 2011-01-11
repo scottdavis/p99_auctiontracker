@@ -12,7 +12,7 @@ module ApplicationHelper
     flash.each_pair do |key, value|
       out << content_tag(:div, value, {:class => 'flash', :id => "#{key}_flash"})
     end
-    out.join("\n")
+    out.join("\n").html_safe
   end
   
   def variance(population)

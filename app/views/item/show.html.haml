@@ -96,7 +96,7 @@
                     },
                 xaxis: {
                     mode: "time",
-                    min: (new Date('#{30.days.ago}')).getTime(),
+                    min: (new Date('#{30.days.ago.to_s(:rfc822)}')).getTime(),
                     max: (new Date()).getTime()
                 }
             });

@@ -7,8 +7,8 @@ class AuctionParser
   end
   
   def initialize(data)
-    raw_data = data
-    @item_count = rand(10000)
+    @raw_data = data
+    @item_count = 0
     @item_cache = []
     #raw_data.split("\n").each do |line|
      # split_string_and_filter_auctions line
@@ -17,6 +17,9 @@ class AuctionParser
   end
   
   def run_fork
+     @raw_data.split("\n").each do |line|
+       split_string_and_filter_auctions line
+     end
     fork = SafeFork.fork do
       items = item_cache
       items.each do |item|

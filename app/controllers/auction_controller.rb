@@ -9,6 +9,7 @@ class AuctionController < ApplicationController
     log_name = File.join(folder, "p99_#{name}.log")
     @log = Log.create(:ip_address => request.remote_ip, :log => log_name)
     FileUtils.mv(params[:upload][:log].tempfile.path, log_name)
+    Stalker.enqueue('log.process', :log => log_name, :id => @log.id)
     session[:uploaded] = true
     redirect_to root_path unless @log.save
   end

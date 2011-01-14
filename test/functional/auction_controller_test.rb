@@ -1,5 +1,12 @@
 require 'test_helper'
 require 'shoulda'
+
+class Tempfile
+  def tempfile
+    self
+  end
+end
+
 class AuctionControllerTest < ActionController::TestCase
   # Replace this with your real tests.
     context "Load index" do
@@ -46,7 +53,8 @@ class AuctionControllerTest < ActionController::TestCase
     context "do upload" do
       setup do
         assert_difference("Log.count", +1) do
-          post :create, :upload => {:log => File.new(Rails.root.join('test', 'test_files', 'staris_log.txt'))}
+          file = fixture_file_upload('staris_log.txt','text/plain')
+          post :create, :upload => {:log => file}
         end
       end
       

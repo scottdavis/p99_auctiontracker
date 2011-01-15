@@ -29,7 +29,7 @@
           %td 
             = link_to(item.name, item_path(item.id), :item_id => item.id, :class => :item_link)
           %td
-            = @auctions[item.name].median.round(2)
+            = @auctions[item.name].median
           %td
             = @auctions[item.name].mean.round(2)
           %td

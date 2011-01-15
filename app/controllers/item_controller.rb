@@ -14,7 +14,7 @@ class ItemController < ApplicationController
     @auctions = @item.auctions.not_hidden.order('time ASC')#.paginate(:page => params[:page], :per_page => 25, :order => 'time DESC')
     @vector = @auctions.map(&:price).to_vector(:scale)
     std = @vector.sdp
-    within = 3
+    within = 2
     @plot_data = @auctions.map do |a|
        [a.time.to_s(:rfc822), a.price] if a.price <= std * within || a.price >= (std * within) * -1
      end

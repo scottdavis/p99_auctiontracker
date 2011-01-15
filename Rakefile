@@ -7,6 +7,26 @@ require 'rake'
 Auctioneer::Application.load_tasks
 
 require 'auction_parser'
+namespace :utils do
+  task :to_haml do
+    class ToHaml
+      def initialize(path)
+        @path = path
+      end
+
+      def convert!
+        Dir["#{@path}/**/*.erb"].each do |file|
+          `html2haml -rx #{file} #{file.gsub(/\.erb$/, '.haml')}`
+          `rm #{file}`
+        end
+      end
+    end
+    path = Rails.root.join('app', 'views')
+    ToHaml.new(path).convert!
+  end
+  
+end
+
 namespace :logs do
   task :process do
     logs = HTTParty.get('http://auction.goonquest.com/logs')

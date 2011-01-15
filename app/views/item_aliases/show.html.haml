@@ -1,0 +1,10 @@
+%p#notice= notice
+%p
+  %b Alias:
+  = @item_alias.alias
+%p
+  %b Item:
+  = @item_alias.item
+= link_to 'Edit', edit_item_alias_path(@item_alias)
+|
+\#{link_to 'Back', item_aliases_path}

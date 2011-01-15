@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110115212848) do
+ActiveRecord::Schema.define(:version => 20110115213314) do
 
   create_table "auctions", :force => true do |t|
     t.datetime "time"

@@ -1,0 +1,2231 @@
+                                                                     
+                                                                     
+                                                                     
+                                             
+0: legit item
+1: aliases of above legit item
+2: fake item
+
+0 a broom
+0 a crude stein
+0 a dark reaver
+1 a dark reavera dark reaver
+2 a fs
+0 a giant laceless sandal
+1 a giant laceless sandal
+0 a giants reminder string
+0 a gigantic zweihander
+1 a gigantic zweiher
+0 a glowing black stone
+0 a gypsy medallion
+2 a mith
+0 a mithril two-handed sword
+1 a mithril two-hed sword
+0 a nightfall giant's head
+2 a piece or
+0 a sealed letter
+2 a shimmering
+0 a shimmering orb
+0 a shimmering white shroud
+0 a shovel
+2 a stack
+0 a stein
+0 a torch
+2 a tp to ferrott
+0 abalone gorget
+2 about
+2 ac
+2 ac for
+2 ac or
+2 actual casino
+0 adamantite band
+1 adamantite b
+2 adamantite bands
+0 adamantite epaulets
+0 advisor robe
+2 advisor robe pst
+2 aegis
+2 agi
+2 agi neck
+2 agi ring
+2 agi rings
+2 air
+2 all
+2 all but
+2 all for
+2 all lvl
+2 all peices for
+2 all pieces made to
+2 all spells
+0 alligator skin
+0 alligator tooth earring
+0 allure
+2 almost every level
+2 alot of small bronze
+2 also
+2 also ringmail gloves
+2 also buying
+2 also granite bracer for
+2 also inverse attraction
+2 also selling glowing bone collar
+2 alts
+0 amethyst bracelet
+2 amulet
+0 amulet of necropotence
+0 an executioners axe
+2 an executioners axecharred gauntletsgnoll hide lariatdagger
+2 and
+0 animate dead
+0 ant's potion
+2 any
+2 any clerics available for
+2 any other sk gear paying around
+2 anyone selling
+2 ap'sagor
+0 archeologist pack
+2 armor
+2 arms
+2 arms and
+2 arms paying
+2 around
+2 as set chestplate
+0 ashenwood short spear
+2 assorted small bronze pieces
+2 astral
+2 auction is at
+2 axe
+0 axe of the slayers
+0 azure sleeves
+2 b of flesh 	15 	15.88 	7.08 	30 	5 	57 	0.0 	0.0
+2 backpacks full 	0 	0.0 	0.0 	0 	0 	15 	0.0 	0.0
+2 bag 	0 	0.0 	0.0 	0 	0 	77 	0.0 	0.0
+0 bag of sewn evil-eye 	700 	829.26 	1012.97 	7000 	0 	499 	600.0 	659.0
+2 bag of sewn evil-eye only 	500.0 	500.0 	0.0 	500 	500 	10 	0.0 	0.0
+0 bag of the tinkerers 	5000 	5324.71 	420.55 	6000 	5000 	85 	0.0 	5227.0
+2 bags 	0 	235.29 	941.18 	4000 	0 	17 	0.0 	0.0
+2 bags of stuffa bunch of words at torch 	0.0 	0.0 	0.0 	0 	0 	10 	0.0 	0.0
+0 ball of golem clay 	350 	260.4 	134.27 	350 	15 	25 	125.0 	125.0
+2 band 	0 	0.0 	0.0 	0 	0 	31 	0.0 	0.0
+0 band of flesh 	10.0 	10.24 	4.78 	20 	5 	72 	0.0 	14.0
+0 banded armor 	1.0 	0.73 	0.45 	1 	0 	44 	0.0 	0.0
+0 banded boots 	5.0 	5.47 	0.5 	6 	5 	38 	0.0 	0.0
+1 bed boots 	6 	7.62 	4.31 	20 	1 	47 	0.0 	0.0
+0 banded bracer 	5 	4.43 	1.81 	6 	1 	89 	0.0 	4.0
+1 bed bracer 	6.0 	5.68 	0.47 	6 	5 	28 	0.0 	0.0
+0 banded cloak 	6.0 	6.45 	0.5 	7 	6 	22 	0.0 	0.0
+1 bed cloak 	6.0 	6.29 	0.45 	7 	6 	14 	0.0 	0.0
+0 banded gauntlets 	6.5 	6.13 	0.93 	7 	5 	16 	0.0 	5.0
+1 bed gauntlets 	7 	6.52 	0.56 	7 	5 	33 	0.0 	0.0
+0 banded gorget 	4 	4.39 	0.6 	5 	3 	33 	4.0 	4.0
+1 bed gorget 	4.5 	4.5 	0.5 	5 	4 	10 	0.0 	0.0
+0 banded helm 	8 	6.94 	1.92 	8 	0 	17 	6.0 	6.0
+1 bed helm 	8 	6.87 	1.21 	8 	5 	55 	0.0 	0.0
+0 banded leggings 	7 	7.41 	0.63 	8 	6 	51 	7.0 	8.0
+1 bed leggings 	8 	7.47 	0.8 	10 	6 	51 	0.0 	0.0
+0 banded mail 	15.0 	13.94 	1.82 	15 	10 	104 	13.0 	12.0
+1 bed mail 	15 	12.7 	2.61 	15 	5 	331 	0.0 	0.0
+0 banded mantle 	5.0 	3.5 	2.29 	5 	0 	20 	0.0 	0.0
+1 bed mantle 	6 	5.71 	0.46 	6 	5 	17 	0.0 	0.0
+0 banded mask 	4.0 	4.79 	2.93 	10 	0 	28 	0.0 	0.0
+1 bed mask 	4 	3.82 	3.17 	10 	1 	17 	0.0 	0.0
+0 banded sets 	90.0 	90.0 	0.0 	90 	90 	14 	0.0 	0.0
+2 bed sleeves 	7.0 	6.98 	0.16 	7 	6 	40 	0.0 	0.0
+0 banshee aura 	15.0 	20.25 	14.62 	100 	10 	122 	0.0 	0.0
+0 barbed armplates 	30.0 	38.63 	23.41 	100 	10 	124 	0.0 	30.0
+0 barbed leather whip 	40 	42.18 	21.47 	150 	7 	441 	48.0 	51.0
+0 barbed legplates 	30.0 	34.15 	13.77 	100 	5 	142 	0.0 	20.0
+2 bard 	40.0 	33.44 	16.45 	50 	0 	18 	0.0 	0.0
+0 bark shield 	75.0 	83.33 	39.98 	150 	15 	162 	0.0 	59.0
+0 basilisk bracer 	150 	154.42 	17.09 	200 	100 	77 	150.0 	153.0
+0 bat wing 	5 	42.52 	187.82 	1000 	0 	27 	0.0 	5.0
+2 bat wing x 	20 	29.3 	9.98 	40 	20 	43 	20.0 	20.0
+0 batfang headband 	150.0 	133.28 	34.49 	175 	0 	250 	102.0 	142.0
+1 batfang headb 	150 	148.39 	38.18 	300 	30 	177 	0.0 	0.0
+0 batskull earring 	450 	433.42 	84.9 	1050 	200 	833 	450.0 	417.0
+2 bb gnoll skin 	25 	25.0 	0.0 	25 	25 	11 	0.0 	0.0
+2 bbtoxx 	40.0 	37.92 	2.47 	40 	35 	24 	0.0 	0.0
+2 bcfspiderling silk 	44.0 	44.0 	0.0 	44 	44 	12 	0.0 	0.0
+0 beaded slime necklace 	125 	146.83 	47.72 	400 	40 	765 	100.0 	145.0
+0 bear-hide jerkin 	75 	78.66 	44.38 	200 	15 	531 	117.0 	51.0
+0 bearskin potion bag 	75.0 	71.95 	29.22 	200 	40 	424 	69.0 	62.0
+1 bearskin potion bag s 	75.0 	72.92 	4.31 	75 	60 	12 	0.0 	70.0
+1 bearskin potion bag's 	70.0 	70.0 	0.0 	70 	70 	38 	0.0 	70.0
+1 bearskin potion bags 	60.0 	61.46 	3.95 	75 	60 	48 	0.0 	72.0
+0 bearskin potion bagsow 	10.0 	10.0 	0.0 	10 	10 	10 	0.0 	10.0
+0 beartooth necklace 	30 	45.95 	36.02 	250 	5 	823 	50.0 	25.0
+2 belt 	0 	74.63 	178.17 	500 	0 	67 	0.0 	0.0
+0 belt of flesh hooks 	20.0 	55.35 	75.03 	200 	5 	86 	0.0 	11.0
+0 berserker strength 	20.0 	17.35 	4.91 	25 	8 	26 	0.0 	0.0
+2 best 	0.0 	0.0 	0.0 	0 	0 	16 	0.0 	0.0
+2 bet 	150.0 	130.47 	68.4 	200 	10 	182 	100.0 	187.0
+2 bets are 	100 	72.61 	41.41 	100 	10 	23 	0.0 	0.0
+2 bin 	18000 	18545.45 	890.72 	20000 	18000 	11 	0.0 	0.0
+0 black chitin leggings 	900.0 	1017.85 	464.33 	8500 	300 	608 	882.0 	861.0
+2 black chitin leggins 	900.0 	900.0 	0.0 	900 	900 	20 	0.0 	900.0
+0 black iron girdle 	100.0 	131.28 	83.38 	850 	0 	652 	0.0 	75.0
+0 black iron medallion 	90 	91.23 	34.63 	350 	0 	1699 	74.0 	69.0
+0 black pearl 	30 	71.37 	127.28 	500 	2 	149 	25.0 	24.0
+0 black pearl electrum choker 	60.0 	56.93 	7.54 	60 	30 	202 	0.0 	0.0
+0 black pearl platinum ring 	175 	192.7 	26.61 	250 	135 	407 	178.0 	180.0
+2 black saphires 	4000.0 	4000.0 	0.0 	4000 	4000 	14 	0.0 	0.0
+0 black sapphire 	5000.0 	4625.06 	1268.69 	8000 	0 	712 	3000.0 	3357.0
+0 black sapphire electrum earring 	7000 	7073.91 	839.88 	8000 	4000 	115 	0.0 	0.0
+2 black sapphire electrum earring x 	2.0 	2.0 	0.0 	2 	2 	16 	0.0 	2.0
+0 black sapphire platinum necklace 	6000 	6127.73 	1575.17 	12000 	0 	617 	6000.0 	3482.0
+2 black sapphire x 	2.0 	2.36 	0.48 	3 	2 	28 	0.0 	2.0
+2 black sapphires 	4000.0 	3204.55 	1584.08 	5000 	0 	22 	0.0 	0.0
+0 black tome with silver runes 	250 	268.03 	65.46 	500 	90 	591 	0.0 	0.0
+0 blackburrow cask 	50 	73.17 	60.61 	300 	0 	267 	5.0 	22.0
+0 blackburrow gnoll skin 	50 	80.23 	77.74 	250 	10 	149 	0.0 	167.0
+0 blackened iron armplates 	10.0 	10.66 	2.35 	15 	5 	64 	0.0 	5.0
+0 blackened iron bastard sword 	100 	139.43 	60.69 	350 	0 	479 	128.0 	94.0
+2 blackened iron bastard sword for 	40.0 	40.67 	11.23 	60 	20 	30 	0.0 	41.0
+0 blackened iron boots 	20 	18.88 	10.78 	35 	5 	67 	0.0 	0.0
+0 blackened iron bracers 	5.0 	5.0 	0.0 	5 	5 	14 	0.0 	0.0
+0 blackened iron crown 	225.0 	232.25 	76.08 	400 	50 	1146 	221.0 	194.0
+0 blackened iron eye totem 	10 	12.06 	4.57 	25 	7 	67 	0.0 	10.0
+0 blackened iron legplates 	10 	16.84 	10.39 	35 	10 	49 	0.0 	30.0
+0 blackened iron mail 	15 	21.04 	11.67 	60 	6 	103 	0.0 	6.0
+0 blackened iron spaulder 	6.0 	6.0 	0.0 	6 	6 	10 	0.0 	0.0
+0 blackened pearl silver ring 	80 	79.26 	3.78 	80 	60 	27 	0.0 	0.0
+0 blackened sapphire 	25.0 	89.38 	912.99 	13000 	0 	402 	34.0 	25.0
+0 blackened teir'dal 	17.5 	46.17 	37.09 	90 	12 	24 	0.0 	0.0
+0 blackened wand 	20.0 	26.1 	20.76 	75 	5 	82 	22.0 	17.0
+1 blackened w 	25.0 	38.87 	27.59 	200 	10 	292 	0.0 	0.0
+2 blackened wand make me an 	0 	0.0 	0.0 	0 	0 	11 	0.0 	0.0
+0 bladed thulian claws 	125.0 	153.77 	82.02 	350 	0 	268 	233.0 	139.0
+0 bladestopper 	100000.0 	75000.0 	49099.03 	150000 	0 	14 	0.0 	0.0
+2 blanket 	0 	0.0 	0.0 	0 	0 	51 	0.0 	0.0
+0 blanket of forgetfulness 	200.0 	226.48 	158.27 	1000 	50 	270 	0.0 	190.0
+0 blight hammer 	0 	2160.0 	3874.84 	10000 	0 	25 	0.0 	0.0
+2 blood 	0 	0.0 	0.0 	0 	0 	41 	0.0 	0.0
+0 blood of the wolf 	10.0 	13.8 	17.98 	100 	9 	96 	0.0 	10.0
+0 bloodforge hammer 	70.0 	56.67 	16.05 	70 	35 	24 	0.0 	0.0
+0 bloodforge helm 	95.0 	87.13 	40.65 	275 	25 	114 	0.0 	80.0
+0 bloodstained mantle 	75 	82.62 	39.33 	300 	0 	1749 	55.0 	66.0
+0 bloodstained tunic 	300 	294.32 	79.18 	1000 	0 	1479 	224.0 	254.0
+2 bloodstained tunic - split paw hide gloves - prayer cloth 	0.0 	0.0 	0.0 	0 	0 	12 	0.0 	0.0
+0 bloodstone eyepatch 	180.0 	181.09 	95.39 	2000 	50 	708 	124.0 	175.0
+0 bloody dirk 	200 	246.1 	122.93 	500 	30 	41 	0.0 	0.0
+0 blue diamond 	1500 	2005.36 	1914.86 	15000 	14 	319 	1913.0 	1706.0
+0 blue diamond electrum earring 	1900 	2016.47 	330.19 	2500 	0 	85 	0.0 	1973.0
+2 blue diamond electrum earring and 	0.0 	0.0 	0.0 	0 	0 	18 	0.0 	0.0
+2 blue diamond x 	4 	3.82 	0.57 	4 	2 	11 	0.0 	4.0
+0 blued two-handed hammer 	4000.0 	4827.56 	3808.93 	50000 	0 	324 	4000.0 	4030.0
+1 blued two-hed hammer 	5000.0 	5429.87 	5874.12 	35000 	35 	154 	0.0 	0.0
+2 blued two-handed hammer only 	7.0 	7.0 	0.0 	7 	7 	22 	0.0 	0.0
+2 bo - flowing black silk sash 	12400 	12400.0 	0.0 	12400 	12400 	11 	0.0 	0.0
+2 bo- flowing black silk sash 	13000 	13000.0 	0.0 	13000 	13000 	107 	0.0 	0.0
+2 bo- mithril plated girth 	2500.0 	2500.0 	0.0 	2500 	2500 	14 	0.0 	0.0
+2 bo- robe of the ishva 	16000 	16000.0 	0.0 	16000 	16000 	13 	0.0 	0.0
+2 bobs toon sales 	50 	49.72 	0.45 	50 	49 	151 	0.0 	0.0
+2 bond 	0.0 	0.0 	0.0 	0 	0 	220 	0.0 	0.0
+0 bond of death 	500 	829.3 	645.42 	2000 	0 	227 	0.0 	303.0
+0 bone armplates 	30.0 	32.74 	18.26 	250 	5 	584 	38.0 	41.0
+0 bone bladed claymore 	60.0 	63.7 	35.07 	120 	6 	202 	24.0 	24.0
+2 bone bladed claymore scepter 	0 	0.0 	0.0 	0 	0 	11 	0.0 	0.0
+0 bone chips 	10 	8.76 	6.8 	100 	0 	819 	10.0 	10.0
+1 bone chip stacks 	9 	8.68 	0.84 	9 	6 	25 	0.0 	9.0
+1 bone chips stack 	7.0 	7.46 	2.62 	15 	4 	50 	10.0 	11.0
+1 bone chips stacks 	9 	9.11 	5.56 	40 	3 	73 	10.0 	11.0
+2 bone chips - paying 	10.0 	8.83 	2.11 	10 	5 	30 	10.0 	9.0
+2 bone chips for 	25.0 	32.38 	29.15 	100 	8 	16 	0.0 	10.0
+2 bone chips paying 	5 	5.71 	1.75 	10 	5 	21 	0.0 	6.0
+2 bone chips x 	30.0 	48.13 	53.69 	209 	1 	126 	2.0 	3.0
+0 bone fingered gloves 	50 	42.27 	20.43 	150 	0 	77 	0.0 	33.0
+0 bone legplates 	30 	32.39 	19.1 	200 	8 	707 	39.0 	40.0
+2 bone legplates - chestplate 	0.0 	0.0 	0.0 	0 	0 	14 	0.0 	0.0
+2 bone legplates - chestplate of the constant - foreman's tunic 	99.0 	99.0 	0.0 	99 	99 	14 	99.0 	99.0
+2 bone point arrowclass 	2.0 	2.0 	0.0 	2 	2 	18 	0.0 	0.0
+0 bone razor 	30000 	28144.4 	8302.98 	80000 	0 	277 	10000.0 	9000.0
+2 bone razor paying 	25000.0 	23800.0 	7068.24 	30000 	8000 	20 	0.0 	0.0
+0 bone talisman 	100 	93.08 	53.16 	300 	10 	73 	0.0 	85.0
+0 bone totem 	10 	8.69 	2.57 	20 	5 	111 	0.0 	0.0
+2 bone-clasped girdle - book of scale - orb 	0 	0.0 	0.0 	0 	0 	15 	0.0 	0.0
+2 bonechip stack 	5.0 	5.0 	0.0 	5 	5 	12 	0.0 	5.0
+2 bonechips 	10.0 	9.45 	2.22 	15 	5 	56 	5.0 	9.0
+2 book 	0 	0.0 	0.0 	0 	0 	65 	0.0 	0.0
+0 book of scale 	45000 	45913.04 	25087.52 	100000 	0 	115 	25000.0 	22895.0
+2 boots 	0 	24.99 	107.19 	600 	0 	157 	0.0 	0.0
+2 boots and 	0 	0.0 	0.0 	0 	0 	13 	0.0 	0.0
+0 boots of ro 	800 	789.54 	277.04 	1500 	300 	85 	0.0 	617.0
+0 boots of the reliant 	200 	282.74 	172.18 	600 	125 	31 	0.0 	0.0
+2 bootsvambraces 	2000.0 	2000.0 	0.0 	2000 	2000 	20 	0.0 	2000.0
+2 both 	50 	198.82 	223.52 	600 	50 	17 	0.0 	0.0
+2 both for 	300.0 	385.5 	348.76 	1100 	8 	44 	175.0 	108.0
+0 bottle of kalish 	10.0 	10.0 	0.0 	10 	10 	16 	0.0 	0.0
+2 box 	0.0 	0.0 	0.0 	0 	0 	50 	0.0 	0.0
+0 box of abu-kar 	4600 	4340.23 	617.73 	7000 	2950 	133 	7000.0 	4600.0
+2 bracelet 	0.0 	0.0 	0.0 	0 	0 	320 	0.0 	0.0
+0 bracelet of woven grass 	200.0 	224.82 	66.86 	500 	0 	456 	150.0 	215.0
+2 bracelet of woven grass paying 	150 	182.61 	61.87 	300 	150 	23 	0.0 	150.0
+2 bracelets 	0 	0.77 	0.97 	2 	0 	31 	0.0 	0.0
+2 bracelets of woven grass 	175.0 	180.0 	10.0 	200 	175 	20 	0.0 	180.0
+2 bracer 	0.0 	636.52 	1383.85 	3800 	0 	50 	0.0 	1322.0
+0 bracer of ro 	500 	418.18 	230.88 	650 	150 	11 	0.0 	0.0
+2 bracers 	0 	0.0 	0.0 	0 	0 	177 	0.0 	0.0
+0 bracers of battle 	40.0 	56.7 	33.25 	120 	8 	310 	18.0 	81.0
+2 bracers of battle for 	110.0 	110.0 	0.0 	110 	110 	12 	0.0 	0.0
+0 bracers of the reverent 	425.0 	472.87 	129.17 	1000 	300 	188 	0.0 	377.0
+2 bracers x 	2.0 	2.0 	0.0 	2 	2 	14 	0.0 	0.0
+2 braclet 	0.0 	0.0 	0.0 	0 	0 	32 	0.0 	0.0
+2 braclets 	0.0 	0.0 	0.0 	0 	0 	26 	0.0 	0.0
+0 braded cinch cord 	400 	400.0 	0.0 	400 	400 	35 	0.0 	0.0
+0 brahhms horn 	100 	121.85 	65.27 	200 	20 	89 	100.0 	127.0
+0 braided cinch cord 	490.0 	506.59 	840.82 	16000 	0 	496 	306.0 	291.0
+2 braided cinch cord paying 	350.0 	348.68 	103.55 	500 	150 	38 	0.0 	377.0
+0 braided ivy cords 	450 	450.56 	107.36 	800 	1 	899 	396.0 	371.0
+0 brass earring 	2 	4.22 	3.34 	10 	2 	55 	0.0 	0.0
+0 brazen brass kilij 	200 	194.3 	106.06 	500 	0 	199 	150.0 	150.0
+2 brazier 	0 	0.0 	0.0 	0 	0 	173 	0.0 	0.0
+0 brazier of elemental summoning 	500.0 	566.03 	372.52 	5000 	0 	432 	0.0 	408.0
+2 breastplate 	0.0 	0.0 	0.0 	0 	0 	114 	0.0 	0.0
+0 breastplate of ro 	800.0 	854.11 	302.87 	1345 	400 	270 	0.0 	509.0
+2 breath 	0.0 	0.0 	0.0 	0 	0 	158 	0.0 	0.0
+0 breath of ro 	50 	340.99 	960.24 	5000 	15 	101 	50.0 	244.0
+0 breath of the dead 	30 	26.26 	8.51 	50 	15 	99 	0.0 	0.0
+0 Brigandine Tunic 	600.0 	728.16 	397.34 	2000 	0 	526 	565.0 	584.0
+1 brigine tunic 	675 	627.62 	75.67 	800 	400 	105 	0.0 	0.0
+2 bronze 	0 	0.36 	0.48 	1 	0 	11 	0.0 	0.0
+0 bronze boots 	8 	6.34 	2.33 	10 	1 	205 	8.0 	6.0
+2 bronze boots bronze armor is 	1.0 	1.0 	0.0 	1 	1 	16 	0.0 	0.0
+0 bronze bracers 	7.0 	8.46 	3.11 	15 	1 	118 	1.0 	6.0
+0 bronze breastplate 	15.0 	15.59 	3.45 	30 	1 	294 	17.0 	17.0
+0 bronze collar 	5.0 	4.8 	2.45 	15 	1 	118 	0.0 	4.0
+0 bronze gauntlets 	9 	7.62 	2.37 	10 	1 	137 	9.0 	8.0
+0 bronze girdle 	7.0 	7.68 	2.81 	15 	0 	136 	0.0 	5.0
+0 bronze greaves 	10.0 	8.74 	2.36 	10 	1 	140 	10.0 	9.0
+0 bronze helm 	10 	11.52 	3.7 	20 	5 	141 	10.0 	10.0
+0 bronze mask 	10.0 	13.39 	27.88 	200 	4 	46 	4.0 	37.0
+0 bronze pauldron 	8.0 	7.91 	1.96 	15 	1 	204 	6.0 	7.0
+0 bronze spider totem 	30.0 	26.14 	5.21 	30 	15 	44 	0.0 	26.0
+0 bronze vambraces 	7.0 	6.74 	1.85 	12 	1 	118 	0.0 	8.0
+0 brown chitin protector 	3000.0 	3200.01 	871.89 	7000 	0 	498 	0.0 	2843.0
+1 bcp 	1012.5 	1090.63 	1078.15 	2500 	25 	64 	0.0 	1030.0
+2 bs mantle offering 	50 	50.0 	0.0 	50 	50 	15 	0.0 	50.0
+0 bull smasher 	150.0 	170.15 	72.78 	500 	75 	98 	0.0 	0.0
+2 bunch of 	0 	0.0 	0.0 	0 	0 	13 	0.0 	0.0
+0 bunch of optic nerves 	25.0 	36.62 	19.16 	89 	15 	146 	0.0 	50.0
+2 butler fangs 	1600.0 	1466.67 	277.56 	1600 	800 	54 	0.0 	0.0
+0 butler syncalls fang 	600 	757.9 	417.36 	1600 	0 	549 	455.0 	384.0
+0 butler syncalls fang maid issis fang 	1600.0 	1600.0 	0.0 	1600 	1600 	34 	0.0 	0.0
+1 butler syncalls fangmaid issis fang 	1600.0 	1211.76 	561.39 	1600 	400 	68 	400.0 	400.0
+2 buy as many numbers as you like for 	25.0 	25.0 	0.0 	25 	25 	12 	0.0 	0.0
+2 buy mith 	2.0 	2.0 	0.0 	2 	2 	10 	0.0 	0.0
+2 buying 	2.0 	15.33 	22.02 	90 	0 	198 	11.0 	9.0
+2 buying -- prayer cloth 	0.0 	0.0 	0.0 	0 	0 	20 	0.0 	0.0
+2 buying blight hammer 	10000.0 	10200.0 	600.0 	12000 	10000 	10 	0.0 	0.0
+2 buying bloodstained mantle 	50.0 	50.0 	0.0 	50 	50 	22 	0.0 	0.0
+2 buying bone chips 	6.0 	6.11 	0.66 	10 	6 	36 	0.0 	0.0
+2 buying bonechips 	10.0 	11.91 	2.37 	15 	10 	22 	0.0 	12.0
+2 buying deahtfist belts 	2.0 	2.0 	0.0 	2 	2 	10 	0.0 	0.0
+2 buying df belts 	2.0 	4.8 	5.11 	15 	2 	10 	0.0 	0.0
+2 buying enameled black mace paying 	180.0 	180.0 	0.0 	180 	180 	14 	0.0 	0.0
+2 buying gebs 	9000.0 	8363.64 	1188.79 	9000 	6000 	22 	0.0 	6000.0
+2 buying heady kiola 	20.0 	20.0 	0.0 	20 	20 	10 	0.0 	20.0
+2 buying hq bear pelts 	5.0 	6.56 	2.91 	12 	5 	18 	0.0 	0.0
+2 buying hq bear skin 	10.0 	10.0 	0.0 	10 	10 	18 	0.0 	0.0
+2 buying hq bear skins 	10.0 	8.68 	2.2 	10 	5 	38 	10.0 	10.0
+2 buying hq catbear pelts 	5.0 	5.0 	0.0 	5 	5 	56 	0.0 	0.0
+2 buying hq catbear skins 	5.0 	5.0 	0.0 	5 	5 	14 	0.0 	0.0
+2 buying impskin gloves 	1000 	1029.41 	45.56 	1100 	1000 	17 	0.0 	0.0
+2 buying kicsh der pavz paying 	1500.0 	1500.0 	0.0 	1500 	1500 	34 	0.0 	1500.0
+2 buying level 	34.0 	31.0 	9.08 	49 	16 	22 	0.0 	0.0
+2 buying lvl 	49 	48.37 	3.77 	49 	16 	203 	0.0 	0.0
+2 buying mammoth hide cloak 	1000.0 	1000.0 	0.0 	1000 	1000 	22 	0.0 	0.0
+2 buying necro research spells level 	20.0 	20.0 	0.0 	20 	20 	16 	0.0 	0.0
+2 buying necro spells 	29 	29.0 	0.0 	29 	29 	21 	0.0 	0.0
+2 buying nilitim's pages 	400 	398.0 	6.16 	400 	379 	21 	0.0 	398.0
+2 buying robe 	0 	0.0 	0.0 	0 	0 	11 	0.0 	0.0
+2 buying short sword 	0 	0.0 	0.0 	0 	0 	59 	0.0 	0.0
+2 buying stacks 	0.0 	0.0 	0.0 	0 	0 	10 	0.0 	0.0
+2 buying suit 	0.0 	0.0 	0.0 	0 	0 	14 	0.0 	0.0
+2 buying vambraces 	0.0 	0.0 	0.0 	0 	0 	16 	0.0 	0.0
+2 buying words 	0 	0.0 	0.0 	0 	0 	57 	0.0 	0.0
+2 buying words of incorporeal or level 	29 	29.0 	0.0 	29 	29 	11 	0.0 	0.0
+2 buying-- embroidered black cape 	0 	0.0 	0.0 	0 	0 	47 	0.0 	0.0
+2 buying-- lizardscale mantle or prayer cloth 	0.0 	0.0 	0.0 	0 	0 	24 	0.0 	0.0
+2 buyinggnoll hide lariat's spell summon corpse smr paying 	4000.0 	4000.0 	0.0 	4000 	4000 	10 	0.0 	0.0 
+0 cackling bones 	150 	189.43 	120.04 	500 	0 	315 	0.0 	137.0
+2 call 	0.0 	0.0 	0.0 	0 	0 	164 	0.0 	0.0
+0 call of bones 	50.0 	53.29 	27.67 	150 	0 	512 	40.0 	61.0
+2 cape 	0 	0.0 	0.0 	0 	0 	393 	0.0 	0.0
+0 cape of midnight mist 	100.0 	103.74 	74.23 	400 	0 	770 	83.0 	91.0
+0 carved ashwood recurve bow 	30.0 	28.0 	2.45 	30 	25 	30 	0.0 	0.0
+0 carved elm recurve bow 	10.0 	10.0 	0.0 	10 	10 	24 	0.0 	0.0
+0 carved ivory mask 	125.0 	147.54 	88.96 	400 	25 	630 	0.0 	124.0
+2 carved ivory mask x 	2.0 	2.0 	0.0 	2 	2 	10 	0.0 	0.0
+2 cat 	0 	0.75 	2.17 	10 	0 	93 	1.0 	0.0
+0 cat eye platinum necklace 	200.0 	225.56 	60.19 	350 	100 	232 	325.0 	252.0
+0 cat o' nine tails 	250.0 	247.95 	108.91 	450 	50 	146 	0.0 	106.0
+2 cb belts for 	16.5 	15.5 	5.89 	20 	1 	16 	0.0 	0.0
+2 cb belts x 	19.0 	39.4 	24.98 	70 	19 	10 	0.0 	0.0
+2 cha 	25 	24.38 	3.24 	25 	0 	245 	0.0 	23.0
+2 cha bracelet 	20.0 	20.0 	0.0 	20 	20 	50 	0.0 	20.0
+2 cha bracer 	40.0 	40.0 	0.0 	40 	40 	110 	0.0 	40.0
+2 cha neck 	175 	177.64 	7.69 	200 	175 	123 	0.0 	175.0
+2 cha necklaces 	3.0 	3.36 	0.57 	5 	3 	22 	3.0 	3.0
+2 cha rings 	100.0 	100.0 	0.0 	100 	100 	110 	0.0 	100.0
+2 cha veil 	150.0 	150.0 	0.0 	150 	150 	50 	0.0 	0.0
+2 charging 	10 	67.65 	157.87 	500 	10 	17 	0.0 	10.0
+0 charred boots 	40.0 	59.23 	45.03 	200 	0 	816 	130.0 	78.0
+0 charred gauntlets 	200 	159.56 	71.99 	335 	0 	743 	142.0 	167.0
+0 charred guardian breastplate 	250.0 	257.8 	92.1 	600 	25 	674 	185.0 	193.0
+1 charred guardian bp 	200.0 	246.67 	71.8 	400 	200 	30 	400.0 	400.0
+0 charred guardian shield 	400.0 	442.74 	139.33 	3500 	0 	1312 	400.0 	476.0
+2 charred guardian shield paying 	500 	505.88 	23.53 	600 	500 	17 	0.0 	0.0
+2 cheap magic 	1.0 	1.0 	0.0 	1 	1 	12 	0.0 	1.0
+2 cheep 	550.0 	530.0 	24.49 	550 	500 	10 	0.0 	0.0
+2 chestplate 	0.0 	0.0 	0.0 	0 	0 	210 	0.0 	0.0
+0 chestplate of the constant 	750.0 	697.8 	139.98 	900 	5 	378 	350.0 	660.0
+2 chestplate of the constant - greaves of the penitent - boots of the reliant - gauntlets of the ardent - bracers of the reverent 	3000.0 	3000.0 	0.0 	3000 	3000 	10 	0.0 	0.0
+2 chestplate of the constant - greaves of the penitent - gauntlets of the ardent - boots of the reliant - bracers of the reverent 	3000.0 	3000.0 	0.0 	3000 	3000 	22 	0.0 	0.0
+0 chestplate of the dark flame 	900.0 	1051.19 	451.01 	3000 	15 	434 	900.0 	841.0
+0 chipped bone bracelet 	300 	305.55 	83.46 	500 	100 	805 	370.0 	365.0
+0 chipped bone collar 	30 	37.63 	26.17 	200 	5 	673 	21.0 	35.0
+0 chipped bone rod 	10 	13.6 	4.59 	20 	10 	25 	0.0 	0.0
+0 chitin shell armor 	50.0 	54.68 	28.65 	200 	10 	234 	46.0 	50.0
+0 chitin shell shield 	40 	38.57 	15.1 	75 	0 	531 	58.0 	43.0
+0 chrysoberyl talisman 	399.0 	391.47 	118.9 	2000 	50 	850 	328.0 	339.0
+0 circle of force 	50 	42.26 	8.52 	50 	25 	19 	34.0 	34.0
+0 clarify mana 	25 	25.52 	6.48 	40 	20 	29 	0.0 	24.0
+0 clarity 	30.0 	835.82 	2581.77 	9000 	0 	22 	0.0 	20.0
+2 class 	2 	1.68 	0.47 	2 	1 	31 	0.0 	1.0
+2 classic 	100 	181.82 	258.73 	1000 	100 	11 	1000.0 	1000.0
+0 clawed knuckle-ring 	20 	31.12 	34.92 	175 	15 	227 	0.0 	30.0
+0 clay totem 	2 	2.89 	2.51 	10 	2 	27 	0.0 	0.0
+2 cleric 	2.0 	18.54 	21.71 	46 	1 	26 	0.0 	0.0
+2 cloak 	0 	0.0 	0.0 	0 	0 	747 	0.0 	0.0
+0 cloak of leaves 	150.0 	213.33 	225.2 	3000 	50 	354 	144.0 	147.0
+0 cloak of shadows 	2000 	2044.06 	548.16 	12000 	0 	1167 	1628.0 	1863.0
+2 cloak of shadows paying 	1500.0 	1503.23 	25.19 	1700 	1500 	62 	0.0 	1500.0
+0 cloak of the ice bear 	150 	159.72 	84.64 	350 	50 	163 	200.0 	197.0
+2 clockwork 	0 	0.0 	0.0 	0 	0 	47 	0.0 	0.0
+2 clockwork oil stout 	100.0 	119.63 	67.0 	200 	25 	136 	0.0 	0.0
+0 cold iron morning star 	50.0 	64.17 	46.25 	500 	20 	716 	47.0 	47.0
+2 collar 	0.0 	4.59 	33.1 	250 	0 	224 	0.0 	0.0
+0 collar of undead protection 	25 	40000026.74 	527636236.3 	7000000000 	5 	525 	28.0 	32.0
+0 color shift 	15.0 	16.79 	8.55 	50 	5 	106 	0.0 	12.0
+2 color shift ench lvl 	20.0 	20.0 	0.0 	20 	20 	56 	0.0 	0.0
+0 color skew 	45.0 	86.55 	79.72 	400 	40 	284 	50.0 	48.0
+2 come bet anything from 	100.0 	100.0 	0.0 	100 	100 	46 	0.0 	0.0
+2 come check me 	0.0 	0.0 	0.0 	0 	0 	10 	0.0 	0.0
+2 come place your bets anywhere from 	100.0 	100.0 	0.0 	100 	100 	36 	0.0 	0.0
+0 copper ring 	700.0 	720.0 	227.16 	900 	100 	10 	0.0 	0.0
+0 cornucopia 	35.0 	34.72 	6.12 	40 	10 	36 	0.0 	0.0
+2 costs 	500.0 	488.61 	67.38 	500 	90 	36 	0.0 	0.0
+2 cr 	20.0 	20.13 	0.78 	25 	20 	160 	0.0 	0.0
+0 cracked darkwood shield 	175 	174.09 	54.12 	400 	0 	1063 	133.0 	144.0
+1 cracked darkwood sheild 	75.0 	77.88 	64.05 	150 	0 	52 	0.0 	0.0
+2 crafted 	0.0 	0.0 	0.0 	0 	0 	14 	0.0 	0.0
+2 crafted bracer small 	0.0 	0.0 	0.0 	0 	0 	14 	0.0 	0.0
+0 crafted bracers 	200 	208.01 	162.6 	1600 	50 	327 	300.0 	300.0
+2 crafted bracers i crafted gauntlets i crafted greaves i crafted plate boots i crafted breastplate i crafted vambraces 	1900.0 	1867.31 	93.48 	2000 	1700 	104 	0.0 	0.0
+0 crafted breastplate 	650.0 	684.56 	193.0 	1600 	1 	920 	601.0 	760.0
+1 crafted bp 	600 	668.89 	234.63 	1000 	400 	37 	600.0 	475.0
+0 crafted gauntlets 	250 	271.9 	61.75 	500 	0 	657 	263.0 	239.0
+0 crafted greaves 	325 	359.34 	188.45 	1500 	104 	559 	550.0 	303.0
+1 crafted legs 	0 	122.73 	200.41 	450 	0 	11 	0.0 	0.0
+2 crafted greaves -darkforge greaves 	0.0 	0.0 	0.0 	0 	0 	14 	0.0 	0.0
+0 crafted helm 	150 	207.57 	256.32 	4000 	0 	247 	0.0 	0.0
+0 crafted pauldron 	300 	307.54 	89.11 	650 	130 	61 	0.0 	0.0
+0 crafted plate boots 	300.0 	312.5 	81.71 	850 	100 	204 	367.0 	281.0
+0 crafted vambraces 	350.0 	330.56 	39.95 	400 	200 	252 	308.0 	311.0
+2 crazy 	8 	8.0 	0.0 	8 	8 	13 	8.0 	8.0
+0 crested helm 	400.0 	389.76 	72.16 	800 	0 	1460 	531.0 	369.0
+0 crested mistmoore shield 	150 	171.65 	58.96 	600 	7 	891 	129.0 	132.0
+0 crested spaulders 	350.0 	355.98 	114.96 	2500 	0 	1198 	263.0 	308.0
+2 crested spaulders - crafted greaves 	0 	0.0 	0.0 	0 	0 	13 	0.0 	0.0
+0 crimson robe 	0 	0.0 	0.0 	0 	0 	29 	0.0 	0.0
+2 crippling 	50 	50.0 	0.0 	50 	50 	15 	0.0 	50.0
+0 crookstinger 	150 	164.81 	120.86 	400 	20 	53 	0.0 	100.0
+2 crown 	0.0 	0.0 	0.0 	0 	0 	708 	0.0 	0.0
+2 crown of froglok 	0 	0.0 	0.0 	0 	0 	13 	0.0 	0.0
+0 crown of king tranix 	10000.0 	11067.65 	3561.43 	22000 	0 	658 	7750.0 	9343.0
+2 crown of king tranix - golden efreeti boots - short sword 	0 	0.0 	0.0 	0 	0 	17 	0.0 	0.0
+0 crown of leaves 	350 	314.38 	58.77 	475 	0 	273 	0.0 	282.0
+2 crown of leaves paying 	500.0 	500.0 	0.0 	500 	500 	14 	0.0 	0.0
+2 crown of the froglok 	0.0 	0.0 	0.0 	0 	0 	26 	0.0 	0.0
+0 crown of the froglok kings 	700 	715.24 	232.95 	1500 	200 	653 	645.0 	659.0
+1 crown of frog kings 	1000.0 	1000.0 	0.0 	1000 	1000 	10 	0.0 	0.0
+0 crude stein 	30.0 	28.18 	5.75 	30 	10 	22 	0.0 	0.0
+2 crude stein paying 	35.0 	35.0 	0.0 	35 	35 	14 	0.0 	35.0
+0 crushbone belt 	1.0 	2.82 	3.85 	15 	1 	34 	0.0 	0.0
+1 cb belts 	15.0 	13.09 	7.78 	25 	1 	76 	0.0 	0.0
+0 crushbone shoulderpads 	28.0 	28.0 	0.0 	28 	28 	12 	0.0 	0.0
+1 cb pads 	25 	23.89 	5.32 	28 	12 	19 	0.0 	0.0
+0 cryosilk webshield 	8000 	8101.45 	1143.92 	10000 	6000 	69 	0.0 	9667.0
+0 crystal ring 	10.0 	10.0 	0.0 	10 	10 	18 	0.0 	10.0
+2 crystalline 	0.0 	0.0 	0.0 	0 	0 	24 	0.0 	0.0
+0 crystalline blade 	175 	169.8 	45.57 	300 	20 	251 	0.0 	181.0
+0 crystalline orb 	100.0 	107.69 	43.17 	200 	50 	52 	100.0 	105.0
+0 crystallize mana 	25 	24.48 	6.58 	40 	18 	29 	0.0 	23.0
+2 ct for 	2.0 	27.31 	49.67 	140 	2 	26 	0.0 	0.0
+2 cure 	225.0 	213.95 	46.89 	225 	15 	152 	0.0 	225.0
+2 current bid 	10000 	12200.0 	7676.46 	25000 	200 	25 	0.0 	0.0
+2 current pot is 	4500 	4500.0 	0.0 	4500 	4500 	23 	4500.0 	4500.0
+0 cutthroat insignia ring 	4.0 	4.97 	4.28 	15 	1 	36 	5.0 	4.0
+0 cyclops skull 	100 	84.71 	27.8 	100 	15 	35 	0.0 	0.0
+0 cyclops toes 	25 	22.48 	13.04 	100 	5 	367 	25.0 	21.0 
+2 dager of droping 	50.0 	50.0 	0.0 	50 	50 	12 	0.0 	50.0
+2 dagger 	0.0 	0.0 	0.0 	0 	0 	858 	0.0 	0.0
+0 dagger of dropping 	15.0 	20.08 	14.71 	100 	0 	664 	14.0 	16.0
+2 dagger of dropping spider silk 	10.0 	10.0 	0.0 	10 	10 	32 	0.0 	0.0
+0 dagger of marnek 	300.0 	306.01 	80.4 	500 	8 	458 	300.0 	291.0
+0 damask robe 	15 	14.23 	1.8 	15 	10 	13 	0.0 	0.0
+0 dareb's skull 	50 	50.76 	48.12 	336 	15 	41 	0.0 	50.0
+2 dark forge bracers for 	300.0 	300.0 	0.0 	300 	300 	12 	0.0 	0.0
+0 dark mail gauntlets 	350 	322.71 	95.18 	600 	0 	621 	300.0 	293.0
+0 dark reaver 	900.0 	892.59 	140.57 	1500 	350 	54 	0.0 	0.0
+0 darkforge boots 	450.0 	427.05 	113.46 	700 	200 	256 	400.0 	276.0
+0 darkforge bracer 	400 	409.67 	106.33 	750 	200 	137 	300.0 	336.0
+2 darkforge bracer paying 	500.0 	490.0 	30.0 	500 	400 	40 	0.0 	0.0
+0 darkforge breastplate 	2000.0 	2261.79 	820.13 	3500 	0 	106 	3000.0 	2739.0
+1 darkforge bp 	2000.0 	1694.78 	689.17 	2000 	3 	18 	0.0 	0.0
+0 darkforge gauntlets 	300.0 	317.81 	98.69 	500 	0 	586 	200.0 	312.0
+0 darkforge greaves 	800 	840.72 	247.62 	1500 	0 	415 	700.0 	605.0
+0 darkforge helm 	400.0 	393.1 	116.87 	700 	0 	590 	150.0 	274.0
+0 darkforge vambraces 	500.0 	568.12 	306.04 	1800 	7 	268 	400.0 	440.0
+0 darkmail gauntlets 	150.0 	190.0 	73.48 	400 	150 	20 	0.0 	200.0
+1 darkmail guantlets 	200.0 	200.0 	0.0 	200 	200 	10 	0.0 	200.0
+0 darksea harpoon 	3000.0 	3024.73 	685.29 	5000 	27 	666 	0.0 	3033.0
+2 dcloak 	0.0 	0.0 	0.0 	0 	0 	36 	0.0 	0.0
+0 dead man floating 	150 	170.23 	93.57 	500 	0 	527 	143.0 	148.0
+2 dead man floating for 	400.0 	400.0 	0.0 	400 	400 	10 	0.0 	0.0
+2 deathfist belts x 	14.0 	14.0 	0.0 	14 	14 	12 	14.0 	14.0
+2 deathfist shoulderpads x 	4.0 	4.0 	0.0 	4 	4 	20 	0.0 	0.0
+0 deathfist slashed belt 	2 	2.57 	4.61 	30 	1 	115 	0.0 	2.0
+2 deathfist slashed belt times 	7 	6.63 	1.27 	8 	5 	19 	0.0 	0.0
+2 deathfist slashed belt x 	8.5 	7.45 	3.16 	13 	2 	62 	0.0 	6.0
+2 deathfist slashed belts 	3.0 	2.86 	0.35 	3 	2 	14 	0.0 	0.0
+2 decent 	1.0 	1.25 	0.43 	2 	1 	16 	0.0 	1.0
+0 deep six cutlass 	350 	363.79 	30.03 	500 	300 	87 	0.0 	0.0
+0 deepwater harpoon 	80 	97.39 	86.29 	300 	10 	23 	0.0 	0.0
+0 dented brass mask 	75.0 	208.88 	249.43 	1000 	0 	236 	105.0 	175.0
+0 devlas ilkvel 	125 	119.91 	38.48 	250 	50 	213 	0.0 	69.0
+2 dex 	25 	20.59 	27.82 	375 	3 	361 	100.0 	19.0
+2 dex bracelets 	5.0 	6.05 	1.58 	10 	5 	22 	6.0 	6.0
+2 dex face 	350 	350.0 	0.0 	350 	350 	13 	0.0 	0.0
+2 dex neck 	70.0 	70.0 	0.0 	70 	70 	54 	0.0 	70.0
+2 dex ring 	150.0 	150.0 	50.0 	200 	100 	108 	0.0 	150.0
+2 dex rings 	400 	389.43 	30.74 	400 	300 	123 	0.0 	400.0
+2 dex veil 	350.0 	301.45 	66.4 	350 	150 	172 	0.0 	299.0
+2 df belts 	20 	17.41 	13.42 	32 	1 	29 	0.0 	1.0
+2 diamond 	900.0 	892.52 	292.13 	1500 	1 	330 	684.0 	969.0
+2 diamond earring 	700.0 	700.0 	0.0 	700 	700 	12 	0.0 	700.0
+2 diamond mask - blue diamond earrings - crown 	0.0 	0.0 	0.0 	0 	0 	12 	0.0 	0.0
+2 diamond x 	2.0 	2.0 	0.0 	2 	2 	22 	0.0 	0.0
+0 diamondine earring 	800.0 	773.04 	103.91 	2000 	0 	1384 	732.0 	737.0
+1 diamondine earing 	650.0 	650.0 	0.0 	650 	650 	16 	650.0 	650.0
+1 diamondine earrings 	700.0 	911.11 	328.11 	1500 	700 	18 	0.0 	0.0
+2 diamondine earring for 	500 	500.0 	0.0 	500 	500 	15 	0.0 	0.0
+2 discount if you buy 	20 	20.0 	0.0 	20 	20 	17 	0.0 	0.0
+0 disempower 	7.5 	9.58 	4.77 	15 	5 	12 	0.0 	0.0
+0 djarns amethyst ring 	9500 	10050.06 	7289.92 	98000 	0 	635 	0.0 	7685.0
+1 djarn ring 	11000 	9909.09 	1311.11 	11000 	8000 	11 	0.0 	0.0
+1 djarn's amethyst ring 	9000 	9000.0 	0.0 	9000 	9000 	21 	0.0 	0.0
+2 dmg 	46 	37.89 	14.82 	58 	19 	47 	0.0 	0.0
+2 donateing 	100 	76.52 	39.52 	100 	10 	23 	0.0 	0.0
+2 donating 	40 	271.2 	1227.02 	8000 	5 	41 	0.0 	29.0
+2 dose invisibility vs undead potions 	180.0 	187.65 	11.77 	200 	175 	34 	0.0 	0.0
+2 dose ant's potion 	200.0 	189.71 	38.17 	250 	20 	1128 	200.0 	200.0
+2 dose blood 	0 	0.0 	0.0 	0 	0 	241 	0.0 	0.0
+2 dose blood of the wolf 	100.0 	97.9 	14.11 	125 	3 	2456 	100.0 	99.0
+2 dose blood of the wolf paying 	100.0 	100.0 	0.0 	100 	100 	10 	0.0 	100.0
+2 dose enduring breath potions 	200.0 	200.0 	0.0 	200 	200 	10 	0.0 	0.0
+2 dose invis vs undead 	200.0 	200.0 	0.0 	200 	200 	50 	0.0 	0.0
+2 dose invis vs undead potion 	200.0 	200.0 	0.0 	200 	200 	20 	0.0 	0.0
+2 dose invis vs undead potions 	200.0 	200.0 	0.0 	200 	200 	36 	0.0 	0.0
+2 dose invisibility vs undead potions 	200 	200.0 	0.0 	200 	200 	15 	0.0 	0.0
+2 dose kilva's blistering flesh 	200 	174.33 	40.2 	250 	10 	141 	0.0 	0.0
+2 dose kilva's skin of flame 	600.0 	472.0 	232.89 	600 	10 	10 	0.0 	0.0
+2 dose kithar's disease treatment 	150.0 	122.0 	56.0 	150 	10 	10 	0.0 	0.0
+2 dose null potion 	400.0 	400.0 	0.0 	400 	400 	62 	0.0 	0.0
+2 dose potion 	0 	0.0 	0.0 	0 	0 	35 	0.0 	0.0
+2 dose potion of antiweight 	150 	154.76 	36.68 	200 	10 	103 	0.0 	0.0
+2 dose potion of aquatic haunt 	200.0 	192.41 	55.18 	250 	100 	112 	0.0 	0.0
+2 dose potion of cohesion 	200.0 	200.0 	0.0 	200 	200 	74 	0.0 	0.0
+2 dose potion of unlife awareness 	200 	195.04 	30.45 	230 	10 	387 	0.0 	0.0
+2 dose shrink potion 	75.0 	86.36 	23.1 	200 	75 	66 	0.0 	0.0
+2 dose shrink potions 	200.0 	201.07 	4.5 	220 	200 	56 	0.0 	0.0
+2 dose sow 	100.0 	100.0 	0.0 	100 	100 	52 	0.0 	0.0
+2 dose sow potions 	100.0 	99.79 	2.02 	100 	80 	388 	0.0 	98.0
+0 double-bladed bone axe 	40.0 	45.55 	27.08 	200 	0 	862 	36.0 	35.0
+2 double-bladed bone axe -- robe 	0.0 	0.0 	0.0 	0 	0 	16 	0.0 	0.0
+2 dr 	25 	25.0 	0.0 	25 	25 	51 	0.0 	0.0
+0 dragoon dirk 	60.0 	71.52 	42.58 	275 	0 	710 	60.0 	57.0
+0 drake-hide leggings 	200 	209.93 	79.03 	400 	0 	965 	0.0 	133.0
+1 drake hide leggings 	250.0 	250.0 	0.0 	250 	250 	24 	0.0 	0.0
+1 drake hide leggins 	250.0 	250.0 	0.0 	250 	250 	10 	0.0 	0.0
+0 drake-hide sleeves 	85.0 	103.13 	55.35 	300 	10 	720 	75.0 	82.0
+0 drakescale belt 	45.0 	55.51 	52.19 	300 	10 	632 	25.0 	37.0
+0 driftwood treasure chest 	3500.0 	3542.91 	355.56 	4500 	3000 	134 	4000.0 	3500.0
+2 druid 	29 	33.95 	10.77 	50 	0 	155 	0.0 	0.0
+2 ds at level 	50.0 	50.0 	0.0 	50 	50 	30 	0.0 	0.0
+2 ds hi-grade 	50.0 	50.0 	0.0 	50 	50 	30 	0.0 	0.0
+2 ds lesser 	20.0 	20.0 	0.0 	20 	20 	30 	0.0 	0.0
+0 dufrenite 	50 	55.16 	38.21 	532 	7 	679 	78.0 	76.0
+1 dufrinite 	50 	49.62 	1.33 	50 	45 	13 	0.0 	0.0
+0 dusty bloodstained gloves 	200 	210.21 	93.02 	500 	15 	239 	112.0 	190.0
+0 dwarf chops 	10 	8.77 	2.89 	10 	2 	39 	0.0 	0.0
+0 dwarven axe 	15.0 	15.47 	8.31 	60 	5 	154 	7.0 	13.0
+0 dwarven ringmail tunic 	50.0 	57.44 	49.49 	250 	5 	244 	51.0 	64.0
+2 dwarven ringmail tunic - bronze bracers - bone legplates - high quality cat pelt - bronze breastplate 	2.0 	2.0 	0.0 	2 	2 	16 	0.0 	2.0
+2 dwarven ringmail tunic - bronze bracers - bone legplates - high quality cat pelt - serpentine bracer 	2.0 	2.0 	0.0 	2 	2 	10 	0.0 	2.0
+0 dwarven two-handed axe 	15 	16.42 	9.97 	50 	6 	81 	16.0 	12.0
+1 dwarven two-hed axe 	30.0 	32.66 	16.91 	75 	10 	90 	0.0 	0.0
+0 dwarven work boots 	450 	458.21 	85.57 	1000 	200 	859 	663.0 	424.0 
+2 ea 	11.0 	37.23 	101.54 	575 	0 	476 	75.0 	115.0
+2 ea - platinum jasper ring 	175 	172.73 	7.19 	175 	150 	11 	0.0 	0.0
+2 ea blackburrow gnoll skin 	20 	20.0 	0.0 	20 	20 	15 	0.0 	0.0
+2 ea l silver amber ring 	8 	8.0 	0.0 	8 	8 	47 	0.0 	0.0
+2 ea l silver jasper ring 	6 	6.0 	0.0 	6 	6 	49 	0.0 	0.0
+2 ea l silver rose engagement ring 	7 	7.0 	0.0 	7 	7 	47 	0.0 	0.0
+2 ea or 	300.0 	361.66 	271.53 	1200 	2 	234 	231.0 	189.0
+2 each 	350.0 	371.81 	332.49 	1493 	0 	166 	350.0 	420.0
+2 each --- siryn hair hood 	900.0 	880.0 	40.0 	900 	800 	10 	880.0 	880.0
+2 each crested spaulders 	300.0 	300.0 	0.0 	300 	300 	30 	0.0 	300.0
+2 each double-bladed bone axe 	35.0 	35.83 	1.86 	40 	35 	24 	0.0 	36.0
+2 each - an executioners axe 	400 	400.0 	0.0 	400 	400 	43 	0.0 	400.0
+2 each - diamond earring 	700.0 	700.0 	0.0 	700 	700 	22 	0.0 	700.0
+2 each - hero bracers 	325.0 	316.67 	11.79 	325 	300 	12 	0.0 	0.0
+2 each - split paw hide gloves 	15 	15.45 	1.44 	20 	15 	11 	0.0 	0.0
+2 each black sapphire 	3000 	3000.0 	0.0 	3000 	3000 	13 	0.0 	3000.0
+2 each drake-hide sleeves 	100.0 	100.0 	0.0 	100 	100 	30 	0.0 	0.0
+2 each i melatite 	50 	50.0 	0.0 	50 	50 	21 	0.0 	0.0
+2 each of 	550 	550.0 	0.0 	550 	550 	15 	0.0 	0.0
+2 each or 	60.0 	623.36 	1445.92 	6500 	0 	456 	259.0 	1383.0
+2 earring 	0 	0.0 	0.0 	0 	0 	31 	0.0 	0.0
+0 earring of disease reflection 	20.0 	24.56 	15.48 	50 	10 	68 	0.0 	22.0
+2 earth 	100 	111.36 	95.08 	350 	20 	59 	0.0 	0.0
+2 eb 	25.0 	25.0 	0.0 	25 	25 	236 	0.0 	0.0
+0 ebon war spear 	600 	567.35 	268.57 	3500 	0 	281 	500.0 	318.0
+0 ebony bladed sword 	100 	120.87 	54.04 	250 	1 	1423 	72.0 	90.0
+2 ee bag 	500.0 	515.0 	171.1 	700 	0 	20 	0.0 	429.0
+2 ef port 	600.0 	605.88 	23.53 	700 	600 	68 	0.0 	600.0
+0 electrum amber earring 	5.0 	5.83 	1.86 	10 	5 	12 	0.0 	0.0
+0 electrum bloodstone necklace 	6.0 	7.43 	1.92 	10 	6 	14 	0.0 	0.0
+0 electrum bracelet 	50 	63.0 	32.8 	300 	4 	459 	45.0 	43.0
+0 electrum carnelian wedding ring 	10 	9.45 	0.89 	10 	8 	11 	0.0 	0.0
+0 electrum cat eye bracelet 	10.0 	12.14 	6.86 	30 	6 	132 	0.0 	20.0
+0 electrum jasper earring 	15.0 	14.13 	5.34 	30 	6 	210 	0.0 	10.0
+2 electrum jasper earring x 	2.0 	2.0 	0.0 	2 	2 	10 	0.0 	0.0
+0 electrum onyx pendant 	15.0 	14.29 	4.23 	20 	7 	92 	0.0 	0.0
+0 electrum opal amulet 	35.0 	37.5 	6.71 	50 	29 	80 	0.0 	0.0
+2 electrum opal amulet pst with 	0.0 	0.0 	0.0 	0 	0 	26 	0.0 	0.0
+0 electrum pearl choker 	16.0 	18.03 	3.02 	23 	16 	30 	0.0 	0.0
+0 electrum star amulet 	15.0 	13.6 	2.66 	16 	7 	216 	0.0 	0.0
+0 electrum star ruby ring 	175 	189.08 	57.29 	300 	0 	555 	175.0 	172.0
+0 elf-hide gloves 	35.0 	43.8 	33.49 	250 	5 	1540 	34.0 	35.0
+1 elf hide gloves 	20.0 	23.0 	9.0 	50 	20 	10 	0.0 	0.0
+2 ell cryosilk webshield 	7000 	7000.0 	0.0 	7000 	7000 	11 	0.0 	0.0
+0 embroidered black cape 	500.0 	501.12 	175.54 	1000 	0 	492 	450.0 	513.0
+1 embroided black cape 	200.0 	207.69 	110.67 	750 	150 	52 	0.0 	0.0
+1 embroidred black cape 	600.0 	642.86 	49.49 	700 	600 	28 	0.0 	643.0
+0 embroidered black sleeves 	250 	292.18 	131.8 	2000 	4 	477 	200.0 	214.0
+0 enameled black chestplate 	250.0 	274.45 	74.09 	500 	65 	1082 	275.0 	247.0
+0 enameled black mace 	250 	259.51 	84.27 	600 	0 	1327 	221.0 	199.0
+1 ebm 	225.0 	211.11 	36.54 	250 	100 	18 	0.0 	250.0
+2 enameled black mace - paying 	185.0 	185.0 	0.0 	185 	185 	34 	0.0 	0.0
+2 enc level 	39 	39.43 	1.41 	44 	39 	23 	0.0 	44.0
+2 enc spell 	0 	0.0 	0.0 	0 	0 	13 	0.0 	0.0
+2 ench 	29.0 	29.0 	0.0 	29 	29 	42 	0.0 	0.0
+0 enchanted fine steel bastard sword 	1500.0 	1550.0 	350.0 	2000 	1000 	10 	0.0 	0.0
+2 enchanter 	49 	1700.48 	14285.1 	125000 	29 	151 	50.0 	47.0
+2 enchanter lvl 	16 	17.23 	3.29 	20 	8 	13 	0.0 	0.0
+2 enchanter spell allure 	500 	432.76 	74.6 	500 	350 	29 	0.0 	350.0
+0 endure magic 	8.0 	9.5 	3.11 	15 	5 	42 	0.0 	10.0
+2 entire set for 	6200 	6000.0 	632.46 	6200 	4000 	11 	0.0 	0.0
+2 equipped lvl 	50.0 	50.0 	0.0 	50 	50 	10 	0.0 	50.0
+2 essence 	0.0 	0.0 	0.0 	0 	0 	48 	0.0 	0.0
+9 essence of rathe 	20.0 	20.27 	10.24 	50 	10 	56 	0.0 	50.0
+0 etched ivory charm 	150 	151.08 	71.78 	500 	50 	385 	146.0 	139.0
+2 etched ivory charm - werewolf skin cloak 	300.0 	300.0 	0.0 	300 	300 	12 	0.0 	0.0
+2 ethereal 	150 	162.31 	19.28 	200 	150 	13 	0.0 	0.0
+2 ethereal --pay 	300.0 	292.86 	17.5 	300 	250 	28 	0.0 	0.0
+0 everfount 	35.0 	40.39 	16.4 	75 	20 	76 	40.0 	40.0
+2 everything 	0.0 	0.0 	0.0 	0 	0 	12 	0.0 	0.0
+2 evil 	6.0 	6.0 	0.0 	6 	6 	10 	0.0 	0.0
+0 evil eye lens 	50.0 	89.29 	46.01 	150 	50 	14 	0.0 	0.0
+0 executioners hood 	250 	242.96 	60.12 	450 	20 	1707 	138.0 	213.0
+0 extinguish fatigue 	10.0 	10.32 	3.4 	50 	10 	278 	10.0 	10.0 
+2 f 	0 	0.0 	0.0 	0 	0 	13 	0.0 	0.0
+2 fbr 	0 	0.0 	0.0 	0 	0 	15 	0.0 	0.0
+2 fbss - kicsh der pavz - short sword 	0.0 	0.0 	0.0 	0 	0 	64 	0.0 	0.0
+2 fbss paying 	12000 	10508.25 	4374.95 	16000 	9 	69 	0.0 	0.0
+0 feathered leggings 	50.0 	64.89 	42.83 	350 	10 	820 	80.0 	68.0
+2 feathered leggings totemic breastplate tentacle whipcrystalline orb stiletto 	0.0 	0.0 	0.0 	0 	0 	10 	0.0 	0.0
+0 feedback 	100.0 	119.5 	73.27 	300 	0 	322 	0.0 	42.0
+2 feerrott 	25.0 	25.0 	0.0 	25 	25 	46 	0.0 	0.0
+0 festering cloak 	15 	20.97 	14.24 	150 	5 	565 	35.0 	20.0
+2 fiery 	0 	0.0 	0.0 	0 	0 	13 	0.0 	0.0
+2 find me a buyer ill cut you 	500.0 	500.0 	0.0 	500 	500 	14 	0.0 	0.0
+0 fine plate bracer 	90 	70.05 	23.51 	90 	7 	83 	0.0 	0.0
+0 fine plate breastplate 	180.0 	169.12 	37.79 	290 	60 	108 	0.0 	0.0
+0 fine plate collar 	30 	47.35 	24.14 	80 	25 	17 	0.0 	80.0
+0 fine plate gauntlets 	100 	103.33 	9.03 	140 	90 	27 	0.0 	100.0
+2 fine plate gauntlets - fine plate vambraces - fine plate boots - fine plate greaves - fine plate pauldron - fine plate breastplate 	10.0 	10.0 	0.0 	10 	10 	10 	0.0 	0.0
+0 fine plate greaves 	8.0 	37.2 	47.64 	125 	7 	10 	0.0 	125.0
+0 fine plate vambraces 	90.0 	84.29 	18.21 	95 	40 	14 	0.0 	0.0
+0 fine plate visor 	50 	51.18 	10.49 	70 	20 	55 	0.0 	70.0
+0 fine silk turban 	50 	72.62 	55.87 	295 	0 	809 	0.0 	42.0
+0 fine splinted cloak 	90 	91.09 	9.47 	100 	30 	55 	0.0 	0.0
+0 fine steel long sword 	20.0 	17.22 	4.48 	20 	10 	18 	0.0 	0.0
+0 fine steel morning star 	25.0 	23.29 	4.2 	25 	13 	14 	0.0 	0.0
+2 fire 	50 	221.41 	486.6 	5000 	0 	627 	16.0 	38.0
+2 fire -- cyclops toes 	30.0 	30.0 	0.0 	30 	30 	28 	0.0 	0.0
+0 fire crystal staff 	100.0 	127.01 	58.8 	400 	40 	346 	63.0 	96.0
+0 fire drake scale 	20 	29.05 	29.09 	100 	10 	211 	0.0 	0.0
+0 fire emerald electrum bracelet 	175 	175.0 	0.0 	175 	175 	91 	175.0 	175.0
+0 fire emerald golden bracelet 	175.0 	190.64 	55.03 	350 	100 	258 	104.0 	155.0
+0 fire emerald platinum ring 	300 	302.11 	53.04 	350 	0 	659 	337.0 	319.0
+0 fire giant toes 	50.0 	52.98 	37.12 	200 	10 	610 	41.0 	43.0
+0 fire opal 	50.0 	62.25 	74.61 	500 	45 	142 	50.0 	50.0
+2 fire opals for 	45.0 	44.5 	1.5 	45 	40 	10 	0.0 	0.0
+2 fire pet 	1000 	1000.0 	0.0 	1000 	1000 	11 	0.0 	0.0
+0 fishbone earring 	4000 	3977.79 	1468.13 	6000 	0 	133 	0.0 	3700.0
+2 fishbone earring paying 	4000.0 	3611.11 	950.96 	4000 	1000 	18 	0.0 	0.0
+0 fishbone necklace 	25 	23.24 	7.66 	30 	10 	17 	0.0 	0.0
+2 flame 	0.0 	0.0 	0.0 	0 	0 	42 	0.0 	0.0
+0 flame of vox 	20.0 	27.67 	24.07 	100 	10 	30 	0.0 	35.0
+0 flame shock 	10.0 	10.0 	0.0 	10 	10 	26 	0.0 	0.0
+0 flayed turmoilskin belt 	2000.0 	2215.56 	562.79 	4000 	0 	196 	3000.0 	2680.0
+0 flowing black robe 	150.0 	21276770.25 	460774626.53 	9999999999 	0 	940 	350877311.0 	132450460.0
+2 flowing black robe paying 	150.0 	150.0 	0.0 	150 	150 	10 	0.0 	0.0
+0 flowing black silk sash 	13000.0 	13375.24 	7595.21 	126000 	0 	1268 	11870.0 	10894.0
+1 fbss 	11000 	11610.29 	5923.56 	105000 	10 	611 	12611.0 	10818.0
+2 flowing black silk sash - drake-hide sleeves - ring 	0 	0.0 	0.0 	0 	0 	11 	0.0 	0.0
+2 flowing black silk sash - golden efreeti boots - a mithril two-handed sword - djarns amethyst ring - short sword 	0 	0.0 	0.0 	0 	0 	15 	0.0 	0.0
+2 flowing black silk sash - mithril breastplate - paw of 	0 	0.0 	0.0 	0 	0 	13 	0.0 	0.0
+2 flowing black silk sash - short sword 	0.0 	0.0 	0.0 	0 	0 	14 	0.0 	0.0
+2 fo pair 	175.0 	175.0 	0.0 	175 	175 	26 	0.0 	0.0
+2 for 	30.0 	229.7 	1179.8 	50000 	0 	2768 	722.0 	297.0
+2 for a 	90 	90.0 	0.0 	90 	90 	23 	0.0 	90.0
+2 for a little while only 	325.0 	325.0 	0.0 	325 	325 	16 	0.0 	0.0
+2 for all 	5 	6.4 	4.93 	30 	0 	75 	5.0 	5.0
+2 for paw of 	0.0 	0.0 	0.0 	0 	0 	14 	0.0 	0.0
+2 for shovel 	0.0 	0.0 	0.0 	0 	0 	10 	0.0 	0.0
+2 for the 	2.0 	2.2 	0.4 	3 	2 	10 	0.0 	3.0
+0 force spiral of al'kabor 	200.0 	200.0 	0.0 	200 	200 	28 	0.0 	0.0
+0 foreman's tunic 	150 	174.65 	117.73 	2500 	50 	989 	119.0 	160.0
+1 foreman tunic 	100.0 	100.0 	0.0 	100 	100 	18 	0.0 	0.0
+0 froglok skin mask 	30.0 	28.41 	16.75 	100 	15 	22 	0.0 	0.0
+0 frothy goblin tonic 	10.0 	10.77 	3.85 	30 	10 	26 	0.0 	0.0
+2 full large bed 	77.5 	76.92 	3.42 	80 	70 	26 	0.0 	0.0
+2 full large bronze armor 	0.0 	0.0 	0.0 	0 	0 	26 	0.0 	0.0
+2 full set 	0.0 	49.51 	135.52 	450 	0 	198 	0.0 	97.0
+2 full set for 	3500 	3500.0 	0.0 	3500 	3500 	13 	0.0 	0.0
+2 full set has 	62 	62.0 	0.0 	62 	62 	35 	0.0 	0.0
+2 full set large patchwork 	18.0 	18.0 	0.0 	18 	18 	16 	0.0 	0.0
+2 full set medium banded 	60.0 	72.86 	14.85 	90 	60 	14 	0.0 	60.0
+2 full set medium studded leather armor 	40.0 	38.5 	2.29 	40 	35 	10 	0.0 	0.0
+2 full set mfinesteel 	800 	800.0 	0.0 	800 	800 	21 	0.0 	0.0
+0 full set of crafted 	3000.0 	3000.0 	0.0 	3000 	3000 	16 	0.0 	0.0
+1 full crafted set 	3000 	3000.0 	0.0 	3000 	3000 	19 	0.0 	0.0
+2 full set of fine plate breastplate 	1200.0 	1200.0 	0.0 	1200 	1200 	14 	0.0 	0.0
+2 full set of med bronze 	120 	120.0 	0.0 	120 	120 	13 	0.0 	0.0
+2 full set of medium banded 	60.0 	57.78 	2.48 	60 	55 	18 	0.0 	0.0
+2 full set of small bed armor 	75 	75.0 	0.0 	75 	75 	15 	0.0 	0.0
+2 full set of small crafted breastplate 	3000 	2666.67 	471.4 	3000 	2000 	15 	0.0 	0.0
+0 full set of wu's 	400 	306.89 	247.6 	700 	0 	37 	0.0 	267.0
+1 full set of wu's fighting armor 	500.0 	500.0 	0.0 	500 	500 	16 	0.0 	0.0
+2 full suit 	0.0 	11.56 	28.07 	95 	0 	78 	0.0 	0.0
+0 full suit of lambent 	4000 	3784.62 	523.08 	4000 	2000 	13 	0.0 	0.0
+2 full wu's 	400.0 	400.0 	0.0 	400 	400 	10 	0.0 	0.0
+2 fully charged ivyr's hoop 	2500.0 	2500.0 	0.0 	2500 	2500 	12 	0.0 	0.0
+2 fully equipped lvl 	50 	50.0 	0.0 	50 	50 	15 	0.0 	50.0 
+2 g for 	24 	24.0 	0.0 	24 	24 	15 	0.0 	24.0
+2 gamble 	10.0 	10.0 	0.0 	10 	10 	10 	0.0 	0.0
+0 gargoyle eye 	25 	30.59 	20.9 	100 	15 	141 	0.0 	20.0
+0 gatorscale leggings 	1000 	1170.36 	1083.62 	13000 	0 	575 	1692.0 	1045.0
+0 gatorscale sleeves 	250.0 	223.17 	74.31 	1400 	0 	988 	215.0 	225.0
+2 gauntlets 	0 	0.06 	0.34 	2 	0 	103 	0.0 	0.0
+0 gauntlets of the ardent 	400 	352.99 	79.59 	400 	200 	67 	0.0 	0.0
+2 gebs paying 	9000.0 	8219.02 	1527.95 	9000 	18 	86 	7000.0 	7112.0
+0 gem inlaid gauntlets 	300.0 	300.82 	91.62 	500 	100 	562 	233.0 	346.0
+2 gem inlaid gauntlets paying well 	450.0 	450.0 	0.0 	450 	450 	54 	0.0 	450.0
+0 gem-encrusted scepter 	400 	411.97 	113.66 	650 	150 	167 	430.0 	313.0
+0 ghoulbane 	700.0 	753.62 	202.61 	2000 	300 	684 	881.0 	847.0
+0 giant snake fang 	5 	7.07 	5.01 	20 	0 	15 	0.0 	0.0
+0 giant snakespine belt 	50.0 	89.9 	89.15 	300 	0 	466 	245.0 	134.0
+0 gigantic zweihander 	500 	548.39 	136.48 	700 	0 	31 	0.0 	567.0
+0 gilded cloth 	300 	303.97 	156.16 	1000 	100 	145 	200.0 	242.0
+0 girdle of the diligent 	6000.0 	5370.0 	883.23 	6200 	4000 	10 	0.0 	0.0
+0 gladius 	25.0 	32.77 	21.11 	110 	0 	168 	25.0 	32.0
+2 gladius offer bloodstained mantle 	40 	40.0 	0.0 	40 	40 	11 	0.0 	0.0
+2 gladius offerbloodstained mantle 	40.0 	40.0 	0.0 	40 	40 	22 	0.0 	0.0
+0 gloomwater harpoon 	400.0 	402.57 	129.34 	1000 	0 	2202 	274.0 	295.0
+1 gloom water harpoon 	350.0 	340.0 	20.0 	350 	300 	30 	0.0 	340.0
+2 gloomwater harpoon x 	2.0 	2.0 	0.0 	2 	2 	14 	0.0 	2.0
+2 glove 	0 	0.0 	0.0 	0 	0 	17 	0.0 	0.0
+0 glove of rallos zek 	5.0 	10.89 	21.09 	100 	0 	56 	0.0 	0.0
+2 gloves 	500 	383.83 	268.7 	1250 	0 	81 	0.0 	50.0
+2 gloves paying 	300 	300.0 	0.0 	300 	300 	21 	0.0 	0.0
+2 glovesbracers 	0.0 	0.0 	0.0 	0 	0 	12 	0.0 	0.0
+0 glowing black stone 	4000.0 	4083.33 	1017.21 	5500 	0 	24 	0.0 	0.0
+1 gbs 	4000.0 	4108.09 	1208.98 	8000 	425 	34 	0.0 	0.0
+0 glowing bone collar 	500 	502.4 	232.02 	1100 	0 	263 	250.0 	393.0
+0 glowing iron pike 	100.0 	143.92 	76.99 	400 	20 	102 	0.0 	0.0
+0 glowing stone band 	25.0 	24.56 	7.41 	50 	10 	34 	24.0 	23.0
+1 glowing stone b 	25.0 	34.65 	26.06 	100 	10 	200 	0.0 	0.0
+0 glowing wooden crook 	87.5 	90.19 	187.9 	5000 	0 	720 	0.0 	67.0
+0 gnoll hide lariat 	25.0 	27.85 	16.25 	392 	10 	762 	46.0 	28.0
+1 gnoll hide lariats 	20.0 	21.07 	2.05 	25 	20 	28 	0.0 	25.0
+2 gnoll hide lariat x 	6.0 	4.7 	2.85 	12 	2 	20 	0.0 	2.0
+0 gnoll hide tome 	1200 	1235.11 	338.77 	3000 	0 	851 	0.0 	814.0
+2 gnoll hide tome paw of opolla 	3300.0 	3321.43 	41.03 	3400 	3300 	14 	0.0 	0.0
+0 gnoll pup scalp 	25.0 	35.42 	12.33 	50 	25 	24 	0.0 	35.0
+0 gnomish environment suit 	1500 	1290.17 	593.5 	3000 	75 	117 	0.0 	1372.0
+0 goblin ears 	10.0 	10.0 	0.0 	10 	10 	24 	0.0 	10.0
+0 gold bloodstone necklace 	30 	27.97 	4.02 	30 	20 	79 	0.0 	23.0
+0 gold carnelian wedding ring 	25.0 	26.43 	2.26 	30 	25 	42 	0.0 	0.0
+0 gold onyx pendant 	25.0 	28.75 	4.41 	35 	25 	44 	0.0 	35.0
+0 gold plated koshigatana 	5000.0 	5000.0 	0.0 	5000 	5000 	24 	5000.0 	5000.0
+0 gold ring 	400 	451.18 	205.74 	1000 	2 	137 	0.0 	379.0
+2 golden 	0 	0.0 	0.0 	0 	0 	91 	0.0 	0.0
+0 golden amber earring 	30 	35.37 	20.8 	150 	2 	371 	0.0 	28.0
+2 golden amber earring x 	2.0 	2.0 	0.0 	2 	2 	10 	2.0 	2.0
+0 golden black pearl choker 	100.0 	104.26 	29.6 	200 	0 	1030 	75.0 	85.0
+0 golden black sapphire earring 	5000 	5042.94 	1209.63 	10000 	7 	247 	0.0 	4700.0
+0 golden blue diamond pendant 	1500.0 	1209.07 	605.97 	2000 	0 	54 	1700.0 	1700.0
+0 golden cat eye bracelet 	30.0 	42.65 	35.13 	250 	25 	234 	75.0 	29.0
+0 golden chitin bracer 	3000 	2910.5 	595.17 	4000 	3 	623 	3000.0 	2676.0
+2 golden chitin bracer paying 	1513.5 	1680.17 	1661.55 	3500 	27 	18 	0.0 	0.0
+0 golden diamond mask 	1500 	1553.19 	607.87 	3000 	750 	47 	0.0 	1333.0
+0 golden ear stud 	60 	338.22 	1448.1 	8000 	20 	87 	62.0 	57.0
+0 golden efreeti boots 	9500.0 	9397.98 	6664.94 	98000 	0 	1708 	4782.0 	7792.0
+1 geb 	9000 	10045.45 	3863.9 	18000 	6500 	11 	0.0 	0.0
+1 geb's 	9000 	8545.45 	497.93 	9000 	8000 	11 	8000.0 	8000.0
+1 gebs 	8000 	8087.77 	2294.52 	12000 	1 	189 	7250.0 	7407.0
+2 golden efreeti boots - paying 	10000 	10000.0 	0.0 	10000 	10000 	11 	0.0 	0.0
+2 golden efreeti boots pst granite bracer paying 	3000.0 	3025.0 	82.92 	3300 	3000 	12 	0.0 	0.0
+0 golden fire wedding ring 	150 	160.41 	34.63 	300 	80 	571 	146.0 	191.0
+2 golden fire wedding ring - cat 	0 	0.0 	0.0 	0 	0 	13 	0.0 	0.0
+0 golden jaded bracelet 	35.0 	38.48 	10.24 	90 	2 	400 	33.0 	35.0
+0 golden locket 	25 	23.6 	2.24 	25 	20 	25 	0.0 	0.0
+0 golden opal amulet 	100.0 	126.33 	89.26 	1000 	35 	1300 	75.0 	79.0
+0 golden sapphire earring 	200 	203.31 	55.81 	400 	50 	1457 	173.0 	167.0
+0 golden star amulet 	35.0 	42.78 	33.85 	200 	20 	266 	68.0 	36.0
+0 golden star ruby ring 	150.0 	149.73 	16.04 	200 	100 	364 	175.0 	175.0
+0 gossamer gloves 	5.0 	5.0 	0.0 	5 	5 	12 	0.0 	0.0
+0 gossamer robe 	15.0 	20.24 	20.92 	75 	8 	144 	0.0 	10.0
+2 got 	14.0 	478.81 	1824.58 	8000 	0 	54 	0.0 	2.0
+0 granite bracer 	4000 	3821.13 	841.04 	7500 	2 	943 	3985.0 	3337.0
+2 granite bracer paying 	3200.0 	3305.49 	159.65 	3650 	3000 	82 	0.0 	0.0
+2 granite bracer x 	2.0 	2.0 	0.0 	2 	2 	30 	0.0 	0.0
+2 granite bracers paying 	3500.0 	3466.67 	47.14 	3500 	3400 	12 	0.0 	0.0
+2 grappling 	100 	113.64 	22.27 	150 	100 	11 	0.0 	0.0
+0 gravity flux 	40.0 	48.81 	25.56 	200 	40 	42 	0.0 	40.0
+2 great way to break the 	200.0 	200.0 	0.0 	200 	200 	10 	0.0 	0.0
+0 greater lightstone 	10 	9.18 	1.82 	20 	5 	289 	8.0 	8.0
+1 greater light stone 	8 	7.91 	0.29 	8 	7 	11 	0.0 	0.0
+1 gls 	7 	7.59 	0.97 	10 	7 	17 	0.0 	7.0
+2 greater lightstones paying 	12.0 	12.0 	0.0 	12 	12 	10 	0.0 	0.0
+2 greater potion of cohesion x 	20 	20.0 	0.0 	20 	20 	15 	0.0 	0.0
+2 greaves 	0.0 	561.05 	1614.99 	5500 	0 	172 	0.0 	731.0
+0 greaves of ro 	989 	881.86 	184.36 	1500 	400 	155 	800.0 	618.0
+0 greaves of the penitent 	400.0 	375.0 	82.92 	500 	200 	48 	0.0 	0.0
+0 green silken drape 	175.0 	173.98 	69.84 	1250 	0 	1366 	130.0 	121.0
+0 griffon feathers 	25.0 	30.09 	16.85 	100 	10 	786 	24.0 	23.0
+0 griffon talon gloves 	212.5 	248.64 	152.76 	425 	15 	258 	267.0 	253.0
+0 grizzly bear skin 	25 	31.47 	26.81 	255 	5 	187 	0.0 	5.0
+1 grizzly bear skins 	20.0 	19.54 	2.43 	30 	10 	250 	20.0 	20.0
+1 grizzly skin 	20 	18.08 	5.73 	25 	10 	13 	22.0 	22.0
+2 grizzly bear skin x 	4 	4.47 	0.92 	6 	3 	43 	4.0 	4.0
+0 grobb cleaver 	300 	250.91 	105.35 	350 	100 	11 	0.0 	0.0
+0 grotesque mask 	100.0 	117.29 	48.14 	450 	30 	824 	100.0 	127.0
+0 gypsy medallion 	250.0 	250.0 	0.0 	250 	250 	48 	0.0 	0.0 
+2 h 	9000 	7936.81 	5130.91 	35000 	0 	47 	0.0 	5333.0
+2 h made back pack x 	2 	2.07 	0.25 	3 	2 	15 	0.0 	0.0
+2 h or 	100.0 	67.33 	46.2 	100 	2 	12 	0.0 	0.0
+2 hammer 	0.0 	1000.0 	2903.2 	10000 	0 	28 	0.0 	0.0
+0 hammer of the scourge 	10000.0 	11500.0 	7066.99 	35000 	0 	26 	0.0 	0.0
+2 hammer of the scrouge - shiny brass idols - rbb - words 	0 	0.0 	0.0 	0 	0 	21 	0.0 	0.0
+0 hammerhead helm 	4000 	4232.74 	2450.15 	12000 	2 	277 	4000.0 	2459.0
+0 hand made backpack 	35 	36.63 	5.38 	50 	0 	435 	37.0 	36.0
+1 h made backpack 	35.0 	36.49 	6.83 	50 	6 	802 	0.0 	0.0
+1 h made backpack s 	30.0 	29.66 	2.95 	40 	25 	162 	0.0 	0.0
+1 h made backpacks 	30.0 	29.93 	2.4 	40 	25 	452 	0.0 	0.0
+1 hand made backpack' s 	40.0 	40.0 	0.0 	40 	40 	16 	0.0 	40.0
+1 hand made backpack's 	40 	40.0 	0.0 	40 	40 	101 	0.0 	40.0
+1 hand made backpacks 	40 	38.95 	3.07 	40 	30 	19 	0.0 	40.0
+1 handmade backpack 	35.0 	34.41 	2.35 	35 	25 	34 	0.0 	35.0
+1 hmade backpack 	35 	35.43 	2.5 	50 	35 	35 	0.0 	0.0
+2 hand made backpack x 	3.0 	2.56 	0.5 	3 	2 	18 	0.0 	3.0
+2 hander 	5500 	5516.26 	874.05 	12000 	4500 	123 	5500.0 	5482.0
+2 hander for 	5000 	5227.27 	248.96 	5500 	5000 	11 	0.0 	5227.0
+0 harmshield 	15.0 	20.6 	10.03 	50 	10 	184 	0.0 	0.0
+0 harvester 	562.5 	559.17 	114.93 	800 	55 	266 	500.0 	592.0
+0 haunting corpse 	50 	47.95 	35.0 	150 	0 	259 	0.0 	50.0
+2 have 	6 	14.12 	23.86 	125 	2 	203 	3.0 	4.0
+2 hb 	8 	6.15 	3.37 	8 	0 	13 	0.0 	0.0
+2 head 	0.0 	0.0 	0.0 	0 	0 	54 	0.0 	0.0
+0 head of ghanex drah 	100.0 	81.91 	37.24 	250 	15 	128 	0.0 	95.0
+0 head of shen 	25.0 	23.87 	10.37 	100 	10 	62 	0.0 	0.0
+2 hed sword 	8.0 	8.0 	0.0 	8 	8 	12 	0.0 	0.0
+2 helm 	0 	163.3 	504.45 	3000 	0 	53 	0.0 	150.0
+0 helm of hukulk 	60.0 	64.44 	27.98 	125 	30 	62 	0.0 	75.0
+0 helm of ro 	500 	563.64 	122.64 	800 	500 	33 	0.0 	0.0
+2 her 	8000.0 	7572.03 	3103.68 	12000 	30 	32 	0.0 	0.0
+0 hero bracers 	350 	348.16 	171.43 	3000 	5 	1685 	301.0 	354.0
+1 hero bracer 	300.0 	259.29 	133.55 	400 	0 	120 	0.0 	50.0
+0 hexed kerran doll 	4000.0 	3611.11 	678.14 	4000 	2000 	18 	0.0 	0.0
+0 high quality bear skin 	10.0 	10.84 	5.83 	100 	0 	1714 	9.0 	15.0
+1 hq bear 	10 	10.14 	2.33 	20 	9 	121 	10.0 	10.0
+1 high quality bear skins 	10.0 	10.0 	0.0 	10 	10 	84 	0.0 	0.0
+1 high quality bearskin 	10.0 	10.0 	0.0 	10 	10 	74 	0.0 	0.0
+1 hq bear skin 	10.0 	10.71 	1.75 	15 	10 	14 	0.0 	0.0
+1 hq bear skin 	10.0 	10.18 	2.26 	25 	5 	162 	11.0 	11.0
+1 hq bear skins 	10.0 	9.84 	2.5 	40 	0 	1184 	6.0 	9.0
+1 hq bear pelt 	10.0 	13.09 	4.17 	20 	8 	54 	0.0 	10.0
+1 hq bear pelts 	10 	11.96 	12.62 	100 	4 	101 	10.0 	10.0
+2 high quality bear skin x 	2.0 	2.74 	1.32 	7 	2 	68 	0.0 	2.0
+0 high quality cat pelt 	5.0 	6.46 	3.41 	20 	0 	390 	5.0 	5.0
+1 hq cat pelt 	5.0 	6.18 	1.92 	10 	5 	22 	0.0 	5.0
+2 high quality cat pelt x 	3.0 	22.67 	89.84 	444 	2 	46 	0.0 	3.0
+0 high quality wolf skin 	5 	5.37 	3.88 	25 	0 	139 	5.0 	6.0
+1 hq wolf 	10.0 	6.5 	4.3 	10 	1 	10 	0.0 	0.0
+1 hq wolf pelts 	3 	3.0 	0.0 	3 	3 	43 	0.0 	0.0
+1 hq wolf skins 	1.0 	1.0 	0.0 	1 	1 	14 	0.0 	0.0
+2 high quality wolf skin x 	1.0 	2.14 	1.95 	8 	1 	44 	0.0 	1.0
+0 hill giant toes 	25 	25.67 	13.09 	100 	5 	515 	22.0 	19.0
+0 hollowed bone bracers 	100 	47506038.33 	687606398.06 	9999999999 	0 	421 	110.0 	114.0
+0 honeycomb 	10 	8.81 	4.23 	15 	2 	75 	4.0 	5.0
+0 hooded black cloak 	3000.0 	4045.16 	5244.93 	28000 	500 	332 	1871.0 	2421.0
+1 hbc 	2600.0 	2477.06 	210.61 	3000 	2000 	170 	2500.0 	2523.0
+0 hooded black cloak 	3000.0 	4045.16 	5244.93 	28000 	500 	332 	0.0 	0.0
+2 horn 	0.0 	0.0 	0.0 	0 	0 	20 	0.0 	0.0
+0 horn of war 	15000 	18620.69 	8599.98 	40000 	15000 	29 	15200.0 	18621.0
+2 hp 	10 	44.81 	102.51 	500 	4 	135 	4.0 	56.0
+2 hp ring 	220.0 	198.11 	57.6 	300 	55 	66 	0.0 	216.0
+2 hp rings 	250.0 	205.5 	210.38 	550 	2 	66 	250.0 	438.0
+2 hq bear cat 	10.0 	10.0 	0.0 	10 	10 	24 	0.0 	0.0
+2 hq bear skin pst 	5.0 	5.0 	0.0 	5 	5 	12 	0.0 	0.0
+2 hq cat pelts 	3 	3.68 	1.18 	10 	2 	213 	3.0 	4.0
+2 hs 	100.0 	71.56 	40.3 	100 	6 	18 	0.0 	0.0
+2 hs or 	2 	1.88 	0.33 	2 	1 	33 	2.0 	2.0
+0 hulking spiked club 	25 	39.71 	28.19 	150 	5 	407 	0.0 	23.0
+0 hungry earth 	15.0 	27.01 	17.31 	50 	10 	142 	0.0 	0.0 
+2 i 	17 	17.0 	0.0 	17 	17 	17 	0.0 	0.0
+2 i bronze breastplate 	17.0 	17.0 	0.0 	17 	17 	12 	0.0 	0.0
+2 i crested spaulders 	400.0 	400.0 	0.0 	400 	400 	34 	0.0 	0.0
+2 i gnoll hide lariat 	30.0 	30.0 	0.0 	30 	30 	12 	0.0 	0.0
+2 i hq bear 	15.0 	15.0 	0.0 	15 	15 	12 	0.0 	0.0
+2 i a mithril two-handed sword 	5500.0 	5410.0 	99.5 	5500 	5300 	80 	0.0 	0.0
+2 i a mithril two-hed sword 	5500.0 	5410.0 	99.5 	5500 	5300 	40 	0.0 	0.0
+2 i black chitin leggings 	1000 	950.0 	70.71 	1000 	850 	15 	0.0 	0.0
+2 i charred guardian breastplate 	300.0 	310.42 	20.31 	350 	300 	24 	0.0 	0.0
+2 i chitin shell shield 	50 	45.24 	8.52 	50 	30 	21 	0.0 	0.0
+2 i crafted bracers 	200.0 	200.0 	0.0 	200 	200 	44 	0.0 	0.0
+2 i crafted breastplate 	650.0 	650.0 	0.0 	650 	650 	44 	0.0 	0.0
+2 i crafted gauntlets 	300.0 	300.0 	0.0 	300 	300 	42 	0.0 	0.0
+2 i crafted plate boots 	300.0 	300.0 	0.0 	300 	300 	44 	0.0 	0.0
+2 i crafted vambraces 	350.0 	350.0 	0.0 	350 	350 	44 	0.0 	0.0
+2 i damask robe 	20.0 	20.0 	0.0 	20 	20 	16 	0.0 	0.0
+2 i dufrenite 	50 	50.0 	0.0 	50 	50 	21 	0.0 	0.0
+2 i executioners hood 	300.0 	243.33 	81.58 	300 	20 	12 	0.0 	0.0
+2 i giant snakespine belt 	100.0 	97.5 	4.33 	100 	90 	16 	0.0 	0.0
+2 i gnoll hide lariat 	40.0 	40.0 	0.0 	40 	40 	12 	0.0 	0.0
+2 i have 	15.0 	56.2 	113.59 	801 	2 	56 	79.0 	49.0
+2 i mermaid scale 	50.0 	50.0 	0.0 	50 	50 	16 	0.0 	0.0
+2 i minotaur ribcage 	250 	250.0 	0.0 	250 	250 	25 	0.0 	0.0
+2 i obsidian bead hoop 	100.0 	100.0 	0.0 	100 	100 	14 	0.0 	0.0
+2 i polished granite tomahawk 	75.0 	75.0 	0.0 	75 	75 	14 	0.0 	0.0
+2 i skull-shaped barbute 	375.0 	360.42 	27.87 	375 	300 	48 	0.0 	300.0
+2 i small bronze collar 	6.0 	6.0 	0.0 	6 	6 	12 	0.0 	0.0
+2 i small bronze gauntlets 	9.0 	9.0 	0.0 	9 	9 	18 	0.0 	0.0
+2 i small bronze girdle 	7.0 	7.0 	0.0 	7 	7 	12 	0.0 	0.0
+2 i small bronze pauldron 	8.0 	8.0 	0.0 	8 	8 	16 	0.0 	0.0
+2 i split paw hide mask 	20.0 	19.47 	1.53 	20 	15 	38 	0.0 	0.0
+0 ice crystal staff 	100 	132.14 	146.26 	1500 	10 	609 	136.0 	107.0
+0 ice giant toes 	40.0 	56.52 	47.55 	300 	10 	252 	28.0 	66.0
+0 ice of velious 	10 	10.17 	5.0 	35 	5 	29 	0.0 	0.0
+2 if one of your numbers shows you win 	12000.0 	12000.0 	0.0 	12000 	12000 	12 	0.0 	0.0
+2 if you're selling me cat or wolf i'll buy your bear at 	9.0 	9.0 	0.0 	9 	9 	10 	0.0 	0.0
+2 ii cat eye platinum necklace 	150.0 	150.0 	0.0 	150 	150 	12 	0.0 	0.0
+2 ii fire emerald platinum ring 	275.0 	275.0 	0.0 	275 	275 	14 	0.0 	0.0
+2 ii platinum bloodstone earring 	162.5 	162.5 	12.5 	175 	150 	14 	0.0 	0.0
+2 ii platinum fire wedding ring 	250.0 	250.0 	25.0 	275 	225 	16 	0.0 	0.0
+2 ii sheer bone mask 	130.0 	130.0 	0.0 	130 	130 	12 	0.0 	0.0
+0 illusionists stone 	20.0 	20.0 	0.0 	20 	20 	32 	0.0 	0.0
+0 immobilize 	40.0 	38.61 	9.88 	80 	25 	108 	50.0 	38.0
+2 imp skin gloves paying 	2000.0 	1900.0 	300.0 	2000 	1000 	20 	0.0 	0.0
+0 impskin gloves 	1500 	1549.1 	711.76 	17000 	0 	685 	1600.0 	1509.0
+1 imp skin gloves 	1000 	1084.85 	98.85 	1200 	1000 	33 	0.0 	1000.0
+2 in 	2.0 	6.36 	10.92 	40 	0 	22 	4.0 	3.0
+2 in the next 	5.0 	5.0 	0.0 	5 	5 	10 	0.0 	5.0
+0 incandescent gloves 	250 	371.79 	384.11 	1500 	200 	39 	0.0 	238.0
+1 incescent gloves 	500 	605.56 	301.46 	1500 	300 	99 	0.0 	0.0
+0 incandescent mask 	700.0 	671.96 	263.93 	1500 	1 	262 	529.0 	514.0
+1 incescent mask 	800.0 	878.77 	330.15 	2000 	15 	166 	0.0 	0.0
+0 inky shadow silk 	25.0 	29.17 	9.32 	50 	25 	12 	0.0 	25.0
+0 insipid weakness 	40.0 	39.95 	6.48 	75 	25 	326 	40.0 	39.0
+0 instill 	35.0 	29.11 	8.46 	35 	0 	28 	0.0 	0.0
+2 int 	4.0 	45.64 	189.12 	1000 	0 	380 	4.0 	76.0
+2 int food 	5.0 	5.0 	0.0 	5 	5 	10 	0.0 	0.0
+2 int ears 	200.0 	200.0 	0.0 	200 	200 	110 	0.0 	200.0
+2 int jewelry golden star amulet 	30.0 	30.0 	0.0 	30 	30 	10 	0.0 	30.0
+2 int neck 	400 	403.54 	70.31 	450 	0 	113 	0.0 	400.0
+2 int necklace 	12.0 	27.0 	57.6 	250 	10 	16 	250.0 	250.0
+2 int ring 	175 	155.27 	42.48 	175 	4 	171 	0.0 	166.0
+2 int rings 	175.0 	149.39 	61.99 	300 	7 	144 	9.0 	140.0
+2 int rings or 	2.0 	2.0 	0.0 	2 	2 	54 	0.0 	2.0
+0 intensify death 	40.0 	48.5 	31.53 	150 	20 	240 	0.0 	25.0
+0 intestine necklace 	2.0 	2.88 	1.37 	5 	2 	34 	0.0 	0.0
+2 invisibility vs undead potions 	20 	20.0 	0.0 	20 	20 	25 	0.0 	0.0
+0 invoke death 	1000 	1208.14 	933.37 	2500 	0 	183 	0.0 	200.0
+2 invoke deathbond 	0.0 	0.0 	0.0 	0 	0 	10 	0.0 	0.0
+0 invoke fear 	50.0 	46.67 	19.33 	80 	10 	78 	0.0 	63.0
+0 invoke shadow 	60 	71.08 	41.78 	200 	0 	523 	0.0 	56.0
+2 invoke shadow - invoke fear - call of bones 	40.0 	40.0 	0.0 	40 	40 	14 	0.0 	40.0
+0 iron leash collar 	100 	80.29 	29.03 	100 	20 	17 	0.0 	0.0
+2 items 	0.0 	0.0 	0.0 	0 	0 	42 	0.0 	0.0
+2 itu potion 	20.0 	20.0 	0.0 	20 	20 	20 	0.0 	20.0
+0 ivandyr's hoop 	3000 	3023.54 	1473.01 	6000 	15 	65 	2500.0 	3398.0
+1 ivyr's hoop 	2500 	2356.37 	370.62 	4000 	1200 	267 	0.0 	0.0
+2 ive got 	20.0 	16.6 	6.8 	20 	3 	10 	0.0 	0.0
+0 ivory bracelet 	50 	62.13 	42.47 	375 	10 	597 	78.0 	49.0
+2 ivu 	20.0 	20.0 	0.0 	20 	20 	202 	0.0 	20.0
+0 ivy etched boots 	800.0 	1150.0 	604.06 	2000 	350 	46 	0.0 	0.0
+0 ivy etched bracer 	300.0 	285.29 	42.49 	300 	125 	34 	0.0 	0.0
+0 ivy etched gauntlets 	250 	298.15 	81.06 	400 	100 	27 	0.0 	0.0
+0 ivy etched helm 	400 	364.32 	72.96 	500 	100 	199 	0.0 	0.0
+0 ivy etched leggings 	500 	575.47 	195.23 	1200 	200 	329 	0.0 	200.0
+0 ivy etched sleeves 	500 	480.54 	99.98 	700 	300 	167 	0.0 	372.0
+0 ivy etched tunic 	1000.0 	872.9 	252.22 	1500 	400 	392 	0.0 	700.0
+2 ivyr's hoop best earring in the game only 	3000 	3000.0 	0.0 	3000 	3000 	21 	0.0 	0.0 
+0 jacinth 	300 	449.29 	763.44 	5900 	150 	327 	183.0 	283.0
+0 jaded electrum bracelet 	16.0 	18.57 	8.88 	75 	8 	268 	0.0 	10.0
+0 jaded platinum ring 	175 	173.38 	12.71 	200 	125 	65 	0.0 	172.0
+0 jaded silver ring 	10 	8.98 	2.57 	15 	6 	187 	10.0 	10.0
+2 jagged b paying 	50 	45.38 	10.82 	50 	20 	13 	0.0 	0.0
+0 jagged band 	50 	54.15 	17.38 	100 	0 	427 	42.0 	55.0
+1 jagged b 	65 	76.96 	46.94 	350 	20 	511 	0.0 	0.0
+2 jagged band x 	2 	2.18 	0.39 	3 	2 	11 	0.0 	2.0
+0 jaggedpine crook 	25.0 	27.9 	16.94 	50 	5 	50 	0.0 	25.0
+0 jambiya 	50.0 	46.66 	17.81 	150 	10 	984 	45.0 	43.0
+0 jasper gold earring 	30 	41.0 	22.47 	200 	15 	519 	45.0 	32.0
+2 jasper gold earring or golden cat eye bracelet or golden amber earring or golden jaded bracelet 	55.0 	55.0 	0.0 	55 	55 	26 	0.0 	0.0
+0 jboots mq 	8000 	7515.46 	1678.32 	10000 	5000 	97 	0.0 	5000.0
+1 journeyman's boots mq 	6000 	4281.33 	3749.25 	9000 	6 	33 	0.0 	0.0 
+1 jboot mq 	6000 	6206.9 	701.2 	8000 	5000 	29 	6000.0 	5950.0
+2 jboots ring of the ancients mq 	6000.0 	6000.0 	0.0 	6000 	6000 	12 	0.0 	0.0
+0 jeweled skull 	500.0 	603.42 	292.53 	1900 	0 	354 	0.0 	418.0
+2 jeweler filling 	0 	0.0 	0.0 	0 	0 	27 	0.0 	0.0
+2 k 	0 	32.89 	253.95 	2000 	0 	61 	0.0 	0.0
+2 k - short sword 	0 	0.0 	0.0 	0 	0 	19 	0.0 	0.0
+2 k - silver-plated leggings 	700 	700.0 	0.0 	700 	700 	25 	0.0 	0.0
+2 k - a mithril two-handed sword 	6000.0 	6000.0 	0.0 	6000 	6000 	38 	0.0 	6000.0
+2 k - black chitin leggins 	1000.0 	1000.0 	0.0 	1000 	1000 	12 	0.0 	1000.0
+2 k - blackened iron bastard sword 	100.0 	100.0 	0.0 	100 	100 	10 	0.0 	100.0
+2 k - cloak 	0 	0.0 	0.0 	0 	0 	13 	0.0 	0.0
+2 k - crown 	0 	0.0 	0.0 	0 	0 	23 	0.0 	0.0
+2 k - crown of the froglok kings - gloomwater harpoon 	350 	350.0 	0.0 	350 	350 	13 	0.0 	0.0
+2 k - flowing black silk sash 	12600 	12288.89 	746.02 	12600 	10500 	27 	0.0 	10500.0
+2 k - granite bracer 	3400 	3431.91 	46.61 	3500 	3400 	47 	0.0 	3432.0
+2 k - hammerhead helm 	3200 	3200.0 	0.0 	3200 	3200 	13 	0.0 	0.0
+2 k - hero bracers 	350 	353.33 	12.47 	400 	350 	15 	0.0 	0.0
+2 k - mithril plated girth 	2500.0 	2500.0 	0.0 	2500 	2500 	26 	0.0 	0.0
+2 k - short sword 	0.0 	0.0 	0.0 	0 	0 	38 	0.0 	0.0
+2 k each 	1600 	1264.05 	650.57 	1600 	0 	19 	0.0 	0.0
+2 k for 	2 	11.19 	19.27 	52 	2 	27 	0.0 	0.0
+2 k or 	150.0 	4430.8 	5364.0 	11000 	2 	10 	0.0 	5501.0
+2 k platinum tiara 	4000.0 	4000.0 	0.0 	4000 	4000 	20 	0.0 	4000.0
+2 k rokyls channelling crystal 	10000.0 	10000.0 	0.0 	10000 	10000 	16 	0.0 	0.0
+2 k- pearl kedge totem 	13000.0 	13000.0 	0.0 	13000 	13000 	14 	0.0 	0.0
+2 k--lizardscale mantle 	250.0 	250.0 	0.0 	250 	250 	12 	0.0 	0.0
+2 k-serpentine bracer 	150 	150.0 	0.0 	150 	150 	17 	0.0 	0.0
+0 karana's tear 	75.0 	75.77 	34.66 	200 	30 	104 	50.0 	72.0
+2 keach 	1600.0 	1600.0 	0.0 	1600 	1600 	12 	0.0 	0.0
+0 kerran tribal headband 	100.0 	103.0 	8.32 	125 	99 	16 	0.0 	0.0
+1 kerran tribal headb 	125.0 	106.25 	27.24 	125 	50 	12 	0.0 	0.0
+0 kicsh der pavz 	1600.0 	1788.68 	661.45 	3000 	0 	106 	0.0 	2850.0
+2 kicsh der pavz - obsidian shards - short sword 	0 	0.0 	0.0 	0 	0 	75 	0.0 	0.0
+2 kicsh der pavz - short sword 	0 	0.0 	0.0 	0 	0 	49 	0.0 	0.0
+2 kicsh der pavz-crested spaulders-runed falchion-grotesque mask-an executioners axe-langseax 	0.0 	0.0 	0.0 	0 	0 	20 	0.0 	0.0
+2 kicsh der pavz-rain caller-langseax 	0.0 	0.0 	0.0 	0 	0 	14 	0.0 	0.0
+0 kilij plans 	50.0 	61.44 	43.31 	250 	0 	162 	0.0 	184.0
+0 kilva's blistering flesh 	22 	22.41 	3.08 	25 	10 	63 	10.0 	24.0
+0 kobold-hide boots 	60.0 	14842376.44 	344264590.56 	8000000000 	10 	1078 	727272780.0 	118518583.0
+1 kobold hide boots 	150 	95.45 	72.16 	150 	0 	11 	0.0 	0.0
+2 kpp - shadowbound boots 	300 	300.0 	0.0 	300 	300 	15 	0.0 	0.0
+2 krod 	0.0 	0.0 	0.0 	0 	0 	18 	0.0 	0.0 
+2 l charred boots 	75.0 	75.0 	0.0 	75 	75 	12 	0.0 	0.0
+2 l gatorscale sleeves offer l gatorscale leggings 	1500.0 	1500.0 	0.0 	1500 	1500 	12 	0.0 	0.0
+2 l charred gauntlets 	200.0 	190.0 	12.25 	200 	175 	40 	0.0 	0.0
+2 l elf-hide gloves 	25.0 	25.0 	0.0 	25 	25 	16 	0.0 	0.0
+2 l gatorscale sleeves offer l gatorscale leggings 	1500.0 	1500.0 	0.0 	1500 	1500 	12 	0.0 	0.0
+2 l lambent stone 	30.0 	29.64 	1.29 	30 	25 	14 	0.0 	0.0
+2 l sheer bone mask 	130.0 	124.17 	12.56 	140 	100 	12 	0.0 	0.0
+2 l silver cat eye necklace 	15 	13.18 	2.41 	15 	10 	11 	0.0 	0.0
+2 l silver jasper ring 	6.0 	6.0 	0.0 	6 	6 	12 	0.0 	0.0
+2 l silver rose engagement ring 	7.0 	7.0 	0.0 	7 	7 	12 	0.0 	0.0
+2 l silversilk leggings 	100.0 	100.0 	0.0 	100 	100 	54 	0.0 	0.0
+0 labyrinth talisman 	200.0 	179.07 	55.77 	400 	50 	362 	150.0 	161.0
+0 lambent boots 	400 	383.05 	142.2 	600 	0 	59 	0.0 	373.0
+0 lambent bracers 	400.0 	395.83 	63.12 	500 	250 	204 	0.0 	395.0
+0 lambent breastplate 	900.0 	896.96 	170.55 	1500 	1 	426 	1000.0 	898.0
+1 lambent bp 	500 	563.16 	145.86 	900 	500 	19 	0.0 	900.0
+0 lambent gauntlets 	400 	397.71 	48.55 	500 	300 	109 	389.0 	388.0
+0 lambent greaves 	650 	680.05 	190.72 	900 	350 	213 	0.0 	880.0
+0 lambent helm 	400 	421.52 	76.12 	600 	200 	165 	0.0 	400.0
+0 lambent set 	3500 	3500.0 	0.0 	3500 	3500 	21 	0.0 	0.0
+0 lambent stone 	35.0 	34.68 	15.15 	200 	0 	998 	22.0 	24.0
+0 lambent vambraces 	500 	507.57 	62.47 	550 	200 	115 	0.0 	0.0
+0 lamentation blade 	1500 	1544.43 	601.09 	2500 	300 	321 	799.0 	834.0
+0 langseax 	40.0 	34.95 	31.66 	100 	0 	108 	0.0 	0.0
+1 langseax of the wolves 	200 	234.0 	61.19 	350 	200 	25 	0.0 	0.0
+2 large 	120 	100.0 	47.29 	130 	0 	11 	0.0 	0.0
+2 large banded 	1 	0.63 	0.48 	1 	0 	63 	0.0 	0.0
+0 large banded boots 	5.0 	4.8 	0.4 	5 	4 	10 	4.0 	4.0
+1 large bed boots 	6.0 	6.0 	0.0 	6 	6 	24 	0.0 	0.0
+0 large banded bracer 	6.0 	5.71 	1.03 	7 	4 	14 	0.0 	0.0
+1 large bed bracer 	6 	6.26 	0.44 	7 	6 	23 	0.0 	0.0
+0 large banded cloak 	7.0 	6.47 	0.88 	7 	5 	30 	6.0 	6.0
+1 large bed cloak 	7 	7.0 	0.0 	7 	7 	15 	0.0 	0.0
+0 large banded gauntlets 	7.0 	6.39 	0.89 	7 	5 	36 	6.0 	6.0
+1 large bed gauntlets 	7 	7.0 	0.0 	7 	7 	25 	0.0 	0.0
+2 large banded helm- words of haunting- words 	0.0 	0.0 	0.0 	0 	0 	22 	0.0 	0.0
+0 large banded leggings 	8.0 	7.8 	0.4 	8 	7 	10 	0.0 	0.0
+1 large bed leggings 	8.0 	7.75 	0.43 	8 	7 	16 	0.0 	0.0
+0 large banded mask 	4 	4.0 	0.0 	4 	4 	45 	4.0 	4.0
+0 large banded sleeves 	7.0 	6.86 	0.52 	7 	5 	28 	0.0 	7.0
+1 large bed sleeves 	7 	7.0 	0.0 	7 	7 	23 	0.0 	0.0
+2 large bed helm 	8 	8.0 	0.0 	8 	8 	69 	0.0 	0.0
+2 large bed mail 	15.0 	14.04 	1.28 	15 	12 	46 	0.0 	0.0
+2 large bed mantle 	6.0 	6.0 	0.0 	6 	6 	26 	0.0 	0.0
+2 large bronze 	0 	0.0 	0.0 	0 	0 	71 	0.0 	0.0
+0 large bronze boots 	8 	7.45 	2.65 	15 	1 	55 	0.0 	8.0
+0 large bronze bracers 	9.0 	10.94 	4.17 	17 	7 	32 	0.0 	7.0
+0 large bronze breastplate 	17 	19.43 	6.69 	35 	10 	81 	0.0 	16.0
+0 large bronze collar 	7 	7.2 	1.8 	15 	6 	55 	0.0 	6.0
+0 large bronze gauntlets 	9 	7.44 	3.38 	10 	0 	59 	0.0 	9.0
+2 large bronze gauntlets large bronze vambraces 	1.0 	1.0 	0.0 	1 	1 	48 	0.0 	0.0
+0 large bronze greaves 	10 	13.08 	4.18 	20 	10 	13 	0.0 	0.0
+2 large bronze greaves large bronze breastplate 	1.0 	1.0 	0.0 	1 	1 	28 	0.0 	0.0
+0 large bronze helm 	10.0 	12.24 	4.5 	30 	1 	58 	0.0 	0.0
+0 large bronze mask 	3.0 	3.89 	0.99 	5 	3 	18 	0.0 	0.0
+0 large bronze pauldron 	8.0 	7.81 	1.15 	8 	1 	36 	1.0 	7.0
+0 large bronze vambraces 	8.0 	7.5 	2.06 	10 	1 	24 	0.0 	1.0
+0 large fine plate gauntlets 	110.0 	107.86 	7.73 	110 	80 	42 	0.0 	0.0
+0 large fine plate greaves 	120 	117.65 	8.25 	120 	85 	17 	0.0 	0.0
+0 large fine splinted cloak 	100 	100.0 	0.0 	100 	100 	21 	0.0 	0.0
+0 large plate girdle 	6.0 	5.7 	1.57 	8 	1 	46 	0.0 	6.0
+0 large ringmail coat 	10 	10.0 	0.0 	10 	10 	43 	0.0 	10.0
+0 large ringmail coif 	7 	6.47 	0.88 	7 	5 	15 	0.0 	0.0
+0 large ringmail gloves 	4 	3.73 	0.77 	6 	3 	15 	0.0 	4.0
+0 large ringmail pants 	14 	10.21 	4.44 	14 	5 	19 	0.0 	5.0
+0 large shadow silk 	20.0 	20.0 	0.0 	20 	20 	10 	0.0 	20.0
+0 large soiled bag 	1000.0 	849.73 	559.97 	5000 	0 	186 	824.0 	879.0
+2 last 	30 	24.55 	11.57 	30 	0 	11 	0.0 	0.0
+2 lava storm 	50.0 	47.67 	5.65 	50 	34 	48 	34.0 	34.0
+0 leather padding 	70 	70.2 	31.9 	150 	6 	213 	0.0 	40.0
+2 leather padding x 	40.0 	30.86 	12.7 	40 	10 	28 	0.0 	10.0
+0 leatherfoot raider skullcap 	800 	743.44 	371.75 	3000 	0 	335 	0.0 	425.0
+2 leatherfoot raider skullcap without charges 	300.0 	300.0 	0.0 	300 	300 	22 	0.0 	0.0
+0 leering mask 	40.0 	43.58 	24.91 	150 	10 	204 	45.0 	40.0
+2 left 	164.0 	154.0 	134.52 	288 	0 	10 	0.0 	40.0
+2 left goblin ear x 	17 	18.73 	8.14 	35 	8 	11 	0.0 	24.0
+0 left goblin ears 	10.0 	10.5 	0.96 	15 	10 	144 	0.0 	11.0
+1 left goblin ear 	10.0 	9.89 	5.74 	50 	7 	72 	0.0 	11.0
+0 legionnaire's bracer 	2 	20.55 	30.28 	70 	2 	11 	0.0 	0.0
+2 lego pad 	10.0 	10.0 	0.0 	10 	10 	14 	0.0 	0.0
+2 legs 	2.0 	412.22 	466.75 	1100 	2 	18 	0.0 	2.0
+2 level 	34 	34.3 	12.71 	50 	5 	645 	39.0 	29.0
+2 levels 	29.0 	23.22 	6.46 	29 	16 	18 	0.0 	0.0
+0 levitate 	10 	10.93 	3.62 	20 	5 	43 	0.0 	0.0
+2 lf 	50.0 	34.0 	26.01 	60 	2 	10 	0.0 	0.0
+0 lich 	1000.0 	862.25 	630.97 	2000 	0 	310 	175.0 	180.0
+0 life leech 	6000 	6785.45 	1852.71 	10000 	4495 	77 	0.0 	0.0
+0 light burlap sack 	550.0 	548.58 	104.14 	700 	0 	334 	500.0 	540.0
+2 lightstone x 	6.0 	6.0 	0.0 	6 	6 	20 	0.0 	0.0
+2 like 	15 	81.36 	100.05 	300 	4 	11 	5.0 	5.0
+0 limestone ring 	8.0 	7.0 	1.41 	8 	5 	18 	0.0 	0.0
+2 ling silk 	10.0 	12.27 	2.49 	15 	10 	22 	0.0 	0.0
+0 lion-skin leggings 	25.0 	36.68 	22.03 	125 	10 	138 	0.0 	88.0
+0 lizard blood potion 	200 	219.23 	31.25 	300 	200 	13 	0.0 	0.0
+0 lizardscale belt 	75 	93.72 	54.02 	250 	25 	109 	0.0 	50.0
+0 lizardscale cloak 	150 	152.5 	66.12 	375 	30 	465 	150.0 	163.0
+0 lizardscale mantle 	200 	209.82 	90.81 	769 	30 	311 	190.0 	270.0
+0 lizardskin tribal mask 	200 	184.72 	61.34 	250 	0 	71 	200.0 	178.0
+0 lockjaw hide vest 	50 	54.92 	28.24 	190 	10 	301 	0.0 	58.0
+2 looking for 	80 	103.15 	106.49 	300 	0 	13 	150.0 	150.0
+2 looking to buy a 'reed belt 	0 	0.0 	0.0 	0 	0 	19 	0.0 	0.0
+2 lots 	0.0 	0.0 	0.0 	0 	0 	82 	0.0 	0.0
+2 lots of 	49 	49.0 	0.0 	49 	49 	15 	0.0 	0.0
+2 low end mage gear have 	125 	120.59 	21.41 	150 	100 	17 	0.0 	0.0
+2 low end sk 	1.0 	1.0 	0.0 	1 	1 	16 	0.0 	1.0
+2 lq skins x 	15 	15.0 	0.0 	15 	15 	11 	0.0 	0.0
+2 lucky 	1.0 	300.7 	457.8 	1000 	1 	130 	0.0 	264.0
+0 lupine claw gauntlets 	350.0 	606.68 	505.83 	1500 	55 	158 	343.0 	344.0
+2 lute 	0.0 	0.0 	0.0 	0 	0 	244 	0.0 	0.0
+0 lute of the gypsy princess 	100 	128.72 	83.39 	500 	25 	1015 	96.0 	86.0
+2 lv 	44 	291.5 	818.61 	2944 	24 	115 	35.0 	35.0
+2 lvl 	34 	36.29 	9.65 	80 	6 	4733 	31.0 	32.0
+2 lvls 	16 	12.31 	5.54 	16 	4 	13 	0.0 	0.0 
+2 m feathered leggings 	100.0 	100.0 	0.0 	100 	100 	18 	0.0 	0.0
+2 made to order 	1.0 	1.0 	0.0 	1 	1 	16 	0.0 	0.0
+2 mage 	20 	29.21 	13.27 	50 	0 	235 	23.0 	24.0
+2 mage fire pet - levels 	24.0 	24.0 	0.0 	24 	24 	26 	0.0 	24.0
+2 mage lvl 	24.0 	30.25 	8.39 	49 	24 	16 	0.0 	49.0
+2 mage pets 	34.0 	36.14 	5.25 	49 	34 	28 	0.0 	34.0
+2 mages u 	0.0 	0.0 	0.0 	0 	0 	10 	0.0 	0.0
+2 magical class 	2.0 	2.0 	0.0 	2 	2 	18 	0.0 	0.0
+0 maid issis fang 	450 	525.16 	276.39 	2000 	6 	681 	400.0 	363.0
+2 maid issis fangbutler syncalls fang 	750.0 	1088.89 	468.91 	1600 	400 	18 	0.0 	680.0
+2 maidbutler fangs 	1600.0 	1600.0 	0.0 	1600 	1600 	16 	0.0 	0.0
+2 mainly lvl 	20 	20.0 	0.0 	20 	20 	23 	0.0 	20.0
+2 make 	0.0 	0.64 	2.32 	9 	0 	14 	0.0 	0.0
+2 make an 	0 	0.0 	0.0 	0 	0 	21 	0.0 	0.0
+2 make me an 	0.0 	0.0 	0.0 	0 	0 	18 	0.0 	0.0
+2 make me reasonable 	0.0 	0.0 	0.0 	0 	0 	10 	0.0 	0.0
+2 making banded armor 	1 	1.0 	0.0 	1 	1 	45 	0.0 	0.0
+2 making bed armor 	1.0 	1.0 	0.0 	1 	1 	24 	0.0 	0.0
+2 making level 	39.0 	39.0 	0.0 	39 	39 	12 	0.0 	0.0
+2 male 	0 	0.0 	0.0 	0 	0 	19 	0.0 	0.0
+0 malignant dead 	100 	84.99 	41.76 	200 	0 	243 	0.0 	81.0
+0 mallet head 	50 	66.36 	52.79 	150 	20 	11 	0.0 	0.0
+2 mammoth cloak paying 	1000.0 	1000.0 	0.0 	1000 	1000 	12 	0.0 	0.0
+2 mammoth hide 	0 	0.0 	0.0 	0 	0 	67 	0.0 	0.0
+0 mammoth hide cloak 	1400.0 	1336.67 	421.91 	2000 	0 	424 	0.0 	1142.0
+0 mammoth hide leggings 	50 	47.65 	23.92 	200 	0 	683 	40.0 	39.0
+0 mammoth hide legs 	200.0 	200.0 	0.0 	200 	200 	32 	0.0 	0.0
+0 man-o-war 	150 	176.48 	111.58 	800 	45 	511 	100.0 	104.0
+2 mana 	0.0 	7.5 	11.46 	25 	0 	10 	0.0 	0.0
+0 mana bracer 	40 	38.8 	4.74 	40 	20 	117 	0.0 	40.0
+0 mana sieve 	40.0 	50.85 	24.93 	100 	30 	130 	0.0 	40.0
+0 manastone 	75000 	69420.84 	15779.24 	200000 	55 	505 	53333.0 	62319.0
+2 manastone - robe of the ishva - mithril plated girth - thick banded belt - platinum tiara - rubicite boots - robe of the 	0 	0.0 	0.0 	0 	0 	15 	0.0 	0.0
+2 manastone - spined dragon claws - rokyls channelling crystal - short sword 	0.0 	0.0 	0.0 	0 	0 	14 	0.0 	0.0
+2 manastone - thex dagger - book of scale - bone razor - robe of the ishva - withered totem 	0.0 	0.0 	0.0 	0 	0 	20 	0.0 	0.0
+2 manastone taking offers- robe of the ishva 	16000 	16000.0 	0.0 	16000 	16000 	43 	0.0 	0.0
+2 mandalay bay roulette 	0.0 	0.0 	0.0 	0 	0 	10 	0.0 	0.0
+2 many 	0 	0.0 	0.0 	0 	0 	19 	0.0 	0.0
+2 mask 	500.0 	500.0 	0.0 	500 	500 	10 	0.0 	0.0
+2 master jewelcrafter 	0.0 	0.0 	0.0 	0 	0 	156 	0.0 	0.0
+2 max skill 	250.0 	250.0 	0.0 	250 	250 	54 	0.0 	250.0
+0 mechanized lockpicks 	75 	69.35 	31.92 	200 	10 	131 	0.0 	50.0
+2 med bronze 	0.0 	0.0 	0.0 	0 	0 	18 	0.0 	0.0
+2 medium banded armor 	1.0 	1.0 	0.0 	1 	1 	12 	0.0 	0.0
+2 medium quality bear skin x 	3.0 	2.75 	0.54 	3 	1 	40 	0.0 	0.0
+0 medium quality cat pelt 	5.0 	3.8 	1.72 	5 	1 	30 	0.0 	5.0
+2 medium quality wolf skin x 	2.0 	2.0 	0.0 	2 	2 	10 	0.0 	0.0
+0 melatite 	40.0 	42.15 	15.76 	100 	10 	344 	50.0 	31.0
+2 melatite bar a 	90 	90.0 	0.0 	90 	90 	19 	0.0 	0.0
+0 memento box 	300.0 	268.64 	174.73 	500 	30 	44 	0.0 	42.0
+0 mermaid scale 	30.0 	53.58 	39.09 	150 	0 	292 	50.0 	34.0
+0 mesh gauntlets 	10.0 	9.21 	2.7 	15 	5 	76 	0.0 	0.0
+0 mesmerization 	15 	13.87 	4.04 	25 	5 	77 	0.0 	15.0
+0 midnight mallet 	100 	111.9 	37.5 	200 	50 	21 	0.0 	0.0
+0 mind wipe 	40 	51.96 	37.1 	300 	20 	153 	41.0 	40.0
+0 minor potion of antibody 	200.0 	182.5 	52.5 	200 	25 	10 	0.0 	0.0
+0 minotaur battle axe 	10.0 	12.85 	3.74 	25 	10 	114 	0.0 	0.0
+0 minotaur horn 	20.0 	22.5 	15.92 	100 	10 	138 	83.0 	43.0
+0 minotaur ribcage 	150 	188.84 	131.97 	600 	0 	777 	100.0 	106.0
+0 mircyl's animation 	5 	5.87 	1.78 	10 	5 	15 	0.0 	6.0
+2 mistmoore battle drum paying 	100 	106.82 	11.13 	125 	100 	11 	0.0 	0.0
+0 mistmoore battle drums 	200 	243.83 	231.34 	3500 	10 	949 	82.0 	105.0
+2 mith 	2 	1.99 	0.12 	2 	0 	273 	2.0 	2.0
+2 mith bp and 	0.0 	0.0 	0.0 	0 	0 	16 	0.0 	0.0
+2 mith vambs paying 	2750 	4727.27 	6411.51 	25000 	2500 	11 	0.0 	0.0
+2 mithri 	2.0 	2.0 	0.0 	2 	2 	14 	0.0 	2.0
+2 mithril 	2 	1.98 	0.21 	2 	0 	257 	2.0 	2.0
+2 mithril arms - paying 	5000.0 	4795.45 	245.83 	5000 	4500 	22 	0.0 	0.0
+2 mithril arms paying 	3500.0 	3500.0 	0.0 	3500 	3500 	18 	0.0 	3500.0
+0 mithril breastplate 	500 	645.99 	2390.01 	45050 	0 	697 	0.0 	497.0
+1 mithril bp 	400 	417.75 	52.7 	600 	350 	71 	0.0 	363.0
+1 mith bp 	500 	459.0 	53.8 	500 	300 	25 	450.0 	425.0
+0 mithril frog totem 	150.0 	170.55 	104.18 	425 	25 	146 	0.0 	44.0
+0 mithril greaves 	3000.0 	2989.17 	836.92 	7000 	2 	1458 	2310.0 	1999.0
+1 mith legs 	2000.0 	2787.5 	1233.83 	5000 	1500 	16 	1600.0 	1867.0
+1 mithril legs 	5000 	4692.31 	721.6 	5000 	3000 	13 	0.0 	0.0
+2 mithril plate girth - diamond earring 	500 	500.0 	0.0 	500 	500 	35 	0.0 	500.0
+0 mithril plated girth 	2500.0 	3862.71 	5235.85 	25000 	0 	596 	3000.0 	2697.0
+2 mithril plated girth - crafted greaves - crested spaulders 	0.0 	0.0 	0.0 	0 	0 	12 	0.0 	0.0
+0 mithril quill 	45 	56.76 	37.55 	150 	10 	173 	0.0 	35.0
+0 mithril runed tunic 	2000.0 	2000.0 	0.0 	2000 	2000 	14 	0.0 	2000.0
+0 mithril two hander 	6000.0 	6000.0 	0.0 	6000 	6000 	28 	6000.0 	6000.0
+0 mithril vambraces 	3500.0 	3676.06 	754.51 	8000 	2 	478 	3033.0 	3087.0
+1 mith arms 	2500 	2641.18 	361.47 	3000 	2000 	17 	2833.0 	2544.0
+2 mithril vambraces - fbss - mithril bp - shralok packs - short sword 	0.0 	0.0 	0.0 	0 	0 	18 	0.0 	0.0
+2 mithril vambraces - vambraces 	0.0 	0.0 	0.0 	0 	0 	18 	0.0 	0.0
+0 mithril-runed tunic 	3000 	3612.19 	3748.37 	28000 	0 	669 	0.0 	2035.0
+0 molten cloak 	1500 	1395.18 	1167.88 	15000 	0 	567 	2300.0 	1722.0
+2 monk 	0.0 	0.0 	0.0 	0 	0 	14 	0.0 	0.0
+2 monk power leveling 	1500.0 	1500.0 	0.0 	1500 	1500 	10 	0.0 	0.0
+0 moonstone ring 	100 	101.06 	43.93 	300 	15 	563 	61.0 	105.0
+2 moonstone ring x 	1.0 	1.09 	0.29 	2 	1 	22 	0.0 	0.0
+0 mortificator staff 	1000 	1700.83 	3216.87 	25000 	300 	241 	0.0 	1000.0
+2 mq pelts 	2 	2.81 	2.38 	7 	1 	21 	0.0 	2.0
+2 mq skins x 	7 	7.0 	0.0 	7 	7 	11 	0.0 	0.0
+0 mroons toy 	20 	18.32 	10.56 	75 	6 	79 	0.0 	20.0
+2 must be 	200 	140.57 	75.76 	200 	44 	21 	0.0 	0.0 
+2 naked male monk 	30000.0 	30000.0 	0.0 	30000 	30000 	10 	0.0 	0.0
+2 nd kavanah casino raffle on february 	1 	1.0 	0.0 	1 	1 	51 	1.0 	1.0
+2 nec spell call 	0 	0.0 	0.0 	0 	0 	63 	0.0 	0.0
+2 nec spell word 	0 	0.0 	0.0 	0 	0 	63 	0.0 	0.0
+2 neck id better than 	3.0 	3.0 	0.0 	3 	3 	16 	0.0 	0.0
+2 necro 	49.0 	44.88 	7.95 	50 	24 	204 	0.0 	44.0
+2 necro lvl 	16.0 	17.42 	4.1 	34 	16 	24 	0.0 	0.0
+2 necro research spells lvl 	34.0 	34.0 	0.0 	34 	34 	54 	0.0 	0.0
+2 necro spell - paralyzing earth x 	2.0 	2.0 	0.0 	2 	2 	68 	0.0 	0.0
+2 need 	4.5 	3.83 	1.34 	5 	2 	12 	0.0 	4.0
+2 new 	0.0 	0.0 	0.0 	0 	0 	10 	0.0 	0.0
+2 next player to play 	5.0 	5.0 	0.0 	5 	5 	10 	0.0 	5.0
+2 nfp 	40.0 	37.75 	4.18 	40 	30 	40 	0.0 	0.0
+2 nfp silver-plated leggings 	1000.0 	1000.0 	0.0 	1000 	1000 	10 	0.0 	0.0
+0 nightmare hide 	100.0 	72.5 	38.92 	100 	15 	12 	0.0 	0.0
+0 nightshade wreath 	400 	365.93 	74.86 	700 	0 	1175 	351.0 	312.0
+2 nightshade wreath lvl 	44.0 	44.0 	0.0 	44 	44 	12 	0.0 	44.0
+2 nightshade wreath paying 	500 	446.67 	61.82 	500 	300 	15 	0.0 	0.0
+2 nilitim's 	379 	369.71 	25.45 	379 	300 	17 	0.0 	0.0
+2 nilitim's grimoire 	278 	278.0 	0.0 	278 	278 	37 	0.0 	0.0
+2 nilitims 	115 	156.25 	95.65 	378 	115 	51 	0.0 	0.0
+2 nilitims grimoire page 	301.0 	301.0 	0.0 	301 	301 	28 	0.0 	0.0
+2 no 	0.0 	0.0 	0.0 	0 	0 	14 	0.0 	0.0
+0 noble's robes 	225.0 	252.17 	153.99 	3500 	60 	774 	294.0 	235.0
+1 nobles robe 	250 	328.95 	155.02 	500 	0 	19 	200.0 	333.0
+2 not helm 	0 	0.0 	0.0 	0 	0 	13 	0.0 	0.0
+2 now taking bets up to 	400 	400.0 	0.0 	400 	400 	21 	400.0 	400.0 
+2 o 	3000 	6891.3 	4916.05 	12000 	1000 	23 	0.0 	0.0
+2 o rapiaer or 	6000.0 	6000.0 	0.0 	6000 	6000 	18 	0.0 	6000.0
+2 o rapier 	6000.0 	6000.0 	0.0 	6000 	6000 	10 	0.0 	6000.0
+2 o rapier or 	6000.0 	6000.0 	0.0 	6000 	6000 	50 	6000.0 	6000.0
+2 obo 	0.0 	0.06 	0.79 	10 	0 	160 	0.0 	0.0
+2 obo ---- reed belt 	4000.0 	4000.0 	0.0 	4000 	4000 	20 	0.0 	0.0
+2 obo - mithril plated girth 	2500.0 	2500.0 	0.0 	2500 	2500 	10 	0.0 	0.0
+2 obo - polished granite tomahawk 	150.0 	150.0 	0.0 	150 	150 	10 	0.0 	150.0
+2 obo - prayer cloth of tunare 	150.0 	150.0 	0.0 	150 	150 	10 	0.0 	0.0
+2 obo - shining metallic robes 	5000.0 	5000.0 	0.0 	5000 	5000 	82 	0.0 	0.0
+2 obo -bracers of the reverent 	550 	550.0 	0.0 	550 	550 	21 	0.0 	0.0
+2 obo mithril-runed tunic 	13750.0 	13750.0 	11250.0 	25000 	2500 	14 	0.0 	0.0
+2 obo platinum dragon totem 	600.0 	600.0 	0.0 	600 	600 	34 	0.0 	0.0
+2 obo- flowing black silk sash 	13000.0 	13000.0 	0.0 	13000 	13000 	18 	0.0 	0.0
+2 obo- robe of the ishva 	16000 	16000.0 	0.0 	16000 	16000 	33 	0.0 	0.0
+2 obo-a dark reaver 	650.0 	650.0 	0.0 	650 	650 	14 	0.0 	650.0
+2 obos small bronze collar small bronze greaves small bronze boots 	1.0 	1.0 	0.0 	1 	1 	12 	0.0 	0.0
+0 obsidian bead hoop 	100.0 	118.61 	44.21 	300 	8 	1356 	108.0 	106.0
+2 obsidian bead hoop - dufrenite 	45.0 	45.0 	0.0 	45 	45 	10 	0.0 	0.0
+2 obsidian bead hoop offer charred gauntlets 	150 	150.0 	0.0 	150 	150 	25 	0.0 	0.0
+0 obsidian ring 	30.0 	34.58 	22.0 	150 	10 	874 	36.0 	26.0
+2 obsidian ring x 	2 	2.0 	0.0 	2 	2 	15 	0.0 	2.0
+0 obsidian scimitar 	100 	115.82 	53.37 	400 	25 	763 	50.0 	123.0
+0 obsidian shard 	450.0 	445.0 	100.96 	800 	0 	1140 	400.0 	424.0
+2 obsidian shard - diamond earring 	700.0 	700.0 	0.0 	700 	700 	10 	0.0 	700.0
+2 obsidian shard -- cloak of shadows -- executioners hood -- dwarven work boots -- pst with 	0.0 	0.0 	0.0 	0 	0 	10 	0.0 	0.0
+2 obsidian shard -- cloak of shadows -- executioners hood -- dwarven work boots -- thick banded belt pst with 	0.0 	0.0 	0.0 	0 	0 	12 	0.0 	0.0
+2 obsidian shard x 	2.0 	2.0 	0.0 	2 	2 	46 	0.0 	2.0
+2 odus 	150.0 	158.33 	70.22 	300 	100 	12 	0.0 	0.0
+2 offer 	50 	618.0 	1304.47 	4000 	0 	25 	38.0 	30.0
+2 offerin 	18000.0 	18000.0 	0.0 	18000 	18000 	14 	0.0 	0.0
+2 offering 	115.0 	17266.41 	52358.43 	180000 	30 	32 	0.0 	0.0
+0 ogre war maul 	40.0 	45.41 	25.52 	100 	10 	74 	20.0 	20.0
+0 ol'tujim's fierce brew 	10 	15.61 	13.89 	50 	10 	57 	0.0 	10.0
+2 only 	100 	1591.97 	2459.79 	9000 	0 	171 	3.0 	3.0
+2 only have 	6.0 	14.2 	25.67 	90 	1 	10 	0.0 	0.0
+0 onyx drakescale cloak 	2500.0 	2409.96 	793.89 	4000 	0 	370 	2244.0 	1836.0
+0 onyx earring 	15 	18.47 	12.61 	60 	4 	281 	0.0 	20.0
+0 onyx ring 	10 	10.0 	4.8 	15 	5 	13 	0.0 	0.0
+2 oo nightshade wreath 	400.0 	400.0 	0.0 	400 	400 	10 	0.0 	400.0
+0 opalline earring 	65.0 	76.58 	48.17 	300 	2 	756 	70.0 	42.0
+1 oppaline earrings 	2.0 	2.0 	0.0 	2 	2 	26 	0.0 	0.0
+2 or 	55.0 	1113.6 	4647.3 	61000 	0 	928 	5.0 	248.0
+2 or mithril greaves for 	2.0 	2.0 	0.0 	2 	2 	12 	0.0 	0.0
+2 or best 	0.0 	0.0 	0.0 	0 	0 	32 	0.0 	0.0
+2 or best offer on all crafted 	0 	0.0 	0.0 	0 	0 	15 	0.0 	0.0
+2 or both for 	500.0 	743.81 	1289.92 	7500 	12 	62 	0.0 	205.0
+2 or electrum black sapphire earring 	5000.0 	5000.0 	0.0 	5000 	5000 	20 	0.0 	0.0
+2 or individuals at 	1.0 	1.0 	0.0 	1 	1 	14 	0.0 	0.0
+2 or level 	29.0 	26.93 	4.65 	34 	16 	30 	0.0 	24.0
+2 or only 	325.0 	325.0 	0.0 	325 	325 	14 	0.0 	0.0
+2 or take best 	0.0 	0.0 	0.0 	0 	0 	16 	0.0 	0.0
+2 or take the whole lot for 	325.0 	319.44 	10.39 	325 	300 	18 	319.0 	319.0
+2 or the high stakes game 	0.0 	0.0 	0.0 	0 	0 	12 	0.0 	0.0
+2 or trade gbs 	0 	0.0 	0.0 	0 	0 	13 	0.0 	0.0
+2 or two for 	350.0 	1384.61 	2550.38 	8000 	8 	36 	0.0 	0.0
+2 or- trade 	1 	1.0 	0.0 	1 	1 	13 	0.0 	0.0
+2 or---- for 	50.0 	50.0 	0.0 	50 	50 	54 	0.0 	0.0
+2 oracle 	0 	0.0 	0.0 	0 	0 	25 	0.0 	0.0
+0 oracle robe 	250 	183.82 	123.06 	300 	0 	17 	0.0 	0.0
+0 orange sash of order 	50.0 	51.92 	6.66 	75 	50 	26 	52.0 	52.0
+2 orb 	0.0 	0.0 	0.0 	0 	0 	38 	0.0 	0.0
+0 orb of slime 	15 	26.67 	25.46 	100 	10 	33 	10.0 	25.0
+2 orc scalp x 	17.0 	15.5 	5.63 	34 	8 	20 	0.0 	15.0
+2 other hq 	3.0 	3.0 	0.0 	3 	3 	20 	0.0 	0.0
+2 other pieces 	40.0 	40.0 	0.0 	40 	40 	20 	0.0 	40.0
+2 over 	250 	1224.12 	10126.33 	110000 	1 	233 	6.0 	6.0 
+2 p 	2 	17.07 	93.99 	1000 	0 	543 	5.0 	2.0
+2 p-bracers of the reverent 	400 	400.0 	0.0 	400 	400 	11 	0.0 	0.0
+2 p-cat o' nine tails 	200 	200.0 	0.0 	200 	200 	11 	0.0 	0.0
+2 p-darkforge helm 	400 	400.0 	0.0 	400 	400 	11 	0.0 	0.0
+2 p-gauntlets of the ardent 	200.0 	215.63 	23.18 	250 	200 	16 	0.0 	0.0
+2 p-lizard blood potion 	200.0 	200.0 	0.0 	200 	200 	12 	0.0 	0.0
+2 p-ravenscale boots 	200 	200.0 	0.0 	200 	200 	15 	0.0 	0.0
+2 p-w of conflagration 	30 	49.09 	31.18 	100 	30 	11 	0.0 	0.0
+2 p-zaharn's coronet 	300 	326.67 	44.22 	400 	300 	15 	0.0 	0.0
+2 pair 	270 	297.27 	120.72 	1500 	0 	483 	0.0 	250.0
+2 pair golden jaded bracelet 	30.0 	30.0 	0.0 	30 	30 	12 	0.0 	0.0
+2 pair werewolf-hide jerkin 	50.0 	50.0 	0.0 	50 	50 	12 	0.0 	0.0
+2 pair - a gypsy medallion 	400.0 	400.0 	0.0 	400 	400 	30 	0.0 	0.0
+2 pair - platinum jacinth wedding ring 	500.0 	500.0 	0.0 	500 	500 	12 	0.0 	0.0
+2 pair - rose platinum engagement ring - platinum jasper ring 	175.0 	175.0 	0.0 	175 	175 	12 	0.0 	0.0
+2 pair - electrum cat eye bracelet 	8.0 	8.02 	0.19 	10 	8 	108 	0.0 	0.0
+2 pair -- fbss 	11000 	11000.0 	0.0 	11000 	11000 	11 	0.0 	0.0
+2 pair -prayer cloth of tunare 	150.0 	150.0 	0.0 	150 	150 	16 	0.0 	0.0
+2 pair for 	1500.0 	1500.0 	0.0 	1500 	1500 	14 	0.0 	0.0
+2 pair of 	4.0 	3.92 	0.95 	5 	2 	12 	0.0 	4.0
+2 pair of enameled black mace's 	400.0 	400.0 	0.0 	400 	400 	12 	0.0 	0.0
+2 paladin 	2 	3.86 	8.31 	41 	2 	21 	41.0 	41.0
+0 paralyzing earth 	200 	418.93 	415.3 	1500 	0 	393 	93.0 	158.0
+2 part 	0.0 	0.0 	0.0 	0 	0 	24 	0.0 	0.0
+2 paw of 	0.0 	0.0 	0.0 	0 	0 	308 	0.0 	0.0
+0 paw of opolla 	3000.0 	2836.72 	447.7 	4000 	2 	1396 	3038.0 	2614.0
+1 paw of opalla 	2500 	2718.18 	1327.9 	4000 	800 	11 	0.0 	0.0
+2 payin 	70 	277.49 	311.86 	800 	1 	39 	100.0 	78.0
+2 paying 	200.0 	2383.29 	10049.92 	150000 	1 	2332 	2548.0 	1708.0
+2 paying well and 	50.0 	50.0 	0.0 	50 	50 	10 	0.0 	0.0
+2 pc 	0 	0.11 	0.95 	14 	0 	287 	0.0 	0.0
+2 pc on 	49 	26.81 	24.91 	55 	0 	27 	0.0 	1.0
+2 pcape 	0.0 	0.0 	0.0 	0 	0 	12 	0.0 	0.0
+0 pearl 	0 	0.0 	0.0 	0 	0 	29 	0.0 	0.0
+0 pearl earring 	5.0 	5.0 	0.0 	5 	5 	22 	0.0 	0.0
+0 pearl kedge totem 	7000 	7573.19 	2841.33 	16000 	0 	561 	0.0 	13500.0
+0 pearl ring 	5.0 	5.0 	0.0 	5 	5 	22 	0.0 	0.0
+0 pearl shard 	5 	5.6 	1.62 	10 	5 	25 	0.0 	0.0
+2 per 	35.0 	72.17 	79.82 	400 	0 	52 	0.0 	30.0
+2 per - black chitin leggins 	900.0 	900.0 	0.0 	900 	900 	28 	0.0 	900.0
+2 per - noble's robes 	200.0 	200.0 	0.0 	200 	200 	10 	0.0 	0.0
+2 per ac - small scarab breastplate 	9.0 	9.0 	0.0 	9 	9 	12 	0.0 	0.0
+2 per ac or 	10.0 	34.48 	30.02 	80 	10 	48 	0.0 	0.0
+2 per or 	18.0 	3047.93 	8748.68 	30000 	10 	42 	0.0 	0.0
+2 per piece or 	500 	500.0 	0.0 	500 	500 	141 	500.0 	500.0
+2 per stack 	0.0 	13.0 	36.48 	160 	0 	18 	0.0 	0.0
+2 per stack or 	5 	58.11 	74.0 	175 	3 	37 	0.0 	3.0
+2 pet 	1000.0 	858.86 	345.76 	1000 	0 	14 	1000.0 	923.0
+2 pet spell paying 	150 	155.88 	44.99 	200 	100 	17 	0.0 	0.0
+0 petrified erudite heart amulet 	400.0 	400.07 	82.98 	650 	150 	508 	0.0 	365.0
+2 pfire 	0.0 	0.0 	0.0 	0 	0 	32 	0.0 	0.0
+2 pgt paying 	100.0 	112.5 	27.95 	150 	75 	12 	0.0 	125.0
+2 pick 	1 	2.88 	3.66 	10 	1 	115 	0.0 	1.0
+0 pie tin 	20.0 	20.0 	0.0 	20 	20 	16 	0.0 	0.0
+2 piece of black sapphire jewelery 	8000.0 	8000.0 	0.0 	8000 	8000 	10 	0.0 	0.0
+2 pieces 	45 	30.0 	21.21 	45 	0 	15 	0.0 	0.0
+2 pieces for 	400 	308.51 	198.23 	500 	18 	39 	0.0 	0.0
+0 pillage enchantment 	60 	101.84 	98.01 	400 	40 	103 	60.0 	67.0
+1 pillage enchantments 	44.0 	44.0 	0.0 	44 	44 	10 	0.0 	44.0
+2 pillar 	0.0 	0.0 	0.0 	0 	0 	20 	0.0 	0.0
+2 pkt paying 	6000 	6400.4 	2652.34 	12000 	6 	15 	0.0 	0.0
+2 plains pebble x 	6 	6.0 	0.0 	6 	6 	19 	0.0 	0.0
+2 plat 	0 	3529.41 	14117.65 	60000 	0 	17 	0.0 	0.0
+2 plat greater lightstone 	10 	10.0 	0.0 	10 	10 	11 	0.0 	0.0
+2 plat large bronze gauntlets 	10 	10.23 	0.58 	12 	10 	13 	0.0 	0.0
+2 plat large bronze pauldron 	10.0 	9.93 	0.26 	10 	9 	14 	0.0 	0.0
+2 plat ruby veil paying 	350.0 	350.0 	0.0 	350 	350 	12 	0.0 	0.0
+2 plat shaped ashwood recurve bow 	20.0 	20.0 	0.0 	20 	20 	10 	0.0 	0.0
+0 platinum amber ring 	175 	164.57 	17.13 	200 	125 	115 	0.0 	167.0
+0 platinum armband 	150.0 	158.88 	141.36 	2000 	0 	426 	210.0 	165.0
+1 platinum armb 	150 	157.86 	66.92 	300 	17 	503 	0.0 	0.0
+1 plat armb 	300 	300.0 	0.0 	300 	300 	11 	0.0 	0.0
+1 platinum armbands 	100.0 	100.0 	0.0 	100 	100 	12 	0.0 	0.0
+2 platinum armband - small wisdom diety 	300.0 	300.0 	0.0 	300 	300 	32 	0.0 	300.0
+0 platinum bloodstone earring 	175 	174.03 	56.32 	500 	95 	393 	167.0 	159.0
+2 platinum bloodstone earring x 	2.0 	2.0 	0.0 	2 	2 	16 	0.0 	0.0
+0 platinum blue diamond tiara 	2250.0 	2240.77 	873.84 	6000 	1000 	168 	0.0 	1500.0
+0 platinum diamond wedding ring 	1250 	1389.66 	554.24 	4000 	1000 	203 	0.0 	1319.0
+0 platinum dragon totem 	700.0 	676.74 	186.32 	1000 	200 	662 	727.0 	515.0
+1 platinum dragon totems 	650.0 	650.0 	0.0 	650 	650 	10 	0.0 	0.0
+2 platinum dragon totem offering 	1000.0 	1000.0 	0.0 	1000 	1000 	24 	0.0 	0.0
+0 platinum fire wedding ring 	300.0 	296.77 	59.18 	550 	5 	2302 	252.0 	279.0
+2 platinum fire wedding ring green silken drape cloak of shadows ring 	0.0 	0.0 	0.0 	0 	0 	10 	0.0 	0.0
+2 platinum fire wedding ring x 	2.0 	2.07 	0.65 	5 	1 	56 	1.0 	2.0
+0 platinum jacinth wedding ring 	500.0 	538.31 	160.81 	1000 	300 	124 	525.0 	504.0
+0 platinum jasper ring 	175 	196.6 	52.8 	400 	0 	1181 	175.0 	178.0
+2 platinum jasper ring or rose platinum engagement ring 	375.0 	375.96 	4.81 	400 	375 	26 	0.0 	0.0
+2 platinum jasper ring x 	190.0 	109.43 	93.04 	190 	2 	14 	0.0 	2.0
+2 platinum jasper ringrose platinum engagement ring 	175.0 	175.0 	0.0 	175 	175 	30 	0.0 	0.0
+0 platinum onyx bracelet 	150.0 	158.33 	11.79 	175 	150 	30 	0.0 	158.0
+0 platinum opal engagement ring 	200.0 	219.79 	47.31 	300 	175 	48 	0.0 	193.0
+0 platinum ring 	1000.0 	1162.5 	273.58 	1500 	500 	40 	1000.0 	1000.0
+0 platinum ruby veil 	450.0 	437.71 	34.04 	500 	100 	1876 	421.0 	429.0
+1 plat ruby veil 	450.0 	445.83 	17.18 	450 	375 	18 	0.0 	0.0
+2 platinum ruby veil - paying 	650.0 	650.0 	0.0 	650 	650 	24 	0.0 	650.0
+2 platinum ruby veil x 	2.0 	2.0 	0.0 	2 	2 	10 	0.0 	0.0
+0 platinum skull ring 	200 	235.9 	72.83 	600 	0 	625 	300.0 	213.0
+1 plat skull ring 	200.0 	200.0 	0.0 	200 	200 	12 	0.0 	0.0
+0 platinum star ruby veil 	350.0 	343.11 	51.59 	450 	27 	862 	400.0 	365.0
+0 platinum tiara 	3000 	3064.12 	708.62 	4000 	0 	581 	3171.0 	2800.0
+1 plat tiara 	2500 	2266.67 	910.43 	3000 	0 	15 	0.0 	0.0
+2 play 	100.0 	371.68 	282.77 	666 	100 	50 	0.0 	0.0
+2 please send tell with 	0.0 	0.0 	0.0 	0 	0 	12 	0.0 	0.0
+2 plus other stuff 	250 	261.15 	14.11 	279 	250 	13 	0.0 	0.0
+2 plute of the gypsy princess 	200.0 	200.0 	0.0 	200 	200 	10 	0.0 	200.0
+2 pois 	15.0 	15.0 	0.0 	15 	15 	30 	0.0 	0.0
+0 polar bear cloak 	35 	58.89 	40.51 	150 	10 	99 	0.0 	75.0
+0 polished bone bracelet 	150 	158.81 	50.91 	400 	75 	599 	109.0 	141.0
+0 polished bone hoop 	50 	52.97 	42.38 	150 	5 	269 	0.0 	45.0
+0 polished granite tomahawk 	100 	120.08 	36.51 	300 	0 	699 	102.0 	115.0
+1 pgt 	85.0 	64.48 	64.7 	150 	0 	48 	0.0 	51.0
+0 polished steel dirk 	650 	621.93 	195.63 	1000 	0 	377 	480.0 	480.0
+2 polished steel dirk low lvl rogue items pst spider silk 	10.0 	10.0 	0.0 	10 	10 	10 	0.0 	0.0
+2 post your 	0 	0.0 	0.0 	0 	0 	21 	0.0 	0.0
+2 pot 	10 	10.0 	0.0 	10 	10 	11 	0.0 	0.0
+2 pot currently is 	5200.0 	4723.53 	1337.48 	6100 	1000 	34 	0.0 	0.0
+2 potion 	0 	0.0 	0.0 	0 	0 	183 	0.0 	0.0
+0 potion of aquatic haunt 	20 	21.72 	2.62 	25 	10 	125 	0.0 	0.0
+0 potion of the frost 	450 	375.96 	160.44 	600 	5 	73 	0.0 	0.0
+0 potion of the swamp 	350 	332.43 	98.79 	500 	100 	37 	0.0 	0.0
+0 potion of unlife awareness 	20.0 	22.52 	19.63 	210 	10 	466 	20.0 	21.0
+2 potions 	10 	7.18 	4.38 	10 	0 	17 	0.0 	6.0
+0 pouch of ghoul ash 	10 	10.8 	3.92 	30 	10 	25 	0.0 	0.0
+0 powered gloves 	100.0 	133.88 	75.15 	250 	60 	98 	0.0 	62.0
+2 powerlevel 	22.0 	22.0 	0.0 	22 	22 	16 	22.0 	22.0
+0 prayer cloth of tunare 	100.0 	120.37 	49.66 	280 	25 	328 	105.0 	126.0
+1 prayer cloth 	0 	0.0 	0.0 	0 	0 	157 	0.0 	0.0
+2 prayer cloth of tunare tbb reed belt 	0 	0.0 	0.0 	0 	0 	11 	0.0 	0.0
+0 prayer shawl 	20000.0 	17843.14 	3522.32 	25000 	0 	102 	9000.0 	17843.0
+2 prenerf guise 	50.0 	50.0 	0.0 	50 	50 	24 	0.0 	0.0
+0 preserved split paw eye 	5 	9.81 	8.43 	25 	5 	47 	25.0 	24.0
+1 preserved splitpaw eye 	0.0 	0.0 	0.0 	0 	0 	10 	0.0 	0.0
+2 price 	215.0 	215.0 	0.0 	215 	215 	10 	0.0 	0.0
+2 priced to go at 	65.0 	65.56 	2.29 	75 	65 	36 	0.0 	0.0
+0 pristine giant scarab carapace 	5.0 	5.0 	0.0 	5 	5 	10 	5.0 	5.0
+2 procs at level 	20 	20.0 	0.0 	20 	20 	11 	0.0 	0.0
+2 prod 	0 	0.0 	0.0 	0 	0 	15 	0.0 	0.0
+0 project lightning 	15 	16.45 	3.42 	20 	12 	11 	0.0 	0.0
+2 providing free of charge secure transfering 	0 	0.0 	0.0 	0 	0 	15 	0.0 	0.0
+2 providing free of charge secure transffering 	0.0 	0.0 	0.0 	0 	0 	56 	0.0 	0.0
+2 pst 	0 	43.84 	155.48 	600 	0 	69 	0.0 	0.0
+2 pst for 	0.0 	0.0 	0.0 	0 	0 	102 	0.0 	0.0
+2 pst paying 	1000.0 	886.25 	747.49 	2500 	20 	16 	0.0 	0.0
+2 pst with 	0 	0.0 	0.0 	0 	0 	237 	0.0 	0.0
+2 pstein 	0.0 	0.0 	0.0 	0 	0 	12 	0.0 	0.0
+0 pugius 	25 	27.32 	11.5 	70 	0 	427 	25.0 	25.0
+2 puppet strings - amulet of necropotence - summon corpse - shiny brass idols - rbb - words 	0.0 	0.0 	0.0 	0 	0 	10 	0.0 	0.0
+2 purchasing chest wrist items under 	100.0 	100.0 	0.0 	100 	100 	10 	0.0 	0.0
+0 purity belt 	10 	17.41 	19.1 	100 	0 	469 	6.0 	14.0
+2 purple headb 	2000.0 	1666.67 	687.18 	3000 	1000 	24 	0.0 	0.0
+2 pwatchman boots 	500.0 	500.0 	0.0 	500 	500 	14 	0.0 	0.0 
+0 qeynos kite shield 	10.0 	11.89 	6.51 	30 	5 	36 	0.0 	10.0
+0 quartz crystal 	15 	10.91 	4.68 	15 	5 	11 	5.0 	5.0 
+2 r 	1000 	1533.33 	1995.55 	9000 	1000 	15 	0.0 	0.0
+0 radiant visage 	30.0 	29.46 	17.85 	100 	10 	56 	10.0 	17.0
+2 raffle tickets 	100 	100.0 	0.0 	100 	100 	95 	100.0 	100.0
+0 rain caller 	15000 	10952.08 	8489.31 	20000 	3 	183 	0.0 	1284.0
+2 ranger 	50 	47.06 	11.76 	50 	0 	17 	0.0 	50.0
+0 rat ear pie 	100.0 	107.81 	71.93 	500 	50 	32 	0.0 	0.0
+0 rat shaped ring 	10 	12.25 	4.34 	30 	5 	71 	0.0 	5.0
+0 ravenscale armguards 	262.5 	310.71 	141.01 	800 	250 	14 	0.0 	0.0
+0 ravenscale boots 	200 	259.62 	238.01 	1500 	50 	131 	0.0 	200.0
+0 ravenscale bracer 	250 	215.32 	100.57 	400 	50 	47 	0.0 	0.0
+0 ravenscale chestguard 	1300.0 	1304.0 	416.87 	3000 	650 	100 	0.0 	1040.0
+0 ravenscale coif 	100 	122.0 	23.79 	150 	100 	25 	0.0 	0.0
+0 ravenscale gloves 	300 	354.27 	294.15 	1000 	0 	75 	0.0 	215.0
+0 ravenscale leggings 	450 	507.48 	192.93 	1500 	160 	123 	850.0 	850.0
+0 raw silk gloves 	2.0 	2.0 	0.0 	2 	2 	56 	2.0 	2.0
+0 raw silk wristbands 	1.0 	1.0 	0.0 	1 	1 	12 	1.0 	1.0
+0 rebreather 	2000.0 	2311.4 	538.6 	4000 	750 	114 	2000.0 	2000.0
+0 red headband 	500.0 	427.27 	119.4 	500 	200 	22 	0.0 	233.0
+2 red sash of 	0 	0.0 	0.0 	0 	0 	73 	0.0 	0.0
+0 red sash of order 	500 	640.29 	422.45 	3000 	0 	175 	1440.0 	1317.0
+1 red wood w 	15 	74.32 	321.55 	2000 	15 	37 	0.0 	0.0
+0 red wood wand 	50.0 	436.0 	782.31 	2000 	25 	10 	50.0 	43.0
+2 redux weight 	3.0 	3.0 	0.0 	3 	3 	12 	0.0 	0.0
+0 reed belt 	4000 	3923.74 	1300.02 	22000 	10 	1175 	0.0 	4615.0
+0 reed ring 	35.0 	36.3 	14.35 	50 	10 	46 	0.0 	0.0
+2 regular 	0.0 	0.0 	0.0 	0 	0 	16 	0.0 	0.0
+0 renew bones 	40.0 	57.17 	60.32 	300 	0 	150 	0.0 	75.0
+0 reoccurring amnesia 	200 	380.58 	508.29 	2000 	50 	121 	0.0 	178.0
+2 repaying some newbie favors i 	0 	0.0 	0.0 	0 	0 	11 	0.0 	0.0
+0 requisition 	150 	215.38 	169.14 	600 	100 	13 	0.0 	0.0
+2 res in innothule at zoneline to sro 	0 	0.0 	0.0 	0 	0 	11 	0.0 	0.0
+2 res in solb 	300.0 	300.0 	0.0 	300 	300 	20 	0.0 	0.0
+2 research 	0.0 	0.0 	0.0 	0 	0 	14 	0.0 	0.0
+2 research of 	16.0 	16.0 	0.0 	16 	16 	12 	0.0 	16.0
+2 research spell bansee aura 	5 	5.0 	0.0 	5 	5 	13 	0.0 	0.0
+0 resist magic 	15.0 	15.0 	0.0 	15 	15 	10 	15.0 	15.0
+0 restless bones 	10 	13.2 	4.89 	25 	5 	93 	6.0 	6.0
+2 rez in guk for 	100 	100.0 	0.0 	100 	100 	53 	0.0 	0.0
+2 rezzes in highkeep 	200 	200.0 	0.0 	200 	200 	25 	0.0 	0.0
+2 rezzing 	90 	90.0 	0.0 	90 	90 	11 	0.0 	90.0
+2 ring 	0.0 	0.27 	6.12 	140 	0 	522 	0.0 	0.0
+0 ring of goblin lords 	150.0 	153.88 	60.43 	300 	0 	508 	117.0 	104.0
+0 ring of shadows 	250.0 	230.51 	46.53 	250 	25 	322 	236.0 	227.0
+0 ring of slime 	5 	10.0 	7.96 	25 	5 	45 	0.0 	25.0
+0 ring of the ancients mq 	6000.0 	5785.71 	410.33 	6000 	5000 	28 	0.0 	0.0
+0 ringmail gloves 	5 	4.8 	0.98 	5 	0 	25 	0.0 	0.0
+2 rings 	300.0 	297.4 	27.37 	300 	9 	112 	0.0 	300.0
+0 riptide spear 	50 	43.38 	29.68 	150 	5 	37 	0.0 	0.0
+2 robe 	0.0 	0.0 	0.0 	0 	0 	512 	0.0 	0.0
+0 robe of discord 	200.0 	200.0 	0.0 	200 	200 	12 	0.0 	0.0
+0 robe of enshroudment 	400.0 	417.61 	103.49 	1000 	300 	426 	0.0 	538.0
+2 robe of the 	0 	0.0 	0.0 	0 	0 	373 	0.0 	0.0
+0 robe of the elements 	300 	309.16 	79.35 	500 	175 	101 	0.0 	250.0
+0 robe of the ishva 	16000 	16461.3 	2957.67 	30000 	0 	361 	15818.0 	15818.0
+2 robe of the ishva - crown 	0.0 	0.0 	0.0 	0 	0 	24 	0.0 	0.0
+2 robe of the ishva - fbss - crown 	0.0 	0.0 	0.0 	0 	0 	10 	0.0 	0.0
+2 robe of the ishva - squallsurge shawl - crown 	0 	0.0 	0.0 	0 	0 	11 	0.0 	0.0
+0 robe of the keeper 	50.0 	62.14 	24.5 	100 	20 	140 	0.0 	94.0
+0 robe of the oracle 	350 	640.43 	2741.18 	30000 	0 	927 	301.0 	346.0
+2 robe of the oracle for 	100 	54.55 	49.79 	100 	0 	11 	0.0 	0.0
+2 rod 	0.0 	0.0 	0.0 	0 	0 	428 	0.0 	0.0
+0 rod of insidious glamour 	700 	726.01 	200.4 	1750 	1 	789 	659.0 	598.0
+2 rogue 	50.0 	44.39 	15.73 	50 	0 	62 	0.0 	22.0
+0 rokyls channelling crystal 	10000.0 	9314.15 	1799.84 	15000 	0 	864 	0.0 	8480.0
+2 rokyls channelling crystal - crown of the froglok kings - potion 	0.0 	0.0 	0.0 	0 	0 	20 	0.0 	0.0
+2 rokyls channelling crystal black sapphire platinum necklace withered totem 	0.0 	0.0 	0.0 	0 	0 	20 	0.0 	0.0
+2 roll wins 	8000 	8000.0 	0.0 	8000 	8000 	17 	0.0 	0.0
+2 rom 	1000 	830.19 	352.13 	1000 	100 	53 	0.0 	0.0
+0 rose platinum engagement ring 	175.0 	189.71 	53.5 	375 	40 	760 	155.0 	165.0
+2 rose platinum engagement ring x 	2.0 	2.0 	0.0 	2 	2 	62 	0.0 	0.0
+2 rubi bp paying 	30000.0 	30000.0 	0.0 	30000 	30000 	12 	0.0 	0.0
+0 rubicite boots 	2500.0 	3464.25 	4669.87 	25000 	500 	428 	0.0 	2000.0
+0 rubicite breastplate 	25000 	25659.96 	16886.17 	400000 	35 	567 	0.0 	20000.0
+1 rubicite bp 	30000 	27535.33 	7554.61 	30000 	30 	15 	0.0 	0.0
+1 rubi bp 	30000 	24100.87 	12173.47 	65000 	29 	53 	0.0 	16000.0
+2 rubicite breastplate - crown 	0 	0.0 	0.0 	0 	0 	23 	0.0 	0.0
+0 rubicite gauntlets 	1500 	1712.77 	499.94 	2500 	500 	47 	0.0 	0.0
+0 rubicite greaves 	4500.0 	4000.0 	1154.7 	5000 	2000 	12 	0.0 	0.0
+0 rubicite vambraces 	2000 	2411.76 	492.15 	3000 	2000 	17 	0.0 	0.0
+0 ruby pendant 	50.0 	42.5 	15.07 	50 	10 	24 	0.0 	0.0
+2 rune 	0.0 	0.0 	0.0 	0 	0 	152 	0.0 	0.0
+2 rune of 	0 	0.0 	0.0 	0 	0 	21 	0.0 	0.0
+0 rune of impetus 	500 	360.34 	208.19 	500 	50 	29 	0.0 	0.0
+0 rune of the astral 	50.0 	103.13 	67.24 	200 	50 	16 	0.0 	0.0
+2 runed 	0 	0.0 	0.0 	0 	0 	227 	0.0 	0.0
+0 runed bone fork 	300.0 	324.65 	84.04 	750 	0 	806 	342.0 	476.0
+0 runed circlet 	300 	310.05 	93.39 	900 	0 	371 	254.0 	286.0
+0 runed cowl 	1000.0 	1360.14 	1767.81 	12000 	5 	838 	1076.0 	973.0
+2 runed cowl paying 	700.0 	824.14 	167.45 	1300 	700 	58 	0.0 	0.0
+0 runed falchion 	350 	353.19 	114.38 	750 	0 	509 	321.0 	294.0
+0 runed lava pendant 	4000.0 	4492.3 	3667.25 	27000 	4 	498 	2600.0 	3249.0
+1 runed lava pendent 	3000 	3000.0 	0.0 	3000 	3000 	11 	0.0 	3000.0
+0 runed mithril bracer 	400 	394.18 	70.87 	699 	0 	1099 	368.0 	369.0
+1 rmb 	337.5 	318.86 	176.72 	650 	0 	22 	0.0 	300.0
+2 runed mithril bracer paying 	300.0 	316.67 	37.27 	400 	300 	12 	0.0 	0.0
+2 runed mithril bracers x 	2.0 	2.0 	0.0 	2 	2 	10 	0.0 	0.0
+0 runed oak bow 	150.0 	164.27 	119.48 	1000 	0 	654 	64.0 	160.0
+0 runed totem staff 	20.0 	33.54 	34.95 	200 	5 	98 	0.0 	13.0
+2 runes 	0.0 	0.0 	0.0 	0 	0 	10 	0.0 	0.0
+0 rusty spiked shoulderpads 	25 	29.45 	14.78 	75 	6 	171 	0.0 	35.0 
+2 s 	10 	10.0 	0.0 	10 	10 	21 	0.0 	0.0
+2 s animation 	10.0 	10.83 	1.86 	15 	10 	12 	0.0 	11.0
+2 s crook 	50 	49.27 	16.88 	60 	0 	41 	0.0 	55.0
+2 s darkwood piccolo - hammerhead helm - paw of opolla - sharkbone warhammer 	5.0 	5.0 	0.0 	5 	5 	10 	0.0 	0.0
+2 s darkwood piccolo - rubicite breastplate - bracers 	0.0 	0.0 	0.0 	0 	0 	20 	0.0 	0.0
+2 s hammer 	80000 	64133.33 	45080.47 	125000 	0 	15 	0.0 	0.0
+2 s hammer - orb of tishan - book 	0.0 	0.0 	0.0 	0 	0 	16 	0.0 	0.0
+0 sacrificial dagger 	100.0 	126.3 	55.49 	350 	25 	648 	210.0 	137.0
+1 sacrifical dagger 	75.0 	85.0 	20.0 	125 	75 	20 	0.0 	0.0
+2 sacrificial dagger lute 	0 	0.0 	0.0 	0 	0 	13 	0.0 	0.0
+2 sagor 	200 	240.2 	118.41 	500 	50 	51 	0.0 	100.0
+2 sand 	0.0 	0.0 	0.0 	0 	0 	312 	0.0 	0.0
+0 sand of ro 	20 	21.81 	9.0 	75 	10 	119 	25.0 	21.0
+1 s of ro 	30.0 	75.99 	97.96 	350 	10 	182 	0.0 	0.0
+1 sands of ro 	20 	23.83 	10.22 	50 	10 	111 	0.0 	0.0
+2 sands 	0.0 	0.0 	0.0 	0 	0 	20 	0.0 	0.0
+0 sapphire electrum earring 	175.0 	195.77 	63.69 	350 	75 	184 	175.0 	189.0
+0 sapphire platinum necklace 	400.0 	393.47 	31.97 	800 	150 	1676 	391.0 	387.0
+0 savant's cap 	125 	27554680.46 	405669754.47 	6000000000 	0 	871 	1500000048.0 	110599199.0
+1 savant cap 	100.0 	95.0 	18.71 	125 	75 	10 	0.0 	0.0
+1 savants cap 	125.0 	97.22 	47.06 	125 	0 	18 	0.0 	40.0
+0 scarab ring 	20 	27.71 	36.07 	150 	0 	51 	0.0 	0.0
+2 scepter 	0.0 	0.0 	0.0 	0 	0 	188 	0.0 	0.0
+0 scepter of flame 	130 	155.6 	91.96 	500 	0 	285 	0.0 	73.0
+0 scepter of rahotep 	67.5 	87.03 	53.49 	200 	15 	64 	50.0 	65.0
+2 sceptre 	0.0 	0.0 	0.0 	0 	0 	16 	0.0 	0.0
+0 scouts cape 	10.0 	19.64 	14.14 	50 	5 	56 	0.0 	0.0
+0 screaming mace 	150 	150.9 	70.48 	400 	20 	271 	0.0 	100.0
+0 scute shield 	3000.0 	3372.4 	2276.46 	15000 	250 	96 	0.0 	2630.0
+0 seahorse scale cloak 	3000 	3962.62 	2575.09 	10000 	0 	65 	0.0 	2460.0
+2 sell'n chitin shell armor 	30 	32.27 	6.17 	40 	25 	11 	0.0 	0.0
+2 sell'n griffon feathers 	50.0 	50.0 	0.0 	50 	50 	18 	0.0 	0.0
+2 selling 	10 	16.26 	20.16 	160 	0 	795 	31.0 	17.0
+2 selling a crude stein 	100 	78.42 	32.24 	100 	25 	19 	0.0 	82.0
+2 selling a dark reaver 	700 	716.3 	251.04 	1400 	500 	23 	0.0 	500.0
+2 selling a gypsy medallion 	550.0 	563.41 	41.36 	650 	500 	82 	0.0 	563.0
+2 selling a gypsy medallion send me an 	0.0 	0.0 	0.0 	0 	0 	14 	0.0 	0.0
+2 selling a torch 	500.0 	468.75 	121.03 	500 	0 	16 	0.0 	0.0
+2 selling abalone gorget 	1375.0 	875.4 	717.58 	1500 	1 	20 	251.0 	251.0
+2 selling an executioners axe 	300 	252.46 	72.32 	300 	91 	13 	0.0 	0.0
+2 selling banded bracer 	6.0 	6.0 	0.0 	6 	6 	12 	0.0 	0.0
+2 selling beartooth necklace 	25.0 	25.0 	0.0 	25 	25 	50 	0.0 	25.0
+2 selling bed bracer 	6.0 	6.0 	0.0 	6 	6 	14 	0.0 	0.0
+2 selling black iron medallion 	85.0 	86.67 	4.71 	100 	85 	18 	0.0 	0.0
+2 selling black pearl platinum ring 	175.0 	175.0 	0.0 	175 	175 	94 	175.0 	175.0
+2 selling blackburrow gnoll skin 	25.0 	25.0 	0.0 	25 	25 	10 	0.0 	0.0
+2 selling blackened iron crown 	225.0 	218.75 	10.83 	225 	200 	36 	0.0 	0.0
+2 selling brigandine tunic 	400.0 	350.0 	66.14 	400 	250 	16 	0.0 	400.0
+2 selling charred guardian shield 	500.0 	476.67 	28.09 	500 	400 	30 	0.0 	0.0
+2 selling cold iron morning star 	50 	45.88 	18.73 	80 	10 	17 	50.0 	53.0
+2 selling crested spaulders 	250.0 	250.0 	0.0 	250 	250 	10 	0.0 	250.0
+2 selling darkforge breastplate 	3000 	3000.0 	0.0 	3000 	3000 	21 	0.0 	3000.0
+2 selling diamondine earring cheap pst 	1250.0 	1233.33 	23.57 	1250 	1200 	18 	0.0 	1233.0
+2 selling djarns amethyst ring 	10000.0 	10000.0 	0.0 	10000 	10000 	10 	0.0 	0.0
+2 selling double-bladed bone axe 	35 	35.93 	2.47 	40 	30 	43 	0.0 	0.0
+2 selling dragoon dirk 	50.0 	55.71 	10.83 	70 	45 	14 	0.0 	59.0
+2 selling ebony bladed sword 	125.0 	125.0 	0.0 	125 	125 	12 	0.0 	125.0
+2 selling electrum jasper earring 	14 	16.0 	6.12 	30 	12 	19 	0.0 	0.0
+2 selling electrum star ruby ring 	175.0 	175.0 	0.0 	175 	175 	18 	0.0 	175.0
+2 selling elf-hide gloves 	25.0 	26.43 	9.05 	70 	20 	28 	25.0 	27.0
+2 selling embroidered black cape 	350.0 	350.0 	0.0 	350 	350 	10 	0.0 	0.0
+2 selling embroidered black sleeves 	200.0 	208.57 	13.55 	230 	200 	14 	0.0 	0.0
+2 selling enameled black chestplate 	200 	200.0 	0.0 	200 	200 	17 	0.0 	0.0
+2 selling enameled black mace 	300 	251.85 	49.97 	300 	200 	27 	0.0 	200.0
+2 selling enchanter research spells 	16 	16.0 	0.0 	16 	16 	11 	0.0 	0.0
+2 selling fbss 	13000 	11818.18 	1336.09 	13000 	10000 	11 	0.0 	10400.0
+2 selling fire emerald electrum bracelet 	175.0 	175.0 	0.0 	175 	175 	12 	175.0 	175.0
+2 selling fire emerald platinum ring 	350 	328.0 	44.0 	350 	240 	15 	0.0 	350.0
+2 selling flowing black silk sash 	13000.0 	12375.5 	2949.77 	16000 	12 	24 	0.0 	11000.0
+2 selling full 	7 	7.0 	0.0 	7 	7 	11 	0.0 	0.0
+2 selling gatorscale sleeves 	250.0 	250.0 	50.0 	300 	200 	32 	0.0 	0.0
+2 selling gloomwater harpoon 	300 	293.08 	26.71 	350 	250 	13 	276.0 	283.0
+2 selling golden black pearl choker 	75.0 	75.0 	0.0 	75 	75 	42 	75.0 	75.0
+2 selling golden black sapphire earring 	4000 	4000.0 	0.0 	4000 	4000 	47 	0.0 	0.0
+2 selling golden cat eye bracelet 	25 	25.0 	0.0 	25 	25 	17 	0.0 	25.0
+2 selling golden opal amulet 	75.0 	78.87 	4.87 	85 	75 	62 	75.0 	79.0
+2 selling golden sapphire earring 	175 	194.05 	24.28 	225 	175 	21 	0.0 	175.0
+2 selling greaves of ro 	600.0 	611.11 	56.66 	700 	500 	18 	0.0 	611.0
+2 selling griffon feathers 	25.0 	24.02 	3.36 	50 	20 	102 	20.0 	24.0
+2 selling h made backpack 	30.0 	34.29 	8.21 	50 	30 	14 	0.0 	0.0
+2 selling hand made backpack 	20.0 	20.0 	0.0 	20 	20 	38 	0.0 	0.0
+2 selling handmade backpacks 	35.0 	35.21 	6.69 	50 	10 	48 	0.0 	0.0
+2 selling hero bracers 	292.5 	283.75 	27.41 	350 	250 	32 	291.0 	291.0
+2 selling hmade backpacks 	35 	34.57 	6.06 	50 	10 	23 	0.0 	0.0
+2 selling hooded black cloak 	3500 	3368.42 	273.48 	4000 	3000 	19 	0.0 	0.0
+2 selling hulking spiked club 	25.0 	25.0 	0.0 	25 	25 	10 	0.0 	25.0
+2 selling impskin gloves 	1700 	1643.24 	110.38 	1700 	1200 	37 	0.0 	1700.0
+2 selling jasper gold earring 	30.0 	29.57 	2.04 	35 	25 	46 	0.0 	30.0
+2 selling jboots mq 	6000.0 	6206.52 	246.19 	6500 	6000 	46 	0.0 	0.0
+2 selling kilva's blistering flesh single dose 	25.0 	25.0 	0.0 	25 	25 	22 	0.0 	0.0
+2 selling kobold-hide boots 	75.0 	75.0 	0.0 	75 	75 	20 	0.0 	75.0
+2 selling lvl 	50.0 	43.29 	16.45 	50 	3 	28 	0.0 	3.0
+2 selling manastone 	59000.0 	58950.0 	1243.99 	60000 	55000 	20 	0.0 	0.0
+2 selling nightshade wreath 	300.0 	300.0 	0.0 	300 	300 	30 	0.0 	0.0
+2 selling obsidian bead hoop 	100 	107.35 	11.39 	125 	100 	17 	0.0 	100.0
+2 selling obsidian shard 	500.0 	514.58 	22.73 	550 	500 	48 	0.0 	523.0
+2 selling onyx earring 	8.0 	7.63 	0.99 	8 	5 	16 	0.0 	0.0
+2 selling opalline earring 	75.0 	70.0 	10.0 	75 	50 	10 	75.0 	70.0
+2 selling platinum bloodstone earring 	175.0 	165.79 	12.06 	175 	150 	38 	175.0 	166.0
+2 selling platinum dragon totem 	500.0 	518.48 	53.53 	600 	400 	46 	500.0 	586.0
+2 selling platinum fire wedding ring 	275 	275.0 	0.0 	275 	275 	43 	0.0 	275.0
+2 selling platinum jasper ring 	175.0 	191.67 	31.18 	300 	175 	30 	0.0 	184.0
+2 selling platinum ruby veil 	400 	405.32 	29.6 	450 	375 	47 	450.0 	450.0
+2 selling platinum star ruby veil 	400 	391.09 	28.11 	400 	300 	87 	400.0 	400.0
+2 selling polished granite tomahawk 	150 	163.33 	20.14 	200 	150 	15 	0.0 	150.0
+2 selling purity belt 	9.0 	9.08 	3.48 	15 	3 	12 	0.0 	0.0
+2 selling ravenscale bracer 	200 	200.0 	0.0 	200 	200 	13 	0.0 	0.0
+2 selling rebreather 	2000 	2000.0 	0.0 	2000 	2000 	11 	2000.0 	2000.0
+2 selling reed belt 	5000.0 	5000.0 	0.0 	5000 	5000 	14 	0.0 	0.0
+2 selling riptide spear 	50.0 	50.0 	0.0 	50 	50 	16 	0.0 	0.0
+2 selling rokyls channelling crystal 	8000.0 	7906.98 	857.63 	8000 	0 	172 	0.0 	8000.0
+2 selling runed cowl 	1500.0 	1428.57 	174.96 	1500 	1000 	14 	0.0 	1500.0
+2 selling runed falchion 	505.0 	468.95 	158.38 	700 	200 	38 	0.0 	0.0
+2 selling runed lava pendant 	3500 	3500.0 	301.51 	4000 	3000 	11 	0.0 	3500.0
+2 selling sacrificial dagger 	150 	128.59 	44.75 	175 	0 	39 	131.0 	131.0
+2 selling sand 	0.0 	0.0 	0.0 	0 	0 	20 	0.0 	0.0
+2 selling sapphire platinum necklace 	350.0 	367.68 	28.55 	400 	335 	28 	0.0 	400.0
+2 selling sharkbone warhammer 	500.0 	500.0 	0.0 	500 	500 	12 	500.0 	500.0
+2 selling shining metallic robes 	5500 	5367.35 	220.75 	5500 	5000 	49 	0.0 	0.0
+2 selling short sword of the ykesha 	9500.0 	9281.25 	809.49 	10000 	7500 	16 	0.0 	7500.0
+2 selling single dose shrink potions 	20.0 	20.0 	0.0 	20 	20 	54 	0.0 	0.0
+2 selling small crafted breastplate 	500 	500.0 	0.0 	500 	500 	15 	0.0 	0.0
+2 selling spider silk 	6.0 	4.89 	2.08 	6 	1 	18 	5.0 	5.0
+2 selling split paw hide gloves 	22 	18.58 	6.12 	30 	7 	19 	22.0 	22.0
+2 selling stein 	0 	0.0 	0.0 	0 	0 	47 	0.0 	0.0
+2 selling stein of moggok 	250 	278.13 	58.73 	450 	200 	75 	0.0 	244.0
+2 selling sweet sweet ds potions now 	10.0 	10.0 	0.0 	10 	10 	18 	0.0 	10.0
+2 selling the set for 	5000.0 	5000.0 	0.0 	5000 	5000 	10 	0.0 	0.0
+2 selling thick bed belt 	2750 	2750.0 	0.0 	2750 	2750 	11 	0.0 	0.0
+2 selling words 	0.0 	0.0 	0.0 	0 	0 	20 	0.0 	0.0
+2 selling wu's fighting armor - shirt 	40.0 	40.0 	0.0 	40 	40 	20 	0.0 	40.0
+2 selling- foreman's tunic 	175.0 	170.0 	10.0 	175 	150 	10 	0.0 	0.0
+2 selling- robe of the oracle 	400.0 	400.0 	0.0 	400 	400 	16 	0.0 	0.0
+2 send tell with 	0 	0.0 	0.0 	0 	0 	11 	0.0 	0.0
+2 serious 	0 	0.0 	0.0 	0 	0 	11 	0.0 	0.0
+0 serpent blood potion 	500.0 	500.0 	0.0 	500 	500 	12 	0.0 	500.0
+0 serpentine bracer 	75 	95.8 	54.35 	300 	1 	1085 	65.0 	75.0
+1 serp bracer 	65.0 	59.29 	8.42 	75 	50 	14 	0.0 	0.0
+0 serrated bone dirk 	150 	167.58 	90.82 	800 	40 	1159 	110.0 	150.0
+2 set 	0 	8.86 	54.98 	350 	0 	79 	0.0 	13.0
+2 set silver amber ring 	6.0 	6.0 	0.0 	6 	6 	12 	0.0 	0.0
+2 sets left 	0.0 	0.0 	0.0 	0 	0 	10 	0.0 	0.0
+2 sets of reinforced leather 	150 	150.0 	0.0 	150 	150 	11 	0.0 	0.0
+0 shadow sight 	20 	18.73 	4.45 	35 	10 	63 	0.0 	0.0
+0 shadow silk 	50 	37.76 	15.68 	50 	0 	67 	0.0 	17.0
+0 shadow vortex 	15.0 	21.47 	10.04 	50 	10 	34 	0.0 	0.0
+0 shadow wolf pelt 	10 	9.74 	3.41 	15 	2 	27 	0.0 	10.0
+0 shadowbound boots 	390.0 	392.71 	44.08 	500 	300 	140 	0.0 	488.0
+2 shadowbound boots paying 	300.0 	277.98 	34.36 	300 	200 	176 	0.0 	0.0
+0 shadowbound gloves 	350.0 	325.0 	67.08 	500 	250 	40 	0.0 	0.0
+2 shadowbound gloves paying 	470.0 	470.0 	0.0 	470 	470 	20 	0.0 	0.0
+0 shadowed rapier 	300.0 	2088.46 	2302.69 	5000 	50 	26 	0.0 	4175.0
+0 shadowed rapier mq 	6000.0 	6236.84 	249.65 	6500 	6000 	76 	0.0 	0.0
+2 shaman 	40.0 	37.4 	6.47 	50 	1 	172 	30.0 	30.0
+2 shammy 	2.0 	2.0 	0.0 	2 	2 	24 	0.0 	0.0
+0 shark tooth 	200 	232.27 	103.96 	600 	60 	245 	106.0 	183.0
+0 sharkbone warhammer 	600 	855.1 	632.51 	3000 	0 	343 	486.0 	497.0
+1 sharkbone hammer 	125.5 	125.5 	124.5 	250 	1 	12 	0.0 	0.0
+0 sharkjaw cutlass 	700 	683.46 	228.29 	2000 	0 	145 	467.0 	640.0
+0 sharkskin drum 	2500.0 	3475.12 	1609.31 	8000 	8 	68 	2500.0 	2709.0
+0 shazda turban 	60 	78.48 	56.9 	200 	20 	33 	100.0 	47.0
+0 sheer bone mask 	200.0 	178.61 	56.46 	375 	8 	624 	175.0 	192.0
+2 shield 	0.0 	0.0 	0.0 	0 	0 	272 	0.0 	0.0
+0 shield of the slain unicorn 	50.0 	59.93 	107.99 	1000 	0 	336 	20.0 	81.0
+0 shield of the stalwart seas 	5000.0 	7478.33 	3720.26 	19999 	9 	220 	0.0 	0.0
+0 shiftless deeds 	50.0 	103.07 	88.35 	400 	10 	348 	0.0 	44.0
+2 shimmering 	0.0 	0.0 	0.0 	0 	0 	20 	0.0 	0.0
+0 shimmering white shroud 	1500 	1500.0 	0.0 	1500 	1500 	11 	1500.0 	1500.0
+0 shining metallic robes 	5000.0 	6155.94 	7783.91 	55000 	0 	1488 	4376.0 	4263.0
+1 smr 	4700 	4550.46 	1125.89 	7000 	0 	109 	0.0 	3889.0
+2 shining star 	0 	0.0 	0.0 	0 	0 	13 	0.0 	0.0
+0 shiny brass halberd 	30.0 	33.02 	18.0 	150 	0 	330 	30.0 	32.0
+0 shiny brass idol 	200 	178.29 	106.95 	750 	15 	63 	750.0 	313.0
+0 shiny brass shield 	30.0 	42.83 	33.91 	300 	10 	434 	23.0 	27.0
+0 shiny golden coin 	50 	71.31 	47.94 	300 	25 	111 	75.0 	75.0
+0 shock spiral 	0 	0.0 	0.0 	0 	0 	19 	0.0 	0.0
+2 short sword 	0 	0.0 	0.0 	0 	0 	451 	0.0 	0.0
+0 short sword of the ykesha 	9000.0 	7032045.67 	264906152.33 	9999999999 	7 	1424 	6900.0 	52090168.0
+1 yak 	6500 	6872.73 	1294.11 	13000 	6000 	55 	6875.0 	6429.0
+1 ssoy 	8000.0 	8435.69 	2551.83 	18000 	7 	236 	7154.0 	6450.0
+2 short sword of the ykesha paying 	8000.0 	8054.35 	155.63 	8500 	8000 	46 	0.0 	0.0
+2 short sword of the ykesha x 	1 	1.35 	0.48 	2 	1 	23 	0.0 	0.0
+0 shralok pack 	300 	290.43 	94.65 	500 	4 	663 	0.0 	255.0
+2 shralok pack paying 	250.0 	250.0 	0.0 	250 	250 	18 	0.0 	0.0
+2 shralok pack wt 	4.0 	4.0 	0.0 	4 	4 	14 	0.0 	0.0
+0 shrink 	25.0 	25.0 	0.0 	25 	25 	38 	0.0 	0.0
+0 silk swatch 	25.0 	27.55 	9.34 	50 	20 	62 	0.0 	0.0
+1 silk swatchs 	20 	20.0 	0.0 	20 	20 	19 	0.0 	0.0
+2 silk swatch x 	30 	30.4 	0.49 	31 	30 	15 	0.0 	0.0
+2 silver 	0.0 	0.26 	0.68 	2 	0 	76 	0.0 	0.0
+0 silver amber ring 	6.0 	7.36 	2.44 	20 	2 	508 	10.0 	9.0
+0 silver bloodstone earring 	10 	10.61 	7.52 	50 	3 	201 	10.0 	6.0
+0 silver carnelian wedding ring 	9.0 	9.86 	2.87 	13 	6 	14 	0.0 	0.0
+0 silver cat eye necklace 	8.0 	7.95 	2.27 	10 	3 	42 	0.0 	10.0
+0 silver fire wedding ring 	100 	87.21 	14.84 	100 	70 	61 	0.0 	0.0
+0 silver jasper ring 	6.0 	10.17 	11.51 	75 	2 	356 	9.0 	7.0
+2 silver jasper ring x 	2 	2.16 	0.78 	6 	2 	25 	0.0 	2.0
+0 silver onyx bracelet 	10 	11.23 	5.25 	20 	3 	79 	10.0 	10.0
+2 silver ring 	100 	282.4 	288.94 	700 	15 	25 	0.0 	0.0
+0 silver rose engagement ring 	10.0 	11.05 	5.5 	30 	3 	436 	9.0 	13.0
+0 silver ruby veil 	175 	187.69 	21.21 	250 	100 	65 	0.0 	186.0
+0 silver-plated bracer 	50 	48.63 	19.7 	150 	10 	945 	35.0 	35.0
+0 silver-plated leggings 	725.0 	734.23 	171.68 	1750 	25 	424 	725.0 	540.0
+2 silver-plated leggings and 	200.0 	200.0 	0.0 	200 	200 	18 	0.0 	200.0
+0 silvered sapphire necklace 	150 	165.54 	27.02 	250 	125 	257 	0.0 	140.0
+0 silvered star ruby veil 	110 	112.25 	18.93 	200 	80 	111 	0.0 	150.0
+0 silverish scimitar 	100.0 	104.18 	36.17 	250 	20 	294 	60.0 	79.0
+0 silversilk leggings 	100 	124.06 	500.35 	15000 	0 	901 	91.0 	85.0
+2 silvery 	2.0 	2.0 	0.0 	2 	2 	22 	0.0 	0.0
+0 silvery girdle 	700.0 	1581.25 	1987.53 	4500 	0 	16 	4500.0 	2811.0
+0 silvery two handed axe 	100 	109.72 	42.73 	200 	0 	379 	43.0 	104.0
+1 silvery two hed axe 	100.0 	122.97 	56.48 	250 	15 	368 	0.0 	0.0
+0 silvery war axe 	100 	104.8 	80.49 	1000 	0 	387 	0.0 	122.0
+0 siryn hair hood 	950 	1001.91 	464.35 	12000 	0 	995 	728.0 	795.0
+2 siryn hair hood special price 	950 	950.0 	0.0 	950 	950 	13 	0.0 	0.0
+2 sk 	2 	20.73 	24.74 	100 	2 	77 	50.0 	42.0
+2 sk sword under 	100.0 	136.0 	44.09 	190 	100 	10 	136.0 	136.0
+0 skinning knife 	10.0 	11.11 	3.14 	20 	10 	18 	0.0 	0.0
+2 skull 	0.0 	0.0 	0.0 	0 	0 	98 	0.0 	0.0
+2 skull shaped burbute paying 	300.0 	300.0 	0.0 	300 	300 	30 	0.0 	0.0
+0 skull-shaped barbute 	300 	328.35 	71.67 	700 	75 	633 	293.0 	303.0
+1 ssb 	300 	293.33 	65.49 	350 	100 	15 	0.0 	0.0
+0 skull-shaped barbute 	300 	328.35 	71.67 	700 	75 	633 	0.0 	0.0
+0 sleek black cape 	10.0 	10.96 	1.97 	15 	10 	26 	0.0 	0.0
+2 slot 	10 	100.16 	151.31 	375 	10 	123 	10.0 	287.0
+2 small 	0 	0.0 	0.0 	0 	0 	19 	0.0 	0.0
+2 small banded 	0.0 	0.0 	0.0 	0 	0 	16 	0.0 	0.0
+0 small banded bracer 	5 	4.58 	1.63 	6 	0 	53 	4.0 	4.0
+1 small bed bracer 	6 	6.0 	0.0 	6 	6 	17 	0.0 	0.0
+0 small banded cloak 	6.0 	6.0 	0.86 	7 	5 	38 	0.0 	6.0
+1 small bed cloak 	7.0 	6.87 	0.34 	7 	6 	46 	0.0 	0.0
+0 small banded gauntlets 	7.0 	6.22 	1.13 	7 	4 	18 	4.0 	7.0
+1 small bed gauntlets 	7 	6.71 	0.45 	7 	6 	21 	0.0 	0.0
+0 small banded gorget 	5 	4.86 	0.34 	5 	4 	29 	5.0 	5.0
+0 small banded helm 	8.0 	7.71 	0.7 	8 	6 	14 	0.0 	8.0
+1 small bed helm 	8 	7.56 	0.83 	8 	6 	45 	0.0 	0.0
+0 small banded mail 	15.0 	14.24 	2.11 	15 	1 	110 	0.0 	15.0
+1 small bed mail 	15 	13.81 	2.57 	15 	6 	85 	0.0 	0.0
+0 small banded mantle 	6.0 	5.56 	0.68 	7 	4 	36 	0.0 	6.0
+1 small bed mantle 	6 	5.89 	0.39 	7 	5 	37 	0.0 	0.0
+0 small banded mask 	4.0 	3.5 	0.87 	4 	2 	16 	0.0 	4.0
+2 small banded mask -- large bronze helm -- glove 	0.0 	0.0 	0.0 	0 	0 	12 	0.0 	0.0
+2 small bed belt 	6.0 	6.0 	0.0 	6 	6 	28 	0.0 	0.0
+2 small bed boots 	6.0 	6.0 	0.0 	6 	6 	28 	0.0 	0.0
+2 small bed leggings 	8 	8.0 	0.0 	8 	8 	17 	0.0 	0.0
+2 small bed sleeves 	7.0 	7.0 	0.0 	7 	7 	16 	0.0 	0.0
+2 small brick of 	0.0 	0.0 	0.0 	0 	0 	14 	0.0 	0.0
+2 small bronze 	1 	1.16 	1.43 	8 	0 	25 	0.0 	0.0
+2 small bronze armor 	1.0 	1.0 	0.0 	1 	1 	12 	0.0 	1.0
+0 small bronze boots 	8 	9.4 	4.47 	16 	1 	147 	0.0 	4.0
+0 small bronze bracers 	7.0 	6.52 	0.88 	10 	5 	116 	0.0 	5.0
+0 small bronze breastplate 	15.0 	15.18 	4.29 	35 	0 	450 	5.0 	12.0
+0 small bronze collar 	6 	5.81 	1.37 	15 	0 	269 	0.0 	3.0
+0 small bronze gauntlets 	8 	7.88 	1.87 	10 	0 	181 	0.0 	7.0
+0 small bronze girdle 	7 	6.99 	2.31 	15 	1 	93 	0.0 	7.0
+0 small bronze greaves 	10 	9.88 	2.3 	15 	0 	109 	0.0 	7.0
+0 small bronze helm 	8.0 	8.5 	1.73 	10 	1 	96 	0.0 	8.0
+0 small bronze mask 	5 	5.0 	0.0 	5 	5 	73 	0.0 	0.0
+0 small bronze pauldron 	7 	6.65 	1.96 	12 	0 	161 	6.0 	6.0
+0 small bronze vambraces 	7.0 	6.91 	1.56 	10 	1 	188 	0.0 	6.0
+0 small crafted breastplate 	600 	498.28 	228.75 	650 	0 	29 	0.0 	0.0
+0 small crafted gauntlets 	200.0 	179.17 	99.91 	300 	0 	24 	0.0 	0.0
+0 small crafted greaves 	300.0 	300.0 	74.68 	400 	0 	26 	0.0 	0.0
+0 small crafted helm 	200 	200.0 	0.0 	200 	200 	15 	0.0 	0.0
+0 small crafted vambraces 	300.0 	266.0 	58.69 	300 	0 	50 	278.0 	260.0
+2 small fine plate pieces 	10 	10.0 	0.0 	10 	10 	17 	0.0 	0.0
+0 small fine steel breastplate 	150 	180.0 	56.79 	350 	120 	39 	0.0 	150.0
+0 small ringmail coat 	10.5 	10.65 	1.42 	12 	8 	20 	0.0 	10.0
+0 small scarab breastplate 	15.0 	16.81 	14.21 	100 	6 	334 	0.0 	0.0
+2 small scarab breastplate for 	25 	20.74 	7.69 	30 	7 	31 	0.0 	0.0
+0 small splinted bronze cloak 	7.0 	6.83 	1.58 	10 	5 	58 	0.0 	5.0
+0 small tower shield 	22.5 	22.5 	2.5 	25 	20 	12 	0.0 	0.0
+0 small wisdom deity 	125.0 	119.07 	58.08 	400 	0 	392 	113.0 	160.0
+2 small wisdom deitys 	0.0 	0.0 	0.0 	0 	0 	10 	0.0 	0.0
+2 smalllarge banded armor 	1.0 	1.0 	0.0 	1 	1 	16 	0.0 	1.0
+0 smoked wood elf 	12 	13.08 	1.44 	15 	12 	25 	0.0 	0.0
+2 smr paying 	4000 	4111.11 	415.74 	5000 	3000 	27 	3000.0 	3000.0
+2 snake egg x 	30.0 	28.63 	7.91 	51 	11 	30 	11.0 	18.0
+0 snakeskin gloves 	20 	20.48 	7.44 	50 	10 	31 	20.0 	20.0
+0 snakeskin jerkin 	15 	15.0 	0.0 	15 	15 	15 	0.0 	0.0
+2 so 	0 	0.0 	0.0 	0 	0 	13 	0.0 	0.0
+0 soft leather shoes 	10.0 	10.0 	0.0 	10 	10 	10 	0.0 	0.0
+2 sow 	10.0 	10.0 	0.0 	10 	10 	42 	0.0 	10.0
+2 sow potions 	10.0 	47.83 	83.29 	300 	2 	12 	10.0 	7.0
+2 specifically looking for 	39.0 	39.0 	0.0 	39 	39 	18 	0.0 	39.0
+0 spell call of bones 	80.0 	80.0 	0.0 	80 	80 	12 	0.0 	80.0
+0 spell combine is 	10 	10.0 	0.0 	10 	10 	15 	0.0 	10.0
+0 spell haunting corpse 	40.0 	37.5 	4.33 	40 	30 	16 	0.0 	38.0
+0 spell intensify death 	40.0 	40.0 	0.0 	40 	40 	12 	0.0 	40.0
+2 spell research components 	100 	133.33 	39.44 	200 	100 	15 	0.0 	0.0
+2 spells bond 	0 	0.0 	0.0 	0 	0 	13 	0.0 	0.0
+0 spider silk 	10.0 	15.22 	18.85 	240 	0 	364 	11.0 	10.0
+1 spider silk stacks 	18 	13.69 	6.41 	20 	6 	39 	0.0 	0.0
+1 spider silks 	40 	63.87 	69.06 	200 	5 	15 	0.0 	0.0
+2 spider silk for 	900.0 	734.38 	217.02 	900 	400 	16 	0.0 	0.0
+2 spider silk x 	60 	96.84 	172.59 	1040 	6 	239 	17.0 	52.0
+2 spider silkx 	100 	130.92 	99.62 	240 	11 	13 	0.0 	0.0
+0 spiderling silk 	10 	9.73 	3.45 	25 	1 	273 	10.0 	10.0
+1 spiderling silk stacks 	10 	9.14 	0.99 	10 	8 	37 	0.0 	9.0
+2 spiderlink silk 	1.0 	1.0 	0.0 	1 	1 	18 	0.0 	0.0
+2 spiderling silk x 	20 	48.95 	49.37 	140 	6 	87 	20.0 	20.0
+0 spiked collar 	20 	24.3 	18.72 	100 	8 	389 	0.0 	18.0
+0 spined dragon claws 	22000.0 	20971.76 	5410.18 	40000 	0 	444 	0.0 	13078.0
+2 spined dragon claws - a mithril two-handed sword - hammerhead helm - granite bracer - paw of opolla - thick banded belt - cloak 	0 	0.0 	0.0 	0 	0 	17 	0.0 	0.0
+2 spined dragon claws - flowing black silk sash - crown 	0 	0.0 	0.0 	0 	0 	11 	0.0 	0.0
+2 spined dragon claws - rokyls channelling crystal - golden efreeti boots - short sword 	0.0 	0.0 	0.0 	0 	0 	10 	0.0 	0.0
+0 splinted bronze cloak 	6 	6.44 	1.51 	8 	4 	185 	7.0 	5.0
+0 split paw hide belt 	10.0 	11.53 	4.79 	25 	5 	150 	0.0 	10.0
+0 split paw hide gloves 	20.0 	21.64 	12.6 	200 	2 	2214 	21.0 	21.0
+2 split paw hide gloves accepting offer 	0.0 	0.0 	0.0 	0 	0 	24 	0.0 	0.0
+0 split paw hide mask 	10.0 	15.94 	21.02 	277 	3 	384 	9.0 	11.0
+0 split paw hide tunic 	15 	17.32 	14.81 	100 	1 	711 	28.0 	21.0
+0 split paw tooth necklace 	20 	21.21 	14.28 	100 	5 	437 	30.0 	21.0
+0 spyglass 	75 	72.71 	18.24 	100 	20 	83 	0.0 	50.0
+0 squallsurge shawl 	20000.0 	20326.05 	8959.15 	70000 	20 	152 	15000.0 	16909.0
+2 squallsurge shawl - book 	0.0 	0.0 	0.0 	0 	0 	10 	0.0 	0.0
+2 st at 	10 	10.0 	0.0 	10 	10 	51 	10.0 	10.0
+2 st with 	0.0 	0.0 	0.0 	0 	0 	28 	0.0 	0.0
+2 sta 	25.0 	24.16 	3.87 	25 	6 	400 	6.0 	23.0
+2 sta earring 	175.0 	151.2 	49.39 	175 	6 	82 	0.0 	163.0
+2 sta earrings 	5.0 	4.2 	0.98 	5 	3 	10 	0.0 	0.0
+2 sta ears 	175.0 	175.0 	0.0 	175 	175 	126 	0.0 	175.0
+2 sta necklace 	11.0 	11.17 	0.37 	12 	11 	12 	0.0 	0.0
+2 stack 	0 	1.19 	4.1 	20 	0 	159 	0.0 	0.0
+2 stack bone chips 	10 	9.35 	1.73 	12 	5 	23 	0.0 	10.0
+2 stack leather padding 	80.0 	84.17 	9.54 	100 	70 	12 	0.0 	0.0
+2 stack o' bone chips 	20.0 	18.57 	3.5 	20 	10 	14 	0.0 	19.0
+2 stack of bone chips 	6 	6.99 	2.22 	10 	4 	87 	8.0 	8.0
+2 stack of dark elf parts 	10.0 	10.0 	0.0 	10 	10 	10 	0.0 	0.0
+2 stack of leather padding 	60 	60.0 	0.0 	60 	60 	19 	0.0 	0.0
+2 stack of leather paddings 	150.0 	173.44 	24.95 	200 	150 	32 	0.0 	0.0
+2 stack of spider silk 	5 	9.86 	6.52 	20 	5 	37 	19.0 	7.0
+2 stack of spider silks 	5.0 	5.27 	0.86 	8 	5 	22 	0.0 	5.0
+2 stack of spiderling silk 	20 	22.94 	10.72 	50 	10 	17 	0.0 	0.0
+2 stack spiderling silk 	10.0 	9.5 	1.12 	10 	7 	12 	0.0 	10.0
+2 stackable potion of aquatic haunt 	25 	25.0 	0.0 	25 	25 	17 	0.0 	0.0
+2 stackable potion of unlife awareness 	20 	20.0 	0.0 	20 	20 	41 	0.0 	0.0
+2 stacks 	0.0 	6.65 	19.31 	140 	0 	204 	0.0 	2.0
+2 stacks bone chips 	10 	9.71 	4.52 	30 	6 	31 	8.0 	10.0
+2 stacks for 	20 	19.46 	11.58 	75 	7 	37 	0.0 	0.0
+2 stacks of batwings 	2.0 	2.0 	0.0 	2 	2 	28 	2.0 	2.0
+2 stacks of bone chips 	6.0 	11.9 	14.52 	75 	0 	108 	0.0 	11.0
+2 stacks of bonechips 	10 	10.0 	0.0 	10 	10 	59 	0.0 	10.0
+2 stacks of spider silk 	8.0 	9.0 	4.38 	20 	5 	10 	0.0 	5.0
+2 stacks of spider silk at 	10 	10.0 	0.0 	10 	10 	17 	0.0 	0.0
+2 staff 	0.0 	0.0 	0.0 	0 	0 	144 	0.0 	0.0
+2 staff of the 	0 	0.0 	0.0 	0 	0 	35 	0.0 	0.0
+2 staff of the earthcrafter - blue diamond electrum earring - short sword of the ykesha - shield 	0 	0.0 	0.0 	0 	0 	15 	0.0 	0.0
+0 staff of the observers 	200.0 	203.62 	81.25 	500 	50 	414 	200.0 	244.0
+0 staff of writhing 	150 	187.5 	96.49 	450 	10 	521 	134.0 	161.0
+0 stalking probe 	50.0 	43.18 	13.42 	75 	25 	88 	35.0 	49.0
+2 stein 	0.0 	0.0 	0.0 	0 	0 	886 	0.0 	0.0
+2 stein of 	0 	0.0 	0.0 	0 	0 	11 	0.0 	0.0
+0 stein of moggok 	300.0 	326.13 	1058.02 	30000 	0 	1578 	296.0 	281.0
+1 stein of muggok 	250.0 	263.89 	22.4 	300 	250 	18 	0.0 	265.0
+2 stien 	0.0 	0.0 	0.0 	0 	0 	18 	0.0 	0.0
+2 stiletto 	0 	0.0 	0.0 	0 	0 	339 	0.0 	0.0
+0 stiletto of the bloodclaw 	150 	157.32 	65.03 	500 	0 	939 	125.0 	143.0
+0 stone bracelet 	3.0 	3.44 	0.5 	4 	3 	18 	0.0 	0.0
+0 stone collar 	5.0 	9.67 	7.36 	20 	2 	18 	0.0 	20.0
+2 str 	7.0 	6.44 	2.56 	12 	0 	298 	6.0 	4.0
+2 str earring 	200.0 	168.85 	48.86 	200 	20 	156 	0.0 	181.0
+2 str ears 	200.0 	173.54 	62.08 	200 	20 	130 	20.0 	191.0
+2 str jewelry golden amber earring 	30.0 	30.0 	0.0 	30 	30 	10 	0.0 	30.0
+2 str necklace 	300.0 	300.0 	0.0 	300 	300 	54 	0.0 	300.0
+2 str ring 	6.0 	7.91 	2.21 	12 	6 	22 	0.0 	0.0
+2 str rings 	9 	9.0 	0.88 	12 	8 	31 	9.0 	9.0
+2 str veil 	325 	352.35 	36.1 	400 	325 	85 	0.0 	352.0
+2 straights 	990.0 	990.0 	0.0 	990 	990 	84 	0.0 	0.0
+0 strip enchantment 	20.0 	19.15 	4.9 	25 	8 	26 	0.0 	0.0
+0 studded leather collar 	15.0 	15.37 	7.8 	40 	5 	68 	0.0 	20.0
+2 suit 	0 	0.0 	0.0 	0 	0 	11 	0.0 	0.0
+0 summon corpse 	1000.0 	1138.09 	1133.58 	4000 	0 	94 	4000.0 	3154.0
+0 summon dead 	50.0 	40.62 	17.64 	125 	0 	258 	40.0 	47.0
+2 super 	77 	77.0 	0.0 	77 	77 	115 	0.0 	77.0
+0 superb wolf hide 	50.0 	30.96 	22.23 	50 	5 	52 	0.0 	0.0
+0 supernova 	400.0 	285.87 	152.75 	600 	100 	92 	0.0 	126.0
+0 swirlspine belt 	6750.0 	7916.67 	2262.31 	12000 	6000 	24 	0.0 	6375.0
+2 symbol 	0.0 	0.0 	0.0 	0 	0 	422 	0.0 	0.0
+0 symbol of loyalty to vox 	50.0 	59.41 	28.82 	200 	0 	362 	50.0 	59.0
+0 syrin hair hood 	1000 	1000.0 	0.0 	1000 	1000 	15 	0.0 	0.0
+0 syythrak hide vest 	2000.0 	1905.5 	1950.65 	25000 	2 	462 	1993.0 	1530.0 
+2 t abalone gorget 	5000.0 	5000.0 	0.0 	5000 	5000 	38 	0.0 	0.0
+2 t gnoll hide tome 	1000.0 	1000.0 	0.0 	1000 	1000 	12 	0.0 	0.0
+2 t short sword of the ykesha 	7500.0 	7500.0 	0.0 	7500 	7500 	14 	0.0 	0.0
+2 t spined dragon claws 	13500.0 	13500.0 	0.0 	13500 	13500 	16 	0.0 	13500.0
+2 t spined dragon claws - polished granite tomahawk 	150.0 	150.0 	0.0 	150 	150 	28 	0.0 	150.0
+0 tailor-made whip 	4 	8.95 	6.58 	20 	4 	21 	0.0 	0.0
+0 tailored large bag 	15.0 	14.19 	2.36 	20 	1 	222 	14.0 	15.0
+0 tailored quiver 	100 	100.0 	0.0 	100 	100 	15 	0.0 	0.0
+2 taking 	0 	0.0 	0.0 	0 	0 	55 	0.0 	0.0
+2 taking offers 	0 	0.0 	0.0 	0 	0 	53 	0.0 	0.0
+2 taking offers for 	3.0 	3.0 	0.0 	3 	3 	16 	0.0 	3.0
+2 taking offers on 	64.5 	48.0 	39.38 	85 	0 	16 	0.0 	0.0
+2 taking orders 	0.0 	0.0 	0.0 	0 	0 	104 	0.0 	0.0
+2 taking orders on all magician research scrolls 	20.0 	20.0 	0.0 	20 	20 	14 	0.0 	0.0
+2 taking orders on any piece 	0 	0.0 	0.0 	0 	0 	15 	0.0 	0.0
+0 tanned split paw skin 	20.0 	22.0 	2.45 	25 	20 	20 	0.0 	0.0
+2 tasarin's grimoir 	312.0 	312.0 	0.0 	312 	312 	14 	0.0 	0.0
+2 tasarins 	390.0 	390.0 	0.0 	390 	390 	12 	0.0 	0.0
+0 tattered gnomish cloak 	20 	20.0 	0.0 	20 	20 	33 	0.0 	20.0
+2 tbb for 	2000.0 	2062.5 	165.36 	2500 	2000 	16 	0.0 	0.0
+0 tea leaves 	17.5 	18.65 	4.91 	25 	10 	26 	0.0 	0.0
+2 tears 	0.0 	0.0 	0.0 	0 	0 	68 	0.0 	0.0
+0 tears of prexus 	100.0 	173.71 	494.54 	3000 	0 	136 	0.0 	43.0
+2 tell your guilds im offering 	200 	200.0 	0.0 	200 	200 	11 	0.0 	0.0
+0 tentacle whip 	20 	23.41 	15.88 	300 	0 	767 	26.0 	27.0
+0 tepid deeds 	25 	41.92 	42.63 	150 	10 	77 	0.0 	93.0
+0 tesch val sinisch 	700 	726.55 	249.73 	1500 	300 	103 	0.0 	455.0
+2 th at 	10.0 	10.0 	0.0 	10 	10 	44 	0.0 	0.0
+2 thats 	30 	3652.73 	4798.09 	10000 	0 	11 	10000.0 	10000.0
+0 thaumaturgist's robe 	20.0 	26.24 	11.95 	60 	10 	226 	20.0 	27.0
+2 the 	34.0 	28.3 	19.54 	49 	0 	10 	0.0 	0.0
+2 the essence 	0 	0.0 	0.0 	0 	0 	11 	0.0 	0.0
+2 the scent 	0.0 	0.0 	0.0 	0 	0 	66 	0.0 	0.0
+0 the scent of marr 	12.5 	15.63 	6.34 	25 	10 	16 	0.0 	18.0
+2 the services of an enchanter above level 	24.0 	24.0 	0.0 	24 	24 	16 	0.0 	0.0
+0 thermal cloak 	50 	63.13 	23.65 	125 	40 	187 	0.0 	100.0
+0 thex mallet 	500.0 	500.0 	0.0 	500 	500 	12 	0.0 	0.0
+0 thick banded belt 	2500 	2565.68 	949.61 	10000 	0 	273 	2500.0 	2048.0
+1 tbb 	1800.0 	2010.52 	750.54 	3500 	25 	286 	0.0 	1691.0
+1 thick bed belt 	3500.0 	3325.44 	1739.3 	28000 	1400 	676 	0.0 	0.0
+2 thick bed belt for 	2500 	2136.36 	481.05 	2500 	1500 	11 	0.0 	0.0
+0 thick grizzly bear skin 	10.0 	12.82 	6.03 	30 	5 	98 	5.0 	7.0
+0 thick leather apron 	40 	41.79 	26.22 	100 	0 	293 	5.0 	16.0
+0 thicken mana 	50 	32.12 	18.97 	50 	12 	17 	0.0 	0.0
+2 tho 	15 	15.0 	0.0 	15 	15 	21 	0.0 	0.0
+2 those cheap mana shoulders 	250 	250.0 	0.0 	250 	250 	11 	0.0 	0.0
+0 tiger hide gloves 	25.0 	100.31 	119.21 	300 	5 	32 	8.0 	17.0
+2 tipping 	35.0 	39.5 	23.92 	100 	5 	20 	0.0 	5.0
+2 to 	400 	275.99 	230.05 	500 	15 	77 	21.0 	19.0
+0 tobrin's mystical eyepatch 	0 	15789.47 	46033.83 	150000 	0 	19 	0.0 	15789.0
+0 tome of silvery runes 	150 	150.0 	0.0 	150 	150 	11 	0.0 	0.0
+2 tons 	0 	0.0 	0.0 	0 	0 	21 	0.0 	0.0
+0 topknot headband 	50 	68.68 	27.51 	100 	30 	95 	0.0 	55.0
+1 topknot headb 	50.0 	64.53 	41.72 	300 	20 	276 	0.0 	0.0
+2 torch 	100 	100.71 	119.22 	500 	0 	31 	0.0 	167.0
+2 torchlvl 	44.0 	44.0 	0.0 	44 	44 	12 	0.0 	0.0
+2 total ac 	85 	86.18 	2.12 	90 	85 	17 	0.0 	0.0
+0 totemic boots 	350 	335.1 	44.79 	450 	200 	237 	0.0 	410.0
+0 totemic bracers 	250 	238.42 	79.54 	350 	75 	95 	0.0 	0.0
+0 totemic breastplate 	1000 	816.18 	239.03 	1000 	10 	199 	750.0 	577.0
+1 totemic bp 	1100 	1005.26 	139.45 	1100 	800 	19 	0.0 	0.0
+0 totemic cloak 	300 	331.13 	156.53 	1000 	200 	53 	0.0 	0.0
+0 totemic gauntlets 	300 	260.68 	85.09 	400 	100 	103 	0.0 	0.0
+1 totemic glove 	150.0 	150.0 	0.0 	150 	150 	10 	0.0 	0.0
+0 totemic greaves 	500.0 	537.88 	180.42 	1000 	300 	132 	0.0 	600.0
+1 totemic legs 	600.0 	615.91 	43.66 	800 	600 	22 	0.0 	0.0
+0 totemic helm 	1500.0 	1214.96 	570.42 	2000 	0 	224 	900.0 	693.0
+0 totemic vambraces 	250.0 	280.65 	101.64 	550 	150 	124 	0.0 	0.0
+2 tox for 	15.0 	15.0 	0.0 	15 	15 	10 	0.0 	0.0
+2 tra 	50 	52.14 	24.4 	100 	10 	213 	0.0 	10.0
+2 trade for 	2 	1.7 	0.72 	2 	0 	33 	0.0 	2.0
+2 trading 	40 	2666666755.07 	4422166333.23 	9999999999 	0 	15 	40.0 	6666666679.0
+2 trading flowing black silk sashshort sword 	0 	0.0 	0.0 	0 	0 	11 	0.0 	0.0
+2 tranix crown 	15000 	14588.24 	1647.06 	15000 	8000 	17 	8000.0 	8000.0
+2 traveler packs x 	3.0 	3.0 	0.0 	3 	3 	14 	0.0 	0.0
+0 travelers pack 	187.5 	165.71 	60.5 	250 	2 	48 	0.0 	107.0
+0 travelers pouch 	50 	43.32 	13.92 	100 	3 	109 	25.0 	42.0
+0 treant staff 	100 	150.4 	142.78 	800 	15 	541 	0.0 	68.0
+0 troll-hide belt 	150 	169.69 	111.09 	500 	25 	499 	179.0 	118.0
+0 trueshot longbow 	700.0 	630.83 	414.13 	2000 	250 	60 	0.0 	600.0
+0 tumpy tonic 	10.0 	10.0 	0.0 	10 	10 	26 	0.0 	10.0
+0 turquoise eyepatch 	100 	129.01 	60.86 	300 	25 	221 	0.0 	121.0
+0 turtleshell helm 	30.0 	35.32 	18.14 	100 	5 	916 	29.0 	31.0
+2 two for 	300 	515.71 	509.67 	1300 	6 	21 	0.0 	0.0 
+2 unbuff 	1718.0 	1718.0 	0.0 	1718 	1718 	14 	0.0 	0.0
+2 under 	16 	489.09 	1427.01 	5000 	1 	11 	0.0 	100.0
+0 unicorn horn 	100.0 	176.92 	93.48 	300 	50 	276 	100.0 	100.0
+2 uy a mithril two-hed sword 	8000.0 	8000.0 	0.0 	8000 	8000 	14 	0.0 	0.0 
+2 vambraces 	0 	0.0 	0.0 	0 	0 	137 	0.0 	0.0
+0 vambraces of ro 	1250.0 	1240.96 	278.96 	2000 	500 	94 	0.0 	0.0
+2 vambraces of roboots 	0 	0.0 	0.0 	0 	0 	11 	0.0 	0.0
+0 vambraces of the fervent 	350 	323.43 	77.31 	400 	20 	35 	0.0 	0.0
+0 vampiric curse 	50 	68.73 	60.28 	250 	0 	213 	0.0 	58.0
+2 various fine plate 	10 	10.0 	0.0 	10 	10 	15 	0.0 	0.0
+2 various large fine plate at 	10 	10.0 	0.0 	10 	10 	29 	0.0 	0.0
+2 various pieces 	0 	0.0 	0.0 	0 	0 	11 	0.0 	0.0
+2 various small bronze 	1.0 	1.0 	0.0 	1 	1 	10 	0.0 	1.0
+0 vegetable soup 	10.0 	10.0 	0.0 	10 	10 	10 	0.0 	0.0
+2 velishoul's tome pages 	108.0 	93.71 	34.99 	108 	8 	14 	0.0 	0.0
+0 velvet choker 	10.0 	12.16 	4.85 	25 	10 	86 	10.0 	10.0
+2 vial 	0.0 	0.0 	0.0 	0 	0 	18 	0.0 	0.0
+0 vial of egg whites 	10 	17.03 	15.17 	50 	7 	87 	0.0 	0.0
+0 vial of vampire blood 	20 	29.83 	18.41 	50 	10 	29 	0.0 	0.0
+2 visible set 	750 	746.77 	12.28 	750 	700 	31 	0.0 	750.0
+0 voice graft 	10.0 	16.39 	14.09 	50 	8 	28 	0.0 	0.0 
+2 wand 	0 	0.0 	0.0 	0 	0 	73 	0.0 	0.0
+0 wand of conflagration 	300.0 	320.0 	156.84 	500 	150 	20 	0.0 	320.0
+1 w of conflagration 	300.0 	1411.63 	7018.05 	50000 	20 	98 	0.0 	0.0
+2 warhammer 	0.0 	0.0 	0.0 	0 	0 	38 	0.0 	0.0
+0 warhammer of divine grace 	1000.0 	1500.0 	2686.17 	18000 	1000 	58 	0.0 	0.0
+2 warrior 	0.0 	15.75 	23.09 	50 	0 	32 	0.0 	0.0
+0 watchman boots 	700.0 	550.19 	176.22 	700 	200 	130 	0.0 	0.0
+2 water 	1.0 	205.95 	426.75 	1500 	1 	130 	0.0 	0.0
+0 water crystal staff 	100.0 	107.11 	39.23 	200 	10 	76 	100.0 	100.0
+2 water crystal staffall 	3.0 	3.0 	0.0 	3 	3 	10 	0.0 	0.0
+2 weight reduction bag bag of sewn evil-eye 	500 	518.0 	37.09 	600 	500 	25 	0.0 	0.0
+0 werewolf claws 	50.0 	91.96 	141.75 	500 	25 	28 	0.0 	0.0
+0 werewolf pelt 	30.0 	40.25 	28.41 	200 	0 	906 	31.0 	27.0
+0 werewolf skin cloak 	275.0 	280.21 	58.09 	425 	0 	428 	248.0 	261.0
+0 werewolf-hide jerkin 	50.0 	77.75 	50.7 	200 	10 	466 	10.0 	21.0
+0 white dragonscale cloak 	175000.0 	175000.0 	0.0 	175000 	175000 	46 	0.0 	175000.0
+2 white dragonscale cloak - staff 	0 	0.0 	0.0 	0 	0 	31 	0.0 	0.0
+0 white gold necklace 	500 	527.12 	172.79 	1000 	200 	437 	429.0 	384.0
+0 white wolf-hide cloak 	300.0 	309.21 	141.34 	1000 	10 	388 	0.0 	298.0
+1 white wolf cloak 	350.0 	350.0 	0.0 	350 	350 	12 	0.0 	350.0
+2 will pay 	90.0 	67.39 	42.86 	150 	3 	18 	5.0 	10.0
+2 will trade for 	2.0 	2.0 	0.0 	2 	2 	46 	0.0 	0.0
+2 win up to 	8 	8.22 	0.42 	9 	8 	45 	0.0 	0.0
+2 wing 	0 	0.0 	0.0 	0 	0 	41 	0.0 	0.0
+0 wing of xegony 	100 	184.91 	159.44 	500 	25 	325 	0.0 	100.0
+2 wins 	180.0 	180.0 	14.14 	200 	160 	10 	180.0 	180.0
+2 wis 	5 	16.2 	57.25 	400 	0 	115 	142.0 	55.0
+2 wis earring 	30 	26.3 	7.58 	30 	6 	67 	0.0 	30.0
+2 wis earrings 	10 	14.69 	15.16 	50 	6 	13 	0.0 	0.0
+2 wis ears 	40 	38.48 	4.34 	40 	7 	127 	0.0 	40.0
+2 wis in range 	125.0 	123.75 	5.45 	125 	100 	40 	125.0 	124.0
+2 wis ring 	175.0 	141.89 	59.09 	175 	6 	204 	7.0 	146.0
+2 wis rings 	175 	157.33 	57.86 	350 	3 	143 	180.0 	164.0
+2 wis veil 	400.0 	414.55 	22.71 	450 	400 	110 	0.0 	400.0
+2 withered totem 	0 	0.0 	0.0 	0 	0 	81 	0.0 	0.0
+0 withered totem of widdershins 	4000 	4054.38 	862.37 	6000 	0 	217 	3053.0 	3514.0
+2 withered totem of widdershins - paw of opolla 	2600.0 	2600.0 	0.0 	2600 	2600 	10 	0.0 	0.0
+0 wolf fur slippers 	500.0 	491.76 	95.11 	700 	0 	448 	440.0 	414.0
+2 wolf fur slippers best offer is 	300 	246.0 	125.16 	400 	30 	15 	0.0 	0.0
+2 wolf fur slippers shining metallic robes 	4500.0 	4500.0 	0.0 	4500 	4500 	10 	0.0 	0.0
+2 wolf skins 	8.0 	8.13 	0.48 	10 	8 	16 	0.0 	0.0
+0 wolf-hide sleeves 	20 	143198126.47 	1188055218.92 	9999999999 	10 	419 	4285714407.0 	416666719.0
+0 wolf's eye golden bracelet 	30.0 	30.0 	0.0 	30 	30 	20 	0.0 	0.0
+2 wood point arrow 	6 	5.13 	2.47 	8 	1 	15 	0.0 	0.0
+0 wooly spider silk net 	75 	73.47 	46.69 	200 	10 	137 	50.0 	45.0
+2 word 	0 	0.0 	0.0 	0 	0 	97 	0.0 	0.0
+2 word of incarceration 	50 	50.0 	0.0 	50 	50 	15 	0.0 	0.0
+0 word of souls 	35.0 	46.37 	29.98 	150 	0 	84 	0.0 	53.0
+2 words 	0.0 	0.0 	0.0 	0 	0 	1434 	0.0 	0.0
+2 words for 	49 	49.0 	0.0 	49 	49 	11 	0.0 	0.0
+2 words of 	0 	0.0 	0.0 	0 	0 	45 	0.0 	0.0
+0 words of allure 	10.0 	10.36 	1.69 	20 	10 	42 	0.0 	0.0
+2 words of allure offer 	10.0 	10.0 	0.0 	10 	10 	10 	10.0 	10.0
+0 words of bidding 	100.0 	95.0 	21.79 	100 	0 	20 	0.0 	0.0
+0 words of bondage 	300.0 	330.76 	150.76 	750 	0 	314 	0.0 	217.0
+0 words of cloudburstwords of absorptionwords 	0.0 	0.0 	0.0 	0 	0 	10 	0.0 	0.0
+0 words of crippling force 	200.0 	178.95 	42.93 	200 	50 	76 	0.0 	75.0
+0 words of dark paths 	20 	24.13 	7.97 	50 	20 	225 	29.0 	24.0
+0 words of dominion 	10 	10.0 	0.0 	10 	10 	11 	0.0 	0.0
+0 words of duress 	75 	63.04 	45.94 	150 	10 	23 	0.0 	0.0
+0 words of incarceration 	100.0 	108.06 	65.65 	200 	0 	62 	0.0 	56.0
+0 words of materials 	457.0 	457.0 	0.0 	457 	457 	12 	0.0 	0.0
+0 words of obligation 	25.0 	37.78 	25.12 	100 	0 	36 	0.0 	60.0
+0 words of odus 	50 	53.23 	8.38 	75 	50 	31 	0.0 	75.0
+0 words of possession 	702.0 	470.78 	327.0 	702 	5 	18 	0.0 	5.0
+0 words of requisition 	800.0 	707.95 	374.76 	1200 	0 	44 	0.0 	150.0
+0 words of the ethereal 	450.0 	565.0 	354.44 	1000 	100 	50 	0.0 	175.0
+0 words of the psyche 	20 	19.77 	11.86 	40 	0 	43 	0.0 	29.0
+0 words of the spoken 	5 	5.0 	0.0 	5 	5 	17 	5.0 	5.0
+0 words of transcendence 	35.0 	45.5 	41.56 	150 	15 	50 	0.0 	150.0
+0 words of tyranny 	75.0 	75.0 	0.0 	75 	75 	26 	0.0 	0.0
+0 woven tunic 	6.0 	6.0 	0.0 	6 	6 	14 	0.0 	0.0
+2 wr 	25 	26.76 	3.81 	35 	25 	17 	0.0 	0.0
+0 wrath of al'kabor 	400.0 	403.26 	61.15 	500 	50 	46 	0.0 	0.0
+2 wt 	25.0 	23.13 	4.96 	25 	10 	16 	0.0 	0.0
+2 wtz blue diamond electrum earring 	2250.0 	2250.0 	0.0 	2250 	2250 	10 	0.0 	2250.0
+2 wu sets 	500.0 	470.45 	45.62 	500 	400 	44 	0.0 	0.0
+2 wu's all pieces made to 	0.0 	0.0 	0.0 	0 	0 	16 	0.0 	0.0
+2 wu's armor 	50.0 	50.0 	0.0 	50 	50 	56 	50.0 	50.0
+0 wu's fighting cap 	30.0 	32.5 	5.59 	45 	20 	178 	26.0 	30.0
+0 wu's fighting cloak 	40 	40.52 	11.21 	75 	25 	77 	0.0 	0.0
+0 wu's fighting collar 	40 	38.77 	15.45 	90 	25 	53 	0.0 	0.0
+0 wu's fighting gauntlets 	50.0 	45.21 	11.06 	60 	20 	94 	35.0 	43.0
+0 wu's fighting mantle 	40 	44.45 	17.21 	150 	25 	109 	40.0 	32.0
+2 wu's fighting mantle individuals 	45 	45.0 	0.0 	45 	45 	11 	0.0 	0.0
+0 wu's fighting mask 	40.0 	39.2 	2.71 	40 	30 	50 	0.0 	40.0
+0 wu's fighting pantaloons 	45 	44.59 	11.5 	75 	20 	61 	50.0 	44.0
+0 wu's fighting sash 	40 	40.68 	12.2 	80 	15 	95 	0.0 	20.0
+0 wu's fighting shirt 	45 	57.8 	39.13 	200 	20 	107 	0.0 	44.0
+0 wu's fighting sleeves 	35.0 	36.61 	8.32 	60 	20 	84 	50.0 	50.0
+0 wu's fighting slippers 	40 	38.92 	5.78 	45 	25 	65 	25.0 	25.0
+0 wu's fighting wristbands 	25.0 	18.57 	10.59 	25 	0 	42 	0.0 	24.0
+1 wu's fighting wristbs 	40 	39.44 	4.58 	45 	20 	27 	0.0 	0.0
+2 wus slippers paying 	100.0 	100.0 	0.0 	100 	100 	18 	0.0 	0.0 
+2 x 	40.0 	280.24 	433.2 	1400 	0 	234 	7.0 	552.0
+2 x black sapphires 	12000.0 	9428.57 	2969.23 	12000 	6000 	28 	9429.0 	9429.0
+2 x bone chips 	10.0 	10.08 	4.05 	15 	3 	12 	0.0 	12.0
+2 x diamondine earring 	1200.0 	1172.22 	128.26 	1300 	1000 	36 	1000.0 	1172.0
+2 x dufrenite paying 	100.0 	100.0 	0.0 	100 	100 	12 	0.0 	0.0
+2 x fire 	0 	0.0 	0.0 	0 	0 	13 	0.0 	0.0
+2 x for 	500.0 	449.72 	362.41 	1000 	2 	18 	12.0 	12.0
+2 x gnoll hide lariat 	27.5 	61.0 	52.81 	125 	0 	10 	0.0 	68.0
+2 x granite bracer 	3500.0 	3576.92 	180.4 	4000 	3500 	26 	0.0 	3577.0
+2 x granite bracers 	2.0 	795.85 	1826.8 	5000 	2 	170 	796.0 	796.0
+2 x griffon feathers 	20.0 	22.22 	2.48 	25 	20 	18 	0.0 	22.0
+2 x high quality bear skin 	10 	14.65 	16.05 	50 	1 	17 	0.0 	1.0
+2 x high quality wolf skin 	15.0 	13.18 	6.68 	25 	2 	40 	0.0 	0.0
+2 x hill giant toes 	250 	250.0 	0.0 	250 	250 	11 	0.0 	0.0
+2 x ice 	0.0 	0.0 	0.0 	0 	0 	20 	0.0 	0.0
+2 x plat fire rings for 	400.0 	400.0 	0.0 	400 	400 	22 	0.0 	0.0
+2 x platinum fire wedding ring 	460.0 	428.89 	69.99 	500 	300 	18 	0.0 	0.0
+2 x platinum fire wedding ring for 	450.0 	458.57 	17.26 	500 	450 	14 	0.0 	0.0
+2 x platinum fire wedding ring paying 	450.0 	450.0 	0.0 	450 	450 	34 	0.0 	0.0
+2 x preserved split paw eye 	10 	10.0 	0.0 	10 	10 	17 	0.0 	0.0
+2 x runed mithril bracer 	400.0 	400.0 	0.0 	400 	400 	10 	0.0 	0.0
+2 x sharkbone warhammer 	450.0 	450.0 	0.0 	450 	450 	28 	0.0 	450.0
+2 x spider silk 	27.5 	33.65 	36.25 	100 	0 	20 	0.0 	0.0
+2 x split paw hide mask 	15 	15.0 	0.0 	15 	15 	17 	0.0 	0.0
+2 x stack spider silk 	20.0 	19.29 	1.75 	20 	15 	14 	0.0 	15.0
+2 xds 	500.0 	462.5 	89.27 	500 	250 	80 	0.0 	500.0
+2 xeb 	25 	25.0 	0.0 	25 	25 	211 	0.0 	0.0
+2 xivu 	20 	20.0 	0.0 	20 	20 	209 	0.0 	0.0
+2 xjambiya 	50.0 	50.0 	0.0 	50 	50 	16 	0.0 	50.0
+2 xshreenk 	225 	231.52 	10.97 	250 	225 	211 	0.0 	0.0
+2 xshrink 	250.0 	237.66 	12.5 	250 	225 	304 	0.0 	225.0
+2 xsilver jasper ring 	10 	10.0 	0.0 	10 	10 	11 	0.0 	0.0
+2 xsilver onyx bracelet 	6 	6.0 	0.0 	6 	6 	11 	0.0 	0.0
+2 xsow 	100.0 	100.0 	0.0 	100 	100 	350 	0.0 	100.0
+2 xspider silk 	50 	41.29 	13.62 	50 	20 	31 	0.0 	0.0 
+2 yak paying 	8000.0 	8000.0 	0.0 	8000 	8000 	10 	0.0 	0.0
+2 yaks - polished granite tomahawk 	150.0 	150.0 	0.0 	150 	150 	28 	0.0 	150.0
+2 yellow sash of order 	10.0 	10.0 	0.0 	10 	10 	26 	0.0 	0.0 
+0 zaharn's coronet 	400 	524.92 	335.53 	2000 	10 	503 	316.0 	328.0
+0 zombie skin 	6.0 	7.67 	3.14 	15 	5 	12 	0.0 	5.0
+2 zombie skin x 	13 	13.0 	0.0 	13 	13 	19 	13.0 	13.0 

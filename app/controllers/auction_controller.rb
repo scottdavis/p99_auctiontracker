@@ -21,7 +21,11 @@ class AuctionController < ApplicationController
       params[:letter] = 'a'
     end
     @letter = params[:letter]
-    @items = Item.name_starts_with(params[:letter]).order('name ASC').includes(:auctions).not_hidden
+    @items = Item.name_starts_with(params[:letter]).order('name ASC').not_hidden
+    @auctions = {}
+    @items.each do |item|
+      @auctions[item.name] = item.auctions.select('price').map(&:price).to_vector(:scale)
+    end
   end
   
   def destroy

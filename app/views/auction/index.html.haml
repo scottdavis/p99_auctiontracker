@@ -24,24 +24,22 @@
           30 Day mean
     %tbody
       - @items.each do |item|
-        - next if item.auctions.not_hidden.blank?
-        - prices = item.auctions.not_hidden.map{|a| a.price}.compact.sort
-        - next if prices.size < 10
+        - next if @auctions[item.name].size < 10
         %tr{:class => cycle('alt','')}
           %td 
             = link_to(item.name, item_path(item.id), :item_id => item.id, :class => :item_link)
           %td
-            = median(item.auctions.not_hidden.map(&:price))
+            = @auctions[item.name].median.round(2)
           %td
-            = item.auctions.not_hidden.average(:price)
+            = @auctions[item.name].mean.round(2)
           %td
-            = standard_deviation(item.auctions.not_hidden.map(&:price)).round(2)
+            = @auctions[item.name].sdp.round(2)
           %td
-            = item.auctions.not_hidden.maximum(:price)
+            = @auctions[item.name].max
           %td
-            = item.auctions.not_hidden.minimum(:price)
+            = @auctions[item.name].min
           %td
-            = prices.size
+            = @auctions[item.name].size
           %td
             - math = item.auctions.not_hidden.average(:price, :conditions => {:time => 10.days.ago..Time.now})
             = math.blank? ? 0.0 : math.round

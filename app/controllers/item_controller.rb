@@ -15,7 +15,7 @@ class ItemController < ApplicationController
     @vector = @auctions.map(&:price).to_vector(:scale)
     std = @vector.sdp
     mean = @vector.mean
-    within = (1 * std)
+    within = (2 * std)
     @plot_data = @auctions.map do |a|
       next unless a.price <= (mean + within) && a.price >= (mean - within)
       [a.time.to_s(:rfc822), a.price]

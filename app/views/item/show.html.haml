@@ -9,9 +9,37 @@
 
 .info
   = alla_link(@item)
-  
 %h2
-  Statistics
+  30 Day Statistics
+  %table
+    %tr
+      %td
+        Max:
+      %td
+        = @monthly.max
+    %tr
+      %td
+        Min:
+      %td
+        = @monthly.min
+    %tr
+      %td
+        Average:
+      %td
+        = @monthly.mean
+    %tr
+      %td
+        Median:
+      %td
+        = @monthly.median
+    %tr
+      %td
+        Standard Deviation:
+      %td
+        = @monthly.sdp
+        
+%h2
+  All Time Statistics
 %table
   %tr
     %td

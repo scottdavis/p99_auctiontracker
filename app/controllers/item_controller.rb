@@ -12,6 +12,7 @@ class ItemController < ApplicationController
     expires_in(1.minutes)
     @item = Item.find(params[:id])
     @auctions = @item.auctions.not_hidden.order('time ASC')#.paginate(:page => params[:page], :per_page => 25, :order => 'time DESC')
+    @monthly = @item.auctions.not_hidden.where(:time => 30.days.ago..Time.now).select('price').map(&:price).to_vector(:scale)
     @vector = @auctions.map(&:price).to_vector(:scale)
     std = @vector.sdp
     mean = @vector.mean

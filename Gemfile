@@ -9,6 +9,7 @@ gem 'mysql2'
 
 source 'http://rubygems.org'
 
+gem 'capistrano'
 gem 'mongrel'
 gem 'compass'
 gem 'haml'

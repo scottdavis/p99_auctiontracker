@@ -24,7 +24,7 @@
           30 Day mean
     %tbody
       - @items.each do |item|
-        - next if @auctions[item.name].size < 10
+        - next if @auctions[item.name].blank?
         %tr{:class => cycle('alt','')}
           %td 
             = link_to(item.name, item_path(item.id), :item_id => item.id, :class => :item_link)

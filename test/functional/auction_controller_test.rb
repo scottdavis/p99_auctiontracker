@@ -13,7 +13,7 @@ class AuctionControllerTest < ActionController::TestCase
       setup do
         10.times do 
           i = Factory(:item)
-          10.times { Factory(:auction, :item => i)}
+          50.times { Factory(:auction, :item => i)}
         end
         get :index, :letter => 'i'
       end
@@ -27,14 +27,15 @@ class AuctionControllerTest < ActionController::TestCase
       end
       should "have 10 auctions per item" do
         assigns(:items).each do |item|
-          assert_equal 10, item.auctions.size
+          assert_equal 50, item.auctions.size
         end
       end
     end
     
     context "Do a search" do
       setup do
-        Item.create(:name => "FBSS")
+        i = Item.create(:name => "FBSS")
+        50.times { Factory(:auction, :item => i)}
         get :search, :search => {:search => "fbss"}
       end
       should assign_to :items

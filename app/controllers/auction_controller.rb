@@ -22,10 +22,7 @@ class AuctionController < ApplicationController
     end
     @letter = params[:letter]
     @items = Item.name_starts_with(params[:letter]).order('name ASC').not_hidden
-    @auctions = {}
-    @items.each do |item|
-      @auctions[item.name] = item.auctions.select('price').map(&:price).to_vector(:scale)
-    end
+    prepair_items
   end
   
   def destroy
@@ -37,12 +34,25 @@ class AuctionController < ApplicationController
   
   def search
     @search = params[:search][:search]
-    @items = Item.search_for(params[:search][:search].downcase).order('name ASC').includes(:auctions).not_hidden
+    @items = Item.search_for(params[:search][:search].downcase).order('name ASC').not_hidden
+    prepair_items
     render :action => :index
   end
   
   def show
     redirect_to item_path(params[:id]), :status => 302
+  end
+  
+  
+  private
+  
+  def prepair_items
+    @auctions = {}
+    @items.each do |item|
+      auctions = item.auctions.select('price').map(&:price).to_vector(:scale)
+      next if auctions.size < 10
+      @auctions[item.name] = auctions
+    end
   end
   
 end

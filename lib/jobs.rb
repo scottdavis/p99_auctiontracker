@@ -4,7 +4,6 @@ require 'mysql2'
 RAILS_ENV = ENV["RAILS_ENV"] || "development"
 dir = File.join(File.dirname(File.expand_path(__FILE__)))
 config = YAML.load_file(File.join(dir, '..', 'config', 'database.yml'))[RAILS_ENV]
-puts config.inspect
 ActiveRecord::Base.establish_connection(config)
 
 require File.join(dir, 'auction_parser')

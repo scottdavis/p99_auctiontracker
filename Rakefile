@@ -26,7 +26,7 @@ namespace :utils do
     fake = []
     items = YAML.load_file(Rails.root.join('db', 'parsed.yaml'))
     items.each do |hash|
-      fake << hash if hash['key'].to_i == 2
+      fake << hash if hash[:key].to_i == 2
     end
     file = Rails.root.join('db', 'fake_items.yaml')
     File.unlink(file)
@@ -40,7 +40,7 @@ namespace :utils do
     puts Item.not_hidden.count
     fake_items.each do |hash|
       puts "Looking for #{hash['item']}"
-      item = Item.find_by_name(hash['item'].strip)
+      item = Item.find_by_name(hash[:item].strip)
       unless item.nil?
         item.hide!
         puts "hiding item"

@@ -14,15 +14,14 @@ class Item < ActiveRecord::Base
   
   
   def self.create_from_parse(hash)
-   # puts self.sanitize(item[:item].downcase)
     i = Item.find_or_create_by_name(self.sanitize(hash[:item].downcase))
-    #i.hide! unless AuctionParser.is_item?(hash[:item])
     return if i.blank?
     auction = Auction.new
     auction.item = i
     auction.price = hash[:price].to_i
     auction.time = Time.parse hash[:time]
     auction.player = hash[:player]
+    auction.created_at = auction.updated_at = Time.now
    unless Auction.exists?(:hash_data => auction.digest) 
      auction.save! if auction.valid?
    end

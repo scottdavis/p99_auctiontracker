@@ -1,32 +1,39 @@
 require 'safe_fork'
 class AuctionParser
-  attr_accessor :raw_data, :item_cache
+  attr_accessor :raw_data, :item_cache, :mode
   COMMON_BAD_WORDS = %w(sro nk pst bard monk pl cleric druid wizard warrior paladin nerco mage sk paying payin payments pc plat pall value decent want were with within mezzed haggle low anyone full each ea for buying sell my pair per port res rez ress rezes will willing wis wisdom x paying from pet first last bid you 1 lol lvl lv lvlv with or)
   def self.from_upload(raw_data)
     new(raw_data)
   end
   
-  def initialize(data)
-    @raw_data = data
+  def initialize(file_name_or_string)
+    @raw_data = file_name_or_string
+    @mode = :file
     @item_count = 0
     @item_cache = []
-    #raw_data.split("\n").each do |line|
-     # split_string_and_filter_auctions line
-   # end
-    #run_fork unless Rails.env == 'test'
-  end
-  
-  def run_fork
-     @raw_data.split("\n").each do |line|
-       split_string_and_filter_auctions line
-     end
-    fork = SafeFork.fork do
-      items = item_cache
-      items.each do |item|
-        Item.create_from_parse(item)
+    if File.exists? @raw_data
+      counter = 0
+      File.open(@raw_data, "r") do |infile|
+        while (line = infile.gets)
+          next unless line =~ /auctions?/ 
+          split_string_and_filter_auctions line
+          counter += 1
+        end
+        puts "#{counter} auction lines found"
+      end
+    else
+      @mode = :string
+      @raw_data.split("\n").each do |line|
+        split_string_and_filter_auctions line
       end
     end
-    Process.detach(fork)
+  end
+  
+  def go!
+    item_cache.each do |item|
+      Item.create_from_parse(item)
+    end
+    @item_cache = nil
   end
   
   

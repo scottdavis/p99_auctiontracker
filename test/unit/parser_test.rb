@@ -5,12 +5,14 @@ class ParserTest < Test::Unit::TestCase
       string = "[Wed May 19 21:45:06 2010] Dyskinetic auctions, 'WTS braclet of woven grass 100pp'"
       string << "\n[Wed May 19 21:45:06 2010] Dyskinetic auctions, 'WTS braclet of woven grass 1.2kpp'"
       @parse = AuctionParser.new(string)
+      @parse.go!
     end
     
     should "get correct aution data" do
       assert_equal 2, @parse.item_cache.size
       assert_equal({:player=>"Dyskinetic", :item => "braclet of woven grass", :time => "Wed May 19 21:45:06 2010", :price => "100"}, @parse.item_cache.first)
       assert_equal '1200', @parse.item_cache.last[:price].to_s
+      assert_equal :string, @parse.mode
     end
     
   end

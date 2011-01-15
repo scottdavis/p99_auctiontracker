@@ -17,27 +17,27 @@
     %td
       Max:
     %td
-      = @auctions.maximum(:price)
+      = @vector.max
   %tr
     %td
       Min:
     %td
-      = @auctions.minimum(:price)
+      = @vector.min
   %tr
     %td
       Average:
     %td
-      = @auctions.average(:price)
+      = @vector.mean
   %tr
     %td
       Median:
     %td
-      = median(@auctions.map(&:price))
+      = @vector.median
   %tr
     %td
       Standard Deviation:
     %td
-      = standard_deviation(@item.auctions.not_hidden.map(&:price)).round(2)
+      = @vector.sdp
 
 #graph
   #placeholder{:style => 'width:600px;height:300px;'}

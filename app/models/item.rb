@@ -35,9 +35,8 @@ class Item < ActiveRecord::Base
   end
   
   def hide!
-    #self.hidden = true
-    #save
-    true
+    self.hidden = true
+    save
   end
   
 end

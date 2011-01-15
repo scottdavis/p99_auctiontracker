@@ -8,6 +8,20 @@ Auctioneer::Application.load_tasks
 
 require 'auction_parser'
 namespace :utils do
+  task :clean_items => [:environment] do
+    require 'yaml'
+    fake_items = YAML.load_file(Rails.root.join('db', 'fake_items.yaml'))
+    puts Item.not_hidden.count
+    fake_items.each do |hash|
+      puts "Looking for #{hash['item']}"
+      item = Item.find_by_name(hash['item'].strip)
+      unless item.nil?
+        item.hide!
+        puts "hiding item"
+      end
+    end
+    puts Item.not_hidden.count
+  end
   task :to_haml do
     class ToHaml
       def initialize(path)
@@ -25,18 +39,4 @@ namespace :utils do
     ToHaml.new(path).convert!
   end
   
-end
-
-namespace :logs do
-  task :process do
-    logs = HTTParty.get('http://auction.goonquest.com/logs')
-    logs.each do |log|
-      _l = log['log']
-      next if _l['processed']
-      file = HTTParty.get("http://auction.goonquest.com#{_l['public_path']}")
-      puts "processing #{_l['public_path']}"
-      p = AuctionParser.from_upload(file)
-      p.run_fork
-    end
-  end
 end

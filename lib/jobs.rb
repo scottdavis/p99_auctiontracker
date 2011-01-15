@@ -22,6 +22,6 @@ job 'log.process' do |args|
   parser.go!
   parser = nil
   l = Log.find(log_id)
-  l.procesed = true
+  l.processed = Time.now
   l.save
 end

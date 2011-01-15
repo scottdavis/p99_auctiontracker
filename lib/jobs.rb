@@ -1,10 +1,10 @@
 require 'rubygems'
 require 'active_record'
-require 'mysql2'
+require 'mysql'
 RAILS_ENV = ENV["RAILS_ENV"] || "development"
 dir = File.join(File.dirname(File.expand_path(__FILE__)))
 config = YAML.load_file(File.join(dir, '..', 'config', 'database.yml'))[RAILS_ENV]
-ActiveRecord::Base.allow_concurrency = true
+config[:adapter] = 'mysql'
 ActiveRecord::Base.establish_connection(config)
 
 require File.join(dir, 'auction_parser')
@@ -24,5 +24,4 @@ job 'log.process' do |args|
   l = Log.find(log_id)
   l.procesed = true
   l.save
-  ActiveRecord::Base.verify_active_connections!
 end

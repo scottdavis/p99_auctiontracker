@@ -20,9 +20,7 @@ class ItemController < ApplicationController
     min = mean - within
     
     @plot_data = @auctions.map do |a|
-      next if a.price > max.to_f
-      next if a.price < min.to_f
-      [a.time.to_s(:rfc822), a.price]
+      [a.time.to_s(:rfc822), a.price] unless a.price < max.to_f || a.price > min.to_f
     end
     @paginate = @item.auctions.not_hidden.order('time DESC').paginate(:page => params[:page], :per_page => 25)
   rescue ActiveRecord::RecordNotFound

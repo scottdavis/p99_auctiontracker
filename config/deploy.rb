@@ -1,4 +1,4 @@
-require 'san_juan'
+
 load 'deploy' if respond_to?(:namespace) # cap2 differentiator
 set :application, "auction"
 set :repository,  "git@github.com:jetviper21/auctioneer.git"
@@ -17,8 +17,6 @@ set :shared_dir,	"#{deploy_to}/shared"
 # if you're still using the script/reapear helper you will need
 # these http://github.com/rails/irs_process_scripts
 
-role :jobs, 'auction.goonquest.com'
-san_juan.role :jobs, 'jobs'
 
 namespace :deploy do
   task :start do ; end

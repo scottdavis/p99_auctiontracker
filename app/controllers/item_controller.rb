@@ -14,9 +14,10 @@ class ItemController < ApplicationController
     @auctions = @item.auctions.not_hidden.order('time ASC')#.paginate(:page => params[:page], :per_page => 25, :order => 'time DESC')
     @vector = @auctions.map(&:price).to_vector(:scale)
     std = @vector.sdp
-    within = 2
+    mean = @vector.mean
+    within = (2 * std)
     @plot_data = @auctions.map do |a|
-      next unless a.price <= (std * within) || a.price >= ((std * within) * -1)
+      next unless a.price <= mean + within || a.price >= mean - within
       [a.time.to_s(:rfc822), a.price]
     end
     @paginate = @item.auctions.not_hidden.order('time DESC').paginate(:page => params[:page], :per_page => 25)

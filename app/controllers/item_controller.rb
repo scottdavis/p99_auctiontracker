@@ -16,8 +16,8 @@ class ItemController < ApplicationController
     std = @vector.sdp
     within = 1
     @plot_data = @auctions.map do |a|
-      next if a.price <= 0.0
-      [a.time.to_s(:rfc822), a.price] if a.price <= std * within || a.price >= (std * within) * -1
+      next if a.price <= std * within || a.price >= (std * within) * -1
+      [a.time.to_s(:rfc822), a.price]
     end
     @paginate = @item.auctions.not_hidden.order('time DESC').paginate(:page => params[:page], :per_page => 25)
   rescue ActiveRecord::RecordNotFound

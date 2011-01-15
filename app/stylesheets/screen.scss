@@ -146,3 +146,17 @@ table{
     }
   }
 }
+
+.announcment {
+  text-align:center;
+  margin:{
+    left:auto;
+    right:auto;
+  };
+  border:5px solid green;
+  p {
+    padding:5px;
+  }
+  width:80%;
+  margin-bottom:20px;
+}

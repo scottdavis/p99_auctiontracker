@@ -5,7 +5,7 @@ God.watch do |w|
   w.name = "jobs-worker"  
   w.interval = 30.seconds  
   w.env = {"RAILS_ENV" => "production"}  
-  w.start = "/opt/ruby/bin/stalk #{RAILS_ROOT}/lib/jobs.rb"  
+  w.start = "/usr/bin/nice /opt/ruby/bin/stalk #{RAILS_ROOT}/lib/jobs.rb"  
   w.log = "#{RAILS_ROOT}/log/stalker.log"  
   
   w.start_if do |start|  

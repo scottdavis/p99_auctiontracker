@@ -12,7 +12,12 @@ class ItemController < ApplicationController
     expires_in(1.minutes)
     @item = Item.find(params[:id])
     @auctions = @item.auctions.not_hidden.order('time ASC')#.paginate(:page => params[:page], :per_page => 25, :order => 'time DESC')
-    @plot_data= @auctions.map {|a| [a.time.to_s(:rfc822), a.price]}
+    @vector = @auctions.map(&:price).to_vector(:scale)
+    std = @vector.sdp
+    within = 3
+    @plot_data = @auctions.map do |a|
+       [a.time.to_s(:rfc822), a.price] if a.price <= std * within || a.price >= (std * within) * -1
+     end
     @paginate = @item.auctions.not_hidden.order('time DESC').paginate(:page => params[:page], :per_page => 25)
   rescue ActiveRecord::RecordNotFound
     flash[:error] = "Item not found"

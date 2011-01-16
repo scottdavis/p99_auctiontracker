@@ -5,3 +5,15 @@
 #
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Mayor.create(:name => 'Daley', :city => cities.first)
+
+
+aliases = YAML.load_file(Rails.root.join('db', 'dups.yaml'))
+
+
+aliases.each do |k,v|
+  i = Item.find_by_name(k.strip)
+  next if i.blank?
+  v.each do |a|
+    ItemAlias.create!(:item => i, :alias => a)
+  end
+end

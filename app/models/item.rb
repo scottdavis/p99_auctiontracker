@@ -1,6 +1,7 @@
 require 'digest/md5'
 class Item < ActiveRecord::Base
   has_many :auctions, :dependent => :destroy
+  has_many :item_aliases, :dependent => :destroy
   validates_presence_of :name
   belongs_to :item_cache
   

@@ -2,7 +2,7 @@ class ItemAliasesController < ApplicationController
   # GET /item_aliases
   # GET /item_aliases.xml
   def index
-    @item_aliases = ItemAlias.all
+    @item_aliases = ItemAlias.order('alias').paginate(:page => params[:page], :per_page => 25)
 
     respond_to do |format|
       format.html # index.html.erb
@@ -40,8 +40,9 @@ class ItemAliasesController < ApplicationController
   # POST /item_aliases
   # POST /item_aliases.xml
   def create
+    item = params[:item_alias].delete(:item)
     @item_alias = ItemAlias.new(params[:item_alias])
-
+    @item_alias.item = Item.find_by_name(item)
     respond_to do |format|
       if @item_alias.save
         format.html { redirect_to(@item_alias, :notice => 'Item alias was successfully created.') }
@@ -56,8 +57,9 @@ class ItemAliasesController < ApplicationController
   # PUT /item_aliases/1
   # PUT /item_aliases/1.xml
   def update
+    item = params[:item_alias].delete(:item)
     @item_alias = ItemAlias.find(params[:id])
-
+    @item_alias.item = Item.find_by_name(item)
     respond_to do |format|
       if @item_alias.update_attributes(params[:item_alias])
         format.html { redirect_to(@item_alias, :notice => 'Item alias was successfully updated.') }

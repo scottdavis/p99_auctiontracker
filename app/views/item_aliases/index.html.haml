@@ -9,9 +9,10 @@
   - @item_aliases.each do |item_alias|
     %tr
       %td= item_alias.alias
-      %td= item_alias.item
+      %td= item_alias.item.name
       %td= link_to 'Show', item_alias
       %td= link_to 'Edit', edit_item_alias_path(item_alias)
       %td= link_to 'Destroy', item_alias, :confirm => 'Are you sure?', :method => :delete
 %br/
 = link_to 'New Item alias', new_item_alias_path
+= will_paginate(@item_aliases)

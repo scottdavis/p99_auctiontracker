@@ -2,7 +2,6 @@ require 'auction_parser'
 class AuctionController < ApplicationController
   
   def create
-    log_data = params[:upload][:log].read
     folder = Rails.root.join('public', 'system', 'logs')
     FileUtils::mkdir_p(folder)
     name = Digest::MD5.hexdigest("#{Time.now}-#{rand(100)}")

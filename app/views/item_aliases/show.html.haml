@@ -4,7 +4,7 @@
   = @item_alias.alias
 %p
   %b Item:
-  = @item_alias.item
+  = @item_alias.item.name
 = link_to 'Edit', edit_item_alias_path(@item_alias)
 |
 \#{link_to 'Back', item_aliases_path}

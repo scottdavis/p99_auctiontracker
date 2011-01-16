@@ -34,12 +34,50 @@ namespace :utils do
     f << YAML.dump(fake)
     f.close
   end
+  task :clean_dups => [:environment] do
+    dups = YAML.load_file(Rails.root.join('db', 'dups.yaml'))
+    dups.each do |k,v|
+      next if v.empty?
+      puts "Finding #{k}"
+      real_item = Item.find_by_name(k)
+      next if real_item.nil?
+      v.each do |non|
+        i = Item.find_by_name(non)
+        next if i.nil?
+        puts "moving auctions from #{non} to #{k}"
+        aucs = i.auctions
+        aucs.each do |a|
+          real_item.auctions << a
+        end
+        i.hide!
+      end
+      real_item.save
+    end
+  end
+  task :make_dup_map do
+    dups = {}
+    last_real = ''
+    items = YAML.load_file(Rails.root.join('db', 'parsed.yaml'))
+    items.each do |hash|
+      last_real = hash[:item].strip if hash[:key].to_i == 0
+      dups[last_real] = [] if dups[last_real].blank?
+      dups[last_real] << hash[:item].strip if hash[:key].to_i == 1
+    end
+    puts dups.inspect
+    puts dups.keys.inspect
+    puts last_real
+    puts dups['short sword of the ykesha'].inspect
+    fp = File.new(Rails.root.join('db', 'dups.yaml'), 'w')
+    fp << YAML.dump(dups)
+    fp.close
+  end
+  
   task :clean_items => [:environment] do
     require 'yaml'
     fake_items = YAML.load_file(Rails.root.join('db', 'fake_items.yaml'))
     puts Item.not_hidden.count
     fake_items.each do |hash|
-      puts "Looking for #{hash['item']}"
+      puts "Looking for #{hash[:item]}"
       item = Item.find_by_name(hash[:item].strip)
       unless item.nil?
         item.hide!

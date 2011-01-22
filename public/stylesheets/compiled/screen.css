@@ -384,7 +384,7 @@ body.auction #pagination {
   text-align: center;
 }
 /* line 64, ../../../app/stylesheets/screen.scss */
-body.auction #content.index table {
+body.auction #content.index table, body.auction #content.search table {
   width: 90%;
   margin-left: auto;
   margin-right: auto;

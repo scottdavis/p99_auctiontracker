@@ -1,4 +1,3 @@
-require 'safe_fork'
 class AuctionParser
   attr_accessor :raw_data, :item_cache, :mode
   COMMON_BAD_WORDS = %w(sro nk pst bard monk pl cleric druid wizard warrior paladin nerco mage sk paying payin payments pc plat pall value decent want were with within mezzed haggle low anyone full each ea for buying sell my pair per port res rez ress rezes will willing wis wisdom x paying from pet first last bid you 1 lol lvl lv lvlv with or)

@@ -1,5 +1,6 @@
 require 'bundler/capistrano'
-load 'deploy' if respond_to?(:namespace) # cap2 differentiator
+default_run_options[:pty] = true
+
 set :application, "auction"
 set :repository,  "git@github.com:jetviper21/auctioneer.git"
 
@@ -10,8 +11,8 @@ set :user, "root"
 set :use_sudo, false
 set :deploy_to, "/var/www/rails/auction"
 set :db, 'localhost'
-set :rake_path, '/opt/ruby/bin/rake'
-set :bundle_path, '/opt/ruby/bin/bundle'
+set :rake, '/opt/ruby/bin/rake'
+set :bundle_cmd, '/opt/ruby/bin/bundle'
 set :shared_dir,	"shared"
 # If you are using Passenger mod_rails uncomment this:
 # if you're still using the script/reapear helper you will need

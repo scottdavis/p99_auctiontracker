@@ -60,7 +60,7 @@ a.button {
 //Auction Controller
 body.auction {
   @include paginateion;
-  #content.index {
+  #content.index, #content.search {
     table {
       width:90%;
       @include auto_center;

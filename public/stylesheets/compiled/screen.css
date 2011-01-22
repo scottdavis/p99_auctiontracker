@@ -154,19 +154,127 @@ body #content #right_sidebar ul li {
 }
 
 /* incase an inverted custom gradient isn't specified */
-/* line 34, ../../../app/stylesheets/screen.scss */
+/* line 33, ../../../app/stylesheets/screen.scss */
+body #content #search {
+  display: inline;
+  float: right;
+  padding-right: 10px;
+}
+/* line 36, ../../../app/stylesheets/screen.scss */
+body #content #search input.button {
+  font-size: 10px;
+  font-family: "Lucida Grande", Lucida, Arial, sans_serif;
+  background: url('/images/button_bg.png?1294387528') repeat-x bottom left;
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border-style: solid;
+  font-weight: bold;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 10px;
+  line-height: 12px;
+  padding: 2px 8px;
+  border-width: 1px;
+  background-color: #444444;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #989898), color-stop(10%, #6a6a6a), color-stop(50%, #3c3c3c), color-stop(50%, #353535), color-stop(100%, #4e4e4e));
+  background-image: -moz-linear-gradient(top, #989898, #6a6a6a 10%, #3c3c3c 50%, #353535 50%, #4e4e4e);
+  background-image: linear-gradient(top, #989898, #6a6a6a 10%, #3c3c3c 50%, #353535 50%, #4e4e4e);
+  border-color: #1e1e1e;
+  text-shadow: #040404 0px 1px 1px;
+}
+/* line 172, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+body #content #search input.button::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+/* line 175, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+body #content #search input.button:focus {
+  outline: none;
+}
+/* line 178, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+body #content #search input.button.disabled, body #content #search input.button[disabled] {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+}
+/* line 183, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+body #content #search input.button.disabled:hover, body #content #search input.button.disabled:focus, body #content #search input.button[disabled]:hover, body #content #search input.button[disabled]:focus {
+  cursor: default;
+}
+/* line 152, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+body #content #search input.button:active {
+  padding: 1px 7px;
+  border-width: 2px;
+}
+/* line 156, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+body #content #search input.button.disabled:active, body #content #search input.button[disabled] {
+  padding: 2px 8px;
+  border-width: 1px;
+}
+/* line 98, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+body #content #search input.button, body #content #search input.button:visited {
+  color: white;
+}
+/* line 26, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+body #content #search input.button.disabled:active, body #content #search input.button.disabled:hover, body #content #search input.button[disabled]:active, body #content #search input.button[disabled]:hover {
+  background-color: #444444;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #989898), color-stop(10%, #6a6a6a), color-stop(50%, #3c3c3c), color-stop(50%, #353535), color-stop(100%, #4e4e4e));
+  background-image: -moz-linear-gradient(top, #989898, #6a6a6a 10%, #3c3c3c 50%, #353535 50%, #4e4e4e);
+  background-image: linear-gradient(top, #989898, #6a6a6a 10%, #3c3c3c 50%, #353535 50%, #4e4e4e);
+  border-color: #1e1e1e;
+  text-shadow: #040404 0px 1px 1px;
+}
+/* line 98, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+body #content #search input.button.disabled:active, body #content #search input.button.disabled:active:visited, body #content #search input.button.disabled:hover, body #content #search input.button.disabled:hover:visited, body #content #search input.button[disabled]:active, body #content #search input.button[disabled]:active:visited, body #content #search input.button[disabled]:hover, body #content #search input.button[disabled]:hover:visited {
+  color: white;
+}
+/* line 28, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+body #content #search input.button:hover, body #content #search input.button:focus {
+  background-color: #3c3c3c;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #919191), color-stop(10%, #636363), color-stop(50%, #353535), color-stop(50%, #2d2d2d), color-stop(100%, #474747));
+  background-image: -moz-linear-gradient(top, #919191, #636363 10%, #353535 50%, #2d2d2d 50%, #474747);
+  background-image: linear-gradient(top, #919191, #636363 10%, #353535 50%, #2d2d2d 50%, #474747);
+  border-color: #161616;
+  text-shadow: black 0px 1px 1px;
+}
+/* line 98, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+body #content #search input.button:hover, body #content #search input.button:hover:visited, body #content #search input.button:focus, body #content #search input.button:focus:visited {
+  color: white;
+}
+/* line 33, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+body #content #search input.button:active {
+  background-color: #353535;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #353535), color-stop(30%, #3a3a3a), color-stop(50%, #303030), color-stop(50%, #282828), color-stop(100%, #494949));
+  background-image: -moz-linear-gradient(top, #353535, #3a3a3a 30%, #303030 50%, #282828 50%, #494949);
+  background-image: linear-gradient(top, #353535, #3a3a3a 30%, #303030 50%, #282828 50%, #494949);
+  border-color: #0e0e0e;
+  text-shadow: black 0px -1px -1px;
+}
+/* line 98, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-0.5.5/lib/stylesheets/_fancy-buttons.sass */
+body #content #search input.button:active, body #content #search input.button:active:visited {
+  color: white;
+}
+/* line 44, ../../../app/stylesheets/screen.scss */
 body #menu h1 a {
   text-decoration: none;
   color: #ffffff;
 }
 
-/* line 42, ../../../app/stylesheets/screen.scss */
+/* line 52, ../../../app/stylesheets/screen.scss */
 #footer {
   text-align: center;
   padding: 15px;
 }
 
-/* line 47, ../../../app/stylesheets/screen.scss */
+/* line 57, ../../../app/stylesheets/screen.scss */
 a.button {
   font-family: "Lucida Grande", Lucida, Arial, sans_serif;
   background: url('/images/button_bg.png?1294387528') repeat-x bottom left;
@@ -275,53 +383,53 @@ body.auction #pagination {
   font-size: 20px;
   text-align: center;
 }
-/* line 54, ../../../app/stylesheets/screen.scss */
+/* line 64, ../../../app/stylesheets/screen.scss */
 body.auction #content.index table {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 64, ../../../app/stylesheets/screen.scss */
+/* line 74, ../../../app/stylesheets/screen.scss */
 body.item #content.show h1 {
   text-align: center;
 }
-/* line 67, ../../../app/stylesheets/screen.scss */
+/* line 77, ../../../app/stylesheets/screen.scss */
 body.item #content.show .info {
   width: 600px;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 71, ../../../app/stylesheets/screen.scss */
+/* line 81, ../../../app/stylesheets/screen.scss */
 body.item #content.show h2 {
   text-align: center;
 }
-/* line 74, ../../../app/stylesheets/screen.scss */
+/* line 84, ../../../app/stylesheets/screen.scss */
 body.item #content.show table.auctions {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 77, ../../../app/stylesheets/screen.scss */
+/* line 87, ../../../app/stylesheets/screen.scss */
 body.item #content.show table.auctions tr th, body.item #content.show table.auctions tr td {
   width: 25%;
   text-align: center;
 }
-/* line 80, ../../../app/stylesheets/screen.scss */
+/* line 90, ../../../app/stylesheets/screen.scss */
 body.item #content.show table.auctions tr th.time, body.item #content.show table.auctions tr td.time {
   font-size: 13px;
 }
-/* line 86, ../../../app/stylesheets/screen.scss */
+/* line 96, ../../../app/stylesheets/screen.scss */
 body.item #content.show ul.control {
   padding-left: 152px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 90, ../../../app/stylesheets/screen.scss */
+/* line 100, ../../../app/stylesheets/screen.scss */
 body.item #content.show ul.control li {
   padding-left: 25px;
   display: inline;
 }
-/* line 91, ../../../app/stylesheets/screen.scss */
+/* line 101, ../../../app/stylesheets/screen.scss */
 body.item #content.show ul.control li a {
   font-size: 12px;
 }
@@ -332,7 +440,7 @@ body.item #content.show #pagination {
   font-size: 20px;
   text-align: center;
 }
-/* line 99, ../../../app/stylesheets/screen.scss */
+/* line 109, ../../../app/stylesheets/screen.scss */
 body.item #content.show #graph {
   -moz-box-shadow: 0px 0px 5px #333333;
   -webkit-box-shadow: 0px 0px 5px #333333;
@@ -344,12 +452,12 @@ body.item #content.show #graph {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 100, ../../../app/stylesheets/screen.scss */
+/* line 110, ../../../app/stylesheets/screen.scss */
 body.item #content.show #graph div#placeholder {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 103, ../../../app/stylesheets/screen.scss */
+/* line 113, ../../../app/stylesheets/screen.scss */
 body.item #content.show #graph h3 {
   text-align: center;
 }

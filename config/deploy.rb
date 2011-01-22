@@ -1,4 +1,4 @@
-
+require 'bundler/capistrano'
 load 'deploy' if respond_to?(:namespace) # cap2 differentiator
 set :application, "auction"
 set :repository,  "git@github.com:jetviper21/auctioneer.git"
@@ -42,5 +42,5 @@ namespace :deploy do
 end
 
 before "deploy:change_params", "deploy:setup_logs"
-before "deploy:change_params", "deploy:install_gems"
+#before "deploy:change_params", "deploy:install_gems"
 before "deploy:restart", "deploy:change_params"

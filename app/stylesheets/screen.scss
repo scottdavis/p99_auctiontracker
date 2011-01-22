@@ -29,6 +29,16 @@
 }
 
 body {
+  #content {
+    #search {
+      @include float-right;
+      padding-right:10px;
+      input.button {
+        font-size:10px;
+        @include fancy-button($fb-color, 10px);
+      }
+    }
+  }
   #menu {
     h1{
       a {

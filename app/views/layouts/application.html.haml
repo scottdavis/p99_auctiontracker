@@ -18,6 +18,10 @@
           %li= link_to('Home', root_path, :class => 'button')
           %li= link_to('Upload', new_auction_path, :class => 'button')
     #content{:class => action_name}
+      #search
+        = form_for :search, :url => auction_search_path, :html => {:method => :get} do |f| 
+          = f.text_field :search, :value => @search
+          = f.submit "Search", :class => 'button'
       - flash.each do |type, message|
         %div{:id=>"flash_#{type}", :class => 'flash'}
           = message

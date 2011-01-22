@@ -1,0 +1,149 @@
+/**
+  Out puts the styles needed for a flash box
+**/
+/* line 5, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/blue-fluid.scss */
+body, ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+/* line 93, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/blue-fluid.scss */
+body {
+  background-color: #2a5aa1;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+/* line 83, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/blue-fluid.scss */
+body a {
+  color: blue;
+}
+/* line 24, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.11.beta.1/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+body a:hover {
+  color: gray;
+}
+/* line 95, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/blue-fluid.scss */
+body #header {
+  min-width: 882px;
+  background-color: #414243;
+}
+/* line 38, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/blue-fluid.scss */
+body #header h1 {
+  display: inline;
+  float: left;
+  margin-top: 10px;
+  padding-left: 100px;
+  color: white;
+}
+/* line 97, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/blue-fluid.scss */
+body #header #menu {
+  height: 60px;
+}
+/* line 48, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/blue-fluid.scss */
+body #header #menu ul:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/* line 55, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/blue-fluid.scss */
+body #header #menu ul {
+  display: inline;
+  float: right;
+  padding-right: 150px;
+  padding-top: 15px;
+  font-size: 20px;
+}
+/* line 62, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/blue-fluid.scss */
+body #header #menu ul li {
+  display: inline-block;
+}
+/* line 64, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/blue-fluid.scss */
+body #header #menu ul li a {
+  color: white;
+}
+/* line 24, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.11.beta.1/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+body #header #menu ul li a:hover {
+  color: black;
+}
+/* line 101, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/blue-fluid.scss */
+body #content {
+  position: relative;
+  min-width: 800px;
+  color: black;
+  padding: 20px 40px;
+  background-color: white;
+  border: 1px solid black;
+}
+/* line 22, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/_mixins.scss */
+body #content .flash {
+  padding: 5px 8px;
+  margin: 10px 0;
+  color: black;
+}
+/* line 28, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/_mixins.scss */
+body #content #flash_notice {
+  background-color: #ccffcc;
+  border: solid 1px #66cc66;
+}
+/* line 33, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/_mixins.scss */
+body #content #flash_error, body #content #flash_alert {
+  background-color: #ffcccc;
+  border: solid 1px #cc6666;
+}
+/* line 67, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/_mixins.scss */
+body #content table {
+  color: black;
+  width: 600px;
+  border-spacing: 0pt;
+}
+/* line 71, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/_mixins.scss */
+body #content table tr, body #content table th {
+  color: black;
+  background-color: #98a19a;
+}
+/* line 75, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/_mixins.scss */
+body #content table tr.alt {
+  color: black;
+  background-color: #eeeeee;
+}
+/* line 79, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/_mixins.scss */
+body #content table td {
+  color: black;
+  padding: 5px;
+}
+/* line 80, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/_mixins.scss */
+body #content table td a {
+  color: black;
+}
+/* line 24, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.11.beta.1/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+body #content table td a:hover {
+  color: black;
+}
+/* line 105, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/blue-fluid.scss */
+body #content #right_sidebar {
+  margin: 10px;
+  width: 160px;
+  border: 1px solid black;
+  display: inline;
+  float: right;
+  margin-right: 0;
+  zoom: 1;
+  padding: 10px;
+}
+/* line 130, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/_mixins.scss */
+body #content #right_sidebar:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  zoom: 1;
+}
+/* line 109, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/blue-fluid.scss */
+body #content #right_sidebar ul li {
+  list-style: none;
+}

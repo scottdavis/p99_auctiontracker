@@ -3,83 +3,39 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-@import "compass/reset";
+//@import "compass/reset";
 @import "compass/utilities";
+
+@import "basic/blue-fluid"; //compass-theme
+
+@import "compass/css3/box-shadow";
+
 @import "fancy-buttons";
-a.button {
-  @include fancy-button;
-}
-p {
-  padding:2px;
-}
-#popup {
-  display:none;
-}
-ul.control {
-  padding-left:100px;
-  padding-top:10px;
-  padding-bottom:10px;
-  li {
-    a {
-      font-size:12px;
-    }
-    padding-left:25px;
-    display:inline;
+
+@mixin auto_center {
+  margin:{
+    left:auto;
+    right:auto;
   }
 }
-#graph {
-  padding-left:50px;
-}
-#facebox {
-  h2 {
-    font:{
-      size:20px;
-      weight:bold;
-    };
+
+@mixin paginateion {
+  #pagination {
     padding:5px;
-    text-align:center;
-  }
-  p {
-    padding:3px;
-    em {
-      font-style:italic;
-      font-size:25px;
-    }
-  }
-  p.bold {
-    font-weight:bold;
-  }
-}
-#content {
-  padding:25px;
-  h1 {
-    font:{size:38; weight:bold};
-    text-align:center
-  }
-  h2 {
+    text-transform: capitalize;
     font-size:20px;
-    padding:5px;
-    font:{
-      weight:bold
-      };
+    text-align:center;
   }
 }
-#header {
-  background-color:#356AA0;
-  height:50px;
-  h1.title {
-    display:inline;
-    color:white;
-    font-size:26px;
-    text-align:center;
-    padding-top:6px;
-  }
-  text-align:center;
-  #search {
-    text-align:center;
-    color:white;
-    @include float-right;
-    padding-top:13px;
+
+body {
+  #menu {
+    h1{
+      a {
+        text-decoration:none;
+        color:#ffffff;
+      }
+    }
   }
 }
 
@@ -88,75 +44,70 @@ ul.control {
   padding:15px;
 }
 
-ul.menu {
-  @include float-left;
-  padding:5px;
-  padding-top:14px;
-  color:#fff;
-  font:{
-    size:20px;
-    weight:bold;
-  };
-  li {
-    display:inline;
-    padding:5px;
-    a {
-      color:#fff;
-      text-decoration:none;
+a.button {
+  @include fancy-button;
+}
+//Auction Controller
+body.auction {
+  @include paginateion;
+  #content.index {
+    table {
+      width:90%;
+      @include auto_center;
     }
-    a:hover{
-      color:#eee;
+  } 
+}
+//Item Controller
+body.item {
+  //Show Action
+  #content.show {
+    h1 {
+      text-align:center;
+    }
+    .info {
+      width:600px;
+      @include auto_center;
+    }
+    h2 {
+      text-align:center;
+    }
+    table.auctions {
+      @include auto_center;
+      tr {
+        th, td {
+          width:25%;
+          text-align:center;
+        }
+      }
+    }
+    ul.control {
+      padding-left:152px;
+      padding-top:10px;
+      padding-bottom:10px;
+      li {
+        a {
+          font-size:12px;
+        }
+        padding-left:25px;
+        display:inline;
+      }
+    }
+    @include paginateion;
+    #graph {
+      div#placeholder {
+        @include auto_center;
+      }
+      h3 {
+        text-align:center;
+      }
+      @include box-shadow;
+      margin-top:25px;
+      padding-top:10px;
+      width:700px;
+      @include auto_center;
     }
   }
 }
 
-table tr.alt {
-  background-color:#ccc;
-}
 
 
-table.auctions {
-  margin:auto;
-}
-
-table{ 
-  td, th{
-    padding:5px;
-  }
-}
-
-#notice_flash {
-  border:5px solid red;
-  margin:auto;
-  text-align:center;
-}
-
-#pagination {
-  padding:5px;
-  text-transform: capitalize;
-  font-size:20px;
-  text-align:center;
-}
-
-
-.item {
-  .show {
-    #chart {
-      margin:auto;
-    }
-  }
-}
-
-.announcment {
-  text-align:center;
-  margin:{
-    left:auto;
-    right:auto;
-  };
-  border:5px solid green;
-  p {
-    padding:5px;
-  }
-  width:80%;
-  margin-bottom:20px;
-}

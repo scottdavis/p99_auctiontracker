@@ -12,14 +12,11 @@ class AuctionParser
     @item_count = 0
     @item_cache = []
     if File.exists? @raw_data
-      counter = 0
       File.open(@raw_data, "r") do |infile|
         while (line = infile.gets)
           next unless line =~ /auctions?/ 
           split_string_and_filter_auctions line
-          counter += 1
         end
-        puts "#{counter} auction lines found"
       end
     else
       @mode = :string
@@ -33,7 +30,7 @@ class AuctionParser
     item_cache.each do |item|
       Item.create_from_parse(item)
     end
-    @item_cache = nil
+    @item_cache = nil unless Rails.env == 'test'
   end
   
   

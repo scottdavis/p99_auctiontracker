@@ -7,11 +7,14 @@ gem 'rails', '3.0.3'
 
 gem 'mysql'
 
+gem "compass", ">= 0.11.beta.1"
+
+gem 'compass-themes', :git => 'git://github.com/jetviper21/compass-themes.git'
+
 source 'http://rubygems.org'
 
 gem 'capistrano'
 gem 'mongrel'
-gem 'compass'
 gem 'haml'
 gem 'shoulda'
 gem 'will_paginate', '~> 3.0.beta'

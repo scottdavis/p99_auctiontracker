@@ -1,0 +1,162 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/utilities";
+@import "fancy-buttons";
+a.button {
+  @include fancy-button;
+}
+p {
+  padding:2px;
+}
+#popup {
+  display:none;
+}
+ul.control {
+  padding-left:100px;
+  padding-top:10px;
+  padding-bottom:10px;
+  li {
+    a {
+      font-size:12px;
+    }
+    padding-left:25px;
+    display:inline;
+  }
+}
+#graph {
+  padding-left:50px;
+}
+#facebox {
+  h2 {
+    font:{
+      size:20px;
+      weight:bold;
+    };
+    padding:5px;
+    text-align:center;
+  }
+  p {
+    padding:3px;
+    em {
+      font-style:italic;
+      font-size:25px;
+    }
+  }
+  p.bold {
+    font-weight:bold;
+  }
+}
+#content {
+  padding:25px;
+  h1 {
+    font:{size:38; weight:bold};
+    text-align:center
+  }
+  h2 {
+    font-size:20px;
+    padding:5px;
+    font:{
+      weight:bold
+      };
+  }
+}
+#header {
+  background-color:#356AA0;
+  height:50px;
+  h1.title {
+    display:inline;
+    color:white;
+    font-size:26px;
+    text-align:center;
+    padding-top:6px;
+  }
+  text-align:center;
+  #search {
+    text-align:center;
+    color:white;
+    @include float-right;
+    padding-top:13px;
+  }
+}
+
+#footer {
+  text-align:center;
+  padding:15px;
+}
+
+ul.menu {
+  @include float-left;
+  padding:5px;
+  padding-top:14px;
+  color:#fff;
+  font:{
+    size:20px;
+    weight:bold;
+  };
+  li {
+    display:inline;
+    padding:5px;
+    a {
+      color:#fff;
+      text-decoration:none;
+    }
+    a:hover{
+      color:#eee;
+    }
+  }
+}
+
+table tr.alt {
+  background-color:#ccc;
+}
+
+
+table.auctions {
+  margin:auto;
+}
+
+table{ 
+  td, th{
+    padding:5px;
+  }
+}
+
+#notice_flash {
+  border:5px solid red;
+  margin:auto;
+  text-align:center;
+}
+
+#pagination {
+  padding:5px;
+  text-transform: capitalize;
+  font-size:20px;
+  text-align:center;
+}
+
+
+.item {
+  .show {
+    #chart {
+      margin:auto;
+    }
+  }
+}
+
+.announcment {
+  text-align:center;
+  margin:{
+    left:auto;
+    right:auto;
+  };
+  border:5px solid green;
+  p {
+    padding:5px;
+  }
+  width:80%;
+  margin-bottom:20px;
+}

@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/jetviper21/compass-themes.git
+  revision: 087d11d9bcc37add037fe3df35ca1afb1c412c9c
+  specs:
+    compass-themes (0.0.1)
+      compass (~> 0.11.beta.1)
+      haml (>= 3.1.alpha.214)
+      sass (~> 3.1.0.alpha.218)
+
 GEM
   remote: http://rubygems.org/
   remote: http://rubygems.org/
@@ -39,9 +48,11 @@ GEM
       net-ssh (>= 2.0.14)
       net-ssh-gateway (>= 1.0.0)
     cgi_multipart_eof_fix (2.5.0)
+    chunky_png (0.10.5)
     clbustos-rtf (0.4.2)
-    compass (0.10.6)
-      haml (>= 3.0.4)
+    compass (0.11.beta.1)
+      chunky_png (~> 0.10.3)
+      sass (>= 3.1.0.alpha.50)
     daemons (1.1.0)
     dirty-memoize (0.0.3)
     erubis (2.6.6)
@@ -58,7 +69,7 @@ GEM
     fastthread (1.0.7)
     gem_plugin (0.2.3)
     god (0.11.0)
-    haml (3.0.25)
+    haml (3.1.0.alpha.147)
     highline (1.6.1)
     home_run (0.9.4)
     hpricot (0.8.3)
@@ -126,6 +137,7 @@ GEM
       sexp_processor (~> 3.0)
     rubyvis (0.4.0)
     safe_fork (1.1.0)
+    sass (3.1.0.alpha.218)
     sexp_processor (3.0.5)
     shoulda (2.11.3)
     spreadsheet (0.6.5.0)
@@ -157,7 +169,8 @@ PLATFORMS
 
 DEPENDENCIES
   capistrano
-  compass
+  compass (>= 0.11.beta.1)
+  compass-themes!
   factory_girl_rails
   fancy-buttons
   god

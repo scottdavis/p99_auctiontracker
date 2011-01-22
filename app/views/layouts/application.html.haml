@@ -1,53 +1,31 @@
+!!!
 %html
   %head
-    = csrf_meta_tag
-    = stylesheet_link_tag 'style'
-    = stylesheet_link_tag 'compiled/screen.css'
+    = stylesheet_link_tag 'compiled/screen'
+    = stylesheet_link_tag 'compiled/pie.css'
     = stylesheet_link_tag 'jquery-ui.css', 'facebox'
     = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js'
     = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.7/jquery-ui.min.js'
     = javascript_include_tag 'rails', 'application', 'excanvas.min', 'jquery.flot.min', 'facebox'
-    /[if lt IE 7]
-      = stylesheet_link_tag 'compiled/ie6.css', :media => 'screen, projection'
-    %title=@page_title.join(' - ')
-    %meta{:name => "keywords", :content => "everquest,game,gaming,emulator,eqemu,eqemulator,classic,nostalgia,server,project1999,classic,online,mmo,mmorpg"}
-    %meta{:name => "description", :content => "Project 1999 is an Everquest Emulated Server committed to providing the classic Everquest experience as it was beginning in 1999. This is the site for tracking in game auction statictics"}
+    
+    %title= @page_title = yield :title
   %body{:class => controller_name}
-    - if !session[:uploaded] && (session[:view] % 5) == 0
-      :javascript
-        $(document).ready(function() {
-          jQuery.facebox({'div':  '#popup'});
-        })
-      #popup
-        = render :partial => 'layouts/popup'
-    #wrapper
-      #header
-        %ul.menu
-          %li=link_to('Home', root_path)
-          %li=link_to('Upload', new_auction_path)
-        %h1.title
-          = @page_title.join(' - ')
-        #search
-          = form_for :search, :url => auction_search_path, :html => {:method => :get} do |f| 
-            = f.text_field :search, :value => @search
-            = f.submit "Search"
-        = yield :header
-        %br{:style => 'clear:both'}
-      = display_flash
-      #content{:class => action_name}
-        .announcment
-          %p 
-            Over the past few days Estu and I have worked to make some statistical optimizations and some adjustments to how graphs are rendered
-          %p
-            If you have been uploading logs we thank you greatly for helping keep this site going
-          %p Thanks! Stairs
-          %p
-            P.S Sorry for the annoying popup but since putting it in ive been averaging 5 logs a day for 2500 page views before the site was getting maybe 1 log upload per week
-        = yield
+    #header
+      #menu
+        %h1= link_to "Project 1999 Auction Tracker", root_path
+        %ul
+          %li= link_to('Home', root_path, :class => 'button')
+          %li= link_to('Upload', new_auction_path, :class => 'button')
+    #content{:class => action_name}
+      - flash.each do |type, message|
+        %div{:id=>"flash_#{type}", :class => 'flash'}
+          = message
+      %h2= @page_title
+      = yield
       #footer
         %p
           Comments or sugestions
-          = mail_to('jetviper21@gmail.com', 'email me', :encode => "javascript")
+          = mail_to('stairs@goonquest.com', 'email me', :encode => "javascript")
         - unless @glog.blank?
           %p
             Last log uploaded on 

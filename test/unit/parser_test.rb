@@ -9,7 +9,7 @@ class ParserTest < Test::Unit::TestCase
     end
     
     should "get correct aution data" do
-      assert_equal 2, @parse.item_cache.size
+      assert_equal 2, @parse.item_count
       assert_equal({:player=>"Dyskinetic", :item => "braclet of woven grass", :time => "Wed May 19 21:45:06 2010", :price => "100"}, @parse.item_cache.first)
       assert_equal '1200', @parse.item_cache.last[:price].to_s
       assert_equal :string, @parse.mode

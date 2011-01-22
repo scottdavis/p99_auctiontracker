@@ -4,76 +4,16 @@
   $.each(d, function(i) {
     data.push([ (new Date(d[i][0])).getTime(), d[i][1] ]);
   });
-%h1
-  = @item.name
-
-.info
-  = alla_link(@item)
-- unless @monthly.size == 0
-  %h2
-    30 Day Statistics
-  %table
-    %tr
-      %td
-        Max:
-      %td
-        = @monthly.max
-    %tr
-      %td
-        Min:
-      %td
-        = @monthly.min
-    %tr
-      %td
-        Average:
-      %td
-        = @monthly.mean
-    %tr
-      %td
-        Median:
-      %td
-        = @monthly.median
-    %tr
-      %td
-        Standard Deviation:
-      %td
-        = @monthly.sdp
-        
-%h2
-  All Time Statistics
-%table
-  %tr
-    %td
-      Max:
-    %td
-      = @vector.max
-  %tr
-    %td
-      Min:
-    %td
-      = @vector.min
-  %tr
-    %td
-      Average:
-    %td
-      = @vector.mean
-  %tr
-    %td
-      Median:
-    %td
-      = @vector.median
-  %tr
-    %td
-      Standard Deviation:
-    %td
-      = @vector.sdp
+- content_for :title do
+  = @item.name.camelcase
 
 #graph
+  %h3 Graph
   #placeholder{:style => 'width:600px;height:300px;'}
   %ul.control
-    %li= link_to('All Data', '#', :id => 'whole', :class => 'button')
     %li= link_to('Ten Days', '#', :id => 'ten_day', :class => 'button')
     %li= link_to('Thirty Days', '#', :id => 'thirty_day', :class => 'button')
+    %li= link_to('All Data', '#', :id => 'whole', :class => 'button')
   
 :javascript
   function whole_plot(data) {
@@ -133,10 +73,30 @@
         });
   });
 
+.info
+  = alla_link(@item)
+  - unless @monthly.size == 0
+    %h2
+      30 Day Statistics
+    %table
+      - {:max => 'Max', :min => 'Min', :mean => 'Average', :median => 'Median', :sdp => 'Standard Deviation'}.each do |col, label|
+        %tr{:class => cycle('', 'alt')}
+          %td= label
+          %td= @monthly.send(col)
+
+    %h2
+      All Time Statistics
+    %table
+      - {:max => 'Max', :min => 'Min', :mean => 'Average', :median => 'Median', :sdp => 'Standard Deviation'}.each do |col, label|
+        %tr{:class => cycle('', 'alt')}
+          %td= label
+          %td= @vector.send(col)
+
+
 
 %h2
   Auction Data
-%table{:cellspacing => 0, :cellpadding => 5}
+%table{:cellspacing => 0, :cellpadding => 5, :class => 'auctions'}
   %tr
     %th
       Time
@@ -144,7 +104,7 @@
       Price
     %th
       Seller
-    %th
+    %th &nbsp;
   - @paginate.each do |auction|
     %tr{:class => cycle('alt','')}
       %td
@@ -155,4 +115,5 @@
         = auction.player
       %td
         = link_to 'Remove', auction_path(auction), :method => :delete, :confirm => "Are you sure?"
-= will_paginate @paginate
+
+#pagination= will_paginate @paginate

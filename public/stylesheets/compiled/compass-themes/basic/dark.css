@@ -1,0 +1,96 @@
+/**
+  Out puts the styles needed for a flash box
+**/
+/* line 27, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/dark.scss */
+body {
+  background-color: black;
+}
+/* line 5, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/_mixins.scss */
+body a {
+  color: #cccccc;
+}
+/* line 24, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.11.beta.1/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+body a:hover {
+  color: #cccccc;
+}
+
+/* line 41, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/_mixins.scss */
+#header #menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 45, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/_mixins.scss */
+#header #menu ul li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+/* line 49, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/_mixins.scss */
+#header #menu ul li a {
+  display: block;
+  padding: 4px 8px;
+  text-decoration: none;
+  border: none;
+  color: black;
+  background-color: #cccccc;
+}
+/* line 57, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/_mixins.scss */
+#header #menu ul li a:hover, #header #menu ul li a.active {
+  color: white;
+  background-color: #292e2a;
+}
+
+/* line 34, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/dark.scss */
+#content {
+  position: relative;
+  color: #eeeeee;
+  padding: 20px 40px;
+  background-color: #454946;
+  border: none;
+}
+/* line 22, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/_mixins.scss */
+#content .flash {
+  padding: 5px 8px;
+  margin: 10px 0;
+  color: black;
+}
+/* line 28, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/_mixins.scss */
+#content #flash_notice {
+  background-color: #ccffcc;
+  border: solid 1px #66cc66;
+}
+/* line 33, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/_mixins.scss */
+#content #flash_error, #content #flash_alert {
+  background-color: #ffcccc;
+  border: solid 1px #cc6666;
+}
+/* line 67, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/_mixins.scss */
+#content table {
+  color: black;
+  width: 600px;
+  border-spacing: 0pt;
+}
+/* line 71, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/_mixins.scss */
+#content table tr, #content table th {
+  color: black;
+  background-color: #98a19a;
+}
+/* line 75, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/_mixins.scss */
+#content table tr.alt {
+  color: black;
+  background-color: #eeeeee;
+}
+/* line 79, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/_mixins.scss */
+#content table td {
+  color: black;
+  padding: 5px;
+}
+/* line 80, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-087d11d9bcc3/lib/compass-themes/stylesheets/basic/_mixins.scss */
+#content table td a {
+  color: black;
+}
+/* line 24, ../../../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.11.beta.1/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+#content table td a:hover {
+  color: black;
+}

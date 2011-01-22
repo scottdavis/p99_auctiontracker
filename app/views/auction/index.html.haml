@@ -1,3 +1,11 @@
+- content_for :title do
+  - if params[:letter]
+    Auctions starting with letter
+    = params[:letter].upcase
+  - else
+    Search Results for 
+    = params[:search][:search]
+  
 #auction_data
   #pagination
     = letter_pagination(@letter)

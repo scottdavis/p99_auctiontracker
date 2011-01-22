@@ -4,27 +4,23 @@ gem 'rails', '3.0.3'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
+group :deveopment, :test do
+  gem 'capistrano'
+  gem 'mongrel'
+  gem 'shoulda'
+  gem 'factory_girl_rails'
+  gem 'ruby_parser'
+  gem 'hpricot'
+end
 
 gem 'mysql'
-
 gem "compass", ">= 0.11.beta.1"
-
 gem 'compass-themes', :git => 'git://github.com/jetviper21/compass-themes.git'
-
-source 'http://rubygems.org'
-
-gem 'capistrano'
-gem 'mongrel'
 gem 'haml'
-gem 'shoulda'
 gem 'will_paginate', '~> 3.0.beta'
-gem 'safe_fork'
-gem 'factory_girl_rails'
 gem 'home_run'
 gem 'fancy-buttons'
 gem 'stalker'
 gem 'statsample'
 gem 'statistics2'
 gem 'god'
-gem 'hpricot'
-gem 'ruby_parser'

@@ -306,18 +306,22 @@ body.item #content.show table.auctions tr th, body.item #content.show table.auct
   width: 25%;
   text-align: center;
 }
-/* line 83, ../../../app/stylesheets/screen.scss */
+/* line 80, ../../../app/stylesheets/screen.scss */
+body.item #content.show table.auctions tr th.time, body.item #content.show table.auctions tr td.time {
+  font-size: 13px;
+}
+/* line 86, ../../../app/stylesheets/screen.scss */
 body.item #content.show ul.control {
   padding-left: 152px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 87, ../../../app/stylesheets/screen.scss */
+/* line 90, ../../../app/stylesheets/screen.scss */
 body.item #content.show ul.control li {
   padding-left: 25px;
   display: inline;
 }
-/* line 88, ../../../app/stylesheets/screen.scss */
+/* line 91, ../../../app/stylesheets/screen.scss */
 body.item #content.show ul.control li a {
   font-size: 12px;
 }
@@ -328,7 +332,7 @@ body.item #content.show #pagination {
   font-size: 20px;
   text-align: center;
 }
-/* line 96, ../../../app/stylesheets/screen.scss */
+/* line 99, ../../../app/stylesheets/screen.scss */
 body.item #content.show #graph {
   -moz-box-shadow: 0px 0px 5px #333333;
   -webkit-box-shadow: 0px 0px 5px #333333;
@@ -340,12 +344,12 @@ body.item #content.show #graph {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 97, ../../../app/stylesheets/screen.scss */
+/* line 100, ../../../app/stylesheets/screen.scss */
 body.item #content.show #graph div#placeholder {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 100, ../../../app/stylesheets/screen.scss */
+/* line 103, ../../../app/stylesheets/screen.scss */
 body.item #content.show #graph h3 {
   text-align: center;
 }

@@ -107,7 +107,7 @@
     %th &nbsp;
   - @paginate.each do |auction|
     %tr{:class => cycle('alt','')}
-      %td
+      %td.time
         = auction.time.strftime("%a %b %d %I:%M %p")
       %td
         = auction.price

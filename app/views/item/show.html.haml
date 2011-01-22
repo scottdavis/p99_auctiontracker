@@ -84,13 +84,13 @@
           %td= label
           %td= @monthly.send(col)
 
-    %h2
-      All Time Statistics
-    %table
-      - {:max => 'Max', :min => 'Min', :mean => 'Average', :median => 'Median', :sdp => 'Standard Deviation'}.each do |col, label|
-        %tr{:class => cycle('', 'alt')}
-          %td= label
-          %td= @vector.send(col)
+  %h2
+    All Time Statistics
+  %table
+    - {:max => 'Max', :min => 'Min', :mean => 'Average', :median => 'Median', :sdp => 'Standard Deviation'}.each do |col, label|
+      %tr{:class => cycle('', 'alt')}
+        %td= label
+        %td= @vector.send(col)
 
 
 

@@ -48,7 +48,7 @@ class AuctionController < ApplicationController
   def prepair_items
     @auctions = {}
     @items.each do |item|
-      auctions = item.auctions.select('price').map(&:price).to_vector(:scale)
+      auctions = item.auctions.where(:hidden => false).select('price').map(&:price).to_vector(:scale)
       next if auctions.size < 10
       @auctions[item.name] = auctions
     end

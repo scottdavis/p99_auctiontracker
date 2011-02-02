@@ -1,114 +1,409 @@
-/*
-Syntax error: File to import not found or unreadable: basic/blue-fluid.
-              Load paths:
-                
-                /Users/sdavis/Work/auctioneer/public/stylesheets/sass
-                /Users/sdavis/Work/auctioneer/app/stylesheets
-                /Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.11.beta.1/frameworks/blueprint/stylesheets
-                /Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.11.beta.1/frameworks/compass/stylesheets
-                /Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-763af3dd12df/lib/compass-themes/stylesheets
-                /Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-1.0.4/lib/stylesheets
-        on line 9 of /Users/sdavis/Work/auctioneer/app/stylesheets/screen.scss
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/**
+  Out puts the styles needed for a flash box
+**/
+/* line 5, ../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-763af3dd12df/lib/compass-themes/stylesheets/basic/_blue-fluid.theme.scss */
+body, ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
 
-4:  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-5: 
-6: //@import "compass/reset";
-7: @import "compass/utilities";
-8: 
-9: @import "basic/blue-fluid"; //compass-theme
-10: 
-11: @import "compass/css3/box-shadow";
-12: 
-13: @import "fancy-buttons";
-14: 
+/* line 93, ../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-763af3dd12df/lib/compass-themes/stylesheets/basic/_blue-fluid.theme.scss */
+body {
+  background-color: #2a5aa1;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+/* line 83, ../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-763af3dd12df/lib/compass-themes/stylesheets/basic/_blue-fluid.theme.scss */
+body a {
+  color: blue;
+}
+/* line 24, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.11.beta.1/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+body a:hover {
+  color: gray;
+}
+/* line 95, ../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-763af3dd12df/lib/compass-themes/stylesheets/basic/_blue-fluid.theme.scss */
+body #header {
+  min-width: 882px;
+  background-color: #414243;
+}
+/* line 38, ../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-763af3dd12df/lib/compass-themes/stylesheets/basic/_blue-fluid.theme.scss */
+body #header h1 {
+  display: inline;
+  float: left;
+  margin-top: 10px;
+  padding-left: 100px;
+  color: white;
+}
+/* line 97, ../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-763af3dd12df/lib/compass-themes/stylesheets/basic/_blue-fluid.theme.scss */
+body #header #menu {
+  height: 60px;
+}
+/* line 48, ../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-763af3dd12df/lib/compass-themes/stylesheets/basic/_blue-fluid.theme.scss */
+body #header #menu ul:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/* line 55, ../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-763af3dd12df/lib/compass-themes/stylesheets/basic/_blue-fluid.theme.scss */
+body #header #menu ul {
+  display: inline;
+  float: right;
+  padding-right: 150px;
+  padding-top: 15px;
+  font-size: 20px;
+}
+/* line 62, ../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-763af3dd12df/lib/compass-themes/stylesheets/basic/_blue-fluid.theme.scss */
+body #header #menu ul li {
+  display: inline-block;
+}
+/* line 64, ../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-763af3dd12df/lib/compass-themes/stylesheets/basic/_blue-fluid.theme.scss */
+body #header #menu ul li a {
+  color: white;
+}
+/* line 24, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.11.beta.1/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+body #header #menu ul li a:hover {
+  color: black;
+}
+/* line 101, ../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-763af3dd12df/lib/compass-themes/stylesheets/basic/_blue-fluid.theme.scss */
+body #content {
+  position: relative;
+  min-width: 800px;
+  color: black;
+  padding: 20px 40px;
+  background-color: white;
+  border: 1px solid black;
+}
+/* line 22, ../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-763af3dd12df/lib/compass-themes/stylesheets/basic/_mixins.scss */
+body #content .flash {
+  padding: 5px 8px;
+  margin: 10px 0;
+  color: black;
+}
+/* line 28, ../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-763af3dd12df/lib/compass-themes/stylesheets/basic/_mixins.scss */
+body #content #flash_notice {
+  background-color: #ccffcc;
+  border: solid 1px #66cc66;
+}
+/* line 33, ../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-763af3dd12df/lib/compass-themes/stylesheets/basic/_mixins.scss */
+body #content #flash_error, body #content #flash_alert {
+  background-color: #ffcccc;
+  border: solid 1px #cc6666;
+}
+/* line 67, ../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-763af3dd12df/lib/compass-themes/stylesheets/basic/_mixins.scss */
+body #content table {
+  color: black;
+  width: 600px;
+  border-spacing: 0pt;
+}
+/* line 71, ../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-763af3dd12df/lib/compass-themes/stylesheets/basic/_mixins.scss */
+body #content table tr, body #content table th {
+  color: black;
+  background-color: #98a19a;
+}
+/* line 75, ../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-763af3dd12df/lib/compass-themes/stylesheets/basic/_mixins.scss */
+body #content table tr.alt {
+  color: black;
+  background-color: #eeeeee;
+}
+/* line 79, ../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-763af3dd12df/lib/compass-themes/stylesheets/basic/_mixins.scss */
+body #content table td {
+  color: black;
+  padding: 5px;
+}
+/* line 80, ../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-763af3dd12df/lib/compass-themes/stylesheets/basic/_mixins.scss */
+body #content table td a {
+  color: black;
+}
+/* line 24, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.11.beta.1/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+body #content table td a:hover {
+  color: black;
+}
+/* line 105, ../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-763af3dd12df/lib/compass-themes/stylesheets/basic/_blue-fluid.theme.scss */
+body #content #right_sidebar {
+  margin: 10px;
+  width: 160px;
+  border: 1px solid black;
+  display: inline;
+  float: right;
+  margin-right: 0;
+  zoom: 1;
+  padding: 10px;
+}
+/* line 130, ../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-763af3dd12df/lib/compass-themes/stylesheets/basic/_mixins.scss */
+body #content #right_sidebar:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  zoom: 1;
+}
+/* line 109, ../../../../../.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-763af3dd12df/lib/compass-themes/stylesheets/basic/_blue-fluid.theme.scss */
+body #content #right_sidebar ul li {
+  list-style: none;
+}
 
-Backtrace:
-/Users/sdavis/Work/auctioneer/app/stylesheets/screen.scss:9
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/sass-3.1.0.alpha.221/lib/sass/../sass/tree/import_node.rb:64:in `import'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/sass-3.1.0.alpha.221/lib/sass/../sass/tree/import_node.rb:25:in `imported_file'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/sass-3.1.0.alpha.221/lib/sass/../sass/tree/visitors/perform.rb:141:in `visit_import'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/sass-3.1.0.alpha.221/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/sass-3.1.0.alpha.221/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/sass-3.1.0.alpha.221/lib/sass/../sass/tree/visitors/perform.rb:18:in `visit'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/sass-3.1.0.alpha.221/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/sass-3.1.0.alpha.221/lib/sass/../sass/tree/visitors/base.rb:53:in `map'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/sass-3.1.0.alpha.221/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/sass-3.1.0.alpha.221/lib/sass/../sass/tree/visitors/perform.rb:27:in `visit_children'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/sass-3.1.0.alpha.221/lib/sass/../sass/tree/visitors/perform.rb:39:in `with_environment'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/sass-3.1.0.alpha.221/lib/sass/../sass/tree/visitors/perform.rb:26:in `visit_children'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/sass-3.1.0.alpha.221/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/sass-3.1.0.alpha.221/lib/sass/../sass/tree/visitors/perform.rb:47:in `visit_root'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/sass-3.1.0.alpha.221/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/sass-3.1.0.alpha.221/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/sass-3.1.0.alpha.221/lib/sass/../sass/tree/visitors/perform.rb:18:in `visit'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/sass-3.1.0.alpha.221/lib/sass/../sass/tree/visitors/perform.rb:7:in `send'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/sass-3.1.0.alpha.221/lib/sass/../sass/tree/visitors/perform.rb:7:in `visit'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/sass-3.1.0.alpha.221/lib/sass/../sass/tree/root_node.rb:20:in `render'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/sass-3.1.0.alpha.221/lib/sass/../sass/engine.rb:302:in `_render'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/sass-3.1.0.alpha.221/lib/sass/../sass/engine.rb:250:in `render'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/sass-3.1.0.alpha.221/lib/sass/../sass/util.rb:298:in `silence_sass_warnings'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/sass-3.1.0.alpha.221/lib/sass/../sass/engine.rb:250:in `render'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/sass-3.1.0.alpha.221/lib/sass/../sass/plugin/compiler.rb:319:in `update_stylesheet'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/sass-3.1.0.alpha.221/lib/sass/../sass/plugin/compiler.rb:181:in `update_stylesheets'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/sass-3.1.0.alpha.221/lib/sass/../sass/plugin/compiler.rb:175:in `each'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/sass-3.1.0.alpha.221/lib/sass/../sass/plugin/compiler.rb:175:in `update_stylesheets'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/sass-3.1.0.alpha.221/lib/sass/../sass/plugin/compiler.rb:173:in `each'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/sass-3.1.0.alpha.221/lib/sass/../sass/plugin/compiler.rb:173:in `update_stylesheets'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/sass-3.1.0.alpha.221/lib/sass/../sass/plugin.rb:81:in `update_stylesheets'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/sass-3.1.0.alpha.221/lib/sass/../sass/plugin.rb:54:in `check_for_updates'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/sass-3.1.0.alpha.221/lib/sass/../sass/plugin/rack.rb:51:in `call'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-3.0.3/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-3.0.3/lib/action_dispatch/middleware/head.rb:14:in `call'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/rack-1.2.1/lib/rack/methodoverride.rb:24:in `call'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-3.0.3/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-3.0.3/lib/action_dispatch/middleware/flash.rb:182:in `call'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-3.0.3/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-3.0.3/lib/action_dispatch/middleware/cookies.rb:295:in `call'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-3.0.3/lib/active_record/query_cache.rb:32:in `call'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-3.0.3/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-3.0.3/lib/active_record/query_cache.rb:12:in `cache'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-3.0.3/lib/active_record/query_cache.rb:31:in `call'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-3.0.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:353:in `call'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-3.0.3/lib/action_dispatch/middleware/callbacks.rb:46:in `call'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:415:in `_run_call_callbacks'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-3.0.3/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/rack-1.2.1/lib/rack/sendfile.rb:107:in `call'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-3.0.3/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-3.0.3/lib/action_dispatch/middleware/show_exceptions.rb:46:in `call'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/railties-3.0.3/lib/rails/rack/logger.rb:13:in `call'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/rack-1.2.1/lib/rack/runtime.rb:17:in `call'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-3.0.3/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/rack-1.2.1/lib/rack/lock.rb:11:in `call'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/rack-1.2.1/lib/rack/lock.rb:11:in `synchronize'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/rack-1.2.1/lib/rack/lock.rb:11:in `call'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-3.0.3/lib/action_dispatch/middleware/static.rb:30:in `call'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/railties-3.0.3/lib/rails/application.rb:168:in `call'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/railties-3.0.3/lib/rails/application.rb:77:in `send'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/railties-3.0.3/lib/rails/application.rb:77:in `method_missing'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/railties-3.0.3/lib/rails/rack/log_tailer.rb:14:in `call'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/rack-1.2.1/lib/rack/content_length.rb:13:in `call'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/rack-1.2.1/lib/rack/chunked.rb:15:in `call'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/rack-1.2.1/lib/rack/handler/mongrel.rb:67:in `process'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/rack-1.2.1/lib/rack/handler/mongrel.rb:38:in `run'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/rack-1.2.1/lib/rack/server.rb:213:in `start'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/railties-3.0.3/lib/rails/commands/server.rb:65:in `start'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/railties-3.0.3/lib/rails/commands.rb:30
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/railties-3.0.3/lib/rails/commands.rb:27:in `tap'
-/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/railties-3.0.3/lib/rails/commands.rb:27
-script/rails:6:in `require'
-script/rails:6
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: basic/blue-fluid.\A               Load paths:\A                 \A                 /Users/sdavis/Work/auctioneer/public/stylesheets/sass\A                 /Users/sdavis/Work/auctioneer/app/stylesheets\A                 /Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.11.beta.1/frameworks/blueprint/stylesheets\A                 /Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.11.beta.1/frameworks/compass/stylesheets\A                 /Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/bundler/gems/compass-themes-763af3dd12df/lib/compass-themes/stylesheets\A                 /Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-1.0.4/lib/stylesheets\A         on line 9 of /Users/sdavis/Work/auctioneer/app/stylesheets/screen.scss\A \A 4:  * <link href=\"/stylesheets/screen.css\" media=\"screen, projection\" rel=\"stylesheet\" type=\"text/css\" /> */\A 5: \A 6: //@import \"compass/reset\";\A 7: @import \"compass/utilities\";\A 8: \A 9: @import \"basic/blue-fluid\"; //compass-theme\A 10: \A 11: @import \"compass/css3/box-shadow\";\A 12: \A 13: @import \"fancy-buttons\";\A 14: "; }
+/* incase an inverted custom gradient isn't specified */
+/* line 176, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-1.0.4/lib/stylesheets/_fancy-buttons.sass */
+.fancy-button-reset-base-class, body #content #search input.button, a.button {
+  font-family: "Lucida Grande", Lucida, Arial, sans-serif;
+  background: url('/images/button_bg.png?1294387528') repeat-x bottom left;
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border-style: solid;
+  font-weight: bold;
+}
+/* line 165, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-1.0.4/lib/stylesheets/_fancy-buttons.sass */
+.fancy-button-reset-base-class::-moz-focus-inner, body #content #search input.button::-moz-focus-inner, a.button::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+/* line 168, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-1.0.4/lib/stylesheets/_fancy-buttons.sass */
+.fancy-button-reset-base-class:focus, body #content #search input.button:focus, a.button:focus {
+  outline: none;
+}
+
+/* line 33, ../../../app/stylesheets/screen.scss */
+body #content #search {
+  display: inline;
+  float: right;
+  padding-right: 10px;
+}
+/* line 36, ../../../app/stylesheets/screen.scss */
+body #content #search input.button {
+  font-size: 10px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 10px;
+  line-height: 1.2em;
+  padding: 0.3em 1em;
+  border-width: 1px;
+  background-color: #444444;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #989898), color-stop(10%, #6a6a6a), color-stop(50%, #3c3c3c), color-stop(50%, #353535), color-stop(100%, #4e4e4e));
+  background-image: -moz-linear-gradient(top, #989898, #6a6a6a 10%, #3c3c3c 50%, #353535 50%, #4e4e4e);
+  background-image: linear-gradient(top, #989898, #6a6a6a 10%, #3c3c3c 50%, #353535 50%, #4e4e4e);
+  border-color: #1e1e1e;
+  text-shadow: #040404 0px 1px 1px;
+  -moz-box-shadow: inset 0 0 0.1em 1px rgba(255, 255, 255, 0.267);
+  -webkit-box-shadow: inset 0 0 0.1em 1px rgba(255, 255, 255, 0.267);
+  -o-box-shadow: inset 0 0 0.1em 1px rgba(255, 255, 255, 0.267);
+  box-shadow: inset 0 0 0.1em 1px rgba(255, 255, 255, 0.267);
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  -o-background-clip: padding-box;
+  -ms-background-clip: padding-box;
+  -khtml-background-clip: padding-box;
+  background-clip: padding-box;
+}
+/* line 116, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-1.0.4/lib/stylesheets/_fancy-buttons.sass */
+body #content #search input.button, body #content #search input.button:visited {
+  color: white;
+}
+/* line 31, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-1.0.4/lib/stylesheets/_fancy-buttons.sass */
+body #content #search input.button:hover, body #content #search input.button:focus {
+  background-color: #3c3c3c;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #919191), color-stop(10%, #636363), color-stop(50%, #353535), color-stop(50%, #2d2d2d), color-stop(100%, #474747));
+  background-image: -moz-linear-gradient(top, #919191, #636363 10%, #353535 50%, #2d2d2d 50%, #474747);
+  background-image: linear-gradient(top, #919191, #636363 10%, #353535 50%, #2d2d2d 50%, #474747);
+  border-color: #161616;
+  text-shadow: black 0px 1px 1px;
+}
+/* line 116, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-1.0.4/lib/stylesheets/_fancy-buttons.sass */
+body #content #search input.button:hover, body #content #search input.button:hover:visited, body #content #search input.button:focus, body #content #search input.button:focus:visited {
+  color: white;
+}
+/* line 36, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-1.0.4/lib/stylesheets/_fancy-buttons.sass */
+body #content #search input.button:active {
+  background-color: #353535;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #353535), color-stop(30%, #3a3a3a), color-stop(50%, #303030), color-stop(50%, #282828), color-stop(100%, #494949));
+  background-image: -moz-linear-gradient(top, #353535, #3a3a3a 30%, #303030 50%, #282828 50%, #494949);
+  background-image: linear-gradient(top, #353535, #3a3a3a 30%, #303030 50%, #282828 50%, #494949);
+  border-color: #0e0e0e;
+  text-shadow: black 0px -1px -1px;
+  -moz-box-shadow: inset 0 0.08em 0.1em 1px #1e1e1e;
+  -webkit-box-shadow: inset 0 0.08em 0.1em 1px #1e1e1e;
+  -o-box-shadow: inset 0 0.08em 0.1em 1px #1e1e1e;
+  box-shadow: inset 0 0.08em 0.1em 1px #1e1e1e;
+}
+/* line 116, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-1.0.4/lib/stylesheets/_fancy-buttons.sass */
+body #content #search input.button:active, body #content #search input.button:active:visited {
+  color: white;
+}
+/* line 44, ../../../app/stylesheets/screen.scss */
+body #menu h1 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* line 52, ../../../app/stylesheets/screen.scss */
+#footer {
+  text-align: center;
+  padding: 15px;
+}
+
+/* line 57, ../../../app/stylesheets/screen.scss */
+a.button {
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 1.2em;
+  padding: 0.3em 1em;
+  border-width: 1px;
+  background-color: #444444;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #989898), color-stop(10%, #6a6a6a), color-stop(50%, #3c3c3c), color-stop(50%, #353535), color-stop(100%, #4e4e4e));
+  background-image: -moz-linear-gradient(top, #989898, #6a6a6a 10%, #3c3c3c 50%, #353535 50%, #4e4e4e);
+  background-image: linear-gradient(top, #989898, #6a6a6a 10%, #3c3c3c 50%, #353535 50%, #4e4e4e);
+  border-color: #1e1e1e;
+  text-shadow: #040404 0px 1px 1px;
+  -moz-box-shadow: inset 0 0 0.1em 1px rgba(255, 255, 255, 0.267);
+  -webkit-box-shadow: inset 0 0 0.1em 1px rgba(255, 255, 255, 0.267);
+  -o-box-shadow: inset 0 0 0.1em 1px rgba(255, 255, 255, 0.267);
+  box-shadow: inset 0 0 0.1em 1px rgba(255, 255, 255, 0.267);
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  -o-background-clip: padding-box;
+  -ms-background-clip: padding-box;
+  -khtml-background-clip: padding-box;
+  background-clip: padding-box;
+}
+/* line 116, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-1.0.4/lib/stylesheets/_fancy-buttons.sass */
+a.button, a.button:visited {
+  color: white;
+}
+/* line 31, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-1.0.4/lib/stylesheets/_fancy-buttons.sass */
+a.button:hover, a.button:focus {
+  background-color: #3c3c3c;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #919191), color-stop(10%, #636363), color-stop(50%, #353535), color-stop(50%, #2d2d2d), color-stop(100%, #474747));
+  background-image: -moz-linear-gradient(top, #919191, #636363 10%, #353535 50%, #2d2d2d 50%, #474747);
+  background-image: linear-gradient(top, #919191, #636363 10%, #353535 50%, #2d2d2d 50%, #474747);
+  border-color: #161616;
+  text-shadow: black 0px 1px 1px;
+}
+/* line 116, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-1.0.4/lib/stylesheets/_fancy-buttons.sass */
+a.button:hover, a.button:hover:visited, a.button:focus, a.button:focus:visited {
+  color: white;
+}
+/* line 36, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-1.0.4/lib/stylesheets/_fancy-buttons.sass */
+a.button:active {
+  background-color: #353535;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #353535), color-stop(30%, #3a3a3a), color-stop(50%, #303030), color-stop(50%, #282828), color-stop(100%, #494949));
+  background-image: -moz-linear-gradient(top, #353535, #3a3a3a 30%, #303030 50%, #282828 50%, #494949);
+  background-image: linear-gradient(top, #353535, #3a3a3a 30%, #303030 50%, #282828 50%, #494949);
+  border-color: #0e0e0e;
+  text-shadow: black 0px -1px -1px;
+  -moz-box-shadow: inset 0 0.08em 0.1em 1px #1e1e1e;
+  -webkit-box-shadow: inset 0 0.08em 0.1em 1px #1e1e1e;
+  -o-box-shadow: inset 0 0.08em 0.1em 1px #1e1e1e;
+  box-shadow: inset 0 0.08em 0.1em 1px #1e1e1e;
+}
+/* line 116, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/fancy-buttons-1.0.4/lib/stylesheets/_fancy-buttons.sass */
+a.button:active, a.button:active:visited {
+  color: white;
+}
+
+/* line 23, ../../../app/stylesheets/screen.scss */
+body.auction #pagination {
+  padding: 5px;
+  text-transform: capitalize;
+  font-size: 20px;
+  text-align: center;
+}
+/* line 64, ../../../app/stylesheets/screen.scss */
+body.auction #content.index table, body.auction #content.search table {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 74, ../../../app/stylesheets/screen.scss */
+body.item #content.show h1 {
+  text-align: center;
+}
+/* line 77, ../../../app/stylesheets/screen.scss */
+body.item #content.show .info {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 81, ../../../app/stylesheets/screen.scss */
+body.item #content.show h2 {
+  text-align: center;
+}
+/* line 84, ../../../app/stylesheets/screen.scss */
+body.item #content.show table.auctions {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 87, ../../../app/stylesheets/screen.scss */
+body.item #content.show table.auctions tr th, body.item #content.show table.auctions tr td {
+  width: 25%;
+  text-align: center;
+}
+/* line 90, ../../../app/stylesheets/screen.scss */
+body.item #content.show table.auctions tr th.time, body.item #content.show table.auctions tr td.time {
+  font-size: 13px;
+}
+/* line 96, ../../../app/stylesheets/screen.scss */
+body.item #content.show ul.control {
+  padding-left: 152px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* line 100, ../../../app/stylesheets/screen.scss */
+body.item #content.show ul.control li {
+  padding-left: 25px;
+  display: inline;
+}
+/* line 101, ../../../app/stylesheets/screen.scss */
+body.item #content.show ul.control li a {
+  font-size: 12px;
+}
+/* line 23, ../../../app/stylesheets/screen.scss */
+body.item #content.show #pagination {
+  padding: 5px;
+  text-transform: capitalize;
+  font-size: 20px;
+  text-align: center;
+}
+/* line 109, ../../../app/stylesheets/screen.scss */
+body.item #content.show #graph {
+  -moz-box-shadow: 0px 0px 5px #333333;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -o-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+  margin-top: 25px;
+  padding-top: 10px;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 110, ../../../app/stylesheets/screen.scss */
+body.item #content.show #graph div#placeholder {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 113, ../../../app/stylesheets/screen.scss */
+body.item #content.show #graph h3 {
+  text-align: center;
+}

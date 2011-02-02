@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/fesplugas/typus.git
-  revision: edef4dca529cdb70f9bccaa239a6a3f94b09ff9e
+  revision: decfe495b2282631a8af6795c4784db44d1c665a
   specs:
     typus (3.0.6)
       fastercsv (~> 1.5)
@@ -56,11 +56,11 @@ GEM
       net-ssh (>= 2.0.14)
       net-ssh-gateway (>= 1.0.0)
     cgi_multipart_eof_fix (2.5.0)
-    chunky_png (0.10.5)
+    chunky_png (0.12.0)
     clbustos-rtf (0.4.2)
-    compass (0.11.beta.1)
-      chunky_png (~> 0.10.3)
-      sass (>= 3.1.0.alpha.50)
+    compass (0.11.beta.2)
+      chunky_png (~> 0.12.0)
+      sass (>= 3.1.0.alpha.218)
     daemons (1.1.0)
     dirty-memoize (0.0.4)
     distribution (0.4.0)

@@ -1,2 +1,2 @@
-class Admin::AuctionsController < Admin::AdminController
+class Admin::AuctionsController < Admin::ResourcesController
 end

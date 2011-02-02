@@ -13,6 +13,7 @@ group :deveopment, :test do
   gem 'hpricot'
 end
 
+gem 'typus', :git => 'https://github.com/fesplugas/typus.git'
 gem 'mysql'
 gem "compass", ">= 0.11.beta.1"
 gem 'compass-themes', :git => 'git://github.com/jetviper21/compass-themes.git'

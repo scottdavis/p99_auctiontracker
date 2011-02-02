@@ -1,0 +1,54 @@
+# Typus Models Configuration File
+#
+# Use the README file as a reference to customize settings.
+
+Auction:
+  fields:
+    default: time, price, item_id, hash_data, hidden, player, item
+    form: time, price, item_id, hash_data, hidden, player, item
+  order_by: 
+  relationships: item
+  filters: created_at
+  search: 
+  application: auctioneer
+
+Item:
+  fields:
+    default: name, hidden, item_cache_id, flagged, item_cache
+    form: name, hidden, item_cache_id, flagged, item_cache
+  order_by: 
+  relationships: auctions, item_aliases, item_cache
+  filters: created_at
+  search: name
+  application: auctioneer
+
+ItemAlias:
+  fields:
+    default: alias, item_id, item
+    form: alias, item_id, item
+  order_by: 
+  relationships: item
+  filters: created_at
+  search: 
+  application: auctioneer
+
+ItemCache:
+  fields:
+    default: name, alla_id, meta, alias
+    form: name, alla_id, meta, alias
+  order_by: 
+  relationships: item
+  filters: created_at
+  search: name
+  application: auctioneer
+
+Log:
+  fields:
+    default: ip_address, log, processed
+    form: ip_address, log, processed
+  order_by: 
+  relationships: 
+  filters: created_at
+  search: 
+  application: auctioneer
+

@@ -1,0 +1,17 @@
+# Typus Roles Configuration File
+#
+# Use the README file as a reference to customize settings.
+
+admin:
+  Auction: create, read, update, delete
+  Item: create, read, update, delete
+  ItemAlias: create, read, update, delete
+  ItemCache: create, read, update, delete
+  Log: create, read, update, delete
+
+editor:
+  Auction: create, read, update, hide!
+  Item: create, read, update, hide!
+  ItemAlias: create, read, update, delete
+  ItemCache: create, read, update, delete
+  Log: read

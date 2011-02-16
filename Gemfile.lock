@@ -7,8 +7,9 @@ GIT
       haml (>= 3.1.alpha.214)
       sass (~> 3.1.0.alpha.218)
 
-PATH
-  remote: ../typus
+GIT
+  remote: git://github.com/jetviper21/typus.git
+  revision: 3afb777d53d6f4e8c7b21ccbd2f1d5cb6fe10bf0
   specs:
     typus (3.0.6)
       fastercsv (~> 1.5)

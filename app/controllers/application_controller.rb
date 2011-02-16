@@ -8,7 +8,7 @@ class ApplicationController < ActionController::Base
       session[:view] = 0
     end
     session[:view] += 1
-    @page_title = ["Project 1999 Auction Tracker"]
+    @page_title = ["Auction Tracker"]
     @glog = Log.order("created_at DESC").first
   end
 end

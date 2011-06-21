@@ -3,8 +3,7 @@
     env = defined?(RAILS) ? Rails.env : ENV['RAILS_ENV']
     env ||= 'development'
     if env.to_sym == :production
-      root = File.expand_path('../', __FILE__)
-      `cat #{File.join(root, '..', '..', 'db.passwd')}`
+      `cat /var/www/rails/auction/db.passwd`
     else
       ''
     end

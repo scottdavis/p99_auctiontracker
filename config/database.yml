@@ -1,0 +1,41 @@
+<%
+  def get_mysql_password
+    env = defined?(RAILS) ? Rails.env : ENV['RAILS_ENV']
+    env ||= 'development'
+    if env.to_sym == :production
+      root = File.expand_path('../', __FILE__)
+      `cat #{File.join(root, '..', '..', '..', 'db.passwd')}`
+    else
+      ''
+    end
+  end
+%>
+
+mysql: &mysql
+  adapter: mysql
+  encoding: utf8
+  reconnect: true
+  pool: 10
+  host: localhost
+  password: <%= get_mysql_password %>
+  socket: <%= [
+    '/var/lib/mysql/mysql.sock',
+    '/var/run/mysqld/mysqld.sock',
+    '/tmp/mysqld.sock',
+    '/tmp/mysql.sock',
+  ].detect { |socket| File.exist?(socket) } %>
+
+development:
+  database: auctioneer_development
+  username: root
+  <<: *mysql
+
+test: &test
+  database: auctioneer_test
+  username: root
+  <<: *mysql
+  
+production:
+  database: goon_auction
+  username: auction
+  <<: *mysql

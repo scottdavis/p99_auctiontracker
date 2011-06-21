@@ -1,9 +1,11 @@
 require 'rubygems'
 require 'active_record'
 require 'mysql'
+require 'erb'
 RAILS_ENV = ENV["RAILS_ENV"] || "development"
 dir = File.join(File.dirname(File.expand_path(__FILE__)))
-config = YAML.load_file(File.join(dir, '..', 'config', 'database.yml'))[RAILS_ENV]
+erb = ERB.new File.read(File.join(dir, '..', 'config', 'database.yml'))
+config = YAML.load(erb.result)[RAILS_ENV]
 config[:adapter] = 'mysql'
 ActiveRecord::Base.establish_connection(config)
 
@@ -11,7 +13,7 @@ require File.join(dir, 'auction_parser')
 require 'stalker'
 
 Dir["#{File.join(dir, '..', 'app', 'models')}/*.rb"].each do |model|
-  require model
+  require model unless model =~ /admin_user/
 end
 include Stalker
 

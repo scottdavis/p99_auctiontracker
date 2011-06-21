@@ -29,7 +29,9 @@ class AuctionParser
     item_cache.each do |item|
       Item.create_from_parse(item)
     end
-    @item_cache = nil unless Rails.env == 'test'
+    unless defined?(Rails) && Rails.env == 'test'
+      @item_cache = nil
+    end
   end
   
   

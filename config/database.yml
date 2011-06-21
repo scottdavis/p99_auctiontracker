@@ -4,7 +4,7 @@
     env ||= 'development'
     if env.to_sym == :production
       root = File.expand_path('../', __FILE__)
-      `cat #{File.join(root, '..', '..', '..', 'db.passwd')}`
+      `cat #{File.join(root, '..', '..', 'db.passwd')}`
     else
       ''
     end

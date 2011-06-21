@@ -2,7 +2,7 @@ require 'bundler/capistrano'
 default_run_options[:pty] = true
 
 set :application, "auction"
-set :repository,  "git@github.com:jetviper21/auctioneer.git"
+set :repository,  "git@github.com:jetviper21/p99_auctiontracker.git"
 
 set :scm, :git
 

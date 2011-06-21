@@ -9,6 +9,14 @@ Auctioneer::Application.load_tasks
 require 'auction_parser'
 namespace :utils do
   
+  task :requeue_unproccessed => [:environment] do
+    logs = Log.where(:processed => nil)
+    logs.each do |log|
+      Stalker.enqueue('log.process', {:log => log.log, :id => log.id}, {:ttr => 1200})
+    end
+    puts logs.size
+  end
+  
   task :parse do
     data = []
     file = Rails.root.join('db', 'mail.txt')

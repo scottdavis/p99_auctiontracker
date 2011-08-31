@@ -1,12 +1,12 @@
 require 'bundler/capistrano'
-default_run_options[:pty] = true
+#default_run_options[:pty] = true
 
 set :application, "auction"
-set :repository,  "git@github.com:jetviper21/p99_auctiontracker.git"
+set :repository,  "git://github.com/jetviper21/p99_auctiontracker.git"
 
 set :scm, :git
 
-server "iweb.goonquest.com", :app, :web, :db, :primary => true
+server "50.56.24.33", :app, :web, :db, :primary => true
 set :user, "root"
 set :use_sudo, false
 set :deploy_to, "/var/www/rails/auction"

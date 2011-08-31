@@ -6,7 +6,6 @@ gem 'rails', '3.0.3'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 group :deveopment, :test do
   gem 'capistrano'
-  gem 'mongrel'
   gem 'shoulda'
   gem 'factory_girl_rails'
   gem 'ruby_parser'
